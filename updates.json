@@ -25,6 +25,30 @@
         "via": "От TRIBE пешком до BTS Phrom Phong, BTS/MRT до Hua Lamphong и пешком; приблизительно"
       },
       "status": "confirmed"
+    },
+    {
+      "id": "concrete-memory-dib-2026",
+      "title": "Concrete Memory — Architectural Photograph Workshop",
+      "kind": "Дизайн",
+      "area": "Sukhumvit",
+      "blurb": "Foto_momo: практический воркшоп об архитектурной фотографии и исчезающей модернистской архитектуре Бангкока 1940–80-х.",
+      "venue": "Dib Bangkok, 111 Soi Sukhumvit 40, Phra Khanong, Khlong Toei, Bangkok 10110",
+      "mapQuery": "Dib Bangkok 111 Soi Sukhumvit 40 Bangkok",
+      "url": "https://dibbangkok.org/",
+      "source": "Dib Bangkok, Events and Programs",
+      "dates": [
+        "2026-10-03",
+        "2026-10-03"
+      ],
+      "addedAt": "2026-10-01",
+      "new": true,
+      "priority": 2,
+      "eta": {
+        "min": 35,
+        "max": 45,
+        "via": "TRIBE → ~10 min walk to BTS Phrom Phong → BTS Ekkamai → ~18 min walk; approximate, not live routing"
+      },
+      "status": "confirmed"
     }
   ]
 }
