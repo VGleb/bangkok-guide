@@ -1,5 +1,30 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-30T00:00:00+07:00",
-  "items": []
+  "updatedAt": "2026-10-01T19:47:00+05:00",
+  "items": [
+    {
+      "id": "the-king-in-our-hearts-2026",
+      "title": "The King in Our Hearts",
+      "kind": "Выставки",
+      "area": "Talat Noi / Charoen Krung",
+      "blurb": "Групповая выставка 13 тайских художников, посвящённая памяти короля Пхумипона Адульядета.",
+      "venue": "River City Bangkok, RCB Artery, 1F, 23 Charoen Krung Soi 24, Talat Noi, Bangkok",
+      "mapQuery": "River City Bangkok 23 Charoen Krung Soi 24",
+      "url": "https://rivercitybangkok.com/the-king-in-our-hearts/",
+      "source": "River City Bangkok",
+      "dates": [
+        "2026-10-07",
+        "2026-10-21"
+      ],
+      "addedAt": "2026-10-01",
+      "new": true,
+      "priority": 1,
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "От TRIBE пешком до BTS Phrom Phong, BTS/MRT до Hua Lamphong и пешком; приблизительно"
+      },
+      "status": "confirmed"
+    }
+  ]
 }
