@@ -51,7 +51,7 @@
   const $=id=>document.getElementById(id);
   const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const google=x=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(x.mapQuery||((x.title||'')+' '+(x.venue||'')+' Bangkok Thailand'));
-  const directions=x=>'https://www.google.com/maps/dir/?api=1&origin='+encodeURIComponent(origin)+'&destination='+encodeURIComponent(x.mapQuery||((x.title||'')+' '+(x.venue||'')+' Bangkok Thailand'))+'&travelmode=transit';
+  const directions=x=>'https://www.google.com/maps/dir/?api=1&origin='+encodeURIComponent(userPosition?userPosition.join(','):origin)+'&destination='+encodeURIComponent(x.mapQuery||((x.title||'')+' '+(x.venue||'')+' Bangkok Thailand'))+'&travelmode=transit';
   const wanted=x=>progress.fav.includes(x.id)||progress.planned.includes(x.id);
   const knownCoord=x=>{
     const point=PLACES[x.id];
@@ -119,7 +119,7 @@
       const pin=L.marker([c[0],c[1]],{icon:pointIcon(arr,c[2])}).addTo(layer);
       const html='<div class="map-popup">'+(arr.length>1?'<p class="meta">'+arr.length+' места в одной точке</p>':'')+
         arr.map(x=>popupEntry(x,c[2])).join('')+'</div>';
-      pin.bindPopup(html,{maxWidth:300,autoPanPadding:[15,25]});
+      pin.bindPopup(html,{maxWidth:300,maxHeight:Math.min(420,Math.round(window.innerHeight*0.58)),autoPanPadding:[15,25]});
       bounds.push([c[0],c[1]]);
     }
     $('mapStatus').textContent=visible.length+' мест на карте'+(approx.length?' · '+approx.length+' точек ≈':'' )+
