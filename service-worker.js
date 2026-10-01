@@ -1,6 +1,6 @@
 /* Bangkok Guide: same-origin app shell cache. No private GitHub API requests are cached. */
-const CACHE = 'bangkok-guide-shell-v2';
-const OFFLINE_FILES = ['./index.html', './map.js', './map.css', './manifest.webmanifest', './pwa.js', './apple-touch-icon.png', './icons/icon-192.png', './icons/icon-512.png'];
+const CACHE = 'bangkok-guide-shell-v3';
+const OFFLINE_FILES = ['./index.html', './map.js', './map.css', './vendor/leaflet.js', './vendor/leaflet.css', './manifest.webmanifest', './pwa.js', './apple-touch-icon.png', './icons/icon-192.png', './icons/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(OFFLINE_FILES)).then(() => self.skipWaiting()));
 });
