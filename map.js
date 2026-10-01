@@ -65,6 +65,7 @@
     if(query.includes('river city'))return [13.73035,100.51326,true];
     if(query.includes('bacc')||query.includes('bangkok art and culture'))return [13.74675,100.53027,true];
     if(query.includes('tcdc')||query.includes('grand postal'))return [13.72710,100.51570,true];
+    if(query.includes('dib bangkok'))return [13.7233,100.5860,false];
     if(query.includes('siam paragon'))return [13.74680,100.53494,true];
     if(query.includes('bangkok kunsthalle'))return [13.740286,100.514892,true];
     const area=AREAS[x.area]||[13.744,100.525];
