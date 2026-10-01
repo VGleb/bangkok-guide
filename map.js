@@ -206,6 +206,11 @@
     $('mapHome').addEventListener('click',showHome);
     $('mapLocate').addEventListener('click',locateMe);
     $('mapFit').addEventListener('click',fitAll);
+    const nativeDraw=window.draw;
+    if(typeof nativeDraw==='function'&&!nativeDraw.__bangkokMapWrapped){
+      const wrapped=function(...args){const out=nativeDraw.apply(this,args);document.dispatchEvent(new Event('bangkok:draw'));return out};
+      wrapped.__bangkokMapWrapped=true;window.draw=wrapped;
+    }
     document.addEventListener('bangkok:draw',()=>{if(mapVisible)update()});
     if(window.location.hash==='#map')switchView('map');
   }
