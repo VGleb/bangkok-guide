@@ -1245,6 +1245,28 @@
       },
       "status": "active",
       "mapQuery": "% Arabica Bangkok Empire Tower Level 55"
+    },
+    {
+      "id": "train-night-market-ratchada",
+      "title": "Train Night Market Ratchada",
+      "kind": "Ресейл",
+      "area": "Ratchada",
+      "blurb": "Вернувшийся в 2026 ночной рынок: fashion, винтаж, недорогая одежда, мелкие находки и большая food-зона.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Behind Esplanade Ratchadaphisek, Ratchada, Bangkok",
+      "url": "https://www.timeout.com/bangkok/news/ratchada-train-night-market-040326",
+      "source": "Time Out Bangkok, 03.04.2026",
+      "new": true,
+      "notes": "Ежедневно 17:00–01:00. Селекция смешанная: идти за атмосферой и поиском.",
+      "eta": {
+        "min": 35,
+        "max": 55,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Thailand Cultural Centre + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Train Night Market Ratchada Bangkok"
     }
   ]
 }
