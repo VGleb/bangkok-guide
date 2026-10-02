@@ -1223,6 +1223,28 @@
       },
       "status": "active",
       "mapQuery": "Another Story Emsphere Bangkok"
+    },
+    {
+      "id": "arabica-empire-tower",
+      "title": "% Arabica · Empire Tower 55F",
+      "kind": "Кофе",
+      "area": "Sathorn",
+      "blurb": "Исключение из правила про сети: филиал на 55-м этаже Empire Tower с панорамой Бангкока и видом на MahaNakhon.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Empire Tower, Level 55, 1 South Sathon Road, Bangkok 10120",
+      "url": "https://www.google.com/maps/search/?api=1&query=%25+Arabica+Bangkok+Empire+Tower",
+      "source": "Google Business Profile / актуальные отзывы",
+      "new": true,
+      "notes": "Ежедневно ориентировочно 07:00–21:00. У окна мест немного.",
+      "eta": {
+        "min": 40,
+        "max": 55,
+        "via": "BTS Phrom Phong → Siam → Chong Nonsi + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "% Arabica Bangkok Empire Tower Level 55"
     }
   ]
 }
