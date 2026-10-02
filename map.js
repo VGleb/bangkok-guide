@@ -213,7 +213,7 @@
       wrapped.__bangkokMapWrapped=true;window.draw=wrapped;
     }
     document.addEventListener('bangkok:draw',()=>{if(mapVisible)update()});
-    if(window.location.hash==='#map')switchView('map');
+    if(window.location.hash==='#map')history.replaceState(null,'',window.location.pathname+window.location.search); // Every fresh app launch starts with catalog tiles.
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
