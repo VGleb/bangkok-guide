@@ -1267,6 +1267,28 @@
       },
       "status": "active",
       "mapQuery": "Train Night Market Ratchada Bangkok"
+    },
+    {
+      "id": "train-night-market-srinakarin",
+      "title": "Train Night Market Srinakarin",
+      "kind": "Ресейл",
+      "area": "Srinakarin",
+      "blurb": "Огромный классический flea/night market: винтаж, одежда, аксессуары, тайский антиквариат и случайные редкие находки.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "1/4 Srinagarindra Road, Nong Bon, Prawet, Bangkok",
+      "url": "https://www.facebook.com/taradrodfi/",
+      "source": "Tourism Authority of Thailand / официальный Facebook рынка",
+      "new": true,
+      "notes": "Чт–вс вечером. Очень большой и менее селектированный; отдельная ночная прогулка.",
+      "eta": {
+        "min": 60,
+        "max": 90,
+        "via": "BTS/MRT + Yellow Line до Suan Luang Rama IX + ~10 мин пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Train Night Market Srinakarin Bangkok"
     }
   ]
 }
