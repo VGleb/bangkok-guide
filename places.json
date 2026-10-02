@@ -1135,6 +1135,28 @@
       },
       "status": "active",
       "mapQuery": "7-Eleven Festie Town Happitat The Forestias Bangna Thailand"
+    },
+    {
+      "id": "ikea-sukhumvit",
+      "title": "IKEA Sukhumvit · EMSPHERE",
+      "kind": "Магазины",
+      "area": "Phrom Phong",
+      "blurb": "Центральная городская IKEA на 3-м этаже EMSPHERE: полноценные room sets, Market Hall, Self-serve и ресторан.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "EMSPHERE, 3F, 628 Sukhumvit Road, Khlong Tan, Khlong Toei, Bangkok 10110",
+      "mapQuery": "IKEA Sukhumvit EMSPHERE Bangkok",
+      "url": "https://www.ikea.com/th/en/stores/sukhumvit/",
+      "source": "IKEA Thailand — официальный сайт",
+      "new": false,
+      "notes": "Ежедневно 10:00–22:00; ресторан 10:00–21:30. Около 450 м от BTS Phrom Phong.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "От TRIBE пешком в сторону Phrom Phong / EMSPHERE; приблизительно"
+      },
+      "status": "active"
     }
   ]
 }
