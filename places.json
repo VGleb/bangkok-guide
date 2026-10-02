@@ -1443,6 +1443,28 @@
       },
       "status": "active",
       "mapQuery": "Roots theCOMMONS Thonglor Bangkok"
+    },
+    {
+      "id": "karo-coffee-roasters",
+      "title": "Karo Coffee Roasters",
+      "kind": "Кофе",
+      "area": "Phra Khanong",
+      "blurb": "Независимая bangkok roastery с собственной обжаркой и серьёзным выбором зерна.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "52 Soi Pridi Banomyong 26, Phra Khanong Nuea, Bangkok 10110",
+      "url": "https://page.line.me/386plxpd",
+      "source": "Karo Coffee Roasters — LINE Official / coffee-community 2026",
+      "new": true,
+      "notes": "Работает с раннего утра; перед поездкой проверить актуальные часы.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → Phra Khanong + наземный транспорт/пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Karo Coffee Roasters Bangkok"
     }
   ]
 }
