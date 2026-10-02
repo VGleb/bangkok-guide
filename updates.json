@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-02T22:30:00+07:00",
+  "updatedAt": "2026-10-02T22:35:00+07:00",
   "items": [
     {
       "id": "the-king-in-our-hearts-2026",
@@ -97,6 +97,31 @@
         "min": 20,
         "max": 35,
         "via": "От TRIBE пешком/короткий транспорт до Sukhumvit 26; приблизительно"
+      },
+      "status": "confirmed"
+    },
+    {
+      "id": "pre-loved-market-emporium-oct-2026",
+      "title": "Pre-Loved Market · Festive Memory",
+      "kind": "События",
+      "area": "Phrom Phong",
+      "blurb": "Owner-to-owner second-hand market без профессиональных реселлеров: одежда, личные вещи и подарки с историей.",
+      "venue": "Friend Friend, Emporium, Sukhumvit Road, Bangkok",
+      "mapQuery": "Emporium Bangkok Friend Friend",
+      "url": "https://www.timeout.com/bangkok/news/pre-loved-market-emporium-050626",
+      "source": "Time Out Bangkok, 06.05.2026",
+      "dates": [
+        "2026-10-10",
+        "2026-10-11"
+      ],
+      "addedAt": "2026-10-02",
+      "new": true,
+      "priority": 3,
+      "notes": "10:00–20:00, бесплатно. Ты в Бангкоке только 10 октября из двух дней — зависит от времени отъезда.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "От TRIBE пешком к Emporium / BTS Phrom Phong; приблизительно"
       },
       "status": "confirmed"
     }
