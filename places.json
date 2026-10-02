@@ -1069,6 +1069,50 @@
         "via": "Общественный транспорт с пересадками; точный маршрут смотри в Google Maps"
       },
       "status": "active"
+    },
+    {
+      "id": "saan-songwat",
+      "title": "SAAN Songwat",
+      "kind": "Магазины",
+      "area": "Song Wat",
+      "blurb": "Независимый магазин тайских авторских вещей: аксессуары, изделия местных мастеров и компактные подарки.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "837 Song Wat Road, Chakkrawat, Samphanthawong, Bangkok 10100",
+      "url": "https://www.instagram.com/saan.songwat/",
+      "source": "Time Out Bangkok (01.09.2026); Bangkok Airways Fah Thai",
+      "new": true,
+      "notes": "",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком, приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "SAAN Songwat 837 Song Wat Road Bangkok"
+    },
+    {
+      "id": "song-wat-daily-photobooth",
+      "title": "Song Wat Daily Photobooth",
+      "kind": "Магазины",
+      "area": "Song Wat",
+      "blurb": "Фотобудка в стиле винтажной газеты: печатный сувенир из района Song Wat.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Song Wat Road; точный номер дома не подтверждён",
+      "url": "https://www.google.com/maps/search/?api=1&query=Song+Wat+Daily+Photobooth+Bangkok",
+      "source": "публичные фотоотчёты посетителей (Song Wat Daily)",
+      "new": true,
+      "notes": "Метка приблизительная: точный адрес фотобудки не подтверждён.",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком, приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Song Wat Daily Photobooth Song Wat Road Bangkok"
     }
   ]
 }
