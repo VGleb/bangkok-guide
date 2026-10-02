@@ -1399,6 +1399,28 @@
       },
       "status": "active",
       "mapQuery": "NANA Coffee Roasters Ari Bangkok"
+    },
+    {
+      "id": "mother-roaster-talat-noi",
+      "title": "Mother Roaster · Talat Noi",
+      "kind": "Кофе",
+      "area": "Talat Noi",
+      "blurb": "Культовая маленькая roastery в старом здании: тайские и зарубежные зерна, ручные методы и сильный выбор зерна домой.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "1172 San Chao Rong Kueak, Talat Noi, Bangkok 10100",
+      "url": "https://www.facebook.com/motherroaster",
+      "source": "Tourism Authority of Thailand / Mother Roaster",
+      "new": true,
+      "notes": "Около 09:30–17:30/18:00; часы могут меняться.",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Mother Roaster Talat Noi Bangkok"
     }
   ]
 }
