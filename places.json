@@ -1355,6 +1355,28 @@
       },
       "status": "active",
       "mapQuery": "Greydient & Them Bangkok"
+    },
+    {
+      "id": "factory-coffee-phayathai",
+      "title": "Factory Coffee · Phaya Thai",
+      "kind": "Кофе",
+      "area": "Phaya Thai",
+      "blurb": "Сильный тайский roaster/barista проект: competition coffee, single origins, filter и собственная обжарка.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "49 Phaya Thai Road, Ratchathewi, Bangkok 10400",
+      "url": "https://factorybkk.com/blogs/news/location",
+      "source": "Factory Coffee — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 08:00–16:00. Команда — чемпион Thailand Coffee Roasting Championship 2025.",
+      "eta": {
+        "min": 35,
+        "max": 50,
+        "via": "BTS Phrom Phong → Phaya Thai + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Factory Coffee BKK 49 Phaya Thai Road"
     }
   ]
 }
