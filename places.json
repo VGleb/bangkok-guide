@@ -1289,6 +1289,28 @@
       },
       "status": "active",
       "mapQuery": "Train Night Market Srinakarin Bangkok"
+    },
+    {
+      "id": "kohi-roastery",
+      "title": "Kohi Roastery & Coffee Bar",
+      "kind": "Кофе",
+      "area": "Phrom Phong",
+      "blurb": "Маленькая in-house roastery: light/medium roast, single origin, pour-over и фруктовые профили; сильный вариант почти рядом с TRIBE.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "5/4 Soi Phrom Si 1, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.google.com/maps/search/?api=1&query=Kohi+Roastery+Coffee+Bar+Bangkok",
+      "source": "Google Business Profile / BrewAtlas / coffee-community 2026",
+      "new": true,
+      "notes": "Вт–вс около 08:00–16:00; понедельник закрыт.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "Пешком / короткий BTS+пешком от TRIBE; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Kohi Roastery & Coffee Bar Bangkok"
     }
   ]
 }
