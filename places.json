@@ -1311,6 +1311,28 @@
       },
       "status": "active",
       "mapQuery": "Kohi Roastery & Coffee Bar Bangkok"
+    },
+    {
+      "id": "local-boys-thonglor",
+      "title": "LOCAL BOYS COFFEE CO. · Thonglor",
+      "kind": "Кофе",
+      "area": "Thonglor",
+      "blurb": "Coffee-first бар с Thai/international beans и сильными signature drinks; особенно хвалят Dirty Coconut.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "267/7 Thong Lo, Watthana, Bangkok 10110",
+      "url": "https://www.google.com/maps/search/?api=1&query=LOCAL+BOYS+COFFEE+CO+THONGLOR",
+      "source": "Google Business Profile / актуальные отзывы 2026",
+      "new": true,
+      "notes": "Ежедневно около 07:30–17:30; мест немного.",
+      "eta": {
+        "min": 20,
+        "max": 35,
+        "via": "BTS Phrom Phong → Thong Lo + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "LOCAL BOYS COFFEE CO THONGLOR Bangkok"
     }
   ]
 }
