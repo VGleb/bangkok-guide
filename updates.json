@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T19:47:00+05:00",
+  "updatedAt": "2026-10-02T21:55:00+07:00",
   "items": [
     {
       "id": "the-king-in-our-hearts-2026",
@@ -47,6 +47,31 @@
         "min": 35,
         "max": 45,
         "via": "TRIBE → ~10 min walk to BTS Phrom Phong → BTS Ekkamai → ~18 min walk; approximate, not live routing"
+      },
+      "status": "confirmed"
+    },
+    {
+      "id": "reuse-revolution-2026",
+      "title": "The ReUse Revolution",
+      "kind": "События",
+      "area": "Lumphini",
+      "blurb": "Двухдневный pop-up о reCommerce и circular fashion от YOURS: second-hand вещи, повторное использование и осознанное потребление.",
+      "venue": "รอบสวนลุม · Green Market (ตลาดสีเขียว), Lumphini Park",
+      "mapQuery": "Lumphini Park Bangkok",
+      "url": "https://www.bangkokclimateactionweek.org/en/programme/54",
+      "source": "Bangkok Climate Action Week / YOURS",
+      "dates": [
+        "2026-10-03",
+        "2026-10-04"
+      ],
+      "addedAt": "2026-10-02",
+      "new": true,
+      "priority": 3,
+      "notes": "09:00–19:00. Организатор YOURS — Bangkok-based recommerce-платформа для preloved вещей. Формат подтверждён как Pop-up Market + Workshop, но полный список продавцов заранее не опубликован.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "От TRIBE: BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini + пешком; приблизительно"
       },
       "status": "confirmed"
     }
