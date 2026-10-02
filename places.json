@@ -1333,6 +1333,28 @@
       },
       "status": "active",
       "mapQuery": "LOCAL BOYS COFFEE CO THONGLOR Bangkok"
+    },
+    {
+      "id": "greydient-them",
+      "title": "Greydient & Them",
+      "kind": "Кофе",
+      "area": "Asok",
+      "blurb": "Дизайн-пространство и серьёзный coffee bar: сезонный filter из локальных и зарубежных обжарок, single origin и собственные blends.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "6/25 Ratchadaphisek Road, Khlong Toei, Bangkok 10110",
+      "url": "https://greydientandthem.com/",
+      "source": "официальный сайт / актуальные рекомендации 2026",
+      "new": true,
+      "notes": "Ежедневно 08:00–17:00; есть и матча.",
+      "eta": {
+        "min": 20,
+        "max": 30,
+        "via": "BTS Phrom Phong → Asok + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Greydient & Them Bangkok"
     }
   ]
 }
