@@ -1113,6 +1113,28 @@
       },
       "status": "active",
       "mapQuery": "Song Wat Daily Photobooth Song Wat Road Bangkok"
+    },
+    {
+      "id": "7eleven-happitat-festie-town",
+      "title": "7-Eleven · Happitat Festie Town",
+      "kind": "Магазины",
+      "area": "Bang Na",
+      "blurb": "Первый в Таиланде 7-Eleven Character-Theme Store с ALLiE & the Gang, трёхметровым HappiTube для сладостей и расширенным ассортиментом.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Festie Town, Happitat, The Forestias, Bangna-Trat Road Km.7, Bang Kaeo, Bang Phli, Samut Prakan",
+      "url": "https://www.thaich.net/news/20260821se.htm",
+      "source": "CP ALL / Thai Hyper; Time Out Bangkok",
+      "new": true,
+      "notes": "Постоянная тематическая точка внутри Happitat; не временное событие. Happitat открыт с 10:00.",
+      "eta": {
+        "min": 80,
+        "max": 120,
+        "via": "BTS Phrom Phong → Udom Suk + шаттл/наземный транспорт до Happitat; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "7-Eleven Festie Town Happitat The Forestias Bangna Thailand"
     }
   ]
 }
