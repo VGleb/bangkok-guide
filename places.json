@@ -1421,6 +1421,28 @@
       },
       "status": "active",
       "mapQuery": "Mother Roaster Talat Noi Bangkok"
+    },
+    {
+      "id": "roots-thonglor",
+      "title": "Roots · theCOMMONS Thonglor",
+      "kind": "Кофе",
+      "area": "Thonglor",
+      "blurb": "Тайский specialty с фокусом на местное зерно и прозрачное происхождение кофе.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "theCOMMONS, Thonglor 17, Bangkok 10110",
+      "url": "https://rootsbkk.com/branch/",
+      "source": "официальный сайт Roots",
+      "new": true,
+      "notes": "Ежедневно около 07:00–17:00.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Thong Lo + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Roots theCOMMONS Thonglor Bangkok"
     }
   ]
 }
