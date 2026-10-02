@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-02T21:55:00+07:00",
+  "updatedAt": "2026-10-02T22:30:00+07:00",
   "items": [
     {
       "id": "the-king-in-our-hearts-2026",
@@ -72,6 +72,31 @@
         "min": 30,
         "max": 45,
         "via": "От TRIBE: BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini + пешком; приблизительно"
+      },
+      "status": "confirmed"
+    },
+    {
+      "id": "the-shed-city-farmer-market-2026",
+      "title": "The Shed City Farmer Market",
+      "kind": "События",
+      "area": "Sukhumvit",
+      "blurb": "Двухдневный локальный lifestyle market: art, independent goods, local food, live painting, музыка и DJ.",
+      "venue": "The Shed Bangkok, 69 Sukhumvit 26, Khlong Tan, Bangkok 10110",
+      "mapQuery": "The Shed Bangkok 69 Sukhumvit 26",
+      "url": "https://www.timeout.com/bangkok/things-to-do/try-sato-from-ubon-ratchathani-and-mae-hong-son-at-the-shed",
+      "source": "Time Out Bangkok, 24.09.2026",
+      "dates": [
+        "2026-10-03",
+        "2026-10-04"
+      ],
+      "addedAt": "2026-10-02",
+      "new": true,
+      "priority": 2,
+      "notes": "13:00–21:00, вход бесплатный. Это не second-hand market; интересен локальными товарами, art и атмосферой.",
+      "eta": {
+        "min": 20,
+        "max": 35,
+        "via": "От TRIBE пешком/короткий транспорт до Sukhumvit 26; приблизительно"
       },
       "status": "confirmed"
     }
