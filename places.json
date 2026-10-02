@@ -1157,6 +1157,28 @@
         "via": "От TRIBE пешком в сторону Phrom Phong / EMSPHERE; приблизительно"
       },
       "status": "active"
+    },
+    {
+      "id": "tryster-glass-house",
+      "title": "TRYSTER Glass House · Siamkit",
+      "kind": "Ресейл",
+      "area": "Siam",
+      "blurb": "Indoor second-hand market: одежда, сумки, аксессуары и винтажные находки.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Siamkit Building, 448 Rama I Road, Pathum Wan, Bangkok 10330",
+      "url": "https://www.instagram.com/trys_ter/",
+      "source": "TRYSTER",
+      "new": true,
+      "notes": "Чт–вс 14:00–22:00.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → Siam + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Tryster Glass House Siamkit Building Bangkok"
     }
   ]
 }
