@@ -1377,6 +1377,28 @@
       },
       "status": "active",
       "mapQuery": "Factory Coffee BKK 49 Phaya Thai Road"
+    },
+    {
+      "id": "nana-coffee-ari",
+      "title": "NANA Coffee Roasters · Ari",
+      "kind": "Кофе",
+      "area": "Ari",
+      "blurb": "Известный, но действительно серьёзный roaster: широкий выбор single origin, необычные процессы и хороший filter.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "24/2 Ari 4 Alley, Samsen Nai, Phaya Thai, Bangkok 10400",
+      "url": "https://page.line.me/174ekujc",
+      "source": "NANA Coffee Roasters — LINE Official / coffee-community 2026",
+      "new": true,
+      "notes": "Сб–вс 08:00–18:00; в популярные часы бывает многолюдно.",
+      "eta": {
+        "min": 45,
+        "max": 60,
+        "via": "BTS Phrom Phong → Ari + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "NANA Coffee Roasters Ari Bangkok"
     }
   ]
 }
