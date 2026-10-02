@@ -1179,6 +1179,28 @@
       },
       "status": "active",
       "mapQuery": "Tryster Glass House Siamkit Building Bangkok"
+    },
+    {
+      "id": "clay-songwat",
+      "title": "Clay Songwat",
+      "kind": "Магазины",
+      "area": "Song Wat",
+      "blurb": "Локальная керамическая мастерская и магазин; интересна точечно ради handmade кофейных кружек.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "1176 Song Wat Road, Chakkrawat, Samphanthawong, Bangkok 10100",
+      "url": "https://claysongwat.store/",
+      "source": "Clay Songwat",
+      "new": true,
+      "notes": "Есть фактурные кружки и необычные модели; воркшоп не нужен.",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Clay Songwat 1176 Song Wat Road Bangkok"
     }
   ]
 }
