@@ -1201,6 +1201,28 @@
       },
       "status": "active",
       "mapQuery": "Clay Songwat 1176 Song Wat Road Bangkok"
+    },
+    {
+      "id": "another-story-emsphere",
+      "title": "Another Story · EMSPHERE",
+      "kind": "Магазины",
+      "area": "Phrom Phong",
+      "blurb": "Локальный concept store: дизайнерские вещи, графика, аксессуары и Bangkokian-сувениры; есть сделанные в Таиланде кофейные чашки.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "EMSPHERE, M Floor, 628 Sukhumvit Road, Bangkok 10110",
+      "url": "https://anotherstorybangkok.com/pages/contacts",
+      "source": "Another Story — официальный сайт",
+      "new": true,
+      "notes": "Ищи Bangkokian Coffee Cup Set; наличие в конкретном магазине может меняться.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "От TRIBE пешком к EMSPHERE; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Another Story Emsphere Bangkok"
     }
   ]
 }
