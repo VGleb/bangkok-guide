@@ -548,21 +548,21 @@
       "kind": "Ресейл",
       "area": "Sukhumvit",
       "blurb": "Двухэтажный секонд с дизайнерскими и повседневными брендами.",
-      "priority": 2,
+      "priority": 3,
       "dates": null,
       "days": null,
-      "venue": "Sukhumvit Soi 39",
+      "venue": "13 Sukhumvit 39, Khlong Toei Nuea, Watthana, Bangkok 10110",
       "url": "https://www.instagram.com/tokyojoebkk/",
-      "source": "Instagram магазина",
+      "source": "TOKYO JOE BKK / актуальная карточка 2026",
       "new": false,
-      "notes": "Часы и актуальную выдачу уточнить перед визитом.",
+      "notes": "Ежедневно 10:00–20:00. Два этажа, чисто организованный second-hand: базовые вещи, аксессуары и брендовые позиции; около 2 минут от BTS Phrom Phong.",
       "eta": {
         "min": 10,
         "max": 25,
         "via": "Пешком по Sukhumvit 39"
       },
       "status": "active",
-      "mapQuery": "Tokyo Joe Sukhumvit Soi 39 Bangkok"
+      "mapQuery": "TOKYO JOE BKK 13 Sukhumvit 39 Bangkok"
     },
     {
       "id": "hdkk",
@@ -1509,6 +1509,94 @@
       },
       "status": "active",
       "mapQuery": "Treasure Factory Sukhumvit 39 Bangkok"
+    },
+    {
+      "id": "2ndstreet-phromphong",
+      "title": "2nd STREET · Phrom Phong",
+      "kind": "Ресейл",
+      "area": "Phrom Phong",
+      "blurb": "Официальный филиал японской сети 2nd STREET прямо у Phrom Phong: одежда, обувь и аксессуары с постоянно меняющимся ассортиментом.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "595 Sukhumvit 33/1, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://2ndstreet-th.com/shop/phrom-phong/",
+      "source": "2nd STREET Thailand — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 10:00–20:00. Один из самых близких и очевидных приоритетов.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "От TRIBE к BTS Phrom Phong / Sukhumvit 33/1; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "2nd STREET Phrom Phong 595 Sukhumvit 33/1 Bangkok"
+    },
+    {
+      "id": "yojohan-phromphong",
+      "title": "YOJOHAN",
+      "kind": "Ресейл",
+      "area": "Phrom Phong",
+      "blurb": "Небольшой used/vintage clothing shop на Sukhumvit 33/1 рядом с 2nd STREET; удобный дополнительный заход в том же кластере.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "595/22 Sukhumvit 33/1, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.google.com/maps/search/?api=1&query=YOJOHAN+Bangkok",
+      "source": "Google Business Profile, 2026",
+      "new": true,
+      "notes": "Ежедневно 10:00–20:00. Магазин маленький; ценность в том, что он буквально рядом с 2nd STREET.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "От TRIBE к Phrom Phong; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "YOJOHAN 595/22 Sukhumvit 33/1 Bangkok"
+    },
+    {
+      "id": "unfashion-s39",
+      "title": "(un)FASHION District S39",
+      "kind": "Ресейл",
+      "area": "Phrom Phong",
+      "blurb": "Винтаж на самой Sukhumvit 39: одежда, обувь/ботинки, сумки и аксессуары; плюс кафе и керамика.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "19/5 Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.instagram.com/unfashiondistrict39/",
+      "source": "актуальные локальные карточки и отзывы 2026",
+      "new": true,
+      "notes": "Около 10:00–20:30. Не designer resale уровня RAGTAG, но очень близко и есть мужская/винтажная часть; заодно можно посмотреть кружки.",
+      "eta": {
+        "min": 8,
+        "max": 15,
+        "via": "Пешком по Soi Sukhumvit 39; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "unFASHION District S39 Bangkok"
+    },
+    {
+      "id": "the-vintage-store-thonglor",
+      "title": "The Vintage Store · Eight Thonglor",
+      "kind": "Ресейл",
+      "area": "Thonglor",
+      "blurb": "Кураторский pre-owned luxury/designer consignment: Chanel, Hermès, YSL и другие коллекционные и сезонные вещи.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Eight Thonglor, G Floor, 88/1 Sukhumvit 55, Bangkok 10110",
+      "url": "https://thevintagestorebkk.com/",
+      "source": "The Vintage Store — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 11:00–19:00. Сильная селекция, но заметно дороже и ближе к luxury consignment, чем к обычному thrift.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Thong Lo + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "The Vintage Store Eight Thonglor Bangkok"
     }
   ]
 }
