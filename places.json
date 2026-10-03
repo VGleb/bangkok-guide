@@ -1134,7 +1134,11 @@
         "via": "BTS Phrom Phong → Udom Suk + шаттл/наземный транспорт до Happitat; приблизительно"
       },
       "status": "active",
-      "mapQuery": "7-Eleven Festie Town Happitat The Forestias Bangna Thailand"
+      "mapQuery": "7-Eleven Festie Town Happitat The Forestias Bangna Thailand",
+      "geo": [
+        13.6544375,
+        100.6658125
+      ]
     },
     {
       "id": "ikea-sukhumvit",
@@ -1156,7 +1160,11 @@
         "max": 25,
         "via": "От TRIBE пешком в сторону Phrom Phong / EMSPHERE; приблизительно"
       },
-      "status": "active"
+      "status": "active",
+      "geo": [
+        13.7320079,
+        100.5663113
+      ]
     },
     {
       "id": "tryster-glass-house",
@@ -1178,7 +1186,11 @@
         "via": "BTS Phrom Phong → Siam + пешком; приблизительно"
       },
       "status": "active",
-      "mapQuery": "Tryster Glass House Siamkit Building Bangkok"
+      "mapQuery": "Tryster Glass House Siamkit Building Bangkok",
+      "geo": [
+        13.744143,
+        100.5345636
+      ]
     },
     {
       "id": "clay-songwat",
@@ -1200,7 +1212,11 @@
         "via": "BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком; приблизительно"
       },
       "status": "active",
-      "mapQuery": "Clay Songwat 1176 Song Wat Road Bangkok"
+      "mapQuery": "Clay Songwat 1176 Song Wat Road Bangkok",
+      "geo": [
+        13.7384215,
+        100.506755
+      ]
     },
     {
       "id": "another-story-emsphere",
@@ -1222,7 +1238,11 @@
         "via": "От TRIBE пешком к EMSPHERE; приблизительно"
       },
       "status": "active",
-      "mapQuery": "Another Story Emsphere Bangkok"
+      "mapQuery": "Another Story Emsphere Bangkok",
+      "geo": [
+        13.7322791,
+        100.5660928
+      ]
     },
     {
       "id": "arabica-empire-tower",
@@ -1244,7 +1264,11 @@
         "via": "BTS Phrom Phong → Siam → Chong Nonsi + пешком; приблизительно"
       },
       "status": "active",
-      "mapQuery": "% Arabica Bangkok Empire Tower Level 55"
+      "mapQuery": "% Arabica Bangkok Empire Tower Level 55",
+      "geo": [
+        13.7205344,
+        100.5302284
+      ]
     },
     {
       "id": "train-night-market-ratchada",
@@ -1266,7 +1290,11 @@
         "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Thailand Cultural Centre + пешком; приблизительно"
       },
       "status": "active",
-      "mapQuery": "Train Night Market Ratchada Bangkok"
+      "mapQuery": "Train Night Market Ratchada Bangkok",
+      "geo": [
+        13.7669375,
+        100.5686875
+      ]
     },
     {
       "id": "train-night-market-srinakarin",
@@ -1288,7 +1316,11 @@
         "via": "BTS/MRT + Yellow Line до Suan Luang Rama IX + ~10 мин пешком; приблизительно"
       },
       "status": "active",
-      "mapQuery": "Train Night Market Srinakarin Bangkok"
+      "mapQuery": "Train Night Market Srinakarin Bangkok",
+      "geo": [
+        13.6938923,
+        100.6511801
+      ]
     },
     {
       "id": "kohi-roastery",
@@ -1310,7 +1342,11 @@
         "via": "Пешком / короткий BTS+пешком от TRIBE; приблизительно"
       },
       "status": "active",
-      "mapQuery": "Kohi Roastery & Coffee Bar Bangkok"
+      "mapQuery": "Kohi Roastery & Coffee Bar Bangkok",
+      "geo": [
+        13.7370463,
+        100.5738594
+      ]
     },
     {
       "id": "local-boys-thonglor",
@@ -1332,7 +1368,11 @@
         "via": "BTS Phrom Phong → Thong Lo + пешком; приблизительно"
       },
       "status": "active",
-      "mapQuery": "LOCAL BOYS COFFEE CO THONGLOR Bangkok"
+      "mapQuery": "LOCAL BOYS COFFEE CO THONGLOR Bangkok",
+      "geo": [
+        13.7337298,
+        100.5812526
+      ]
     },
     {
       "id": "greydient-them",
@@ -1354,7 +1394,11 @@
         "via": "BTS Phrom Phong → Asok + пешком; приблизительно"
       },
       "status": "active",
-      "mapQuery": "Greydient & Them Bangkok"
+      "mapQuery": "Greydient & Them Bangkok",
+      "geo": [
+        13.735531,
+        100.56077
+      ]
     },
     {
       "id": "factory-coffee-phayathai",
@@ -1376,7 +1420,11 @@
         "via": "BTS Phrom Phong → Phaya Thai + пешком; приблизительно"
       },
       "status": "active",
-      "mapQuery": "Factory Coffee BKK 49 Phaya Thai Road"
+      "mapQuery": "Factory Coffee BKK 49 Phaya Thai Road",
+      "geo": [
+        13.7569298,
+        100.534614
+      ]
     },
     {
       "id": "nana-coffee-ari",
@@ -1398,7 +1446,11 @@
         "via": "BTS Phrom Phong → Ari + пешком; приблизительно"
       },
       "status": "active",
-      "mapQuery": "NANA Coffee Roasters Ari Bangkok"
+      "mapQuery": "NANA Coffee Roasters Ari Bangkok",
+      "geo": [
+        13.7826347,
+        100.54198
+      ]
     },
     {
       "id": "mother-roaster-talat-noi",
@@ -1420,7 +1472,11 @@
         "via": "BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком; приблизительно"
       },
       "status": "active",
-      "mapQuery": "Mother Roaster Talat Noi Bangkok"
+      "mapQuery": "Mother Roaster Talat Noi Bangkok",
+      "geo": [
+        13.7329909,
+        100.5123218
+      ]
     },
     {
       "id": "roots-thonglor",
@@ -1442,7 +1498,11 @@
         "via": "BTS Phrom Phong → Thong Lo + пешком; приблизительно"
       },
       "status": "active",
-      "mapQuery": "Roots theCOMMONS Thonglor Bangkok"
+      "mapQuery": "Roots theCOMMONS Thonglor Bangkok",
+      "geo": [
+        13.7351348,
+        100.5822318
+      ]
     },
     {
       "id": "karo-coffee-roasters",
@@ -1464,7 +1524,11 @@
         "via": "BTS Phrom Phong → Phra Khanong + наземный транспорт/пешком; приблизительно"
       },
       "status": "active",
-      "mapQuery": "Karo Coffee Roasters Bangkok"
+      "mapQuery": "Karo Coffee Roasters Bangkok",
+      "geo": [
+        13.7258698,
+        100.5997849
+      ]
     },
     {
       "id": "sunrise-tacos-terminal21",
@@ -1486,7 +1550,11 @@
         "via": "BTS Phrom Phong → Asok + переход в Terminal 21; приблизительно"
       },
       "status": "active",
-      "mapQuery": "Sunrise Tacos Terminal 21 Asok Bangkok"
+      "mapQuery": "Sunrise Tacos Terminal 21 Asok Bangkok",
+      "geo": [
+        13.737971,
+        100.5603725
+      ]
     },
     {
       "id": "treasure-factory-sukhumvit39",
@@ -1534,7 +1602,11 @@
         "via": "От TRIBE к BTS Phrom Phong / Sukhumvit 33/1; приблизительно"
       },
       "status": "active",
-      "mapQuery": "2nd STREET Phrom Phong 595 Sukhumvit 33/1 Bangkok"
+      "mapQuery": "2nd STREET Phrom Phong 595 Sukhumvit 33/1 Bangkok",
+      "geo": [
+        13.7327497,
+        100.5682856
+      ]
     },
     {
       "id": "yojohan-phromphong",
@@ -1556,7 +1628,11 @@
         "via": "От TRIBE к Phrom Phong; приблизительно"
       },
       "status": "active",
-      "mapQuery": "YOJOHAN 595/22 Sukhumvit 33/1 Bangkok"
+      "mapQuery": "YOJOHAN 595/22 Sukhumvit 33/1 Bangkok",
+      "geo": [
+        13.7321422,
+        100.5683855
+      ]
     },
     {
       "id": "unfashion-s39",
@@ -1578,7 +1654,11 @@
         "via": "Пешком по Soi Sukhumvit 39; приблизительно"
       },
       "status": "active",
-      "mapQuery": "unFASHION District S39 Bangkok"
+      "mapQuery": "unFASHION District S39 Bangkok",
+      "geo": [
+        13.7334476,
+        100.5708488
+      ]
     },
     {
       "id": "the-vintage-store-thonglor",
@@ -1600,7 +1680,11 @@
         "via": "BTS Phrom Phong → Thong Lo + пешком; приблизительно"
       },
       "status": "active",
-      "mapQuery": "The Vintage Store Eight Thonglor Bangkok"
+      "mapQuery": "The Vintage Store Eight Thonglor Bangkok",
+      "geo": [
+        13.730661,
+        100.581886
+      ]
     },
     {
       "id": "brandname-society-thonglor",
@@ -1622,7 +1706,11 @@
         "via": "BTS Phrom Phong → Thong Lo + пешком; приблизительно"
       },
       "status": "active",
-      "mapQuery": "Brandname Society Marche Thonglor Building C Bangkok"
+      "mapQuery": "Brandname Society Marche Thonglor Building C Bangkok",
+      "geo": [
+        13.7283702,
+        100.5811107
+      ]
     },
     {
       "id": "cdg-play-one-bangkok",
@@ -1691,7 +1779,11 @@
       },
       "addedAt": "2026-10-03",
       "status": "active",
-      "mapQuery": "Bloody Bunny & Friends Store Terminal21 Asok Bangkok"
+      "mapQuery": "Bloody Bunny & Friends Store Terminal21 Asok Bangkok",
+      "geo": [
+        13.737971,
+        100.5603725
+      ]
     },
     {
       "id": "victoria-arduino-sukhumvit33",
@@ -1714,7 +1806,11 @@
       },
       "addedAt": "2026-10-03",
       "status": "active",
-      "mapQuery": "Victoria Arduino Official Store 29 Soi Sukhumvit 33 Bangkok"
+      "mapQuery": "Victoria Arduino Official Store 29 Soi Sukhumvit 33 Bangkok",
+      "geo": [
+        13.7377127,
+        100.5680121
+      ]
     },
     {
       "id": "summer-coffee-terminal21-loveramics",
@@ -1737,7 +1833,11 @@
         "via": "BTS Phrom Phong → Asok + переход в Terminal 21; приблизительно"
       },
       "addedAt": "2026-10-03",
-      "status": "active"
+      "status": "active",
+      "geo": [
+        13.737971,
+        100.5603725
+      ]
     },
     {
       "id": "summer-coffee-siam-paragon-loveramics",
@@ -1783,7 +1883,11 @@
         "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Silom + пешком; приблизительно"
       },
       "addedAt": "2026-10-03",
-      "status": "active"
+      "status": "active",
+      "geo": [
+        13.72843,
+        100.53757
+      ]
     },
     {
       "id": "fortune-teller-one-bangkok",
@@ -1927,7 +2031,11 @@
         "via": "BTS/MRT + Red Line до Bang Khen + ~400 м пешком; приблизительно"
       },
       "addedAt": "2026-10-03",
-      "status": "active"
+      "status": "active",
+      "geo": [
+        13.8523198,
+        100.5630092
+      ]
     }
   ]
 }
