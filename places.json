@@ -1487,6 +1487,28 @@
       },
       "status": "active",
       "mapQuery": "Sunrise Tacos Terminal 21 Asok Bangkok"
+    },
+    {
+      "id": "treasure-factory-sukhumvit39",
+      "title": "Treasure Factory · Sukhumvit 39",
+      "kind": "Ресейл",
+      "area": "Phrom Phong",
+      "blurb": "Японский reuse/second-hand магазин прямо на Sukhumvit 39: одежда, сумки, брендовые вещи, обувь и разные японские/бытовые находки.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "29 Soi Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.trefac-th.com/location/",
+      "source": "Treasure Factory Thailand — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 10:00–19:00. Не такой селектированный как RAGTAG/Kindal, но это полноценная японская сеть reuse-магазинов; ассортимент меняется постоянно.",
+      "eta": {
+        "min": 8,
+        "max": 15,
+        "via": "Пешком от TRIBE по Soi Sukhumvit 39; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Treasure Factory Sukhumvit 39 Bangkok"
     }
   ]
 }
