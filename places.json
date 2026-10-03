@@ -1619,6 +1619,29 @@
       },
       "status": "active",
       "mapQuery": "Brandname Society Marche Thonglor Building C Bangkok"
+    },
+    {
+      "id": "cdg-play-one-bangkok",
+      "title": "COMME des GARÇONS PLAY · One Bangkok",
+      "kind": "Магазины",
+      "area": "Lumphini",
+      "blurb": "COMME des GARÇONS PLAY в The Storeys; линия PLAY подтверждена у Club21, рядом также отдельный CDGCDGCDG.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "The Storeys, 1F, One Bangkok (CDG / Club21; room 2104)",
+      "url": "https://th.club21.com/community/discover/comme-des-gar%C3%A7ons-play-tone",
+      "source": "Club21 / COMME des GARÇONS — официальные страницы",
+      "new": true,
+      "notes": "PLAY подтверждён на 1F The Storeys; официальный CDG store в One Bangkok — room 2104.",
+      "eta": {
+        "min": 35,
+        "max": 50,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini → One Bangkok + пешком"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "mapQuery": "COMME des GARCONS One Bangkok The Storeys"
     }
   ]
 }
