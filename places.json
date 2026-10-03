@@ -1665,6 +1665,29 @@
       },
       "addedAt": "2026-10-03",
       "status": "active"
+    },
+    {
+      "id": "bloody-bunny-terminal21",
+      "title": "Bloody Bunny & Friends Store · Terminal 21",
+      "kind": "Магазины",
+      "area": "Asok",
+      "blurb": "Тайский character store 2Spot: Bloody Bunny и другие персонажи, одежда, аксессуары, канцелярия и компактные подарки.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Terminal 21 Asok, 3F – Istanbul, 88 Sukhumvit Road, Khlong Toei Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.2spotstudio.com/copy-of-2spotstudio",
+      "source": "Terminal 21 Asok / 2Spot Studio — официальные сайты",
+      "new": true,
+      "notes": "3F, зона Istanbul. Ежедневно 10:00–22:00.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "BTS Phrom Phong → Asok + переход в Terminal 21; приблизительно"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "mapQuery": "Bloody Bunny & Friends Store Terminal21 Asok Bangkok"
     }
   ]
 }
