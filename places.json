@@ -1597,6 +1597,28 @@
       },
       "status": "active",
       "mapQuery": "The Vintage Store Eight Thonglor Bangkok"
+    },
+    {
+      "id": "brandname-society-thonglor",
+      "title": "Brandname Society · Thonglor",
+      "kind": "Ресейл",
+      "area": "Thonglor",
+      "blurb": "Luxury consignment/resale с сумками, аксессуарами и очками; в текущем каталоге есть Gentle Monster.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Marche Thonglor, Building C, 2F, 150 Thong Lo, Watthana, Bangkok 10110",
+      "url": "https://www.brandnamesocietybkk.com/",
+      "source": "Brandname Society — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 11:00–20:00. На 3 октября 2026 в каталоге есть Gentle Monster Sunglasses Black за 6,500 ฿; перед поездкой проверить, не проданы ли.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Thong Lo + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Brandname Society Marche Thonglor Bangkok"
     }
   ]
 }
