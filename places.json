@@ -1501,7 +1501,7 @@
       "url": "https://www.trefac-th.com/location/",
       "source": "Treasure Factory Thailand — официальный сайт",
       "new": true,
-      "notes": "Ежедневно 10:00–19:00. Не такой селектированный как RAGTAG/Kindal, но это полноценная японская сеть reuse-магазинов; ассортимент меняется постоянно.",
+      "notes": "Ежедневно 10:00–19:00. Японский reuse-store. На 3 октября 2026 в живом каталоге: Gentle Monster 54022-146 Black — 2,980 ฿ (Rank B), Gentle Monster WD1 Gray — 3,980 ฿. Остатки меняются быстро.",
       "eta": {
         "min": 8,
         "max": 15,
@@ -1607,18 +1607,18 @@
       "priority": 3,
       "dates": null,
       "days": null,
-      "venue": "Marche Thonglor, Building C, 2F, 150 Thong Lo, Watthana, Bangkok 10110",
+      "venue": "Marche Thonglor, Building C, 2F, Thong Lo, Watthana, Bangkok 10110",
       "url": "https://www.brandnamesocietybkk.com/",
       "source": "Brandname Society — официальный сайт",
       "new": true,
-      "notes": "Ежедневно 11:00–20:00. На 3 октября 2026 в каталоге есть Gentle Monster Sunglasses Black за 6,500 ฿; перед поездкой проверить, не проданы ли.",
+      "notes": "Ежедневно 11:00–20:00. На 3 октября 2026 в текущем каталоге есть Gentle Monster Sunglasses Black — 6,500 ฿. Магазин заявляет гарантию подлинности; остаток проверить перед визитом.",
       "eta": {
         "min": 25,
         "max": 40,
         "via": "BTS Phrom Phong → Thong Lo + пешком; приблизительно"
       },
       "status": "active",
-      "mapQuery": "Brandname Society Marche Thonglor Bangkok"
+      "mapQuery": "Brandname Society Marche Thonglor Building C Bangkok"
     }
   ]
 }
