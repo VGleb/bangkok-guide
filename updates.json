@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03T22:00:00+07:00",
+  "updatedAt": "2026-10-03T22:10:00+07:00",
   "items": [
     {
       "id": "the-king-in-our-hearts-2026",
@@ -146,6 +146,30 @@
         "min": 50,
         "max": 70,
         "via": "От TRIBE: пешком до BTS Phrom Phong → BTS/MRT в сторону Hua Lamphong → пешком; приблизительно, не live-маршрут"
+      },
+      "status": "confirmed"
+    },
+    {
+      "id": "behind-my-eyes-hiroka-2026",
+      "title": "BEHIND MY EYES — Hiroka Limviphuvadh",
+      "kind": "Выставки",
+      "area": "Talat Noi / Charoen Krung",
+      "blurb": "Персональная выставка тайско-японской художницы и дизайнера Hiroka Limviphuvadh: визуальный дневник образов из полусна, медитации и сновидений.",
+      "venue": "River City Bangkok, Photographers’ Gallery, 2F",
+      "mapQuery": "River City Bangkok 23 Charoen Krung Soi 24 Bangkok",
+      "url": "https://rivercitybangkok.com/",
+      "source": "River City Bangkok",
+      "dates": [
+        "2026-10-02",
+        "2026-10-31"
+      ],
+      "addedAt": "2026-10-03",
+      "new": true,
+      "priority": 2,
+      "eta": {
+        "min": 45,
+        "max": 60,
+        "via": "TRIBE → BTS Phrom Phong → MRT Hua Lamphong + пешком; приблизительно"
       },
       "status": "confirmed"
     }
