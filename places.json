@@ -1780,6 +1780,150 @@
       },
       "addedAt": "2026-10-03",
       "status": "active"
+    },
+    {
+      "id": "fortune-teller-one-bangkok",
+      "title": "Fortune Teller — Julie Stephen Chheng",
+      "kind": "Выставки",
+      "area": "Lumphini",
+      "blurb": "Интерактивная выставка с проекциями, AR и игровым взаимодействием с персонажами-духами природы.",
+      "priority": 3,
+      "dates": [
+        "2026-10-02",
+        "2026-11-15"
+      ],
+      "days": null,
+      "venue": "One Bangkok, The Storeys, 2F",
+      "mapQuery": "Fortune Teller One Bangkok The Storeys",
+      "url": "https://www.onebangkok.com/en/whats-happening/fortune-teller/",
+      "source": "One Bangkok — официальный анонс",
+      "new": true,
+      "notes": "2 октября – 15 ноября 2026. Основная экспозиция на 2F The Storeys; дополнительные AR-точки расположены по One Bangkok.",
+      "eta": {
+        "min": 35,
+        "max": 50,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini → One Bangkok + пешком"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active"
+    },
+    {
+      "id": "rubber-killer-one-bangkok",
+      "title": "Rubber Killer · One Bangkok",
+      "kind": "Магазины",
+      "area": "Lumphini",
+      "blurb": "Тайский upcycling-бренд сумок и аксессуаров из переработанных велосипедных камер; временная точка в The Storeys.",
+      "priority": 3,
+      "dates": [
+        "2026-08-20",
+        "2027-01-31"
+      ],
+      "days": null,
+      "venue": "One Bangkok, The Storeys TEMP, 2F",
+      "mapQuery": "Rubber Killer One Bangkok The Storeys",
+      "url": "https://www.facebook.com/rubberkiller/",
+      "source": "Rubber Killer — официальный анонс",
+      "new": true,
+      "notes": "Pop-up в The Storeys TEMP, 2F, заявлен до 31 января 2027.",
+      "eta": {
+        "min": 35,
+        "max": 50,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini → One Bangkok + пешком"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active"
+    },
+    {
+      "id": "antday-river-city",
+      "title": "ANTDAY Specialty Coffee & Arts",
+      "kind": "Кофе",
+      "area": "Charoen Krung",
+      "blurb": "Камерный specialty slow bar внутри River City; сильный фокус на drip coffee и кофейном обучении.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "River City Bangkok, 2F, Room 236",
+      "mapQuery": "ANTDAY Specialty Coffee & Arts River City Bangkok",
+      "url": "https://rivercitybangkok.com/gallery/a-n-t-d-a-y-cafe/",
+      "source": "River City Bangkok — официальный каталог",
+      "new": true,
+      "notes": "River City описывает ANTDAY как high-quality roasted drip coffee café и пространство для coffee workshops. Часы лучше перепроверять в день визита: публичные источники расходятся.",
+      "eta": {
+        "min": 35,
+        "max": 55,
+        "via": "BTS/MRT + пешком к River City; приблизительно"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active"
+    },
+    {
+      "id": "camper-centralworld",
+      "title": "Camper · CentralWorld",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Полноценный Camper Store с мужской и женской коллекциями; основная точка для более внимательного просмотра бренда.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "centralwOrld, 1F, 999/9 Rama I Rd, Pathum Wan",
+      "mapQuery": "Camper CentralWorld Bangkok",
+      "url": "https://www.camper.com/en_TH/shops/thailand/bangkok/store_shoes_1_fl_999_9_rama_i_rd_pathumwan_bangkok_10330-0000531810",
+      "source": "Camper — официальный каталог магазинов",
+      "new": true,
+      "notes": "Ежедневно 10:00–22:00. Официально не обозначен как flagship, но это отдельный Camper Store.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Siam/Chit Lom + пешком"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active"
+    },
+    {
+      "id": "pop-mart-centralworld",
+      "title": "POP MART Flagship · CentralWorld",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Флагман POP MART в CentralWorld; проверить Have a Good Run Series Bracelet и обычную оплату картой.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "centralwOrld, 1F, 999/9 Rama I Rd, Pathum Wan",
+      "mapQuery": "POP MART CentralWorld Bangkok",
+      "url": "https://www.popmart.com/th/store-list",
+      "source": "POP MART Thailand / Central Group — официальные страницы",
+      "new": true,
+      "notes": "Ежедневно 10:00–22:00. Central Group называет точку flagship store; конкретный остаток браслета заранее не подтверждён.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Siam/Chit Lom + пешком"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active"
+    },
+    {
+      "id": "moca-bangkok",
+      "title": "MOCA Bangkok",
+      "kind": "Выставки",
+      "area": "Chatuchak",
+      "blurb": "Большой Museum of Contemporary Art Bangkok с постоянной коллекцией и временными выставками.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "499 Kamphaeng Phet 6 Rd, Lat Yao, Chatuchak, Bangkok 10900",
+      "mapQuery": "MOCA Bangkok Museum of Contemporary Art",
+      "url": "https://www.mocabangkok.com/admission/",
+      "source": "MOCA Bangkok — официальный сайт",
+      "new": false,
+      "notes": "Вт–вс 10:00–18:00, понедельник закрыт. Общий билет 400 ฿; специальные выставки могут оплачиваться отдельно.",
+      "eta": {
+        "min": 50,
+        "max": 75,
+        "via": "BTS/MRT + Red Line до Bang Khen + ~400 м пешком; приблизительно"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active"
     }
   ]
 }
