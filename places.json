@@ -1499,7 +1499,7 @@
       "days": null,
       "venue": "29 Soi Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110",
       "url": "https://www.trefac-th.com/location/",
-      "source": "Treasure Factory Thailand — официальный сайт",
+      "source": "Treasure Factory Thailand — официальный сайт / официальный Google Maps",
       "new": true,
       "notes": "Gentle Monster hunt. На 3 октября 2026: Gentle Monster 54022-146 Black — 2,980 ฿, Rank B, pickup подтверждён именно в Sukhumvit 39. WD1 Gray — 3,980 ฿, но сейчас только Phra Khanong. Остатки меняются быстро.",
       "eta": {
@@ -1508,7 +1508,11 @@
         "via": "Пешком от TRIBE по Soi Sukhumvit 39; приблизительно"
       },
       "status": "active",
-      "mapQuery": "Treasure Factory Sukhumvit 39 Bangkok"
+      "mapQuery": "Treasure Factory Sukhumvit 39 Bangkok",
+      "geo": [
+        13.7347974,
+        100.571462
+      ]
     },
     {
       "id": "2ndstreet-phromphong",
