@@ -1642,6 +1642,29 @@
       "addedAt": "2026-10-03",
       "status": "active",
       "mapQuery": "COMME des GARCONS One Bangkok The Storeys"
+    },
+    {
+      "id": "matter-makers-one-bangkok",
+      "title": "Matter Makers · One Bangkok",
+      "kind": "Магазины",
+      "area": "Lumphini",
+      "blurb": "Локальный тайский streetwear/casual бренд; понравился пользователю, стоит вернуться и посмотреть внимательнее.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Parade, G Floor, room 1G26, One Bangkok",
+      "mapQuery": "Matter Makers One Bangkok",
+      "url": "https://matter-makers.com/stores/",
+      "source": "Matter Makers — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 10:00–22:00.",
+      "eta": {
+        "min": 35,
+        "max": 50,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini → One Bangkok + пешком"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active"
     }
   ]
 }
