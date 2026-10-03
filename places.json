@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-10-03",
   "items": [
     {
       "id": "artbangkok",
@@ -1465,6 +1465,28 @@
       },
       "status": "active",
       "mapQuery": "Karo Coffee Roasters Bangkok"
+    },
+    {
+      "id": "sunrise-tacos-terminal21",
+      "title": "Sunrise Tacos · Terminal 21",
+      "kind": "Еда и бары",
+      "area": "Asok",
+      "blurb": "Мексиканский ресторан в Terminal 21 Asok: tacos, burritos, enchiladas, guacamole и другие классические позиции.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Terminal 21 Asok, 4F, shop 4026, 88 Sukhumvit Soi 19, Watthana, Bangkok 10110",
+      "url": "https://www.sunrisetacos.com/locations/",
+      "source": "Sunrise Tacos / Terminal 21 — официальные сайты",
+      "new": true,
+      "notes": "Ежедневно 10:00–22:00.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "BTS Phrom Phong → Asok + переход в Terminal 21; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Sunrise Tacos Terminal 21 Asok Bangkok"
     }
   ]
 }
