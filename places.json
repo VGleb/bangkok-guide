@@ -1688,6 +1688,29 @@
       "addedAt": "2026-10-03",
       "status": "active",
       "mapQuery": "Bloody Bunny & Friends Store Terminal21 Asok Bangkok"
+    },
+    {
+      "id": "victoria-arduino-sukhumvit33",
+      "title": "Victoria Arduino Official Store",
+      "kind": "Кофе",
+      "area": "Phrom Phong",
+      "blurb": "Двухэтажный шоурум и experience centre профессионального кофейного оборудования; можно знакомиться с машинами и кофейными tasting experiences.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "29 Soi Sukhumvit 33, Khlong Toei Nuea, Watthana, Bangkok 10110",
+      "url": "https://aromathailand.com/myshop/victoria-arduino-official-store/",
+      "source": "Victoria Arduino / Aroma Group — официальные страницы",
+      "new": true,
+      "notes": "Это прежде всего showroom/retail/experience centre, а не обычная кофейня. Victoria Arduino официально заявляет workshops и tasting experiences; регулярное café-меню не подтверждено. По официальной странице Aroma: пн–сб 08:00–17:00, вс закрыто.",
+      "eta": {
+        "min": 10,
+        "max": 20,
+        "via": "От TRIBE пешком к Sukhumvit Soi 33; приблизительно"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "mapQuery": "Victoria Arduino Official Store 29 Soi Sukhumvit 33 Bangkok"
     }
   ]
 }
