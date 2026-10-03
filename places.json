@@ -1711,6 +1711,75 @@
       "addedAt": "2026-10-03",
       "status": "active",
       "mapQuery": "Victoria Arduino Official Store 29 Soi Sukhumvit 33 Bangkok"
+    },
+    {
+      "id": "summer-coffee-terminal21-loveramics",
+      "title": "The Summer Coffee Company · Terminal 21 Asok",
+      "kind": "Кофе",
+      "area": "Asok",
+      "blurb": "Specialty coffee + кофейные аксессуары; подтверждён ассортимент Loveramics. Удобная точка для поиска кружки без возврата в One Bangkok.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Terminal 21 Asok, 2F, Bangkok",
+      "mapQuery": "The Summer Coffee Company Terminal 21 Asok",
+      "url": "https://thesummercoffee.com/",
+      "source": "The Summer Coffee Company — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 10:00–22:00. Loveramics подтверждён в этой точке; конкретный остаток Nutty Tasting Cup заранее не гарантирован.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "BTS Phrom Phong → Asok + переход в Terminal 21; приблизительно"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active"
+    },
+    {
+      "id": "summer-coffee-siam-paragon-loveramics",
+      "title": "The Summer Coffee Company · Siam Paragon",
+      "kind": "Кофе",
+      "area": "Siam",
+      "blurb": "Specialty coffee + кофейные аксессуары; Loveramics представлен в магазине. Резервная точка для поиска кружки.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Siam Paragon, G Floor, Bangkok",
+      "mapQuery": "The Summer Coffee Company Siam Paragon",
+      "url": "https://thesummercoffee.com/",
+      "source": "The Summer Coffee Company — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 10:00–22:00. Конкретный остаток Nutty Tasting Cup заранее не гарантирован.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Siam + пешком; приблизительно"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active"
+    },
+    {
+      "id": "summer-coffee-central-park-loveramics",
+      "title": "The Summer Coffee Company · Central Park",
+      "kind": "Кофе",
+      "area": "Lumphini / Silom",
+      "blurb": "Specialty coffee + кофейные аксессуары; Loveramics подтверждён. Ещё одна удобная точка по маршрутам через Lumphini.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Central Park, 2F, Bangkok",
+      "mapQuery": "The Summer Coffee Company Central Park Bangkok",
+      "url": "https://thesummercoffee.com/",
+      "source": "The Summer Coffee Company — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 10:00–22:00. Конкретный остаток Nutty Tasting Cup заранее не гарантирован.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Silom + пешком; приблизительно"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active"
     }
   ]
 }
