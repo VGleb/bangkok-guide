@@ -85,7 +85,7 @@
     let saved=points.some(wanted),cancel=points.every(x=>x.status==='cancelled');
     let color=COLORS[points[0].kind]||'#325d43';
     const html='<span class="map-point'+(!precise?' approx':'')+(saved?' saved':'')+(cancel?' canceled':'')+
-      '" style="'+(saved||cancel?'':'background:'+color+';')+'" title="'+(precise?'Площадка':'Примерный район')+'">'+
+      '" style="'+(saved||cancel?'':'--pin:'+color+';')+'" title="'+(precise?'Площадка':'Примерный район')+'">'+
       (saved?'★':points.length>1?points.length:'●')+'</span>';
     return L.divIcon({html:html,className:'',iconSize:[33,33],iconAnchor:[16,16],popupAnchor:[0,-17]});
   }
@@ -134,9 +134,9 @@
     if(map)return true;
     if(!window.L){$('mapStatus').textContent='Не удалось загрузить карту. Проверь интернет; ссылки Google Maps работают в каталоге.';return false;}
     map=L.map('bangkokMap',{zoomControl:true,scrollWheelZoom:false}).setView([13.739,100.535],12);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
-      attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors',
-      maxZoom:19,updateWhenIdle:true,keepBuffer:2
+    L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png',{
+      attribution:'&copy; <a href="https://stadiamaps.com/attribution/" target="_blank" rel="noopener">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank" rel="noopener">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>',
+      maxZoom:20,updateWhenIdle:true,keepBuffer:2
     }).addTo(map);
     layer=L.layerGroup().addTo(map);
     const homeIcon=L.divIcon({html:'<span class="map-home" title="Дом — TRIBE Living">⌂</span>',
