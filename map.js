@@ -76,14 +76,14 @@
     let z=S.rejected?all.filter(x=>progress.rejected.includes(x.id)):
       all.filter(x=>!progress.rejected.includes(x.id));
     const q=S.query.toLocaleLowerCase('ru').trim();
-    return z.filter(x=>(S.cat==='Все'||S.cat===x.kind)&&(!S.area||S.area===x.area)&&liveOn(x,S.date)&&
+    return z.filter(x=>(S.cat==='Все'||tagsOf(x).includes(S.cat))&&(!S.area||S.area===x.area)&&liveOn(x,S.date)&&
       (!S.planned||wanted(x))&&(!S.hide||!progress.visited.includes(x.id))&&
       (!S.priority||x.priority>=3)&&(!S.newOnly||isNew(x))&&
-      (!q||[x.title,x.blurb,x.area,x.venue,x.notes].join(' ').toLocaleLowerCase('ru').includes(q)));
+      (!q||[x.title,x.blurb,x.area,x.venue,x.notes,tagsOf(x).join(' ')].join(' ').toLocaleLowerCase('ru').includes(q)));
   }
   function pointIcon(points,precise){
     let saved=points.some(wanted),cancel=points.every(x=>x.status==='cancelled');
-    let color=COLORS[points[0].kind]||'#325d43';
+    let color=COLORS[CORE_TAGS.find(t=>tagsOf(points[0]).includes(t))]||'#325d43';
     const html='<span class="map-point'+(!precise?' approx':'')+(saved?' saved':'')+(cancel?' canceled':'')+
       '" style="'+(saved||cancel?'':'--pin:'+color+';')+'" title="'+(precise?'Площадка':'Примерный район')+'">'+
       (saved?'★':points.length>1?points.length:'●')+'</span>';
@@ -92,7 +92,7 @@
   function popupEntry(x,precise){
     const isPlanned=wanted(x),visited=progress.visited.includes(x.id);
     return '<div class="place"><h3>'+esc(x.title)+'</h3><p class="meta">'+
-      esc(x.kind)+' · '+esc(x.area)+(precise?'':' · ≈ расположение')+
+      esc(tagsOf(x).join(' · '))+' · '+esc(x.area)+(precise?'':' · ≈ расположение')+
       (isPlanned?' · ★ В плане':'')+(visited?' · ✓ Посещено':'')+'</p>'+
       (x.venue?'<p>'+esc(x.venue)+'</p>':'')+
       (x.id==='bkcaw'?'<p class="meta">Мероприятие на нескольких площадках: маркер показывает центральную часть города.</p>':'')+
