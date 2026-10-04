@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T10:18:00+07:00",
+  "updatedAt": "2026-10-04T19:30:00+07:00",
   "items": [
     {
       "id": "the-king-in-our-hearts-2026",
@@ -192,6 +192,34 @@
       "status": "confirmed",
       "tags": [
         "Выставки"
+      ]
+    },
+    {
+      "id": "love-after-death-korakrit-2026",
+      "title": "Love After Death — Korakrit Arunanondchai",
+      "kind": "Выставки",
+      "area": "Sathorn / Yen Akat",
+      "blurb": "Иммерсивная moving-image инсталляция: видео, performance footage, прозрачные проекции, программируемый свет и атмосферный звук; материал снят в заброшенном кинотеатре Лопбури.",
+      "venue": "BANGKOK CITYCITY GALLERY, 13/3 Sathorn Soi 1, Bangkok",
+      "mapQuery": "BANGKOK CITYCITY GALLERY Bangkok",
+      "url": "https://bangkokcitycity.com/exhibition/love-after-death/",
+      "source": "BANGKOK CITYCITY GALLERY — официальный сайт",
+      "dates": [
+        "2026-09-25",
+        "2026-11-14"
+      ],
+      "addedAt": "2026-10-04",
+      "new": true,
+      "priority": 3,
+      "eta": {
+        "min": 40,
+        "max": 55,
+        "via": "От TRIBE: BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini + пешком; приблизительно, не live-маршрут"
+      },
+      "status": "confirmed",
+      "tags": [
+        "Выставки",
+        "Медиаарт"
       ]
     }
   ]
