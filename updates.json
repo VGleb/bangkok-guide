@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03T22:10:00+07:00",
+  "updatedAt": "2026-10-04T10:18:00+07:00",
   "items": [
     {
       "id": "the-king-in-our-hearts-2026",
@@ -24,7 +24,10 @@
         "max": 70,
         "via": "От TRIBE пешком до BTS Phrom Phong, BTS/MRT до Hua Lamphong и пешком; приблизительно"
       },
-      "status": "confirmed"
+      "status": "confirmed",
+      "tags": [
+        "Выставки"
+      ]
     },
     {
       "id": "concrete-memory-dib-2026",
@@ -48,7 +51,10 @@
         "max": 45,
         "via": "TRIBE → ~10 min walk to BTS Phrom Phong → BTS Ekkamai → ~18 min walk; approximate, not live routing"
       },
-      "status": "confirmed"
+      "status": "confirmed",
+      "tags": [
+        "Дизайн"
+      ]
     },
     {
       "id": "reuse-revolution-2026",
@@ -73,7 +79,10 @@
         "max": 45,
         "via": "От TRIBE: BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini + пешком; приблизительно"
       },
-      "status": "confirmed"
+      "status": "confirmed",
+      "tags": [
+        "События"
+      ]
     },
     {
       "id": "the-shed-city-farmer-market-2026",
@@ -98,7 +107,10 @@
         "max": 35,
         "via": "От TRIBE пешком/короткий транспорт до Sukhumvit 26; приблизительно"
       },
-      "status": "confirmed"
+      "status": "confirmed",
+      "tags": [
+        "События"
+      ]
     },
     {
       "id": "pre-loved-market-emporium-oct-2026",
@@ -123,7 +135,10 @@
         "max": 25,
         "via": "От TRIBE пешком к Emporium / BTS Phrom Phong; приблизительно"
       },
-      "status": "confirmed"
+      "status": "confirmed",
+      "tags": [
+        "События"
+      ]
     },
     {
       "id": "worldbuilding-macro-micro-2026",
@@ -147,7 +162,10 @@
         "max": 70,
         "via": "От TRIBE: пешком до BTS Phrom Phong → BTS/MRT в сторону Hua Lamphong → пешком; приблизительно, не live-маршрут"
       },
-      "status": "confirmed"
+      "status": "confirmed",
+      "tags": [
+        "Выставки"
+      ]
     },
     {
       "id": "behind-my-eyes-hiroka-2026",
@@ -171,7 +189,10 @@
         "max": 60,
         "via": "TRIBE → BTS Phrom Phong → MRT Hua Lamphong + пешком; приблизительно"
       },
-      "status": "confirmed"
+      "status": "confirmed",
+      "tags": [
+        "Выставки"
+      ]
     }
   ]
 }
