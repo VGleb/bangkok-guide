@@ -8,10 +8,10 @@
     const ids=new Set();
     for(const p of doc.items) {
       if(!p||typeof p.id!=='string'||!/^[a-z0-9_-]{2,65}$/.test(p.id)||ids.has(p.id))throw Error('Duplicate or invalid place ID');
-      if(typeof p.title!=='string'||!p.title||typeof p.kind!=='string'||!CATEGORIES.includes(p.kind)||p.kind==='Все'||typeof p.area!=='string')throw Error('Invalid place');
+      if(typeof p.title!=='string'||!p.title||typeof p.area!=='string'||!tagsOf(p).length)throw Error('Invalid place');
       ids.add(p.id);
     }
-    BASE.splice(0,BASE.length,...doc.items);
+    BASE.splice(0,BASE.length,...doc.items.map(p=>({...p,kind:typeof p.kind==='string'&&p.kind.trim()?p.kind.trim():primaryTag(p),tags:tagsOf(p)})));
     const oldSeen=progress.seen.join(',');
     unifyStars(progress);
     if(oldSeen!==progress.seen.join(','))save();
