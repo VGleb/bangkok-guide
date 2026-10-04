@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T22:08:00+07:00",
+  "updatedAt": "2026-10-04",
   "items": [
     {
       "id": "the-king-in-our-hearts-2026",
@@ -228,6 +228,69 @@
       "geo": [
         13.72362,
         100.54456
+      ]
+    },
+    {
+      "id": "central-sanrio-characters-fair-2026",
+      "title": "Central Sanrio Characters Fair 2026",
+      "kind": "События",
+      "area": "Chatuchak / Ladprao",
+      "blurb": "Большая Sanrio-ярмарка с новыми коллекциями, special/limited items и активностями; главный целевой ивент для необычного Hello Kitty-мерча.",
+      "priority": 3,
+      "dates": [
+        "2026-10-08",
+        "2026-10-21"
+      ],
+      "days": null,
+      "venue": "Central Ladprao, Promotion Area, 1F",
+      "mapQuery": "Central Ladprao 1691 Phahonyothin Road Bangkok",
+      "url": "https://www.central.co.th/e-shopping/central-sanrio-characters-fair-2026",
+      "source": "Central — официальный анонс",
+      "new": true,
+      "notes": "8–21 октября 2026. 8 октября Hello Kitty, My Melody и Kuromi появляются 14:00–14:30. Центральный анонс обещает новые коллекции, special и limited items. Сам Central Ladprao открыт 10:00–22:00.",
+      "eta": {
+        "min": 45,
+        "max": 65,
+        "via": "BTS/MRT до Ha Yaek Lat Phrao / Phahon Yothin + пешком"
+      },
+      "addedAt": "2026-10-04",
+      "status": "confirmed",
+      "tags": [
+        "События",
+        "Hello Kitty"
+      ]
+    },
+    {
+      "id": "svleague-hello-kitty-huamark-2026",
+      "title": "SV.LEAGUE × Hello Kitty · Huamark",
+      "kind": "События",
+      "area": "Hua Mak",
+      "blurb": "Первые официальные зарубежные матчи японской женской SV.LEAGUE плюс отдельный официальный Hello Kitty collaboration merch внутри/у арены.",
+      "priority": 3,
+      "dates": [
+        "2026-10-10",
+        "2026-10-11"
+      ],
+      "days": [
+        "2026-10-10",
+        "2026-10-11"
+      ],
+      "venue": "Indoor Stadium Huamark, Bangkok",
+      "mapQuery": "Indoor Stadium Huamark Bangkok",
+      "url": "https://www.svleague.jp/special/2627thailand/",
+      "source": "SV.LEAGUE / Ticketmaster Thailand — официальные страницы",
+      "new": true,
+      "notes": "Матч SAGA Hisamitsu Springs vs ALEEZA Aichi начинается в 16:05. Официальный Hello Kitty collab merch продаётся на площадке; для части дорогих билетов есть priority lane в merchandise shop. Билеты: 200–3,500 ฿.",
+      "eta": {
+        "min": 45,
+        "max": 70,
+        "via": "Airport Rail Link до Ramkhamhaeng + далее автобус/короткий наземный транспорт; приблизительно"
+      },
+      "addedAt": "2026-10-04",
+      "status": "confirmed",
+      "tags": [
+        "События",
+        "Hello Kitty"
       ]
     }
   ]
