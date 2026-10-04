@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T10:18:00+07:00",
+  "updatedAt": "2026-10-04T03:39:33.092Z",
   "items": [
     {
       "id": "artbangkok",
@@ -496,7 +496,7 @@
       "url": "https://ragtagthailand.com/en/pages/shop-list",
       "source": "официальный сайт",
       "new": false,
-      "notes": "10:00–22:00; наличие и состояние каждой вещи проверять.",
+      "notes": "10:00–22:00; наличие и состояние каждой вещи проверять.\n\nD&G — ресейл: Поиск Dolce & Gabbana DG4413 3200/3 (Green Havana/Brown, 48–23–145). Наличие точной модели не подтверждено. Резервный вариант: уточнить, находится ли товар в этом филиале, и сравнить цену с новыми очками.",
       "eta": {
         "min": 35,
         "max": 50,
@@ -506,7 +506,8 @@
       "mapQuery": "RAGTAG One Bangkok The Storeys",
       "tags": [
         "Ресейл",
-        "Магазины"
+        "Магазины",
+        "D&G — ресейл"
       ]
     },
     {
@@ -522,7 +523,7 @@
       "url": "https://ragtagthailand.com/en/pages/shop-list",
       "source": "официальный сайт",
       "new": false,
-      "notes": "Gentle Monster hunt. В каталоге RAGTAG Thailand недавно были Gentle Monster именно с location CentralWorld: 5,600–6,000 ฿, condition B; найденные пары уже проданы. Имеет смысл проверять свежий stock перед визитом.",
+      "notes": "Gentle Monster hunt. В каталоге RAGTAG Thailand недавно были Gentle Monster именно с location CentralWorld: 5,600–6,000 ฿, condition B; найденные пары уже проданы. Имеет смысл проверять свежий stock перед визитом.\n\nD&G — ресейл: Поиск Dolce & Gabbana DG4413 3200/3 (Green Havana/Brown, 48–23–145). Наличие точной модели не подтверждено. Резервный вариант: уточнить, находится ли товар в этом филиале, и сравнить цену с новыми очками.",
       "eta": {
         "min": 30,
         "max": 45,
@@ -533,7 +534,8 @@
       "tags": [
         "Ресейл",
         "Магазины",
-        "Gentle Monster"
+        "Gentle Monster",
+        "D&G — ресейл"
       ]
     },
     {
@@ -628,7 +630,7 @@
       "url": "https://www.instagram.com/tokyojoebkk/",
       "source": "TOKYO JOE BKK / актуальная карточка 2026",
       "new": false,
-      "notes": "Ежедневно 10:00–20:00. Два этажа, чисто организованный second-hand: базовые вещи, аксессуары и брендовые позиции; около 2 минут от BTS Phrom Phong.",
+      "notes": "Ежедневно 10:00–20:00. Два этажа, чисто организованный second-hand: базовые вещи, аксессуары и брендовые позиции; около 2 минут от BTS Phrom Phong.\n\nD&G — ресейл: Поиск Dolce & Gabbana DG4413 3200/3 (Green Havana/Brown, 48–23–145). Наличие точной модели не подтверждено. Запросить по фото и маркировке. LINE: @tokyojoebkk; телефоны: 080 239 7222 / 083 615 6333.",
       "eta": {
         "min": 10,
         "max": 25,
@@ -638,7 +640,8 @@
       "mapQuery": "TOKYO JOE BKK 13 Sukhumvit 39 Bangkok",
       "tags": [
         "Ресейл",
-        "Магазины"
+        "Магазины",
+        "D&G — ресейл"
       ]
     },
     {
@@ -1776,7 +1779,7 @@
       "url": "https://www.trefac-th.com/location/",
       "source": "Treasure Factory Thailand — официальный сайт / официальный Google Maps",
       "new": true,
-      "notes": "Gentle Monster hunt. На 3 октября 2026: Gentle Monster 54022-146 Black — 2,980 ฿, Rank B, pickup подтверждён именно в Sukhumvit 39. WD1 Gray — 3,980 ฿, но сейчас только Phra Khanong. Остатки меняются быстро.",
+      "notes": "Gentle Monster hunt. На 3 октября 2026: Gentle Monster 54022-146 Black — 2,980 ฿, Rank B, pickup подтверждён именно в Sukhumvit 39. WD1 Gray — 3,980 ฿, но сейчас только Phra Khanong. Остатки меняются быстро.\n\nD&G — ресейл: Поиск Dolce & Gabbana DG4413 3200/3 (Green Havana/Brown, 48–23–145). Наличие точной модели не подтверждено. В просмотренном онлайн-каталоге её не найдено. Перед визитом запросить остаток по фото и маркировке. Телефон: 02 258 8980; 10:00–19:00.",
       "eta": {
         "min": 8,
         "max": 15,
@@ -1791,7 +1794,8 @@
       "tags": [
         "Ресейл",
         "Магазины",
-        "Gentle Monster"
+        "Gentle Monster",
+        "D&G — ресейл"
       ]
     },
     {
@@ -2307,6 +2311,37 @@
       ],
       "tags": [
         "Выставки"
+      ]
+    },
+    {
+      "id": "treasure-factory-phra-khanong",
+      "title": "Treasure Factory · Phra Khanong",
+      "kind": "Ресейл",
+      "area": "Phra Khanong",
+      "blurb": "Японский секонд и ресейл: брендовые очки и аксессуары. Точка для поиска D&G DG4413; наличие модели пока не подтверждено.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "1106 Sukhumvit Road, Phra Khanong, Khlong Toei, Bangkok 10110",
+      "url": "https://www.trefac-th.com/location/",
+      "source": "Treasure Factory Thailand — официальный сайт / официальный Google Maps",
+      "new": true,
+      "notes": "11:00–21:00; телефон 02 392 4640. Поиск Dolce & Gabbana DG4413 3200/3 (Green Havana/Brown, 48–23–145). Наличие точной модели не подтверждено. В просмотренном онлайн-каталоге её не найдено. Перед визитом запросить остаток по фото и маркировке, в том числе в других филиалах.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "Пешком до BTS Phrom Phong → Phra Khanong + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Treasure Factory Phra Khanong 1106 Sukhumvit Road Bangkok",
+      "geo": [
+        13.7141152,
+        100.5920025
+      ],
+      "tags": [
+        "Ресейл",
+        "Магазины",
+        "D&G — ресейл"
       ]
     }
   ]
