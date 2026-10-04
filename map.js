@@ -16,7 +16,7 @@
     weeknd:[13.72709,100.54728,true],ragtagone:[13.72709,100.54728,true],
     ragtagcw:[13.74652,100.53901,true], '2ndbrand':[13.74652,100.53901,true],
     '2ndgeneral':[13.74652,100.53901,true],sunday:[13.7376,100.5190,false],
-    tokyojoe:[13.7360,100.5740,false],hdkk:[13.7452,100.5325,false],
+    tokyojoe:[13.7311,100.57058,false],hdkk:[13.7452,100.5325,false],
     garcon:[13.7368,100.5066,false],ssstore:[13.7369,100.5070,false],
     spacebar:[13.7476,100.5232,false],happening:[13.74675,100.53027,true],
     iwanna:[13.7272,100.5310,false],paga:[13.7329,100.5659,false],
