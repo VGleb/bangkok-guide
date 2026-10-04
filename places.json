@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T03:39:33.092Z",
+  "updatedAt": "2026-10-04",
   "items": [
     {
       "id": "artbangkok",
@@ -2342,6 +2342,37 @@
         "Ресейл",
         "Магазины",
         "D&G — ресейл"
+      ]
+    },
+    {
+      "id": "sanrio-centralworld-hello-kitty",
+      "title": "Sanrio · CentralWorld",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Официальный Sanrio-отдел: Hello Kitty и другие персонажи, аксессуары, blind box, фигурки, одежда и позиции Only at Central. Базовая точка для поиска не самых банальных вещей Hello Kitty.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Central @ CentralWorld, 6F, Bangkok",
+      "mapQuery": "Sanrio CentralWorld Bangkok",
+      "url": "https://www.central.co.th/en/sanrio",
+      "source": "Central — официальный каталог Sanrio",
+      "new": true,
+      "notes": "6F. Ищи лимитированные/сезонные линейки, street/Y2K-аксессуары и Only at Central, а не только обычные плюши.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Chit Lom/Siam + пешком"
+      },
+      "addedAt": "2026-10-04",
+      "status": "active",
+      "geo": [
+        13.74652,
+        100.53901
+      ],
+      "tags": [
+        "Магазины",
+        "Hello Kitty"
       ]
     }
   ]
