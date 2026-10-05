@@ -2699,6 +2699,37 @@
         "Магазины",
         "PUMA"
       ]
+    },
+    {
+      "id": "big-c-ratchadamri-luggage",
+      "title": "Big C Supercenter Ratchadamri · багаж",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Большой Big C напротив CentralWorld; удобная точка для максимально дешёвого багажного чемодана. Ищи 24″ в районе 700–1000 ฿ — для лимита 23 кг это оптимальный размер без лишнего веса.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Big C Supercenter Ratchadamri, 97/11 Ratchadamri Rd, Lumphini, Pathum Wan, Bangkok",
+      "mapQuery": "Big C Supercenter Ratchadamri Bangkok",
+      "url": "https://www.bigc.co.th/",
+      "source": "Big C Thailand / актуальный каталог",
+      "new": true,
+      "notes": "Цель: бюджетный 24″ чемодан. Проверить колёса, телескопическую ручку и молнию перед покупкой. Для багажа 23 кг 24″ предпочтительнее тяжёлого 28″.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Chit Lom + пешком"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "geo": [
+        13.74826,
+        100.54196
+      ],
+      "tags": [
+        "Магазины",
+        "Багаж"
+      ]
     }
   ]
 }
