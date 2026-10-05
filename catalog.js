@@ -17,7 +17,6 @@
     if(oldSeen!==progress.seen.join(','))save();
     loaded=true;
     draw();
-    document.dispatchEvent(new Event('bangkok:draw'));
   }
   try {
     const previous=localStorage.getItem(CACHE_KEY);
