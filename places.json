@@ -2374,6 +2374,171 @@
         "Магазины",
         "Hello Kitty"
       ]
+    },
+    {
+      "id": "kaku-uchi-sukhumvit39",
+      "title": "KAKU-UCHI Liquor shop & tasting bar",
+      "kind": "Магазины",
+      "tags": [
+        "Ginjo",
+        "Магазины",
+        "Еда и бары"
+      ],
+      "area": "Phrom Phong",
+      "blurb": "Магазин японского алкоголя + kaku-uchi на Sukhumvit 39: бутылку можно выбрать и выпить на месте. Хорошая точка, чтобы попросить fruity/aromatic ginjo в заданном бюджете.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "36/9 Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.jiyuland4.com/nadayasaketen/",
+      "source": "Jiyuland, обновлено 05.05.2025 / актуальная Google Business карточка",
+      "new": true,
+      "notes": "Подтверждены японское саке и формат shop+tasting. В ассортименте упоминаются Shichida Junmai Daiginjo, BORN Yume wa Masayume и Mizubasho Premium; текущие цены по полке онлайн не опубликованы.",
+      "eta": {
+        "min": null,
+        "max": null,
+        "via": "От TRIBE — та же Sukhumvit 39; точный маршрут открыть в Google Maps"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "mapQuery": "KAKU-UCHI Liquor shop & tasting bar 36/9 Sukhumvit 39 Bangkok"
+    },
+    {
+      "id": "ufm-fuji-super-branch2-ginjo",
+      "title": "UFM Fuji Super · Branch 2",
+      "kind": "Магазины",
+      "tags": [
+        "Ginjo",
+        "Магазины"
+      ],
+      "area": "Phrom Phong",
+      "blurb": "Большой японский супермаркет на Sukhumvit 39. Имеет смысл проверять полку саке по пути: искать Ginjo / Junmai Ginjo с фруктовым профилем примерно до 1,000–1,400 ฿.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "79/79–80 Citi Resort Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://ufmfujisuper.com/branches/",
+      "source": "UFM Fuji Super — официальный список филиалов / актуальная Google Business карточка",
+      "new": true,
+      "notes": "Питьевой алкоголь не показывается в онлайн-каталоге/GrabMart, поэтому конкретный shelf stock ginjo заранее не подтверждён. Не путать с Takara cooking sake.",
+      "eta": {
+        "min": null,
+        "max": null,
+        "via": "От TRIBE — Sukhumvit 39; точный маршрут открыть в Google Maps"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "mapQuery": "UFM Fuji Super Branch 2 79 Sukhumvit 39 Bangkok"
+    },
+    {
+      "id": "sake-forest-rain-hill",
+      "title": "SAKE FOREST @ Rain Hill",
+      "kind": "Магазины",
+      "tags": [
+        "Ginjo",
+        "Магазины"
+      ],
+      "area": "Phrom Phong / Thong Lo",
+      "blurb": "Один из крупнейших специализированных магазинов японского алкоголя в Бангкоке. Лучший кандидат за бутылкой ginjo/junmai ginjo с понятной консультацией.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Rain Hill, 2F, L2-08/L2-09, 777 Sukhumvit 47 Rd., Bangkok 10110",
+      "url": "https://www.scstrading.co.th/sake-forest/",
+      "source": "SAKE FOREST / SCS Trading — официальный сайт",
+      "new": true,
+      "notes": "Официальная линейка импортёра включает Fukuju Junmai Ginjo и Kitaya Souden Junmai Ginjo; бывают дегустации. Хороший запрос продавцу: fruity/aromatic ginjo, 720 ml, около 1,000–1,400 ฿.",
+      "eta": {
+        "min": null,
+        "max": null,
+        "via": "Rain Hill между BTS Phrom Phong и Thong Lo; точный маршрут открыть в Google Maps"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "mapQuery": "SAKE FOREST Rain Hill Bangkok"
+    },
+    {
+      "id": "cheeky-sake-thonglor13",
+      "title": "Cheeky Sake",
+      "kind": "Еда и бары",
+      "tags": [
+        "Ginjo",
+        "Еда и бары",
+        "Магазины"
+      ],
+      "area": "Thong Lo",
+      "blurb": "Sake shop/bar на Thong Lo 13: можно сначала попробовать саке по бокалу, затем купить понравившуюся бутылку домой.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "261 Thong Lo 13 Alley, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.lemon8-app.com/%40nun_2343/7473084980244267537?region=th",
+      "source": "Актуальная Google Business карточка / публичные обзоры Cheeky Sake",
+      "new": true,
+      "notes": "Подходит, если не хочется выбирать вслепую: попросить дать попробовать fruity/aromatic ginjo перед покупкой бутылки.",
+      "eta": {
+        "min": null,
+        "max": null,
+        "via": "Thong Lo 13; точный маршрут открыть в Google Maps"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "mapQuery": "Cheeky Sake 261 Thong Lo 13 Bangkok"
+    },
+    {
+      "id": "orihara-shoten-ekkamai",
+      "title": "Orihara Shoten",
+      "kind": "Еда и бары",
+      "tags": [
+        "Ginjo",
+        "Еда и бары",
+        "Магазины"
+      ],
+      "area": "Ekkamai",
+      "blurb": "Классический sake shop + bar в Park Lane Ekkamai с большим выбором японского саке. Можно пробовать по бокалам и покупать бутылки.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Park Lane 18, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.instagram.com/oriharashoten_bkk/",
+      "source": "Orihara Shoten Bangkok / актуальная Google Business карточка",
+      "new": true,
+      "notes": "Хороший вариант для сравнения нескольких стилей. Просить фруктовый ginjo или junmai ginjo; ассортимент большой, но текущие бутылки и цены меняются.",
+      "eta": {
+        "min": null,
+        "max": null,
+        "via": "Район BTS Ekkamai; точный маршрут открыть в Google Maps"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "mapQuery": "Orihara Shoten Park Lane Ekkamai Bangkok"
+    },
+    {
+      "id": "yoshibar-sukhumvit53",
+      "title": "Yoshibar",
+      "kind": "Еда и бары",
+      "tags": [
+        "Ginjo",
+        "Еда и бары"
+      ],
+      "area": "Thong Lo",
+      "blurb": "Саке-бар с 100+ меняющимися позициями. Удобнее всего сначала понять любимый профиль по бокалам или tasting flight, а потом уже искать бутылку.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "124 Sukhumvit 53 Alley, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.instagram.com/yoshibarbkk/",
+      "source": "Yoshibar / BangkokGotMe, данные проверены 08.06.2026",
+      "new": true,
+      "notes": "Ориентир: около 200–320 ฿ за 90 мл; tasting flight 3×60 мл — около 690 ฿. Просить fruity/aromatic ginjo.",
+      "eta": {
+        "min": null,
+        "max": null,
+        "via": "Sukhumvit 53; точный маршрут открыть в Google Maps"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "mapQuery": "Yoshibar 124 Sukhumvit 53 Bangkok"
     }
   ]
 }
