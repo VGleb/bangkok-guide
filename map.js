@@ -50,7 +50,7 @@
   const COLORS = {'События':'#b96b31','Выставки':'#8d65a6','Дизайн':'#547ba1',
     'Ресейл':'#74665b','Магазины':'#48817d','Спорт':'#4684bd','Кофе':'#9c7351',
     'Еда и бары':'#a95b5b','Районы':'#617853','Природа':'#4c8a57'};
-  let map=null,layer=null,homePin=null,userPin=null,userCircle=null,userPosition=null,mapVisible=false;
+  let map=null,layer=null,homePin=null,userPin=null,userCircle=null,userPosition=null,mapVisible=false,mapFrame=0;
   let activeMarkerCount=-1;
   const $=id=>document.getElementById(id);
   const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -165,17 +165,29 @@
     return true;
   }
   function switchView(next){
-    mapVisible=next==='map';
-    $('viewList').classList.toggle('active',!mapVisible);
-    $('viewMap').classList.toggle('active',mapVisible);
-    $('viewList').setAttribute('aria-pressed',String(!mapVisible));
-    $('viewMap').setAttribute('aria-pressed',String(mapVisible));
-    $('listView').hidden=mapVisible;
-    $('mapView').hidden=!mapVisible;
-    if(mapVisible)requestAnimationFrame(()=>{
-      if(setup()){map.invalidateSize();update();}
+    const showMap=next==='map';
+    mapVisible=showMap;
+    $('viewList').classList.toggle('active',!showMap);
+    $('viewMap').classList.toggle('active',showMap);
+    $('viewList').setAttribute('aria-pressed',String(!showMap));
+    $('viewMap').setAttribute('aria-pressed',String(showMap));
+    $('listView').hidden=showMap;
+    $('mapView').hidden=!showMap;
+    if(mapFrame){cancelAnimationFrame(mapFrame);mapFrame=0}
+    if(!showMap){
+      if(map){map.stop();map.closePopup();}
+      return;
+    }
+    mapFrame=requestAnimationFrame(()=>{
+      mapFrame=0;
+      if(!mapVisible||!setup())return;
+      mapFrame=requestAnimationFrame(()=>{
+        mapFrame=0;
+        if(!mapVisible||!map)return;
+        map.invalidateSize({pan:false});
+        update();
+      });
     });
-    history.replaceState(null,'',window.location.pathname+window.location.search+(mapVisible?'#map':''));
   }
   function showHome(){
     if(!map)return;
@@ -211,13 +223,7 @@
     $('mapHome').addEventListener('click',showHome);
     $('mapLocate').addEventListener('click',locateMe);
     $('mapFit').addEventListener('click',fitAll);
-    const nativeDraw=window.draw;
-    if(typeof nativeDraw==='function'&&!nativeDraw.__bangkokMapWrapped){
-      const wrapped=function(...args){const out=nativeDraw.apply(this,args);document.dispatchEvent(new Event('bangkok:draw'));return out};
-      wrapped.__bangkokMapWrapped=true;window.draw=wrapped;
-    }
     document.addEventListener('bangkok:draw',()=>{if(mapVisible)update()});
-    if(window.location.hash==='#map')history.replaceState(null,'',window.location.pathname+window.location.search); // Every fresh app launch starts with catalog tiles.
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
