@@ -86,7 +86,7 @@ async function loadJsonFile(e,mode){let f=e.target.files?.[0];if(!f)return;try{l
 
 // Per-item/per-field timestamps allow two devices to merge changes without
 // replacing unrelated preferences. The browser never sends a PAT to this app's site.
-const GH_CONF_KEY='bangkok-github-config-v1',GH_LOCAL_KEY='bangkok-github-token-v1',GH_LOG_KEY='bangkok-github-journal-v1';
+const GH_CONF_KEY='bangkok-github-config-v1',GH_LOCAL_KEY='bangkok-github-token-v1',GH_LOG_KEY='bangkok-github-journal-v1',GH_PENDING_KEY='bangkok-github-pending-v1',GH_SYNCED_KEY='bangkok-github-synced-v1';
 const GH_FILE='travel/feedback.json',GH_FIELDS=['fav','planned','visited','seen','rejected','reason','note'];
 let ghConf=null,ghToken='',ghJournal={},ghSnapshot=null,ghTimer=null,ghActive=null,ghDirty=false,ghVerifying=false,ghLastPush='';
 const clone=x=>JSON.parse(JSON.stringify(x));
@@ -113,6 +113,9 @@ function mergeJournal(a,b){const m=clone(a);for(const [id,r] of Object.entries(b
   for(const [k,v] of Object.entries(r.fields||{})){if(!entry.fields[k]||v.at>entry.fields[k].at)entry.fields[k]=clone(v)}
 }return m}
 function cacheJournal(){putLS(GH_LOG_KEY,JSON.stringify(ghDoc(ghJournal)))}
+function journalSignature(j){const s=JSON.stringify(j);let v=2166136261;for(let i=0;i<s.length;i++){v^=s.charCodeAt(i);v=Math.imul(v,16777619)}return (v>>>0).toString(16)+':'+s.length}
+function markGhPending(){ghDirty=true;putLS(GH_PENDING_KEY,'1')}
+function clearGhPending(){ghDirty=false;localStorage.removeItem(GH_PENDING_KEY);putLS(GH_SYNCED_KEY,journalSignature(ghJournal))}
 function legacyJournal(){const j={},ts='2000-01-01T00:00:00.000Z';
   for(const k of ['fav','planned','visited','seen','rejected'])for(const id of progress[k])journalItem(j,id).fields[k]={value:true,at:ts};
   for(const [id,m] of Object.entries(progress.rejectedMeta)){
@@ -122,7 +125,7 @@ function legacyJournal(){const j={},ts='2000-01-01T00:00:00.000Z';
     if(m.note)r.fields.note={value:String(m.note).slice(0,350),at:ts};
   }return j;
 }
-function initGhJournal(){try{ghJournal=normalizeJournal(JSON.parse(getLS(GH_LOG_KEY)))}catch(e){ghJournal=legacyJournal();cacheJournal()};ghSnapshot=clone(progress)}
+function initGhJournal(){try{ghJournal=normalizeJournal(JSON.parse(getLS(GH_LOG_KEY)))}catch(e){ghJournal=legacyJournal();cacheJournal()};ghSnapshot=clone(progress);ghDirty=getLS(GH_PENDING_KEY)==='1'||getLS(GH_SYNCED_KEY)!==journalSignature(ghJournal)}
 function applyJournal(j){
   const p={fav:[],planned:[],visited:[],seen:[],rejected:[],rejectedMeta:{}};
   for(const [id,r] of Object.entries(j)){for(const k of ['fav','planned','visited','seen','rejected'])if(r.fields?.[k]?.value===true)p[k].push(id);
@@ -142,7 +145,7 @@ function captureGhChanges(syncDelay=0){
     if(Object.keys(deltas).length){const r=journalItem(ghJournal,id),src=items().find(x=>x.id===id)||b||a;
       r.meta=normalizeMeta(src);for(const [k,v] of Object.entries(deltas))r.fields[k]={value:v,at:now};changed=true}
   }
-  ghSnapshot=clone(progress);if(changed){cacheJournal();ghDirty=true;queueGhSync(syncDelay)};return changed;
+  ghSnapshot=clone(progress);if(changed){cacheJournal();markGhPending();queueGhSync(syncDelay)};return changed;
 }
 const u64=s=>{const bytes=new TextEncoder().encode(s);let binary='';for(let i=0;i<bytes.length;i+=8192)binary+=String.fromCharCode(...bytes.subarray(i,i+8192));return btoa(binary)};
 const d64=s=>{const bytes=Uint8Array.from(atob(s.replace(/\s+/g,'')),c=>c.charCodeAt(0));return new TextDecoder().decode(bytes)};
@@ -181,15 +184,16 @@ async function ghSync(){
         // Incorporate remote state, but re-merge edits made during the network request.
         ghJournal=mergeJournal(merged,ghJournal);applyJournal(ghJournal);
         ghDirty=JSON.stringify(ghJournal)!==JSON.stringify(merged);
+        if(ghDirty)putLS(GH_PENDING_KEY,'1');else clearGhPending();
         ghLastPush=new Date().toLocaleTimeString('ru-RU',{hour:'2-digit',minute:'2-digit'});
         ghStatus('☁ Сохранено в GitHub · '+ghLastPush,'good');ghMessage('Синхронизация выполнена: '+ghConf.owner+'/'+ghConf.repo,'good');
         syncSucceeded=true;
         return;
       }
-    }catch(e){ghDirty=true;ghStatus('☁ Не синхронизировано','bad');ghMessage(String(e.message||e),'bad')}
+    }catch(e){markGhPending();ghStatus('☁ Не синхронизировано','bad');ghMessage(String(e.message||e),'bad')}
   })();try{return await ghActive}finally{ghActive=null;if(syncSucceeded&&ghDirty&&ghConf&&ghToken)queueGhSync(0)}
 }
-function queueGhSync(delay=0){if(!ghConf||!ghToken)return;ghStatus('☁ Есть несохранённые изменения','pending');clearTimeout(ghTimer);ghTimer=setTimeout(()=>ghSync(),Math.max(0,delay))}
+function queueGhSync(delay=0){if(!ghConf||!ghToken){markGhPending();ghStatus('☁ Не синхронизировано — подключи GitHub','bad');ghMessage('Изменения сохранены на этом устройстве, но ещё не отправлены в GitHub. Открой ☁ Облако и подключись один раз.','bad');return}ghStatus('☁ Есть несохранённые изменения','pending');clearTimeout(ghTimer);ghTimer=setTimeout(()=>ghSync(),Math.max(0,delay))}
 function ghRememberSettings(){if(!ghConf)return;putLS(GH_CONF_KEY,JSON.stringify(ghConf));}
 async function ghConnect(){
   const v=el('ghRepo').value.trim(),tok=el('ghToken').value.trim()||ghToken,match=/^([A-Za-z0-9-]{1,39})\/([A-Za-z0-9_.-]{1,100})$/.exec(v);
@@ -204,14 +208,15 @@ async function ghConnect(){
 }
 function initGithub(){
   initGhJournal();try{const v=JSON.parse(getLS(GH_CONF_KEY));if(v&&/^[A-Za-z0-9-]{1,39}$/.test(v.owner)&&/^[A-Za-z0-9_.-]{1,100}$/.test(v.repo))ghConf=v}catch(e){}
-  ghToken=sessionStorage.getItem(GH_LOCAL_KEY)||getLS(GH_LOCAL_KEY)||'';el('ghRemember').checked=!!getLS(GH_LOCAL_KEY);
-  if(ghConf){el('ghRepo').value=ghConf.owner+'/'+ghConf.repo;ghStatus(ghToken?'☁ Подключено — проверка…':'☁ Нужен токен',ghToken?'pending':'bad');if(ghToken)verifyGh().then(async()=>{await ghSync();await fetchUpdates()}).catch(e=>{ghMessage(e.message,'bad');ghStatus('☁ Ошибка подключения','bad')})}
+  ghToken=sessionStorage.getItem(GH_LOCAL_KEY)||getLS(GH_LOCAL_KEY)||'';el('ghRemember').checked=getLS(GH_LOCAL_KEY)?true:!ghToken;
+  if(ghConf){el('ghRepo').value=ghConf.owner+'/'+ghConf.repo;const missing=ghDirty&&!ghToken;ghStatus(ghToken?'☁ Подключено — проверка…':missing?'☁ Есть несинхронизированные изменения — нужен GitHub':'☁ Нужен токен',ghToken?'pending':'bad');if(missing)ghMessage('Локальные отметки ждут отправки. Подключи GitHub — они будут объединены с удалёнными данными.','bad');if(ghToken)verifyGh().then(async()=>{await ghSync();await fetchUpdates()}).catch(e=>{markGhPending();ghMessage(e.message,'bad');ghStatus('☁ Ошибка подключения','bad')})}
+  else if(ghDirty){ghStatus('☁ Есть несинхронизированные изменения — нужен GitHub','bad');ghMessage('Локальные отметки ждут отправки. Подключи приватный GitHub в ☁ Облако.','bad')}
   window.addEventListener('online',()=>ghSync());document.addEventListener('visibilitychange',()=>{if(!document.hidden)ghSync()});
   setInterval(()=>{if(!document.hidden)ghSync()},120000);
 }
 el('cloudOpen').addEventListener('click',()=>{let section=el('cloudSetup');section.hidden=!section.hidden;el('cloudOpen').setAttribute('aria-expanded',String(!section.hidden))});
 el('ghConnect').addEventListener('click',ghConnect);
 el('ghSyncNow').addEventListener('click',async()=>{if(!ghConf||!ghToken){ghMessage('Сначала подключи приватный репозиторий.','bad');return}await ghSync();await fetchUpdates()});
-el('ghDisconnect').addEventListener('click',()=>{clearTimeout(ghTimer);ghConf=null;ghToken='';el('ghToken').value='';localStorage.removeItem(GH_CONF_KEY);localStorage.removeItem(GH_LOCAL_KEY);sessionStorage.removeItem(GH_LOCAL_KEY);ghStatus('Отметки сохранены на устройстве');ghMessage('GitHub отключён. Локальные отметки сохранены.','good')});
+el('ghDisconnect').addEventListener('click',()=>{clearTimeout(ghTimer);ghConf=null;ghToken='';el('ghToken').value='';localStorage.removeItem(GH_CONF_KEY);localStorage.removeItem(GH_LOCAL_KEY);sessionStorage.removeItem(GH_LOCAL_KEY);ghStatus(ghDirty?'☁ Не синхронизировано — GitHub отключён':'Отметки сохранены на устройстве',ghDirty?'bad':'');ghMessage(ghDirty?'Есть локальные изменения, которые ещё не отправлены в GitHub. Подключи GitHub, чтобы не потерять их.':'GitHub отключён. Новые изменения будут сохраняться только локально.',ghDirty?'bad':'good')});
 
 initSaved();initGithub();draw();fetchUpdates();setInterval(fetchUpdates,30*60*1000);el('refresh').onclick=fetchUpdates;el('onlynew').onclick=()=>{S.newOnly=!S.newOnly;S.rejected=false;draw()};el('onlyplanned').onclick=()=>{S.planned=!S.planned;S.rejected=false;draw()};el('hidevisited').onclick=()=>{S.hide=!S.hide;S.rejected=false;draw()};el('priority').onclick=()=>{S.priority=!S.priority;S.rejected=false;draw()};el('rejected').onclick=()=>{S.rejected=!S.rejected;draw()};el('reset').onclick=()=>{Object.assign(S,{cat:'Все',query:'',area:'',date:'',hide:false,priority:false,newOnly:false,planned:false,rejected:false,sort:'rank'});draw()};el('search').oninput=e=>{S.query=e.target.value;S.rejected=false;draw()};el('area').onchange=e=>{S.area=e.target.value;S.rejected=false;draw()};el('date').onchange=e=>{S.date=e.target.value;S.rejected=false;draw()};el('sort').onchange=e=>{S.sort=e.target.value;draw()};el('exportData').onclick=exportProgress;el('exportFeedback').onclick=()=>download(rejectionText(),'bangkok_feedback_for_chatgpt.txt','text/plain;charset=utf-8');el('copyFeedback').onclick=copyFeedback;el('importData').onchange=e=>loadJsonFile(e,'marks');el('importFeed').onchange=e=>loadJsonFile(e,'feed');el('markAllSeen').onclick=()=>{progress.seen=[...new Set([...progress.seen,...items().filter(isNew).map(x=>x.id)])];save();draw()};el('saveFeed').onclick=()=>{let v=el('feedUrl').value.trim();if(!/^https:\/\//.test(v)){el('notice').textContent='Нужна публичная HTTPS-ссылка';return}feedUrl=v;putLS(FEED_KEY,v);fetchUpdates()};el('defaultFeed').onclick=()=>{feedUrl='./updates.json';putLS(FEED_KEY,feedUrl);el('feedUrl').value='';fetchUpdates()};el('saveOrigin').onclick=()=>{origin=el('originInput').value.trim()||O0;putLS(ORIGIN_KEY,origin);el('notice').textContent='Адрес сохранён для Google Maps. Оценки времени в карточках рассчитаны от TRIBE Living.';draw()};
