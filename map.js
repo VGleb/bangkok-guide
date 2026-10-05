@@ -76,7 +76,7 @@
     let z=S.rejected?all.filter(x=>progress.rejected.includes(x.id)):
       all.filter(x=>!progress.rejected.includes(x.id));
     const q=S.query.toLocaleLowerCase('ru').trim();
-    return z.filter(x=>(S.cat==='Все'||tagsOf(x).includes(S.cat))&&(!S.area||S.area===x.area)&&liveOn(x,S.date)&&
+    return z.filter(x=>!isExpired(x)&&(S.cat==='Все'||tagsOf(x).includes(S.cat))&&(!S.area||S.area===x.area)&&liveOn(x,S.date)&&
       (!S.planned||wanted(x))&&(!S.hide||!progress.visited.includes(x.id))&&
       (!S.priority||x.priority>=3)&&(!S.newOnly||isNew(x))&&
       (!q||[x.title,x.blurb,x.area,x.venue,x.notes,tagsOf(x).join(' ')].join(' ').toLocaleLowerCase('ru').includes(q)));
