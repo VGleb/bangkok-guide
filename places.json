@@ -2668,6 +2668,37 @@
         "Магазины",
         "Levi’s"
       ]
+    },
+    {
+      "id": "puma-centralworld-flagship",
+      "title": "PUMA Central World Flagship Store",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Флагманский PUMA в CentralWorld: большой городской магазин с широким ассортиментом lifestyle и performance. Хорошая точка, чтобы проверить текущие скидки без поездки в дальний outlet.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "CentralWorld, 3F, Unit B316-318, Bangkok",
+      "mapQuery": "PUMA Central World Flagship Store Bangkok",
+      "url": "https://th.puma.com/th/en/store-locator.html",
+      "source": "PUMA Thailand — официальный store locator",
+      "new": true,
+      "notes": "3F, Unit B316-318. Ежедневно 10:00–22:00. Это flagship, не outlet; размер текущих скидок заранее не подтверждён.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Chit Lom/Siam + пешком"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "geo": [
+        13.74652,
+        100.53901
+      ],
+      "tags": [
+        "Магазины",
+        "PUMA"
+      ]
     }
   ]
 }
