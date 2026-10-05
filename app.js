@@ -2,7 +2,7 @@ const BASE=[];
 const CORE_TAGS=['События','Выставки','Дизайн','Ресейл','Магазины','Спорт','Кофе','Еда и бары','Районы','Природа'];
 const PROGRESS_KEY='bkk-curated-2026-checklist-v1',FEED_KEY='bkk-curated-feed-url-v2',CACHE_KEY='bkk-curated-feed-cache-v2',ORIGIN_KEY='bkk-curated-origin-v2';
 const O0='TRIBE Living Bangkok Sukhumvit 39, 122 Soi Sukhumvit 39, Bangkok, Thailand';
-const TRIP_END='2026-10-10';
+const TRIP_END='2026-10-15';
 const S={cat:'Все',query:'',area:'',date:'',hide:false,priority:false,newOnly:false,planned:false,rejected:false,sort:'rank'};
 let progress={fav:[],planned:[],visited:[],seen:[],rejected:[],rejectedMeta:{}},incoming=[],origin=O0,feedUrl='./updates.json',lastSynced='';
 const el=id=>document.getElementById(id);const h=v=>String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
