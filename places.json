@@ -2428,7 +2428,11 @@
       },
       "addedAt": "2026-10-05",
       "status": "active",
-      "mapQuery": "UFM Fuji Super Branch 2 79 Sukhumvit 39 Bangkok"
+      "mapQuery": "UFM Fuji Super Branch 2 79 Sukhumvit 39 Bangkok",
+      "geo": [
+        13.7423237,
+        100.5721071
+      ]
     },
     {
       "id": "sake-forest-rain-hill",
@@ -2455,7 +2459,11 @@
       },
       "addedAt": "2026-10-05",
       "status": "active",
-      "mapQuery": "SAKE FOREST Rain Hill Bangkok"
+      "mapQuery": "SAKE FOREST Rain Hill Bangkok",
+      "geo": [
+        13.7279644,
+        100.5741864
+      ]
     },
     {
       "id": "cheeky-sake-thonglor13",
@@ -2511,7 +2519,11 @@
       },
       "addedAt": "2026-10-05",
       "status": "active",
-      "mapQuery": "Orihara Shoten Park Lane Ekkamai Bangkok"
+      "mapQuery": "Orihara Shoten Park Lane Ekkamai Bangkok",
+      "geo": [
+        13.72349,
+        100.5845
+      ]
     },
     {
       "id": "yoshibar-sukhumvit53",
@@ -2538,7 +2550,11 @@
       },
       "addedAt": "2026-10-05",
       "status": "active",
-      "mapQuery": "Yoshibar 124 Sukhumvit 53 Bangkok"
+      "mapQuery": "Yoshibar 124 Sukhumvit 53 Bangkok",
+      "geo": [
+        13.73138,
+        100.57831
+      ]
     }
   ]
 }
