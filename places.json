@@ -1,1 +1,2673 @@
-{"version":1,"updatedAt":"2026-10-05T13:55:00.000Z","items":[{"id":"artbangkok","title":"Art Bangkok 2026","kind":"События","area":"Siam","blurb":"Первая международная ярмарка современного искусства: тайские и зарубежные галереи.","priority":3,"dates":["2026-10-08","2026-10-11"],"days":null,"venue":"Siam Paragon, 5F, NEX Hall & Jewel Zone","url":"https://artbangkok.org/","source":"официальный сайт","new":true,"notes":"7 октября — день по приглашениям; публика — с 8 октября. Ярмарка продолжается до 11-го.","eta":{"min":35,"max":50,"via":"BTS Phrom Phong → Siam + пешком"},"addedAt":"2026-09-29","status":"active","mapQuery":"Siam Paragon Bangkok","tags":["События"]},{"id":"vwestwood","title":"Vivienne Westwood & Jewellery","kind":"Выставки","area":"Chidlom","blurb":"Архив украшений за четыре десятилетия в восьми залах; также подиумные образы.","priority":3,"dates":["2026-10-02","2026-10-23"],"days":null,"venue":"Central Chidlom, Event Hall, 2F","url":"https://www.timeout.com/bangkok/news/vivienne-westwood-jewellery-exhibition-bangkok-091126","source":"Time Out / анонс организаторов","new":true,"notes":"До 23 октября. Билет ориентировочно 200 ฿.","eta":{"min":30,"max":45,"via":"BTS Phrom Phong → Chit Lom + пешком"},"addedAt":"2026-09-29","status":"active","mapQuery":"Central Chidlom Bangkok","tags":["Выставки"]},{"id":"kunstmelt","title":"Spirits Melt to Flesh","kind":"Выставки","area":"Old Town","blurb":"Медиаарт восьми азиатских художников: видео, звук, скульптура и фотография.","priority":3,"dates":["2026-10-02","2026-10-04"],"days":null,"venue":"Bangkok Kunsthalle, 599 Pantachit Alley","url":"https://khaoyaiart.org/bk/exhibitions/","source":"официальный сайт","new":false,"notes":"Успеть до закрытия 4 октября.","eta":{"min":50,"max":70,"via":"BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком"},"status":"active","mapQuery":"Bangkok Kunsthalle 599 Pantachit Alley Bangkok","tags":["Выставки"]},{"id":"kunstwfire","title":"The Preservation of Fire","kind":"Выставки","area":"Old Town","blurb":"Инсталляция Busui Ajaw: архитектура дома акха, текстиль, культурная память.","priority":2,"dates":["2026-10-02","2026-11-01"],"days":null,"venue":"Bangkok Kunsthalle, 599 Pantachit Alley","url":"https://khaoyaiart.org/bk/exhibitions/","source":"официальный сайт","new":false,"notes":"До 1 ноября.","eta":{"min":50,"max":70,"via":"BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком"},"status":"active","mapQuery":"Bangkok Kunsthalle 599 Pantachit Alley Bangkok","tags":["Выставки"]},{"id":"tcdcliving","title":"Living Room / Stationerycore","kind":"Дизайн","area":"Charoen Krung","blurb":"Две действующие выставки о материалах, предметном дизайне и канцелярии.","priority":3,"dates":["2026-10-02","2026-10-25"],"days":null,"venue":"TCDC Bangkok, Grand Postal Building","url":"https://www.tcdc.or.th/en/home/tcdc-bangkok","source":"официальный сайт","new":false,"notes":"Living Room — до 25 октября, Stationerycore — до 18 октября.","eta":{"min":55,"max":75,"via":"BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком"},"status":"active","mapQuery":"Thailand Creative Design Center Grand Postal Building Bangkok","tags":["Дизайн"]},{"id":"tcdcmaterial","title":"Material Submission 2026","kind":"События","area":"Charoen Krung","blurb":"Отдельная программа TCDC по отбору и исследованию материалов.","priority":1,"dates":["2026-10-08","2026-10-08"],"days":null,"venue":"TCDC Bangkok","url":"https://www.tcdc.or.th/en/home","source":"официальный сайт","new":false,"notes":"На 8 октября есть событие в афише; детали и доступ проверить по организатору.","eta":{"min":55,"max":75,"via":"BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком"},"status":"active","mapQuery":"Thailand Creative Design Center Grand Postal Building Bangkok","tags":["События"]},{"id":"nic","title":"NIC Factory Vintage Flea Market","kind":"События","area":"Charoen Krung","blurb":"Маркет винтажных предметов в бывшей табачной фабрике.","priority":1,"dates":["2026-10-02","2026-10-04"],"days":null,"venue":"NIC Factory, Charoen Krung 74","url":"https://www.timeout.com/bangkok/things-to-do/events-this-month","source":"Time Out","new":false,"notes":"В основном мебель, интерьер и коллекционные предметы — не аналог Kindal.","eta":{"min":60,"max":80,"via":"BTS Phrom Phong → Siam → Saphan Taksin + пешком"},"status":"active","mapQuery":"NIC Factory Charoen Krung 74 Bangkok","tags":["События"]},{"id":"bkcaw","title":"Bangkok Climate Action Week","kind":"События","area":"Разные районы","blurb":"Фестиваль городской среды: инсталляции и отдельные художественные проекты по всему городу.","priority":2,"dates":["2026-10-03","2026-10-11"],"days":null,"venue":"Разные площадки","url":"https://www.bangkokclimateactionweek.org/en/programme","source":"официальный сайт","new":false,"notes":"","eta":{"min":null,"max":null,"via":"Разные площадки — уточняется для конкретного события"},"status":"active","tags":["События"]},{"id":"reefs","title":"Beneath the Surface; Everything","kind":"Выставки","area":"Old Town","blurb":"Арт-проект об искусственных рифах и сочетании дизайна, науки и восстановления экосистем.","priority":2,"dates":["2026-10-02","2026-10-11"],"days":null,"venue":"Bangkok 1899","url":"https://www.bangkokclimateactionweek.org/en/programme/399","source":"официальный сайт","new":false,"notes":"11:00–18:00, регистрация на выставку не нужна.","eta":{"min":60,"max":85,"via":"BTS → Asok; MRT Sukhumvit → Sam Yot + пешком/автобус"},"status":"active","mapQuery":"Bangkok 1899 Bangkok","tags":["Выставки"]},{"id":"comics","title":"BKK Comics Art Festival #5","kind":"События","area":"Siam","blurb":"Независимая иллюстрация и визуальный язык комиксов; работы местных и зарубежных авторов.","priority":2,"dates":["2026-10-06","2026-10-18"],"days":null,"venue":"BACC, 5F, 939 Rama I Road","url":"https://www.bacc.or.th/en/events/95841","source":"официальный сайт","new":false,"notes":"Выставка 6–18 октября; конвент 10–11 октября.","eta":{"min":30,"max":45,"via":"BTS Phrom Phong → National Stadium + пешком"},"status":"active","mapQuery":"Bangkok Art and Culture Centre Bangkok","tags":["События"]},{"id":"baccgalleries","title":"Woven Echoes / In Flux","kind":"Выставки","area":"Siam","blurb":"Две параллельные выставки в People’s Gallery.","priority":1,"dates":["2026-10-06","2026-11-01"],"days":null,"venue":"BACC, 939 Rama I Road","url":"https://www.bacc.or.th/en/whats-on/upcoming","source":"официальный сайт","new":false,"notes":"","eta":{"min":30,"max":45,"via":"BTS Phrom Phong → National Stadium + пешком"},"status":"active","mapQuery":"Bangkok Art and Culture Centre Bangkok","tags":["Выставки"]},{"id":"dib","title":"Giving Life — Dib Bangkok","kind":"Выставки","area":"Sukhumvit","blurb":"Новая большая выставка современного искусства в архитектурно выразительном музее.","priority":3,"dates":["2026-10-02","2027-05-03"],"days":null,"venue":"Dib Bangkok, 111 Sukhumvit Soi 40","url":"https://dibbangkok.org/home","source":"официальный сайт","new":false,"notes":"Открылась 26 сентября. Проверь билеты на световую работу James Turrell отдельно.","eta":{"min":25,"max":45,"via":"BTS Phrom Phong → Thong Lo / Ekkamai + пешком"},"status":"active","mapQuery":"Dib Bangkok 111 Sukhumvit 40","tags":["Выставки"]},{"id":"octavemaze","title":"Octave Maze Live","kind":"События","area":"Old Town","blurb":"Живые звуковые выступления внутри кинетической архитектурной инсталляции.","priority":3,"dates":["2026-10-03","2026-10-10"],"days":["2026-10-03","2026-10-10"],"venue":"Asvin Cultural and Contemporary Art Space, 9 Nakkharat Road","url":"https://www.bangkokartcity.org/discover-detail/octave-maze-live-2026","source":"официальный сайт","new":false,"notes":"Только субботы 3 и 10 октября; часы отдельного перформанса уточнить.","eta":{"min":60,"max":85,"via":"BTS → Asok; MRT Sukhumvit → Sam Yot + пешком"},"status":"active","mapQuery":"Asvin Cultural and Contemporary Art Space 9 Nakkharat Road Bangkok","tags":["События"]},{"id":"munins","title":"STILL : ON — Munins","kind":"Выставки","area":"Charoen Krung","blurb":"Сольная выставка современного тайского художника о внимании и работе памяти.","priority":2,"dates":["2026-10-02","2026-11-15"],"days":null,"venue":"River City Bangkok, RCB Galleria 5, 3F","url":"https://www.bangkokartcity.org/discover","source":"официальный сайт","new":false,"notes":"","eta":{"min":50,"max":70,"via":"BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком"},"status":"active","mapQuery":"River City Bangkok","tags":["Выставки"]},{"id":"kitti","title":"A Place We Share — Kitti Narod","kind":"Выставки","area":"Charoen Krung","blurb":"Живопись о связи между людьми и повседневной жизни.","priority":2,"dates":["2026-10-02","2026-10-18"],"days":null,"venue":"Tang Contemporary Art, River City Bangkok","url":"https://www.bangkokartcity.org/discover","source":"официальный сайт","new":false,"notes":"До 18 октября.","eta":{"min":50,"max":70,"via":"BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком"},"status":"active","mapQuery":"River City Bangkok","tags":["Выставки"]},{"id":"stress","title":"Stress Test — Wantaya Thitipaisal","kind":"Выставки","area":"Charoen Krung","blurb":"Выставка живописи между абстракцией и фигуративностью.","priority":1,"dates":["2026-10-02","2026-10-04"],"days":null,"venue":"Supples Gallery, Charoen Krung 43","url":"https://www.bangkokartcity.org/discover","source":"официальный сайт","new":false,"notes":"Только до 4 октября.","eta":{"min":55,"max":75,"via":"BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком"},"status":"active","mapQuery":"Supples Gallery Charoen Krung 43 Bangkok","tags":["Выставки"]},{"id":"weeknd","title":"Wildside Yohji Yamamoto × Verdy","kind":"События","area":"Lumphini","blurb":"Временный pop-up The Weeknd / Complex с капсулами Wildside Yohji Yamamoto и Verdy.","priority":3,"dates":["2026-10-02","2026-10-13"],"days":null,"venue":"Carnival One Bangkok, 2G29 и 2119","url":"https://www.timeout.com/bangkok/news/the-weeknd-pop-up-store-opens-at-carnival-in-one-bangkok-092926","source":"Time Out / подтверждённый анонс","new":true,"notes":"1–13 октября, 10:00–22:00. Товары ограничены.","eta":{"min":35,"max":50,"via":"BTS → Asok; MRT Sukhumvit → Lumphini + пешком"},"addedAt":"2026-09-29","status":"active","mapQuery":"Carnival One Bangkok","tags":["События"]},{"id":"ragtagone","title":"RAGTAG — One Bangkok","kind":"Ресейл","area":"Lumphini","blurb":"Японский дизайнерский ресейл; Comme des Garçons, Issey Miyake, Prada и другие.","priority":3,"dates":null,"days":null,"venue":"One Bangkok, The Storeys","url":"https://ragtagthailand.com/en/pages/shop-list","source":"официальный сайт","new":false,"notes":"10:00–22:00; наличие и состояние каждой вещи проверять.\n\nD&G — ресейл: Поиск Dolce & Gabbana DG4413 3200/3 (Green Havana/Brown, 48–23–145). Наличие точной модели не подтверждено. Резервный вариант: уточнить, находится ли товар в этом филиале, и сравнить цену с новыми очками.","eta":{"min":35,"max":50,"via":"BTS → Asok; MRT Sukhumvit → Lumphini + пешком"},"status":"active","mapQuery":"RAGTAG One Bangkok The Storeys","tags":["Ресейл","Магазины","D&G"]},{"id":"ragtagcw","title":"RAGTAG — CentralWorld","kind":"Ресейл","area":"Siam","blurb":"Gentle Monster hunt · Японский дизайнерский ресейл; Gentle Monster здесь реально появляется, но последние найденные пары уже sold out.","priority":3,"dates":null,"days":null,"venue":"CentralWorld, 5F, A515/1–2","url":"https://ragtagthailand.com/en/pages/shop-list","source":"официальный сайт","new":false,"notes":"Gentle Monster hunt. В каталоге RAGTAG Thailand недавно были Gentle Monster именно с location CentralWorld: 5,600–6,000 ฿, condition B; найденные пары уже проданы. Имеет смысл проверять свежий stock перед визитом.\n\nD&G — ресейл: Поиск Dolce & Gabbana DG4413 3200/3 (Green Havana/Brown, 48–23–145). Наличие точной модели не подтверждено. Резервный вариант: уточнить, находится ли товар в этом филиале, и сравнить цену с новыми очками.","eta":{"min":30,"max":45,"via":"BTS Phrom Phong → Chit Lom + пешком"},"status":"active","mapQuery":"RAGTAG CentralWorld Bangkok","tags":["Ресейл","Магазины","Gentle Monster","D&G"]},{"id":"2ndbrand","title":"2nd STREET — Brand Specialty","kind":"Ресейл","area":"Siam","blurb":"Gentle Monster hunt · Brand-focused 2nd STREET в CentralWorld; сильный резервный вариант для designer eyewear и аксессуаров.","priority":3,"dates":null,"days":null,"venue":"CentralWorld, 5F, A502","url":"https://2ndstreet-th.com/shop/centralworld_brand/","source":"официальный сайт","new":false,"notes":"Gentle Monster hunt · backup. Текущий Gentle Monster в тайском онлайн-каталоге не подтверждён, поэтому идти специально только ради очков не стоит; логично проверять вместе с RAGTAG CentralWorld.","eta":{"min":30,"max":45,"via":"BTS Phrom Phong → Chit Lom + пешком"},"status":"active","mapQuery":"2nd STREET Brand Specialty CentralWorld Bangkok","tags":["Ресейл","Магазины","Gentle Monster"]},{"id":"2ndgeneral","title":"2nd STREET — CentralWorld","kind":"Ресейл","area":"Siam","blurb":"Основной филиал сети с более широким и менее селективным ассортиментом.","priority":2,"dates":null,"days":null,"venue":"CentralWorld, 5F, A501","url":"https://2ndstreet-th.com/shop/centralworld/","source":"официальный сайт","new":false,"notes":"","eta":{"min":30,"max":45,"via":"BTS Phrom Phong → Chit Lom + пешком"},"status":"active","mapQuery":"2nd STREET CentralWorld Bangkok","tags":["Ресейл","Магазины"]},{"id":"sunday","title":"Sundaynightmare","kind":"Ресейл","area":"Old Town","blurb":"Архивная дизайнерская одежда, включая японские и европейские марки.","priority":3,"dates":null,"days":null,"venue":"DOB Hualamphong Gallery, Room C3, 3F, 318 Maha Phruttharam, Bang Rak, Bangkok 10500","url":"https://sundaynightmare.com/","source":"Sundaynightmare — официальный сайт","new":false,"notes":"Флагман подтверждён. Очень точное попадание по брендам: Comme des Garçons, Yohji Yamamoto, Number (N)ine, Undercover, Margiela, Rick Owens, Issey Miyake, Prada, Junya Watanabe и др.","eta":{"min":45,"max":65,"via":"BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком"},"status":"active","mapQuery":"Sundaynightmare DOB Hualamphong Gallery Bangkok","tags":["Ресейл","Магазины"]},{"id":"tokyojoe","title":"Tokyo Joe","kind":"Ресейл","area":"Sukhumvit","blurb":"Двухэтажный секонд с дизайнерскими и повседневными брендами.","priority":3,"dates":null,"days":null,"venue":"13 Sukhumvit 39, Khlong Toei Nuea, Watthana, Bangkok 10110","url":"https://www.instagram.com/tokyojoebkk/","source":"TOKYO JOE BKK / актуальная карточка 2026","new":false,"notes":"Ежедневно 10:00–20:00. Два этажа, чисто организованный second-hand: базовые вещи, аксессуары и брендовые позиции; около 2 минут от BTS Phrom Phong.\n\nD&G — ресейл: Поиск Dolce & Gabbana DG4413 3200/3 (Green Havana/Brown, 48–23–145). Наличие точной модели не подтверждено. Запросить по фото и маркировке. LINE: @tokyojoebkk; телефоны: 080 239 7222 / 083 615 6333.","eta":{"min":10,"max":25,"via":"Пешком по Sukhumvit 39"},"status":"active","mapQuery":"TOKYO JOE BKK 13 Sukhumvit 39 Bangkok","tags":["Ресейл","Магазины","D&G"]},{"id":"hdkk","title":"HDKK Archive","kind":"Ресейл","area":"Siam","blurb":"Дизайнерский архив: Jean Paul Gaultier, Junya Watanabe, Miu Miu и другие.","priority":3,"dates":null,"days":null,"venue":"Lido Connect, 2F, Siam","url":"https://hdkk.store/","source":"HDKK — официальный сайт","new":false,"notes":"Шоурум открыт ежедневно 12:00–20:00. Curated archive clothing, accessories, shoes and bags от дизайнерских брендов.","eta":{"min":35,"max":50,"via":"BTS Phrom Phong → Siam + пешком"},"status":"active","mapQuery":"HDKK Archive Lido Connect Bangkok","tags":["Ресейл","Магазины"]},{"id":"garcon","title":"Garçon Dept","kind":"Магазины","area":"Song Wat","blurb":"Мультибренд современных тайских дизайнеров и иллюстраторов.","priority":3,"dates":null,"days":null,"venue":"Song Wat Road","url":"https://www.google.com/maps/search/?api=1&query=Garcon+Dept+Song+Wat","source":"карта; проверить ассортимент","new":false,"notes":"","eta":{"min":55,"max":75,"via":"BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком"},"status":"active","mapQuery":"Garçon Dept Song Wat Bangkok","tags":["Магазины"]},{"id":"ssstore","title":"SSS Sandal & Souvenir","kind":"Магазины","area":"Song Wat","blurb":"Наклейки, графика, открытки, небольшие сумки и современная сувенирная ирония.","priority":3,"dates":null,"days":null,"venue":"134 Thanon Yaowaphanit, Song Wat","url":"https://www.google.com/maps/search/?api=1&query=SSS+Sandal+Souvenir+Bangkok","source":"карта; проверить часы","new":false,"notes":"","eta":{"min":55,"max":75,"via":"BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком"},"status":"active","mapQuery":"SSS Sandal & Souvenir 134 Yaowaphanit Bangkok","tags":["Магазины"]},{"id":"spacebar","title":"Spacebar Zine","kind":"Магазины","area":"Siam","blurb":"Независимые зины и арт-книги, современная графика местных авторов.","priority":3,"dates":null,"days":null,"venue":"GalileOasis, 535/32 Wat Phraya Yang Alley","url":"https://spacebarzine.co/pages/contact","source":"официальный сайт","new":false,"notes":"","eta":{"min":45,"max":60,"via":"BTS Phrom Phong → Ratchathewi + пешком"},"status":"active","mapQuery":"Spacebar Zine GalileOasis Bangkok","tags":["Магазины"]},{"id":"happening","title":"Happening Shop + BACC Shop","kind":"Магазины","area":"Siam","blurb":"Принты, открытки, книги, футболки и авторские вещи тайских художников.","priority":2,"dates":null,"days":null,"venue":"Bangkok Art and Culture Centre","url":"https://www.bacc.or.th/en/","source":"официальный сайт","new":false,"notes":"","eta":{"min":30,"max":45,"via":"BTS Phrom Phong → National Stadium + пешком"},"status":"active","mapQuery":"Happening Shop Bangkok Art and Culture Centre","tags":["Магазины"]},{"id":"iwanna","title":"IWANNABANGKOK","kind":"Магазины","area":"Silom","blurb":"Тайский стритвир, заметная типографика и графический дизайн.","priority":2,"dates":null,"days":null,"venue":"80 Surawong Road","url":"https://iwannabangkok.com/","source":"сайт бренда; адрес уточнить","new":false,"notes":"","eta":{"min":45,"max":65,"via":"BTS → Asok; MRT Sukhumvit → Sam Yan + пешком"},"status":"active","mapQuery":"IWANNABANGKOK 80 Surawong Bangkok","tags":["Магазины"]},{"id":"paga","title":"PAGA Microroastery","kind":"Кофе","area":"Sukhumvit","blurb":"Микрообжарщик, редкие лоты, фильтр и серьёзная работа с зерном.","priority":3,"dates":null,"days":null,"venue":"45/1 Sukhumvit 31","url":"https://pagacoffee.com/pages/contact-us","source":"официальный сайт","new":false,"notes":"Ежедневно 08:00–17:00; тебе лучше до 16:00.","eta":{"min":10,"max":25,"via":"Пешком до Sukhumvit 31"},"status":"active","mapQuery":"PAGA Microroastery Sukhumvit 31 Bangkok","tags":["Кофе"]},{"id":"ceresia","title":"Ceresia Coffee Roasters","kind":"Кофе","area":"Sukhumvit","blurb":"Независимая обжарка, сезонные моносорта и ручные методы.","priority":3,"dates":null,"days":null,"venue":"Sukhumvit Soi 41","url":"https://www.google.com/maps/search/?api=1&query=Ceresia+Coffee+Roasters+Bangkok","source":"карта; часы проверить","new":false,"notes":"","eta":{"min":10,"max":25,"via":"Пешком до Sukhumvit 41"},"status":"active","mapQuery":"Ceresia Coffee Roasters Sukhumvit 41 Bangkok","tags":["Кофе"]},{"id":"terroir","title":"Terroir.BKK","kind":"Кофе","area":"Song Wat","blurb":"Специализированный фильтр и интересные моносорта в старом торговом районе.","priority":3,"dates":null,"days":null,"venue":"Song Wat Road","url":"https://www.google.com/maps/search/?api=1&query=Terroir.BKK+Song+Wat","source":"карта; часы проверить","new":false,"notes":"","eta":{"min":55,"max":75,"via":"BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком"},"status":"active","mapQuery":"Terroir BKK Song Wat Road Bangkok","tags":["Кофе"]},{"id":"gallerydrip","title":"Gallery Drip Coffee","kind":"Кофе","area":"Siam","blurb":"Ручной фильтр, в том числе тайские моносорта.","priority":2,"dates":null,"days":null,"venue":"BACC","url":"https://www.google.com/maps/search/?api=1&query=Gallery+Drip+Coffee+Bangkok","source":"карта; часы проверить","new":false,"notes":"","eta":{"min":30,"max":45,"via":"BTS Phrom Phong → National Stadium + пешком"},"status":"active","mapQuery":"Gallery Drip Coffee BACC Bangkok","tags":["Кофе"]},{"id":"songwat","title":"Song Wat — прогулка","kind":"Районы","area":"Song Wat","blurb":"Исторические торговые дома и современные независимые дизайнерские проекты.","priority":3,"dates":null,"days":null,"venue":"Song Wat Road","url":"https://www.google.com/maps/search/?api=1&query=Song+Wat+Road+Bangkok","source":"карта","new":false,"notes":"","eta":{"min":55,"max":75,"via":"BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком"},"status":"active","mapQuery":"Song Wat Road Bangkok","tags":["Районы"]},{"id":"talatnoi","title":"Talat Noi / Charoen Krung","kind":"Районы","area":"Charoen Krung","blurb":"Мастерские, архитектура, старые склады, современные арт-пространства.","priority":3,"dates":null,"days":null,"venue":"Charoen Krung / Talat Noi","url":"https://www.google.com/maps/search/?api=1&query=Talat+Noi+Bangkok","source":"карта","new":false,"notes":"","eta":{"min":50,"max":70,"via":"BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком"},"status":"active","mapQuery":"Talat Noi Bangkok","tags":["Районы"]},{"id":"benjakitti","title":"Benjakitti Forest Park","kind":"Природа","area":"Lumphini","blurb":"Городской ландшафтный проект на базе восстановленной водно-болотной экосистемы.","priority":2,"dates":null,"days":null,"venue":"Benjakitti Forest Park","url":"https://www.google.com/maps/search/?api=1&query=Benjakitti+Forest+Park","source":"карта","new":false,"notes":"","eta":{"min":25,"max":45,"via":"BTS Phrom Phong → Asok / MRT Queen Sirikit + пешком"},"status":"active","mapQuery":"Benjakitti Forest Park Bangkok","tags":["Природа"]},{"id":"hardrockcafe","title":"Hard Rock Cafe Bangkok","kind":"Еда и бары","area":"Chidlom","blurb":"Ресторан, концертная площадка и Rock Shop с локальным мерчем.","priority":3,"dates":null,"days":null,"venue":"Hard Rock Cafe Bangkok, 518 Maneeya Center, Pathum Wan","mapQuery":"Hard Rock Cafe Bangkok 518 Maneeya Center","url":"https://cafe.hardrock.com/bangkok/","source":"официальный сайт","new":false,"notes":"Ежедневно 11:30–00:00; живая музыка вечером.","eta":{"min":25,"max":40,"via":"BTS Phrom Phong → Chit Lom + пешком"},"status":"active","tags":["Еда и бары"]},{"id":"on-one-bangkok","title":"On · One Bangkok","kind":"Спорт","area":"Lumphini","blurb":"Фирменный On: бег, lifestyle, тренировки, outdoor и теннис.","priority":2,"dates":null,"days":null,"venue":"One Bangkok, The Storeys, 1F, 199 Wireless Road","mapQuery":"On Store One Bangkok The Storeys 1st Floor Bangkok","url":"https://www.on.com/en-gb/explore/stores/bangkok-one-bangkok","source":"On — официальный каталог магазинов","new":false,"notes":"Ежедневно 10:00–22:00.","eta":{"min":25,"max":40,"via":"BTS Phrom Phong → Asok, MRT Sukhumvit → Lumphini + пешком"},"status":"active","tags":["Спорт"]},{"id":"on-iconsiam","title":"On · ICONSIAM","kind":"Спорт","area":"Khlong San","blurb":"Фирменный On с полным ассортиментом обуви, одежды и аксессуаров.","priority":1,"dates":null,"days":null,"venue":"ICONSIAM, 1F, Unit 122, 299 Charoen Nakhon Road","mapQuery":"On Store Bangkok ICONSIAM 1st Floor 122","url":"https://www.on.com/en-th/explore/stores/bangkok-iconsiam","source":"On — официальный каталог магазинов","new":false,"notes":"Ежедневно 10:00–22:00.","eta":{"min":50,"max":75,"via":"BTS Phrom Phong → Siam → Krung Thon Buri, Gold Line → Charoen Nakhon + пешком"},"status":"active","tags":["Спорт"]},{"id":"tnf-central-park","title":"The North Face · Central Park","kind":"Спорт","area":"Silom","blurb":"Фирменный магазин The North Face рядом с парком Люмпини.","priority":2,"dates":null,"days":null,"venue":"Central Park, 3F, Bangkok","mapQuery":"The North Face Store Central Park 3rd Floor Bangkok","url":"https://www.thaioutdoorgroup.com/brands/the-north-face/","source":"Thai Outdoor Group — официальный каталог The North Face","new":false,"notes":"3 этаж.","eta":{"min":30,"max":45,"via":"BTS Phrom Phong → Asok; MRT Sukhumvit → Silom + пешком"},"status":"active","tags":["Спорт"]},{"id":"tnf-centralworld","title":"The North Face · CentralWorld","kind":"Спорт","area":"Chidlom","blurb":"Фирменный The North Face, удобно совместить с покупками в районе Siam / Chidlom.","priority":2,"dates":null,"days":null,"venue":"CentralWorld, 3F, Bangkok","mapQuery":"The North Face Store Central World 3rd floor Bangkok","url":"https://www.thaioutdoorgroup.com/brands/the-north-face/","source":"Thai Outdoor Group — официальный каталог The North Face","new":false,"notes":"3 этаж.","eta":{"min":25,"max":40,"via":"BTS Phrom Phong → Chit Lom + пешком"},"status":"active","tags":["Спорт"]},{"id":"tnf-siam-discovery","title":"The North Face · Siam Discovery","kind":"Спорт","area":"Siam","blurb":"Фирменный The North Face рядом с Siam Center и Siam Paragon.","priority":2,"dates":null,"days":null,"venue":"Siam Discovery, 1F, Bangkok","mapQuery":"The North Face Store Siam Discovery first floor Bangkok","url":"https://www.thaioutdoorgroup.com/brands/the-north-face/","source":"Thai Outdoor Group — официальный каталог The North Face","new":false,"notes":"1 этаж.","eta":{"min":30,"max":45,"via":"BTS Phrom Phong → Siam + пешком"},"status":"active","tags":["Спорт"]},{"id":"tnf-iconsiam","title":"The North Face · ICONSIAM","kind":"Спорт","area":"Khlong San","blurb":"Фирменный The North Face; можно совместить с On в том же торговом центре.","priority":1,"dates":null,"days":null,"venue":"ICONSIAM, 2F, Bangkok","mapQuery":"The North Face Store ICONSIAM 2nd floor Bangkok","url":"https://www.thaioutdoorgroup.com/brands/the-north-face/","source":"Thai Outdoor Group — официальный каталог The North Face","new":false,"notes":"2 этаж.","eta":{"min":50,"max":75,"via":"BTS Phrom Phong → Siam → Krung Thon Buri, Gold Line → Charoen Nakhon + пешком"},"status":"active","tags":["Спорт"]},{"id":"tnf-rama9","title":"The North Face · Central Rama 9","kind":"Спорт","area":"Rama 9","blurb":"Фирменный магазин The North Face у станции MRT Phra Ram 9.","priority":1,"dates":null,"days":null,"venue":"Central Grand Rama 9, 3F, Bangkok","mapQuery":"The North Face Store Central Grand Rama 9 3rd floor Bangkok","url":"https://www.thaioutdoorgroup.com/brands/the-north-face/","source":"Thai Outdoor Group — официальный каталог The North Face","new":false,"notes":"3 этаж.","eta":{"min":30,"max":45,"via":"BTS Phrom Phong → Asok; MRT Sukhumvit → Phra Ram 9 + пешком"},"status":"active","tags":["Спорт"]},{"id":"tnf-ladprao","title":"The North Face · Central Ladprao","kind":"Спорт","area":"Chatuchak","blurb":"Фирменный The North Face — имеет смысл, если будешь на севере Бангкока.","priority":1,"dates":null,"days":null,"venue":"Central Plaza Ladprao, 2F, Bangkok","mapQuery":"The North Face Store Central Plaza Ladprao 2nd floor Bangkok","url":"https://www.thaioutdoorgroup.com/brands/the-north-face/","source":"Thai Outdoor Group — официальный каталог The North Face","new":false,"notes":"2 этаж.","eta":{"min":50,"max":70,"via":"BTS Phrom Phong → Asok; MRT Sukhumvit → Phahon Yothin + пешком"},"status":"active","tags":["Спорт"]},{"id":"tnf-pinklao","title":"The North Face · Central Pinklao","kind":"Спорт","area":"Pinklao","blurb":"Фирменный The North Face на западной стороне города: только если окажешься поблизости.","priority":1,"dates":null,"days":null,"venue":"Central Plaza Pinklao, 2F, Bangkok","mapQuery":"The North Face Store Central Plaza Pinklao 2nd floor Bangkok","url":"https://www.thaioutdoorgroup.com/brands/the-north-face/","source":"Thai Outdoor Group — официальный каталог The North Face","new":false,"notes":"2 этаж.","eta":{"min":65,"max":95,"via":"Общественный транспорт с пересадками; точный маршрут смотри в Google Maps"},"status":"active","tags":["Спорт"]},{"id":"saan-songwat","title":"SAAN Songwat","kind":"Магазины","area":"Song Wat","blurb":"Независимый магазин тайских авторских вещей: аксессуары, изделия местных мастеров и компактные подарки.","priority":2,"dates":null,"days":null,"venue":"837 Song Wat Road, Chakkrawat, Samphanthawong, Bangkok 10100","url":"https://www.instagram.com/saan.songwat/","source":"Time Out Bangkok (01.09.2026); Bangkok Airways Fah Thai","new":true,"notes":"","eta":{"min":55,"max":75,"via":"BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком, приблизительно"},"status":"active","mapQuery":"SAAN Songwat 837 Song Wat Road Bangkok","tags":["Магазины"]},{"id":"song-wat-daily-photobooth","title":"Song Wat Daily Photobooth","kind":"Магазины","area":"Song Wat","blurb":"Фотобудка в стиле винтажной газеты: печатный сувенир из района Song Wat.","priority":2,"dates":null,"days":null,"venue":"Song Wat Road; точный номер дома не подтверждён","url":"https://www.google.com/maps/search/?api=1&query=Song+Wat+Daily+Photobooth+Bangkok","source":"публичные фотоотчёты посетителей (Song Wat Daily)","new":true,"notes":"Метка приблизительная: точный адрес фотобудки не подтверждён.","eta":{"min":55,"max":75,"via":"BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком, приблизительно"},"status":"active","mapQuery":"Song Wat Daily Photobooth Song Wat Road Bangkok","tags":["Магазины"]},{"id":"7eleven-happitat-festie-town","title":"7-Eleven · Happitat Festie Town","kind":"Магазины","area":"Bang Na","blurb":"Первый в Таиланде 7-Eleven Character-Theme Store с ALLiE & the Gang, трёхметровым HappiTube для сладостей и расширенным ассортиментом.","priority":2,"dates":null,"days":null,"venue":"Festie Town, Happitat, The Forestias, Bangna-Trat Road Km.7, Bang Kaeo, Bang Phli, Samut Prakan","url":"https://www.thaich.net/news/20260821se.htm","source":"CP ALL / Thai Hyper; Time Out Bangkok","new":true,"notes":"Постоянная тематическая точка внутри Happitat; не временное событие. Happitat открыт с 10:00.","eta":{"min":80,"max":120,"via":"BTS Phrom Phong → Udom Suk + шаттл/наземный транспорт до Happitat; приблизительно"},"status":"active","mapQuery":"7-Eleven Festie Town Happitat The Forestias Bangna Thailand","geo":[13.6544375,100.6658125],"tags":["Магазины"]},{"id":"ikea-sukhumvit","title":"IKEA Sukhumvit · EMSPHERE","kind":"Магазины","area":"Phrom Phong","blurb":"Центральная городская IKEA на 3-м этаже EMSPHERE: полноценные room sets, Market Hall, Self-serve и ресторан.","priority":3,"dates":null,"days":null,"venue":"EMSPHERE, 3F, 628 Sukhumvit Road, Khlong Tan, Khlong Toei, Bangkok 10110","mapQuery":"IKEA Sukhumvit EMSPHERE Bangkok","url":"https://www.ikea.com/th/en/stores/sukhumvit/","source":"IKEA Thailand — официальный сайт","new":false,"notes":"Ежедневно 10:00–22:00; ресторан 10:00–21:30. Около 450 м от BTS Phrom Phong.","eta":{"min":15,"max":25,"via":"От TRIBE пешком в сторону Phrom Phong / EMSPHERE; приблизительно"},"status":"active","geo":[13.7320079,100.5663113],"tags":["Магазины"]},{"id":"tryster-glass-house","title":"TRYSTER Glass House · Siamkit","kind":"Ресейл","area":"Siam","blurb":"Indoor second-hand market: одежда, сумки, аксессуары и винтажные находки.","priority":3,"dates":null,"days":null,"venue":"Siamkit Building, 448 Rama I Road, Pathum Wan, Bangkok 10330","url":"https://www.instagram.com/trys_ter/","source":"TRYSTER","new":true,"notes":"Чт–вс 14:00–22:00.","eta":{"min":30,"max":45,"via":"BTS Phrom Phong → Siam + пешком; приблизительно"},"status":"active","mapQuery":"Tryster Glass House Siamkit Building Bangkok","geo":[13.744143,100.5345636],"tags":["Ресейл","Магазины"]},{"id":"clay-songwat","title":"Clay Songwat","kind":"Магазины","area":"Song Wat","blurb":"Локальная керамическая мастерская и магазин; интересна точечно ради handmade кофейных кружек.","priority":3,"dates":null,"days":null,"venue":"1176 Song Wat Road, Chakkrawat, Samphanthawong, Bangkok 10100","url":"https://claysongwat.store/","source":"Clay Songwat","new":true,"notes":"Есть фактурные кружки и необычные модели; воркшоп не нужен.","eta":{"min":55,"max":75,"via":"BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком; приблизительно"},"status":"active","mapQuery":"Clay Songwat 1176 Song Wat Road Bangkok","geo":[13.7384215,100.506755],"tags":["Магазины"]},{"id":"another-story-emsphere","title":"Another Story · EMSPHERE","kind":"Магазины","area":"Phrom Phong","blurb":"Локальный concept store: дизайнерские вещи, графика, аксессуары и Bangkokian-сувениры; есть сделанные в Таиланде кофейные чашки.","priority":3,"dates":null,"days":null,"venue":"EMSPHERE, M Floor, 628 Sukhumvit Road, Bangkok 10110","url":"https://anotherstorybangkok.com/pages/contacts","source":"Another Story — официальный сайт","new":true,"notes":"Ищи Bangkokian Coffee Cup Set; наличие в конкретном магазине может меняться.","eta":{"min":15,"max":25,"via":"От TRIBE пешком к EMSPHERE; приблизительно"},"status":"active","mapQuery":"Another Story Emsphere Bangkok","geo":[13.7322791,100.5660928],"tags":["Магазины"]},{"id":"arabica-empire-tower","title":"% Arabica · Empire Tower 55F","kind":"Кофе","area":"Sathorn","blurb":"Исключение из правила про сети: филиал на 55-м этаже Empire Tower с панорамой Бангкока и видом на MahaNakhon.","priority":3,"dates":null,"days":null,"venue":"Empire Tower, Level 55, 1 South Sathon Road, Bangkok 10120","url":"https://www.google.com/maps/search/?api=1&query=%25+Arabica+Bangkok+Empire+Tower","source":"Google Business Profile / актуальные отзывы","new":true,"notes":"Ежедневно ориентировочно 07:00–21:00. У окна мест немного.","eta":{"min":40,"max":55,"via":"BTS Phrom Phong → Siam → Chong Nonsi + пешком; приблизительно"},"status":"active","mapQuery":"% Arabica Bangkok Empire Tower Level 55","geo":[13.7205344,100.5302284],"tags":["Кофе"]},{"id":"train-night-market-ratchada","title":"Train Night Market Ratchada","kind":"Ресейл","area":"Ratchada","blurb":"Вернувшийся в 2026 ночной рынок: fashion, винтаж, недорогая одежда, мелкие находки и большая food-зона.","priority":2,"dates":null,"days":null,"venue":"Behind Esplanade Ratchadaphisek, Ratchada, Bangkok","url":"https://www.timeout.com/bangkok/news/ratchada-train-night-market-040326","source":"Time Out Bangkok, 03.04.2026","new":true,"notes":"Ежедневно 17:00–01:00. Селекция смешанная: идти за атмосферой и поиском.","eta":{"min":35,"max":55,"via":"BTS Phrom Phong → Asok; MRT Sukhumvit → Thailand Cultural Centre + пешком; приблизительно"},"status":"active","mapQuery":"Train Night Market Ratchada Bangkok","geo":[13.7669375,100.5686875],"tags":["Ресейл","Магазины"]},{"id":"train-night-market-srinakarin","title":"Train Night Market Srinakarin","kind":"Ресейл","area":"Srinakarin","blurb":"Огромный классический flea/night market: винтаж, одежда, аксессуары, тайский антиквариат и случайные редкие находки.","priority":2,"dates":null,"days":null,"venue":"1/4 Srinagarindra Road, Nong Bon, Prawet, Bangkok","url":"https://www.facebook.com/taradrodfi/","source":"Tourism Authority of Thailand / официальный Facebook рынка","new":true,"notes":"Чт–вс вечером. Очень большой и менее селектированный; отдельная ночная прогулка.","eta":{"min":60,"max":90,"via":"BTS/MRT + Yellow Line до Suan Luang Rama IX + ~10 мин пешком; приблизительно"},"status":"active","mapQuery":"Train Night Market Srinakarin Bangkok","geo":[13.6938923,100.6511801],"tags":["Ресейл","Магазины"]},{"id":"kohi-roastery","title":"Kohi Roastery & Coffee Bar","kind":"Кофе","area":"Phrom Phong","blurb":"Маленькая in-house roastery: light/medium roast, single origin, pour-over и фруктовые профили; сильный вариант почти рядом с TRIBE.","priority":3,"dates":null,"days":null,"venue":"5/4 Soi Phrom Si 1, Khlong Tan Nuea, Watthana, Bangkok 10110","url":"https://www.google.com/maps/search/?api=1&query=Kohi+Roastery+Coffee+Bar+Bangkok","source":"Google Business Profile / BrewAtlas / coffee-community 2026","new":true,"notes":"Вт–вс около 08:00–16:00; понедельник закрыт.","eta":{"min":15,"max":25,"via":"Пешком / короткий BTS+пешком от TRIBE; приблизительно"},"status":"active","mapQuery":"Kohi Roastery & Coffee Bar Bangkok","geo":[13.7370463,100.5738594],"tags":["Кофе"]},{"id":"local-boys-thonglor","title":"LOCAL BOYS COFFEE CO. · Thonglor","kind":"Кофе","area":"Thonglor","blurb":"Coffee-first бар с Thai/international beans и сильными signature drinks; особенно хвалят Dirty Coconut.","priority":3,"dates":null,"days":null,"venue":"267/7 Thong Lo, Watthana, Bangkok 10110","url":"https://www.google.com/maps/search/?api=1&query=LOCAL+BOYS+COFFEE+CO+THONGLOR","source":"Google Business Profile / актуальные отзывы 2026","new":true,"notes":"Ежедневно около 07:30–17:30; мест немного.","eta":{"min":20,"max":35,"via":"BTS Phrom Phong → Thong Lo + пешком; приблизительно"},"status":"active","mapQuery":"LOCAL BOYS COFFEE CO THONGLOR Bangkok","geo":[13.7337298,100.5812526],"tags":["Кофе"]},{"id":"greydient-them","title":"Greydient & Them","kind":"Кофе","area":"Asok","blurb":"Дизайн-пространство и серьёзный coffee bar: сезонный filter из локальных и зарубежных обжарок, single origin и собственные blends.","priority":3,"dates":null,"days":null,"venue":"6/25 Ratchadaphisek Road, Khlong Toei, Bangkok 10110","url":"https://greydientandthem.com/","source":"официальный сайт / актуальные рекомендации 2026","new":true,"notes":"Ежедневно 08:00–17:00; есть и матча.","eta":{"min":20,"max":30,"via":"BTS Phrom Phong → Asok + пешком; приблизительно"},"status":"active","mapQuery":"Greydient & Them Bangkok","geo":[13.735531,100.56077],"tags":["Кофе"]},{"id":"factory-coffee-phayathai","title":"Factory Coffee · Phaya Thai","kind":"Кофе","area":"Phaya Thai","blurb":"Сильный тайский roaster/barista проект: competition coffee, single origins, filter и собственная обжарка.","priority":3,"dates":null,"days":null,"venue":"49 Phaya Thai Road, Ratchathewi, Bangkok 10400","url":"https://factorybkk.com/blogs/news/location","source":"Factory Coffee — официальный сайт","new":true,"notes":"Ежедневно 08:00–16:00. Команда — чемпион Thailand Coffee Roasting Championship 2025.","eta":{"min":35,"max":50,"via":"BTS Phrom Phong → Phaya Thai + пешком; приблизительно"},"status":"active","mapQuery":"Factory Coffee BKK 49 Phaya Thai Road","geo":[13.7569298,100.534614],"tags":["Кофе"]},{"id":"nana-coffee-ari","title":"NANA Coffee Roasters · Ari","kind":"Кофе","area":"Ari","blurb":"Известный, но действительно серьёзный roaster: широкий выбор single origin, необычные процессы и хороший filter.","priority":3,"dates":null,"days":null,"venue":"24/2 Ari 4 Alley, Samsen Nai, Phaya Thai, Bangkok 10400","url":"https://page.line.me/174ekujc","source":"NANA Coffee Roasters — LINE Official / coffee-community 2026","new":true,"notes":"Сб–вс 08:00–18:00; в популярные часы бывает многолюдно.","eta":{"min":45,"max":60,"via":"BTS Phrom Phong → Ari + пешком; приблизительно"},"status":"active","mapQuery":"NANA Coffee Roasters Ari Bangkok","geo":[13.7826347,100.54198],"tags":["Кофе"]},{"id":"mother-roaster-talat-noi","title":"Mother Roaster · Talat Noi","kind":"Кофе","area":"Talat Noi","blurb":"Культовая маленькая roastery в старом здании: тайские и зарубежные зерна, ручные методы и сильный выбор зерна домой.","priority":3,"dates":null,"days":null,"venue":"1172 San Chao Rong Kueak, Talat Noi, Bangkok 10100","url":"https://www.facebook.com/motherroaster","source":"Tourism Authority of Thailand / Mother Roaster","new":true,"notes":"Около 09:30–17:30/18:00; часы могут меняться.","eta":{"min":50,"max":70,"via":"BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком; приблизительно"},"status":"active","mapQuery":"Mother Roaster Talat Noi Bangkok","geo":[13.7329909,100.5123218],"tags":["Кофе"]},{"id":"roots-thonglor","title":"Roots · theCOMMONS Thonglor","kind":"Кофе","area":"Thonglor","blurb":"Тайский specialty с фокусом на местное зерно и прозрачное происхождение кофе.","priority":3,"dates":null,"days":null,"venue":"theCOMMONS, Thonglor 17, Bangkok 10110","url":"https://rootsbkk.com/branch/","source":"официальный сайт Roots","new":true,"notes":"Ежедневно около 07:00–17:00.","eta":{"min":25,"max":40,"via":"BTS Phrom Phong → Thong Lo + пешком; приблизительно"},"status":"active","mapQuery":"Roots theCOMMONS Thonglor Bangkok","geo":[13.7351348,100.5822318],"tags":["Кофе"]},{"id":"karo-coffee-roasters","title":"Karo Coffee Roasters","kind":"Кофе","area":"Phra Khanong","blurb":"Независимая bangkok roastery с собственной обжаркой и серьёзным выбором зерна.","priority":3,"dates":null,"days":null,"venue":"52 Soi Pridi Banomyong 26, Phra Khanong Nuea, Bangkok 10110","url":"https://page.line.me/386plxpd","source":"Karo Coffee Roasters — LINE Official / coffee-community 2026","new":true,"notes":"Работает с раннего утра; перед поездкой проверить актуальные часы.","eta":{"min":30,"max":45,"via":"BTS Phrom Phong → Phra Khanong + наземный транспорт/пешком; приблизительно"},"status":"active","mapQuery":"Karo Coffee Roasters Bangkok","geo":[13.7258698,100.5997849],"tags":["Кофе"]},{"id":"sunrise-tacos-terminal21","title":"Sunrise Tacos · Terminal 21","kind":"Еда и бары","area":"Asok","blurb":"Мексиканский ресторан в Terminal 21 Asok: tacos, burritos, enchiladas, guacamole и другие классические позиции.","priority":2,"dates":null,"days":null,"venue":"Terminal 21 Asok, 4F, shop 4026, 88 Sukhumvit Soi 19, Watthana, Bangkok 10110","url":"https://www.sunrisetacos.com/locations/","source":"Sunrise Tacos / Terminal 21 — официальные сайты","new":true,"notes":"Ежедневно 10:00–22:00.","eta":{"min":15,"max":25,"via":"BTS Phrom Phong → Asok + переход в Terminal 21; приблизительно"},"status":"active","mapQuery":"Sunrise Tacos Terminal 21 Asok Bangkok","geo":[13.737971,100.5603725],"tags":["Еда и бары"]},{"id":"treasure-factory-sukhumvit39","title":"Treasure Factory · Sukhumvit 39","kind":"Ресейл","area":"Phrom Phong","blurb":"Gentle Monster hunt · Японский reuse/second-hand магазин прямо на Sukhumvit 39; подтверждён текущий stock Gentle Monster.","priority":3,"dates":null,"days":null,"venue":"29 Soi Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110","url":"https://www.trefac-th.com/location/","source":"Treasure Factory Thailand — официальный сайт / официальный Google Maps","new":true,"notes":"Gentle Monster hunt. На 3 октября 2026: Gentle Monster 54022-146 Black — 2,980 ฿, Rank B, pickup подтверждён именно в Sukhumvit 39. WD1 Gray — 3,980 ฿, но сейчас только Phra Khanong. Остатки меняются быстро.\n\nD&G — ресейл: Поиск Dolce & Gabbana DG4413 3200/3 (Green Havana/Brown, 48–23–145). Наличие точной модели не подтверждено. В просмотренном онлайн-каталоге её не найдено. Перед визитом запросить остаток по фото и маркировке. Телефон: 02 258 8980; 10:00–19:00.","eta":{"min":8,"max":15,"via":"Пешком от TRIBE по Soi Sukhumvit 39; приблизительно"},"status":"active","mapQuery":"Treasure Factory Sukhumvit 39 Bangkok","geo":[13.7347974,100.571462],"tags":["Ресейл","Магазины","Gentle Monster","D&G"]},{"id":"2ndstreet-phromphong","title":"2nd STREET · Phrom Phong","kind":"Ресейл","area":"Phrom Phong","blurb":"Официальный филиал японской сети 2nd STREET прямо у Phrom Phong: одежда, обувь и аксессуары с постоянно меняющимся ассортиментом.","priority":3,"dates":null,"days":null,"venue":"595 Sukhumvit 33/1, Khlong Tan Nuea, Watthana, Bangkok 10110","url":"https://2ndstreet-th.com/shop/phrom-phong/","source":"2nd STREET Thailand — официальный сайт","new":true,"notes":"Ежедневно 10:00–20:00. Один из самых близких и очевидных приоритетов.","eta":{"min":15,"max":25,"via":"От TRIBE к BTS Phrom Phong / Sukhumvit 33/1; приблизительно"},"status":"active","mapQuery":"2nd STREET Phrom Phong 595 Sukhumvit 33/1 Bangkok","geo":[13.7327497,100.5682856],"tags":["Ресейл","Магазины"]},{"id":"yojohan-phromphong","title":"YOJOHAN","kind":"Ресейл","area":"Phrom Phong","blurb":"Небольшой used/vintage clothing shop на Sukhumvit 33/1 рядом с 2nd STREET; удобный дополнительный заход в том же кластере.","priority":2,"dates":null,"days":null,"venue":"595/22 Sukhumvit 33/1, Khlong Tan Nuea, Watthana, Bangkok 10110","url":"https://www.google.com/maps/search/?api=1&query=YOJOHAN+Bangkok","source":"Google Business Profile, 2026","new":true,"notes":"Ежедневно 10:00–20:00. Магазин маленький; ценность в том, что он буквально рядом с 2nd STREET.","eta":{"min":15,"max":25,"via":"От TRIBE к Phrom Phong; приблизительно"},"status":"active","mapQuery":"YOJOHAN 595/22 Sukhumvit 33/1 Bangkok","geo":[13.7321422,100.5683855],"tags":["Ресейл","Магазины"]},{"id":"unfashion-s39","title":"(un)FASHION District S39","kind":"Ресейл","area":"Phrom Phong","blurb":"Винтаж на самой Sukhumvit 39: одежда, обувь/ботинки, сумки и аксессуары; плюс кафе и керамика.","priority":2,"dates":null,"days":null,"venue":"19/5 Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110","url":"https://www.instagram.com/unfashiondistrict39/","source":"актуальные локальные карточки и отзывы 2026","new":true,"notes":"Около 10:00–20:30. Не designer resale уровня RAGTAG, но очень близко и есть мужская/винтажная часть; заодно можно посмотреть кружки.","eta":{"min":8,"max":15,"via":"Пешком по Soi Sukhumvit 39; приблизительно"},"status":"active","mapQuery":"unFASHION District S39 Bangkok","geo":[13.7334476,100.5708488],"tags":["Ресейл","Магазины"]},{"id":"the-vintage-store-thonglor","title":"The Vintage Store · Eight Thonglor","kind":"Ресейл","area":"Thonglor","blurb":"Кураторский pre-owned luxury/designer consignment: Chanel, Hermès, YSL и другие коллекционные и сезонные вещи.","priority":2,"dates":null,"days":null,"venue":"Eight Thonglor, G Floor, 88/1 Sukhumvit 55, Bangkok 10110","url":"https://thevintagestorebkk.com/","source":"The Vintage Store — официальный сайт","new":true,"notes":"Ежедневно 11:00–19:00. Сильная селекция, но заметно дороже и ближе к luxury consignment, чем к обычному thrift.","eta":{"min":25,"max":40,"via":"BTS Phrom Phong → Thong Lo + пешком; приблизительно"},"status":"active","mapQuery":"The Vintage Store Eight Thonglor Bangkok","geo":[13.730661,100.581886],"tags":["Ресейл","Магазины"]},{"id":"brandname-society-thonglor","title":"Brandname Society · Thonglor","kind":"Ресейл","area":"Thonglor","blurb":"Gentle Monster hunt · Luxury consignment/resale с аксессуарами и очками; текущий Gentle Monster подтверждён.","priority":3,"dates":null,"days":null,"venue":"Marche Thonglor, Building C, 2F, Thong Lo, Watthana, Bangkok 10110","url":"https://www.brandnamesocietybkk.com/","source":"Brandname Society — официальный сайт","new":true,"notes":"Gentle Monster hunt. На 3 октября 2026 в текущем каталоге: Gentle Monster Sunglasses Black — 6,500 ฿. Магазин заявляет гарантию подлинности; Thonglor, ежедневно 11:00–20:00.","eta":{"min":25,"max":40,"via":"BTS Phrom Phong → Thong Lo + пешком; приблизительно"},"status":"active","mapQuery":"Brandname Society Marche Thonglor Building C Bangkok","geo":[13.7283702,100.5811107],"tags":["Ресейл","Магазины","Gentle Monster"]},{"id":"cdg-play-one-bangkok","title":"COMME des GARÇONS PLAY · One Bangkok","kind":"Магазины","area":"Lumphini","blurb":"COMME des GARÇONS PLAY в The Storeys; линия PLAY подтверждена у Club21, рядом также отдельный CDGCDGCDG.","priority":3,"dates":null,"days":null,"venue":"The Storeys, 1F, One Bangkok (CDG / Club21; room 2104)","url":"https://th.club21.com/community/discover/comme-des-gar%C3%A7ons-play-tone","source":"Club21 / COMME des GARÇONS — официальные страницы","new":true,"notes":"PLAY подтверждён на 1F The Storeys; официальный CDG store в One Bangkok — room 2104.","eta":{"min":35,"max":50,"via":"BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini → One Bangkok + пешком"},"addedAt":"2026-10-03","status":"active","mapQuery":"COMME des GARCONS One Bangkok The Storeys","tags":["Магазины"]},{"id":"matter-makers-one-bangkok","title":"Matter Makers · One Bangkok","kind":"Магазины","area":"Lumphini","blurb":"Локальный тайский streetwear/casual бренд; понравился пользователю, стоит вернуться и посмотреть внимательнее.","priority":3,"dates":null,"days":null,"venue":"Parade, G Floor, room 1G26, One Bangkok","mapQuery":"Matter Makers One Bangkok","url":"https://matter-makers.com/stores/","source":"Matter Makers — официальный сайт","new":true,"notes":"Ежедневно 10:00–22:00.","eta":{"min":35,"max":50,"via":"BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini → One Bangkok + пешком"},"addedAt":"2026-10-03","status":"active","tags":["Магазины"]},{"id":"bloody-bunny-terminal21","title":"Bloody Bunny & Friends Store · Terminal 21","kind":"Магазины","area":"Asok","blurb":"Тайский character store 2Spot: Bloody Bunny и другие персонажи, одежда, аксессуары, канцелярия и компактные подарки.","priority":2,"dates":null,"days":null,"venue":"Terminal 21 Asok, 3F – Istanbul, 88 Sukhumvit Road, Khlong Toei Nuea, Watthana, Bangkok 10110","url":"https://www.2spotstudio.com/copy-of-2spotstudio","source":"Terminal 21 Asok / 2Spot Studio — официальные сайты","new":true,"notes":"3F, зона Istanbul. Ежедневно 10:00–22:00.","eta":{"min":15,"max":25,"via":"BTS Phrom Phong → Asok + переход в Terminal 21; приблизительно"},"addedAt":"2026-10-03","status":"active","mapQuery":"Bloody Bunny & Friends Store Terminal21 Asok Bangkok","geo":[13.737971,100.5603725],"tags":["Магазины"]},{"id":"victoria-arduino-sukhumvit33","title":"Victoria Arduino Official Store","kind":"Кофе","area":"Phrom Phong","blurb":"Двухэтажный шоурум и experience centre профессионального кофейного оборудования; можно знакомиться с машинами и кофейными tasting experiences.","priority":2,"dates":null,"days":null,"venue":"29 Soi Sukhumvit 33, Khlong Toei Nuea, Watthana, Bangkok 10110","url":"https://aromathailand.com/myshop/victoria-arduino-official-store/","source":"Victoria Arduino / Aroma Group — официальные страницы","new":true,"notes":"Это прежде всего showroom/retail/experience centre, а не обычная кофейня. Victoria Arduino официально заявляет workshops и tasting experiences; регулярное café-меню не подтверждено. По официальной странице Aroma: пн–сб 08:00–17:00, вс закрыто.","eta":{"min":10,"max":20,"via":"От TRIBE пешком к Sukhumvit Soi 33; приблизительно"},"addedAt":"2026-10-03","status":"active","mapQuery":"Victoria Arduino Official Store 29 Soi Sukhumvit 33 Bangkok","geo":[13.7377127,100.5680121],"tags":["Кофе"]},{"id":"summer-coffee-terminal21-loveramics","title":"The Summer Coffee Company · Terminal 21 Asok","kind":"Кофе","area":"Asok","blurb":"Specialty coffee + кофейные аксессуары; подтверждён ассортимент Loveramics. Удобная точка для поиска кружки без возврата в One Bangkok.","priority":3,"dates":null,"days":null,"venue":"Terminal 21 Asok, 2F, Bangkok","mapQuery":"The Summer Coffee Company Terminal 21 Asok","url":"https://thesummercoffee.com/","source":"The Summer Coffee Company — официальный сайт","new":true,"notes":"Ежедневно 10:00–22:00. Loveramics подтверждён в этой точке; конкретный остаток Nutty Tasting Cup заранее не гарантирован.","eta":{"min":15,"max":25,"via":"BTS Phrom Phong → Asok + переход в Terminal 21; приблизительно"},"addedAt":"2026-10-03","status":"active","geo":[13.737971,100.5603725],"tags":["Кофе"]},{"id":"summer-coffee-siam-paragon-loveramics","title":"The Summer Coffee Company · Siam Paragon","kind":"Кофе","area":"Siam","blurb":"Specialty coffee + кофейные аксессуары; Loveramics представлен в магазине. Резервная точка для поиска кружки.","priority":2,"dates":null,"days":null,"venue":"Siam Paragon, G Floor, Bangkok","mapQuery":"The Summer Coffee Company Siam Paragon","url":"https://thesummercoffee.com/","source":"The Summer Coffee Company — официальный сайт","new":true,"notes":"Ежедневно 10:00–22:00. Конкретный остаток Nutty Tasting Cup заранее не гарантирован.","eta":{"min":25,"max":40,"via":"BTS Phrom Phong → Siam + пешком; приблизительно"},"addedAt":"2026-10-03","status":"active","tags":["Кофе"]},{"id":"summer-coffee-central-park-loveramics","title":"The Summer Coffee Company · Central Park","kind":"Кофе","area":"Lumphini / Silom","blurb":"Specialty coffee + кофейные аксессуары; Loveramics подтверждён. Ещё одна удобная точка по маршрутам через Lumphini.","priority":2,"dates":null,"days":null,"venue":"Central Park, 2F, Bangkok","mapQuery":"The Summer Coffee Company Central Park Bangkok","url":"https://thesummercoffee.com/","source":"The Summer Coffee Company — официальный сайт","new":true,"notes":"Ежедневно 10:00–22:00. Конкретный остаток Nutty Tasting Cup заранее не гарантирован.","eta":{"min":30,"max":45,"via":"BTS Phrom Phong → Asok; MRT Sukhumvit → Silom + пешком; приблизительно"},"addedAt":"2026-10-03","status":"active","geo":[13.72843,100.53757],"tags":["Кофе"]},{"id":"fortune-teller-one-bangkok","title":"Fortune Teller — Julie Stephen Chheng","kind":"Выставки","area":"Lumphini","blurb":"Интерактивная выставка с проекциями, AR и игровым взаимодействием с персонажами-духами природы.","priority":3,"dates":["2026-10-02","2026-11-15"],"days":null,"venue":"One Bangkok, The Storeys, 2F","mapQuery":"Fortune Teller One Bangkok The Storeys","url":"https://www.onebangkok.com/en/whats-happening/fortune-teller/","source":"One Bangkok — официальный анонс","new":true,"notes":"2 октября – 15 ноября 2026. Основная экспозиция на 2F The Storeys; дополнительные AR-точки расположены по One Bangkok.","eta":{"min":35,"max":50,"via":"BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini → One Bangkok + пешком"},"addedAt":"2026-10-03","status":"active","tags":["Выставки"]},{"id":"rubber-killer-one-bangkok","title":"Rubber Killer · One Bangkok","kind":"Магазины","area":"Lumphini","blurb":"Тайский upcycling-бренд сумок и аксессуаров из переработанных велосипедных камер; временная точка в The Storeys.","priority":3,"dates":["2026-08-20","2027-01-31"],"days":null,"venue":"One Bangkok, The Storeys TEMP, 2F","mapQuery":"Rubber Killer One Bangkok The Storeys","url":"https://www.facebook.com/rubberkiller/","source":"Rubber Killer — официальный анонс","new":true,"notes":"Pop-up в The Storeys TEMP, 2F, заявлен до 31 января 2027.","eta":{"min":35,"max":50,"via":"BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini → One Bangkok + пешком"},"addedAt":"2026-10-03","status":"active","tags":["Магазины"]},{"id":"antday-river-city","title":"ANTDAY Specialty Coffee & Arts","kind":"Кофе","area":"Charoen Krung","blurb":"Камерный specialty slow bar внутри River City; сильный фокус на drip coffee и кофейном обучении.","priority":3,"dates":null,"days":null,"venue":"River City Bangkok, 2F, Room 236","mapQuery":"ANTDAY Specialty Coffee & Arts River City Bangkok","url":"https://rivercitybangkok.com/gallery/a-n-t-d-a-y-cafe/","source":"River City Bangkok — официальный каталог","new":true,"notes":"River City описывает ANTDAY как high-quality roasted drip coffee café и пространство для coffee workshops. Часы лучше перепроверять в день визита: публичные источники расходятся.","eta":{"min":35,"max":55,"via":"BTS/MRT + пешком к River City; приблизительно"},"addedAt":"2026-10-03","status":"active","tags":["Кофе"]},{"id":"camper-centralworld","title":"Camper · CentralWorld","kind":"Магазины","area":"Siam","blurb":"Полноценный Camper Store с мужской и женской коллекциями; основная точка для более внимательного просмотра бренда.","priority":2,"dates":null,"days":null,"venue":"centralwOrld, 1F, 999/9 Rama I Rd, Pathum Wan","mapQuery":"Camper CentralWorld Bangkok","url":"https://www.camper.com/en_TH/shops/thailand/bangkok/store_shoes_1_fl_999_9_rama_i_rd_pathumwan_bangkok_10330-0000531810","source":"Camper — официальный каталог магазинов","new":true,"notes":"Ежедневно 10:00–22:00. Официально не обозначен как flagship, но это отдельный Camper Store.","eta":{"min":25,"max":40,"via":"BTS Phrom Phong → Siam/Chit Lom + пешком"},"addedAt":"2026-10-03","status":"active","tags":["Магазины"]},{"id":"pop-mart-centralworld","title":"POP MART Flagship · CentralWorld","kind":"Магазины","area":"Siam","blurb":"Флагман POP MART в CentralWorld; проверить Have a Good Run Series Bracelet и обычную оплату картой.","priority":2,"dates":null,"days":null,"venue":"centralwOrld, 1F, 999/9 Rama I Rd, Pathum Wan","mapQuery":"POP MART CentralWorld Bangkok","url":"https://www.popmart.com/th/store-list","source":"POP MART Thailand / Central Group — официальные страницы","new":true,"notes":"Ежедневно 10:00–22:00. Central Group называет точку flagship store; конкретный остаток браслета заранее не подтверждён.","eta":{"min":25,"max":40,"via":"BTS Phrom Phong → Siam/Chit Lom + пешком"},"addedAt":"2026-10-03","status":"active","tags":["Магазины"]},{"id":"moca-bangkok","title":"MOCA Bangkok","kind":"Выставки","area":"Chatuchak","blurb":"Большой Museum of Contemporary Art Bangkok с постоянной коллекцией и временными выставками.","priority":2,"dates":null,"days":null,"venue":"499 Kamphaeng Phet 6 Rd, Lat Yao, Chatuchak, Bangkok 10900","mapQuery":"MOCA Bangkok Museum of Contemporary Art","url":"https://www.mocabangkok.com/admission/","source":"MOCA Bangkok — официальный сайт","new":false,"notes":"Вт–вс 10:00–18:00, понедельник закрыт. Общий билет 400 ฿; специальные выставки могут оплачиваться отдельно.","eta":{"min":50,"max":75,"via":"BTS/MRT + Red Line до Bang Khen + ~400 м пешком; приблизительно"},"addedAt":"2026-10-03","status":"active","geo":[13.8523198,100.5630092],"tags":["Выставки"]},{"id":"treasure-factory-phra-khanong","title":"Treasure Factory · Phra Khanong","kind":"Ресейл","area":"Phra Khanong","blurb":"Японский секонд и ресейл: брендовые очки и аксессуары. Точка для поиска D&G DG4413; наличие модели пока не подтверждено.","priority":3,"dates":null,"days":null,"venue":"1106 Sukhumvit Road, Phra Khanong, Khlong Toei, Bangkok 10110","url":"https://www.trefac-th.com/location/","source":"Treasure Factory Thailand — официальный сайт / официальный Google Maps","new":true,"notes":"11:00–21:00; телефон 02 392 4640. Поиск Dolce & Gabbana DG4413 3200/3 (Green Havana/Brown, 48–23–145). Наличие точной модели не подтверждено. В просмотренном онлайн-каталоге её не найдено. Перед визитом запросить остаток по фото и маркировке, в том числе в других филиалах.","eta":{"min":25,"max":40,"via":"Пешком до BTS Phrom Phong → Phra Khanong + пешком; приблизительно"},"status":"active","mapQuery":"Treasure Factory Phra Khanong 1106 Sukhumvit Road Bangkok","geo":[13.7141152,100.5920025],"tags":["Ресейл","Магазины","D&G"]},{"id":"sanrio-centralworld-hello-kitty","title":"Sanrio · CentralWorld","kind":"Магазины","area":"Siam","blurb":"Официальный Sanrio-отдел: Hello Kitty и другие персонажи, аксессуары, blind box, фигурки, одежда и позиции Only at Central. Базовая точка для поиска не самых банальных вещей Hello Kitty.","priority":3,"dates":null,"days":null,"venue":"Central @ CentralWorld, 6F, Bangkok","mapQuery":"Sanrio CentralWorld Bangkok","url":"https://www.central.co.th/en/sanrio","source":"Central — официальный каталог Sanrio","new":true,"notes":"6F. Ищи лимитированные/сезонные линейки, street/Y2K-аксессуары и Only at Central, а не только обычные плюши.","eta":{"min":25,"max":40,"via":"BTS Phrom Phong → Chit Lom/Siam + пешком"},"addedAt":"2026-10-04","status":"active","geo":[13.74652,100.53901],"tags":["Магазины","Hello Kitty"]},{"id":"kaku-uchi-sukhumvit39","title":"KAKU-UCHI Liquor shop & tasting bar","kind":"Магазины","tags":["Ginjo","Магазины","Еда и бары"],"area":"Phrom Phong","blurb":"Магазин японского алкоголя + kaku-uchi на Sukhumvit 39: бутылку можно выбрать и выпить на месте. Хорошая точка, чтобы попросить fruity/aromatic ginjo в заданном бюджете.","priority":3,"dates":null,"days":null,"venue":"36/9 Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110","url":"https://www.jiyuland4.com/nadayasaketen/","source":"Jiyuland, обновлено 05.05.2025 / актуальная Google Business карточка","new":true,"notes":"Подтверждены японское саке и формат shop+tasting. В ассортименте упоминаются Shichida Junmai Daiginjo, BORN Yume wa Masayume и Mizubasho Premium; текущие цены по полке онлайн не опубликованы.","eta":{"min":null,"max":null,"via":"От TRIBE — та же Sukhumvit 39; точный маршрут открыть в Google Maps"},"addedAt":"2026-10-05","status":"active","mapQuery":"KAKU-UCHI Liquor shop & tasting bar 36/9 Sukhumvit 39 Bangkok"},{"id":"ufm-fuji-super-branch2-ginjo","title":"UFM Fuji Super · Branch 2","kind":"Магазины","tags":["Ginjo","Магазины"],"area":"Phrom Phong","blurb":"Большой японский супермаркет на Sukhumvit 39. Имеет смысл проверять полку саке по пути: искать Ginjo / Junmai Ginjo с фруктовым профилем примерно до 1,000–1,400 ฿.","priority":2,"dates":null,"days":null,"venue":"79/79–80 Citi Resort Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110","url":"https://ufmfujisuper.com/branches/","source":"UFM Fuji Super — официальный список филиалов / актуальная Google Business карточка","new":true,"notes":"Питьевой алкоголь не показывается в онлайн-каталоге/GrabMart, поэтому конкретный shelf stock ginjo заранее не подтверждён. Не путать с Takara cooking sake.","eta":{"min":null,"max":null,"via":"От TRIBE — Sukhumvit 39; точный маршрут открыть в Google Maps"},"addedAt":"2026-10-05","status":"active","mapQuery":"UFM Fuji Super Branch 2 79 Sukhumvit 39 Bangkok","geo":[13.7423237,100.5721071]},{"id":"sake-forest-rain-hill","title":"SAKE FOREST @ Rain Hill","kind":"Магазины","tags":["Ginjo","Магазины"],"area":"Phrom Phong / Thong Lo","blurb":"Один из крупнейших специализированных магазинов японского алкоголя в Бангкоке. Лучший кандидат за бутылкой ginjo/junmai ginjo с понятной консультацией.","priority":3,"dates":null,"days":null,"venue":"Rain Hill, 2F, L2-08/L2-09, 777 Sukhumvit 47 Rd., Bangkok 10110","url":"https://www.scstrading.co.th/sake-forest/","source":"SAKE FOREST / SCS Trading — официальный сайт","new":true,"notes":"Официальная линейка импортёра включает Fukuju Junmai Ginjo и Kitaya Souden Junmai Ginjo; бывают дегустации. Хороший запрос продавцу: fruity/aromatic ginjo, 720 ml, около 1,000–1,400 ฿.","eta":{"min":null,"max":null,"via":"Rain Hill между BTS Phrom Phong и Thong Lo; точный маршрут открыть в Google Maps"},"addedAt":"2026-10-05","status":"active","mapQuery":"SAKE FOREST Rain Hill Bangkok","geo":[13.7279644,100.5741864]},{"id":"cheeky-sake-thonglor13","title":"Cheeky Sake","kind":"Еда и бары","tags":["Ginjo","Еда и бары","Магазины"],"area":"Thong Lo","blurb":"Sake shop/bar на Thong Lo 13: можно сначала попробовать саке по бокалу, затем купить понравившуюся бутылку домой.","priority":3,"dates":null,"days":null,"venue":"261 Thong Lo 13 Alley, Khlong Tan Nuea, Watthana, Bangkok 10110","url":"https://www.lemon8-app.com/%40nun_2343/7473084980244267537?region=th","source":"Актуальная Google Business карточка / публичные обзоры Cheeky Sake","new":true,"notes":"Подходит, если не хочется выбирать вслепую: попросить дать попробовать fruity/aromatic ginjo перед покупкой бутылки.","eta":{"min":null,"max":null,"via":"Thong Lo 13; точный маршрут открыть в Google Maps"},"addedAt":"2026-10-05","status":"active","mapQuery":"Cheeky Sake 261 Thong Lo 13 Bangkok"},{"id":"orihara-shoten-ekkamai","title":"Orihara Shoten","kind":"Еда и бары","tags":["Ginjo","Еда и бары","Магазины"],"area":"Ekkamai","blurb":"Классический sake shop + bar в Park Lane Ekkamai с большим выбором японского саке. Можно пробовать по бокалам и покупать бутылки.","priority":2,"dates":null,"days":null,"venue":"Park Lane 18, Khlong Tan Nuea, Watthana, Bangkok 10110","url":"https://www.instagram.com/oriharashoten_bkk/","source":"Orihara Shoten Bangkok / актуальная Google Business карточка","new":true,"notes":"Хороший вариант для сравнения нескольких стилей. Просить фруктовый ginjo или junmai ginjo; ассортимент большой, но текущие бутылки и цены меняются.","eta":{"min":null,"max":null,"via":"Район BTS Ekkamai; точный маршрут открыть в Google Maps"},"addedAt":"2026-10-05","status":"active","mapQuery":"Orihara Shoten Park Lane Ekkamai Bangkok","geo":[13.72349,100.5845]},{"id":"yoshibar-sukhumvit53","title":"Yoshibar","kind":"Еда и бары","tags":["Ginjo","Еда и бары"],"area":"Thong Lo","blurb":"Саке-бар с 100+ меняющимися позициями. Удобнее всего сначала понять любимый профиль по бокалам или tasting flight, а потом уже искать бутылку.","priority":2,"dates":null,"days":null,"venue":"124 Sukhumvit 53 Alley, Khlong Tan Nuea, Watthana, Bangkok 10110","url":"https://www.instagram.com/yoshibarbkk/","source":"Yoshibar / BangkokGotMe, данные проверены 08.06.2026","new":true,"notes":"Ориентир: около 200–320 ฿ за 90 мл; tasting flight 3×60 мл — около 690 ฿. Просить fruity/aromatic ginjo.","eta":{"min":null,"max":null,"via":"Sukhumvit 53; точный маршрут открыть в Google Maps"},"addedAt":"2026-10-05","status":"active","mapQuery":"Yoshibar 124 Sukhumvit 53 Bangkok","geo":[13.73138,100.57831]},{"id":"thinknet-design-studio-silom","title":"THiNKNET Design Studio Flagship Gallery & Store","kind":"Карта","area":"Silom","blurb":"Локальный тайский производитель настоящих карт. В United Center есть витрина на 2F и полный ассортимент на 6F: складная Bilingual Map of Bangkok 2023 (250 ฿), большие настенные карты Бангкока, Таиланда и другие картографические принты.","priority":3,"dates":null,"days":null,"venue":"United Center, 323 Silom Road; showroom 2F, полный ассортимент 6F","mapQuery":"THiNKNET Design Studio Flagship Gallery Store United Center Bangkok","url":"https://thinknetdesign.studio/en/product/bilingual-map-of-bangkok-2023","source":"THiNKNET — официальный сайт и официальный анонс шоурума, 2026","new":true,"notes":"Пн–пт 09:00–18:00; выходные и праздники закрыто. Главная цель: реальная локальная карта Бангкока как сувенир, а не декоративный файл из интернета.","eta":{"min":35,"max":55,"via":"BTS Phrom Phong → Sala Daeng + пешком; приблизительно"},"addedAt":"2026-10-05","status":"active","tags":["Карта","Магазины"]},{"id":"old-maps-prints-bangkok","title":"Old Maps & Prints","kind":"Карта","area":"Charoen Krung","blurb":"Специализированный антикварный магазин старых карт, винтажных постеров, гравюр и принтов по Сиаму и Юго-Восточной Азии. Хороший вариант, если хочется не современной карты, а настоящего исторического предмета.","priority":2,"dates":null,"days":null,"venue":"1044/4-5 Charoen Krung Soi 26, Bang Rak, Bangkok 10500","mapQuery":"Old Maps & Prints 1044/4-5 Charoen Krung Soi 26 Bangkok","url":"https://www.classicmaps.com/","source":"Old Maps & Prints — официальный сайт; Creative Bangkok","new":true,"notes":"Посещение лучше согласовать заранее; магазин специализируется на старых картах и принтах Юго-Восточной Азии.","eta":{"min":45,"max":65,"via":"BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком; приблизительно"},"addedAt":"2026-10-05","status":"active","tags":["Карта","Магазины","Винтаж"]},{"id":"kim-map-bangkok","title":"Kim Map ร้านแผนที่","kind":"Карта","area":"Saphan Sung","blurb":"Редкий в Бангкоке специализированный магазин именно карт. Интересен как место за обычной утилитарной локальной картой без туристического сувенирного дизайна.","priority":1,"dates":null,"days":null,"venue":"31/38 Krungthep Kreetha Road, Thap Chang, Saphan Sung, Bangkok 10250","mapQuery":"Kim Map ร้านแผนที่ Bangkok","url":"https://www.google.com/maps/search/?api=1&query=Kim+Map+ร้านแผนที่+Bangkok","source":"Google Business Profile","new":true,"notes":"Далеко от Sukhumvit 39; ехать специально только если захочется именно покопаться в магазине карт. Перед поездкой лучше подтвердить часы.","eta":{"min":60,"max":90,"via":"Общественный транспорт с пересадками; точный маршрут открыть в Google Maps"},"addedAt":"2026-10-05","status":"active","tags":["Карта","Магазины"]}]}
+{
+  "version": 1,
+  "updatedAt": "2026-10-05",
+  "items": [
+    {
+      "id": "artbangkok",
+      "title": "Art Bangkok 2026",
+      "kind": "События",
+      "area": "Siam",
+      "blurb": "Первая международная ярмарка современного искусства: тайские и зарубежные галереи.",
+      "priority": 3,
+      "dates": [
+        "2026-10-08",
+        "2026-10-11"
+      ],
+      "days": null,
+      "venue": "Siam Paragon, 5F, NEX Hall & Jewel Zone",
+      "url": "https://artbangkok.org/",
+      "source": "официальный сайт",
+      "new": true,
+      "notes": "7 октября — день по приглашениям; публика — с 8 октября. Ярмарка продолжается до 11-го.",
+      "eta": {
+        "min": 35,
+        "max": 50,
+        "via": "BTS Phrom Phong → Siam + пешком"
+      },
+      "addedAt": "2026-09-29",
+      "status": "active",
+      "mapQuery": "Siam Paragon Bangkok",
+      "tags": [
+        "События"
+      ]
+    },
+    {
+      "id": "vwestwood",
+      "title": "Vivienne Westwood & Jewellery",
+      "kind": "Выставки",
+      "area": "Chidlom",
+      "blurb": "Архив украшений за четыре десятилетия в восьми залах; также подиумные образы.",
+      "priority": 3,
+      "dates": [
+        "2026-10-02",
+        "2026-10-23"
+      ],
+      "days": null,
+      "venue": "Central Chidlom, Event Hall, 2F",
+      "url": "https://www.timeout.com/bangkok/news/vivienne-westwood-jewellery-exhibition-bangkok-091126",
+      "source": "Time Out / анонс организаторов",
+      "new": true,
+      "notes": "До 23 октября. Билет ориентировочно 200 ฿.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → Chit Lom + пешком"
+      },
+      "addedAt": "2026-09-29",
+      "status": "active",
+      "mapQuery": "Central Chidlom Bangkok",
+      "tags": [
+        "Выставки"
+      ]
+    },
+    {
+      "id": "kunstmelt",
+      "title": "Spirits Melt to Flesh",
+      "kind": "Выставки",
+      "area": "Old Town",
+      "blurb": "Медиаарт восьми азиатских художников: видео, звук, скульптура и фотография.",
+      "priority": 3,
+      "dates": [
+        "2026-10-02",
+        "2026-10-04"
+      ],
+      "days": null,
+      "venue": "Bangkok Kunsthalle, 599 Pantachit Alley",
+      "url": "https://khaoyaiart.org/bk/exhibitions/",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "Успеть до закрытия 4 октября.",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Bangkok Kunsthalle 599 Pantachit Alley Bangkok",
+      "tags": [
+        "Выставки"
+      ]
+    },
+    {
+      "id": "kunstwfire",
+      "title": "The Preservation of Fire",
+      "kind": "Выставки",
+      "area": "Old Town",
+      "blurb": "Инсталляция Busui Ajaw: архитектура дома акха, текстиль, культурная память.",
+      "priority": 2,
+      "dates": [
+        "2026-10-02",
+        "2026-11-01"
+      ],
+      "days": null,
+      "venue": "Bangkok Kunsthalle, 599 Pantachit Alley",
+      "url": "https://khaoyaiart.org/bk/exhibitions/",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "До 1 ноября.",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Bangkok Kunsthalle 599 Pantachit Alley Bangkok",
+      "tags": [
+        "Выставки"
+      ]
+    },
+    {
+      "id": "tcdcliving",
+      "title": "Living Room / Stationerycore",
+      "kind": "Дизайн",
+      "area": "Charoen Krung",
+      "blurb": "Две действующие выставки о материалах, предметном дизайне и канцелярии.",
+      "priority": 3,
+      "dates": [
+        "2026-10-02",
+        "2026-10-25"
+      ],
+      "days": null,
+      "venue": "TCDC Bangkok, Grand Postal Building",
+      "url": "https://www.tcdc.or.th/en/home/tcdc-bangkok",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "Living Room — до 25 октября, Stationerycore — до 18 октября.",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Thailand Creative Design Center Grand Postal Building Bangkok",
+      "tags": [
+        "Дизайн"
+      ]
+    },
+    {
+      "id": "tcdcmaterial",
+      "title": "Material Submission 2026",
+      "kind": "События",
+      "area": "Charoen Krung",
+      "blurb": "Отдельная программа TCDC по отбору и исследованию материалов.",
+      "priority": 1,
+      "dates": [
+        "2026-10-08",
+        "2026-10-08"
+      ],
+      "days": null,
+      "venue": "TCDC Bangkok",
+      "url": "https://www.tcdc.or.th/en/home",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "На 8 октября есть событие в афише; детали и доступ проверить по организатору.",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Thailand Creative Design Center Grand Postal Building Bangkok",
+      "tags": [
+        "События"
+      ]
+    },
+    {
+      "id": "nic",
+      "title": "NIC Factory Vintage Flea Market",
+      "kind": "События",
+      "area": "Charoen Krung",
+      "blurb": "Маркет винтажных предметов в бывшей табачной фабрике.",
+      "priority": 1,
+      "dates": [
+        "2026-10-02",
+        "2026-10-04"
+      ],
+      "days": null,
+      "venue": "NIC Factory, Charoen Krung 74",
+      "url": "https://www.timeout.com/bangkok/things-to-do/events-this-month",
+      "source": "Time Out",
+      "new": false,
+      "notes": "В основном мебель, интерьер и коллекционные предметы — не аналог Kindal.",
+      "eta": {
+        "min": 60,
+        "max": 80,
+        "via": "BTS Phrom Phong → Siam → Saphan Taksin + пешком"
+      },
+      "status": "active",
+      "mapQuery": "NIC Factory Charoen Krung 74 Bangkok",
+      "tags": [
+        "События"
+      ]
+    },
+    {
+      "id": "bkcaw",
+      "title": "Bangkok Climate Action Week",
+      "kind": "События",
+      "area": "Разные районы",
+      "blurb": "Фестиваль городской среды: инсталляции и отдельные художественные проекты по всему городу.",
+      "priority": 2,
+      "dates": [
+        "2026-10-03",
+        "2026-10-11"
+      ],
+      "days": null,
+      "venue": "Разные площадки",
+      "url": "https://www.bangkokclimateactionweek.org/en/programme",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "",
+      "eta": {
+        "min": null,
+        "max": null,
+        "via": "Разные площадки — уточняется для конкретного события"
+      },
+      "status": "active",
+      "tags": [
+        "События"
+      ]
+    },
+    {
+      "id": "reefs",
+      "title": "Beneath the Surface; Everything",
+      "kind": "Выставки",
+      "area": "Old Town",
+      "blurb": "Арт-проект об искусственных рифах и сочетании дизайна, науки и восстановления экосистем.",
+      "priority": 2,
+      "dates": [
+        "2026-10-02",
+        "2026-10-11"
+      ],
+      "days": null,
+      "venue": "Bangkok 1899",
+      "url": "https://www.bangkokclimateactionweek.org/en/programme/399",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "11:00–18:00, регистрация на выставку не нужна.",
+      "eta": {
+        "min": 60,
+        "max": 85,
+        "via": "BTS → Asok; MRT Sukhumvit → Sam Yot + пешком/автобус"
+      },
+      "status": "active",
+      "mapQuery": "Bangkok 1899 Bangkok",
+      "tags": [
+        "Выставки"
+      ]
+    },
+    {
+      "id": "comics",
+      "title": "BKK Comics Art Festival #5",
+      "kind": "События",
+      "area": "Siam",
+      "blurb": "Независимая иллюстрация и визуальный язык комиксов; работы местных и зарубежных авторов.",
+      "priority": 2,
+      "dates": [
+        "2026-10-06",
+        "2026-10-18"
+      ],
+      "days": null,
+      "venue": "BACC, 5F, 939 Rama I Road",
+      "url": "https://www.bacc.or.th/en/events/95841",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "Выставка 6–18 октября; конвент 10–11 октября.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → National Stadium + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Bangkok Art and Culture Centre Bangkok",
+      "tags": [
+        "События"
+      ]
+    },
+    {
+      "id": "baccgalleries",
+      "title": "Woven Echoes / In Flux",
+      "kind": "Выставки",
+      "area": "Siam",
+      "blurb": "Две параллельные выставки в People’s Gallery.",
+      "priority": 1,
+      "dates": [
+        "2026-10-06",
+        "2026-11-01"
+      ],
+      "days": null,
+      "venue": "BACC, 939 Rama I Road",
+      "url": "https://www.bacc.or.th/en/whats-on/upcoming",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → National Stadium + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Bangkok Art and Culture Centre Bangkok",
+      "tags": [
+        "Выставки"
+      ]
+    },
+    {
+      "id": "dib",
+      "title": "Giving Life — Dib Bangkok",
+      "kind": "Выставки",
+      "area": "Sukhumvit",
+      "blurb": "Новая большая выставка современного искусства в архитектурно выразительном музее.",
+      "priority": 3,
+      "dates": [
+        "2026-10-02",
+        "2027-05-03"
+      ],
+      "days": null,
+      "venue": "Dib Bangkok, 111 Sukhumvit Soi 40",
+      "url": "https://dibbangkok.org/home",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "Открылась 26 сентября. Проверь билеты на световую работу James Turrell отдельно.",
+      "eta": {
+        "min": 25,
+        "max": 45,
+        "via": "BTS Phrom Phong → Thong Lo / Ekkamai + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Dib Bangkok 111 Sukhumvit 40",
+      "tags": [
+        "Выставки"
+      ]
+    },
+    {
+      "id": "octavemaze",
+      "title": "Octave Maze Live",
+      "kind": "События",
+      "area": "Old Town",
+      "blurb": "Живые звуковые выступления внутри кинетической архитектурной инсталляции.",
+      "priority": 3,
+      "dates": [
+        "2026-10-03",
+        "2026-10-10"
+      ],
+      "days": [
+        "2026-10-03",
+        "2026-10-10"
+      ],
+      "venue": "Asvin Cultural and Contemporary Art Space, 9 Nakkharat Road",
+      "url": "https://www.bangkokartcity.org/discover-detail/octave-maze-live-2026",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "Только субботы 3 и 10 октября; часы отдельного перформанса уточнить.",
+      "eta": {
+        "min": 60,
+        "max": 85,
+        "via": "BTS → Asok; MRT Sukhumvit → Sam Yot + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Asvin Cultural and Contemporary Art Space 9 Nakkharat Road Bangkok",
+      "tags": [
+        "События"
+      ]
+    },
+    {
+      "id": "munins",
+      "title": "STILL : ON — Munins",
+      "kind": "Выставки",
+      "area": "Charoen Krung",
+      "blurb": "Сольная выставка современного тайского художника о внимании и работе памяти.",
+      "priority": 2,
+      "dates": [
+        "2026-10-02",
+        "2026-11-15"
+      ],
+      "days": null,
+      "venue": "River City Bangkok, RCB Galleria 5, 3F",
+      "url": "https://www.bangkokartcity.org/discover",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком"
+      },
+      "status": "active",
+      "mapQuery": "River City Bangkok",
+      "tags": [
+        "Выставки"
+      ]
+    },
+    {
+      "id": "kitti",
+      "title": "A Place We Share — Kitti Narod",
+      "kind": "Выставки",
+      "area": "Charoen Krung",
+      "blurb": "Живопись о связи между людьми и повседневной жизни.",
+      "priority": 2,
+      "dates": [
+        "2026-10-02",
+        "2026-10-18"
+      ],
+      "days": null,
+      "venue": "Tang Contemporary Art, River City Bangkok",
+      "url": "https://www.bangkokartcity.org/discover",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "До 18 октября.",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком"
+      },
+      "status": "active",
+      "mapQuery": "River City Bangkok",
+      "tags": [
+        "Выставки"
+      ]
+    },
+    {
+      "id": "stress",
+      "title": "Stress Test — Wantaya Thitipaisal",
+      "kind": "Выставки",
+      "area": "Charoen Krung",
+      "blurb": "Выставка живописи между абстракцией и фигуративностью.",
+      "priority": 1,
+      "dates": [
+        "2026-10-02",
+        "2026-10-04"
+      ],
+      "days": null,
+      "venue": "Supples Gallery, Charoen Krung 43",
+      "url": "https://www.bangkokartcity.org/discover",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "Только до 4 октября.",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Supples Gallery Charoen Krung 43 Bangkok",
+      "tags": [
+        "Выставки"
+      ]
+    },
+    {
+      "id": "weeknd",
+      "title": "Wildside Yohji Yamamoto × Verdy",
+      "kind": "События",
+      "area": "Lumphini",
+      "blurb": "Временный pop-up The Weeknd / Complex с капсулами Wildside Yohji Yamamoto и Verdy.",
+      "priority": 3,
+      "dates": [
+        "2026-10-02",
+        "2026-10-13"
+      ],
+      "days": null,
+      "venue": "Carnival One Bangkok, 2G29 и 2119",
+      "url": "https://www.timeout.com/bangkok/news/the-weeknd-pop-up-store-opens-at-carnival-in-one-bangkok-092926",
+      "source": "Time Out / подтверждённый анонс",
+      "new": true,
+      "notes": "1–13 октября, 10:00–22:00. Товары ограничены.",
+      "eta": {
+        "min": 35,
+        "max": 50,
+        "via": "BTS → Asok; MRT Sukhumvit → Lumphini + пешком"
+      },
+      "addedAt": "2026-09-29",
+      "status": "active",
+      "mapQuery": "Carnival One Bangkok",
+      "tags": [
+        "События"
+      ]
+    },
+    {
+      "id": "ragtagone",
+      "title": "RAGTAG — One Bangkok",
+      "kind": "Ресейл",
+      "area": "Lumphini",
+      "blurb": "Японский дизайнерский ресейл; Comme des Garçons, Issey Miyake, Prada и другие.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "One Bangkok, The Storeys",
+      "url": "https://ragtagthailand.com/en/pages/shop-list",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "10:00–22:00; наличие и состояние каждой вещи проверять.\n\nD&G — ресейл: Поиск Dolce & Gabbana DG4413 3200/3 (Green Havana/Brown, 48–23–145). Наличие точной модели не подтверждено. Резервный вариант: уточнить, находится ли товар в этом филиале, и сравнить цену с новыми очками.",
+      "eta": {
+        "min": 35,
+        "max": 50,
+        "via": "BTS → Asok; MRT Sukhumvit → Lumphini + пешком"
+      },
+      "status": "active",
+      "mapQuery": "RAGTAG One Bangkok The Storeys",
+      "tags": [
+        "Ресейл",
+        "Магазины",
+        "D&G"
+      ]
+    },
+    {
+      "id": "ragtagcw",
+      "title": "RAGTAG — CentralWorld",
+      "kind": "Ресейл",
+      "area": "Siam",
+      "blurb": "Gentle Monster hunt · Японский дизайнерский ресейл; Gentle Monster здесь реально появляется, но последние найденные пары уже sold out.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "CentralWorld, 5F, A515/1–2",
+      "url": "https://ragtagthailand.com/en/pages/shop-list",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "Gentle Monster hunt. В каталоге RAGTAG Thailand недавно были Gentle Monster именно с location CentralWorld: 5,600–6,000 ฿, condition B; найденные пары уже проданы. Имеет смысл проверять свежий stock перед визитом.\n\nD&G — ресейл: Поиск Dolce & Gabbana DG4413 3200/3 (Green Havana/Brown, 48–23–145). Наличие точной модели не подтверждено. Резервный вариант: уточнить, находится ли товар в этом филиале, и сравнить цену с новыми очками.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → Chit Lom + пешком"
+      },
+      "status": "active",
+      "mapQuery": "RAGTAG CentralWorld Bangkok",
+      "tags": [
+        "Ресейл",
+        "Магазины",
+        "Gentle Monster",
+        "D&G"
+      ]
+    },
+    {
+      "id": "2ndbrand",
+      "title": "2nd STREET — Brand Specialty",
+      "kind": "Ресейл",
+      "area": "Siam",
+      "blurb": "Gentle Monster hunt · Brand-focused 2nd STREET в CentralWorld; сильный резервный вариант для designer eyewear и аксессуаров.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "CentralWorld, 5F, A502",
+      "url": "https://2ndstreet-th.com/shop/centralworld_brand/",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "Gentle Monster hunt · backup. Текущий Gentle Monster в тайском онлайн-каталоге не подтверждён, поэтому идти специально только ради очков не стоит; логично проверять вместе с RAGTAG CentralWorld.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → Chit Lom + пешком"
+      },
+      "status": "active",
+      "mapQuery": "2nd STREET Brand Specialty CentralWorld Bangkok",
+      "tags": [
+        "Ресейл",
+        "Магазины",
+        "Gentle Monster"
+      ]
+    },
+    {
+      "id": "2ndgeneral",
+      "title": "2nd STREET — CentralWorld",
+      "kind": "Ресейл",
+      "area": "Siam",
+      "blurb": "Основной филиал сети с более широким и менее селективным ассортиментом.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "CentralWorld, 5F, A501",
+      "url": "https://2ndstreet-th.com/shop/centralworld/",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → Chit Lom + пешком"
+      },
+      "status": "active",
+      "mapQuery": "2nd STREET CentralWorld Bangkok",
+      "tags": [
+        "Ресейл",
+        "Магазины"
+      ]
+    },
+    {
+      "id": "sunday",
+      "title": "Sundaynightmare",
+      "kind": "Ресейл",
+      "area": "Old Town",
+      "blurb": "Архивная дизайнерская одежда, включая японские и европейские марки.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "DOB Hualamphong Gallery, Room C3, 3F, 318 Maha Phruttharam, Bang Rak, Bangkok 10500",
+      "url": "https://sundaynightmare.com/",
+      "source": "Sundaynightmare — официальный сайт",
+      "new": false,
+      "notes": "Флагман подтверждён. Очень точное попадание по брендам: Comme des Garçons, Yohji Yamamoto, Number (N)ine, Undercover, Margiela, Rick Owens, Issey Miyake, Prada, Junya Watanabe и др.",
+      "eta": {
+        "min": 45,
+        "max": 65,
+        "via": "BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Sundaynightmare DOB Hualamphong Gallery Bangkok",
+      "tags": [
+        "Ресейл",
+        "Магазины"
+      ]
+    },
+    {
+      "id": "tokyojoe",
+      "title": "Tokyo Joe",
+      "kind": "Ресейл",
+      "area": "Sukhumvit",
+      "blurb": "Двухэтажный секонд с дизайнерскими и повседневными брендами.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "13 Sukhumvit 39, Khlong Toei Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.instagram.com/tokyojoebkk/",
+      "source": "TOKYO JOE BKK / актуальная карточка 2026",
+      "new": false,
+      "notes": "Ежедневно 10:00–20:00. Два этажа, чисто организованный second-hand: базовые вещи, аксессуары и брендовые позиции; около 2 минут от BTS Phrom Phong.\n\nD&G — ресейл: Поиск Dolce & Gabbana DG4413 3200/3 (Green Havana/Brown, 48–23–145). Наличие точной модели не подтверждено. Запросить по фото и маркировке. LINE: @tokyojoebkk; телефоны: 080 239 7222 / 083 615 6333.",
+      "eta": {
+        "min": 10,
+        "max": 25,
+        "via": "Пешком по Sukhumvit 39"
+      },
+      "status": "active",
+      "mapQuery": "TOKYO JOE BKK 13 Sukhumvit 39 Bangkok",
+      "tags": [
+        "Ресейл",
+        "Магазины",
+        "D&G"
+      ]
+    },
+    {
+      "id": "hdkk",
+      "title": "HDKK Archive",
+      "kind": "Ресейл",
+      "area": "Siam",
+      "blurb": "Дизайнерский архив: Jean Paul Gaultier, Junya Watanabe, Miu Miu и другие.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Lido Connect, 2F, Siam",
+      "url": "https://hdkk.store/",
+      "source": "HDKK — официальный сайт",
+      "new": false,
+      "notes": "Шоурум открыт ежедневно 12:00–20:00. Curated archive clothing, accessories, shoes and bags от дизайнерских брендов.",
+      "eta": {
+        "min": 35,
+        "max": 50,
+        "via": "BTS Phrom Phong → Siam + пешком"
+      },
+      "status": "active",
+      "mapQuery": "HDKK Archive Lido Connect Bangkok",
+      "tags": [
+        "Ресейл",
+        "Магазины"
+      ]
+    },
+    {
+      "id": "garcon",
+      "title": "Garçon Dept",
+      "kind": "Магазины",
+      "area": "Song Wat",
+      "blurb": "Мультибренд современных тайских дизайнеров и иллюстраторов.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Song Wat Road",
+      "url": "https://www.google.com/maps/search/?api=1&query=Garcon+Dept+Song+Wat",
+      "source": "карта; проверить ассортимент",
+      "new": false,
+      "notes": "",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Garçon Dept Song Wat Bangkok",
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "ssstore",
+      "title": "SSS Sandal & Souvenir",
+      "kind": "Магазины",
+      "area": "Song Wat",
+      "blurb": "Наклейки, графика, открытки, небольшие сумки и современная сувенирная ирония.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "134 Thanon Yaowaphanit, Song Wat",
+      "url": "https://www.google.com/maps/search/?api=1&query=SSS+Sandal+Souvenir+Bangkok",
+      "source": "карта; проверить часы",
+      "new": false,
+      "notes": "",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком"
+      },
+      "status": "active",
+      "mapQuery": "SSS Sandal & Souvenir 134 Yaowaphanit Bangkok",
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "spacebar",
+      "title": "Spacebar Zine",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Независимые зины и арт-книги, современная графика местных авторов.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "GalileOasis, 535/32 Wat Phraya Yang Alley",
+      "url": "https://spacebarzine.co/pages/contact",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "",
+      "eta": {
+        "min": 45,
+        "max": 60,
+        "via": "BTS Phrom Phong → Ratchathewi + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Spacebar Zine GalileOasis Bangkok",
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "happening",
+      "title": "Happening Shop + BACC Shop",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Принты, открытки, книги, футболки и авторские вещи тайских художников.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Bangkok Art and Culture Centre",
+      "url": "https://www.bacc.or.th/en/",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → National Stadium + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Happening Shop Bangkok Art and Culture Centre",
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "iwanna",
+      "title": "IWANNABANGKOK",
+      "kind": "Магазины",
+      "area": "Silom",
+      "blurb": "Тайский стритвир, заметная типографика и графический дизайн.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "80 Surawong Road",
+      "url": "https://iwannabangkok.com/",
+      "source": "сайт бренда; адрес уточнить",
+      "new": false,
+      "notes": "",
+      "eta": {
+        "min": 45,
+        "max": 65,
+        "via": "BTS → Asok; MRT Sukhumvit → Sam Yan + пешком"
+      },
+      "status": "active",
+      "mapQuery": "IWANNABANGKOK 80 Surawong Bangkok",
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "paga",
+      "title": "PAGA Microroastery",
+      "kind": "Кофе",
+      "area": "Sukhumvit",
+      "blurb": "Микрообжарщик, редкие лоты, фильтр и серьёзная работа с зерном.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "45/1 Sukhumvit 31",
+      "url": "https://pagacoffee.com/pages/contact-us",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "Ежедневно 08:00–17:00; тебе лучше до 16:00.",
+      "eta": {
+        "min": 10,
+        "max": 25,
+        "via": "Пешком до Sukhumvit 31"
+      },
+      "status": "active",
+      "mapQuery": "PAGA Microroastery Sukhumvit 31 Bangkok",
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "ceresia",
+      "title": "Ceresia Coffee Roasters",
+      "kind": "Кофе",
+      "area": "Sukhumvit",
+      "blurb": "Независимая обжарка, сезонные моносорта и ручные методы.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Sukhumvit Soi 41",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ceresia+Coffee+Roasters+Bangkok",
+      "source": "карта; часы проверить",
+      "new": false,
+      "notes": "",
+      "eta": {
+        "min": 10,
+        "max": 25,
+        "via": "Пешком до Sukhumvit 41"
+      },
+      "status": "active",
+      "mapQuery": "Ceresia Coffee Roasters Sukhumvit 41 Bangkok",
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "terroir",
+      "title": "Terroir.BKK",
+      "kind": "Кофе",
+      "area": "Song Wat",
+      "blurb": "Специализированный фильтр и интересные моносорта в старом торговом районе.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Song Wat Road",
+      "url": "https://www.google.com/maps/search/?api=1&query=Terroir.BKK+Song+Wat",
+      "source": "карта; часы проверить",
+      "new": false,
+      "notes": "",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Terroir BKK Song Wat Road Bangkok",
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "gallerydrip",
+      "title": "Gallery Drip Coffee",
+      "kind": "Кофе",
+      "area": "Siam",
+      "blurb": "Ручной фильтр, в том числе тайские моносорта.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "BACC",
+      "url": "https://www.google.com/maps/search/?api=1&query=Gallery+Drip+Coffee+Bangkok",
+      "source": "карта; часы проверить",
+      "new": false,
+      "notes": "",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → National Stadium + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Gallery Drip Coffee BACC Bangkok",
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "songwat",
+      "title": "Song Wat — прогулка",
+      "kind": "Районы",
+      "area": "Song Wat",
+      "blurb": "Исторические торговые дома и современные независимые дизайнерские проекты.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Song Wat Road",
+      "url": "https://www.google.com/maps/search/?api=1&query=Song+Wat+Road+Bangkok",
+      "source": "карта",
+      "new": false,
+      "notes": "",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Song Wat Road Bangkok",
+      "tags": [
+        "Районы"
+      ]
+    },
+    {
+      "id": "talatnoi",
+      "title": "Talat Noi / Charoen Krung",
+      "kind": "Районы",
+      "area": "Charoen Krung",
+      "blurb": "Мастерские, архитектура, старые склады, современные арт-пространства.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Charoen Krung / Talat Noi",
+      "url": "https://www.google.com/maps/search/?api=1&query=Talat+Noi+Bangkok",
+      "source": "карта",
+      "new": false,
+      "notes": "",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Talat Noi Bangkok",
+      "tags": [
+        "Районы"
+      ]
+    },
+    {
+      "id": "benjakitti",
+      "title": "Benjakitti Forest Park",
+      "kind": "Природа",
+      "area": "Lumphini",
+      "blurb": "Городской ландшафтный проект на базе восстановленной водно-болотной экосистемы.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Benjakitti Forest Park",
+      "url": "https://www.google.com/maps/search/?api=1&query=Benjakitti+Forest+Park",
+      "source": "карта",
+      "new": false,
+      "notes": "",
+      "eta": {
+        "min": 25,
+        "max": 45,
+        "via": "BTS Phrom Phong → Asok / MRT Queen Sirikit + пешком"
+      },
+      "status": "active",
+      "mapQuery": "Benjakitti Forest Park Bangkok",
+      "tags": [
+        "Природа"
+      ]
+    },
+    {
+      "id": "hardrockcafe",
+      "title": "Hard Rock Cafe Bangkok",
+      "kind": "Еда и бары",
+      "area": "Chidlom",
+      "blurb": "Ресторан, концертная площадка и Rock Shop с локальным мерчем.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Hard Rock Cafe Bangkok, 518 Maneeya Center, Pathum Wan",
+      "mapQuery": "Hard Rock Cafe Bangkok 518 Maneeya Center",
+      "url": "https://cafe.hardrock.com/bangkok/",
+      "source": "официальный сайт",
+      "new": false,
+      "notes": "Ежедневно 11:30–00:00; живая музыка вечером.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Chit Lom + пешком"
+      },
+      "status": "active",
+      "tags": [
+        "Еда и бары"
+      ]
+    },
+    {
+      "id": "on-one-bangkok",
+      "title": "On · One Bangkok",
+      "kind": "Спорт",
+      "area": "Lumphini",
+      "blurb": "Фирменный On: бег, lifestyle, тренировки, outdoor и теннис.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "One Bangkok, The Storeys, 1F, 199 Wireless Road",
+      "mapQuery": "On Store One Bangkok The Storeys 1st Floor Bangkok",
+      "url": "https://www.on.com/en-gb/explore/stores/bangkok-one-bangkok",
+      "source": "On — официальный каталог магазинов",
+      "new": false,
+      "notes": "Ежедневно 10:00–22:00.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Asok, MRT Sukhumvit → Lumphini + пешком"
+      },
+      "status": "active",
+      "tags": [
+        "Спорт"
+      ]
+    },
+    {
+      "id": "on-iconsiam",
+      "title": "On · ICONSIAM",
+      "kind": "Спорт",
+      "area": "Khlong San",
+      "blurb": "Фирменный On с полным ассортиментом обуви, одежды и аксессуаров.",
+      "priority": 1,
+      "dates": null,
+      "days": null,
+      "venue": "ICONSIAM, 1F, Unit 122, 299 Charoen Nakhon Road",
+      "mapQuery": "On Store Bangkok ICONSIAM 1st Floor 122",
+      "url": "https://www.on.com/en-th/explore/stores/bangkok-iconsiam",
+      "source": "On — официальный каталог магазинов",
+      "new": false,
+      "notes": "Ежедневно 10:00–22:00.",
+      "eta": {
+        "min": 50,
+        "max": 75,
+        "via": "BTS Phrom Phong → Siam → Krung Thon Buri, Gold Line → Charoen Nakhon + пешком"
+      },
+      "status": "active",
+      "tags": [
+        "Спорт"
+      ]
+    },
+    {
+      "id": "tnf-central-park",
+      "title": "The North Face · Central Park",
+      "kind": "Спорт",
+      "area": "Silom",
+      "blurb": "Фирменный магазин The North Face рядом с парком Люмпини.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Central Park, 3F, Bangkok",
+      "mapQuery": "The North Face Store Central Park 3rd Floor Bangkok",
+      "url": "https://www.thaioutdoorgroup.com/brands/the-north-face/",
+      "source": "Thai Outdoor Group — официальный каталог The North Face",
+      "new": false,
+      "notes": "3 этаж.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Silom + пешком"
+      },
+      "status": "active",
+      "tags": [
+        "Спорт"
+      ]
+    },
+    {
+      "id": "tnf-centralworld",
+      "title": "The North Face · CentralWorld",
+      "kind": "Спорт",
+      "area": "Chidlom",
+      "blurb": "Фирменный The North Face, удобно совместить с покупками в районе Siam / Chidlom.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "CentralWorld, 3F, Bangkok",
+      "mapQuery": "The North Face Store Central World 3rd floor Bangkok",
+      "url": "https://www.thaioutdoorgroup.com/brands/the-north-face/",
+      "source": "Thai Outdoor Group — официальный каталог The North Face",
+      "new": false,
+      "notes": "3 этаж.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Chit Lom + пешком"
+      },
+      "status": "active",
+      "tags": [
+        "Спорт"
+      ]
+    },
+    {
+      "id": "tnf-siam-discovery",
+      "title": "The North Face · Siam Discovery",
+      "kind": "Спорт",
+      "area": "Siam",
+      "blurb": "Фирменный The North Face рядом с Siam Center и Siam Paragon.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Siam Discovery, 1F, Bangkok",
+      "mapQuery": "The North Face Store Siam Discovery first floor Bangkok",
+      "url": "https://www.thaioutdoorgroup.com/brands/the-north-face/",
+      "source": "Thai Outdoor Group — официальный каталог The North Face",
+      "new": false,
+      "notes": "1 этаж.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → Siam + пешком"
+      },
+      "status": "active",
+      "tags": [
+        "Спорт"
+      ]
+    },
+    {
+      "id": "tnf-iconsiam",
+      "title": "The North Face · ICONSIAM",
+      "kind": "Спорт",
+      "area": "Khlong San",
+      "blurb": "Фирменный The North Face; можно совместить с On в том же торговом центре.",
+      "priority": 1,
+      "dates": null,
+      "days": null,
+      "venue": "ICONSIAM, 2F, Bangkok",
+      "mapQuery": "The North Face Store ICONSIAM 2nd floor Bangkok",
+      "url": "https://www.thaioutdoorgroup.com/brands/the-north-face/",
+      "source": "Thai Outdoor Group — официальный каталог The North Face",
+      "new": false,
+      "notes": "2 этаж.",
+      "eta": {
+        "min": 50,
+        "max": 75,
+        "via": "BTS Phrom Phong → Siam → Krung Thon Buri, Gold Line → Charoen Nakhon + пешком"
+      },
+      "status": "active",
+      "tags": [
+        "Спорт"
+      ]
+    },
+    {
+      "id": "tnf-rama9",
+      "title": "The North Face · Central Rama 9",
+      "kind": "Спорт",
+      "area": "Rama 9",
+      "blurb": "Фирменный магазин The North Face у станции MRT Phra Ram 9.",
+      "priority": 1,
+      "dates": null,
+      "days": null,
+      "venue": "Central Grand Rama 9, 3F, Bangkok",
+      "mapQuery": "The North Face Store Central Grand Rama 9 3rd floor Bangkok",
+      "url": "https://www.thaioutdoorgroup.com/brands/the-north-face/",
+      "source": "Thai Outdoor Group — официальный каталог The North Face",
+      "new": false,
+      "notes": "3 этаж.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Phra Ram 9 + пешком"
+      },
+      "status": "active",
+      "tags": [
+        "Спорт"
+      ]
+    },
+    {
+      "id": "tnf-ladprao",
+      "title": "The North Face · Central Ladprao",
+      "kind": "Спорт",
+      "area": "Chatuchak",
+      "blurb": "Фирменный The North Face — имеет смысл, если будешь на севере Бангкока.",
+      "priority": 1,
+      "dates": null,
+      "days": null,
+      "venue": "Central Plaza Ladprao, 2F, Bangkok",
+      "mapQuery": "The North Face Store Central Plaza Ladprao 2nd floor Bangkok",
+      "url": "https://www.thaioutdoorgroup.com/brands/the-north-face/",
+      "source": "Thai Outdoor Group — официальный каталог The North Face",
+      "new": false,
+      "notes": "2 этаж.",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Phahon Yothin + пешком"
+      },
+      "status": "active",
+      "tags": [
+        "Спорт"
+      ]
+    },
+    {
+      "id": "tnf-pinklao",
+      "title": "The North Face · Central Pinklao",
+      "kind": "Спорт",
+      "area": "Pinklao",
+      "blurb": "Фирменный The North Face на западной стороне города: только если окажешься поблизости.",
+      "priority": 1,
+      "dates": null,
+      "days": null,
+      "venue": "Central Plaza Pinklao, 2F, Bangkok",
+      "mapQuery": "The North Face Store Central Plaza Pinklao 2nd floor Bangkok",
+      "url": "https://www.thaioutdoorgroup.com/brands/the-north-face/",
+      "source": "Thai Outdoor Group — официальный каталог The North Face",
+      "new": false,
+      "notes": "2 этаж.",
+      "eta": {
+        "min": 65,
+        "max": 95,
+        "via": "Общественный транспорт с пересадками; точный маршрут смотри в Google Maps"
+      },
+      "status": "active",
+      "tags": [
+        "Спорт"
+      ]
+    },
+    {
+      "id": "saan-songwat",
+      "title": "SAAN Songwat",
+      "kind": "Магазины",
+      "area": "Song Wat",
+      "blurb": "Независимый магазин тайских авторских вещей: аксессуары, изделия местных мастеров и компактные подарки.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "837 Song Wat Road, Chakkrawat, Samphanthawong, Bangkok 10100",
+      "url": "https://www.instagram.com/saan.songwat/",
+      "source": "Time Out Bangkok (01.09.2026); Bangkok Airways Fah Thai",
+      "new": true,
+      "notes": "",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком, приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "SAAN Songwat 837 Song Wat Road Bangkok",
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "song-wat-daily-photobooth",
+      "title": "Song Wat Daily Photobooth",
+      "kind": "Магазины",
+      "area": "Song Wat",
+      "blurb": "Фотобудка в стиле винтажной газеты: печатный сувенир из района Song Wat.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Song Wat Road; точный номер дома не подтверждён",
+      "url": "https://www.google.com/maps/search/?api=1&query=Song+Wat+Daily+Photobooth+Bangkok",
+      "source": "публичные фотоотчёты посетителей (Song Wat Daily)",
+      "new": true,
+      "notes": "Метка приблизительная: точный адрес фотобудки не подтверждён.",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком, приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Song Wat Daily Photobooth Song Wat Road Bangkok",
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "7eleven-happitat-festie-town",
+      "title": "7-Eleven · Happitat Festie Town",
+      "kind": "Магазины",
+      "area": "Bang Na",
+      "blurb": "Первый в Таиланде 7-Eleven Character-Theme Store с ALLiE & the Gang, трёхметровым HappiTube для сладостей и расширенным ассортиментом.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Festie Town, Happitat, The Forestias, Bangna-Trat Road Km.7, Bang Kaeo, Bang Phli, Samut Prakan",
+      "url": "https://www.thaich.net/news/20260821se.htm",
+      "source": "CP ALL / Thai Hyper; Time Out Bangkok",
+      "new": true,
+      "notes": "Постоянная тематическая точка внутри Happitat; не временное событие. Happitat открыт с 10:00.",
+      "eta": {
+        "min": 80,
+        "max": 120,
+        "via": "BTS Phrom Phong → Udom Suk + шаттл/наземный транспорт до Happitat; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "7-Eleven Festie Town Happitat The Forestias Bangna Thailand",
+      "geo": [
+        13.6544375,
+        100.6658125
+      ],
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "ikea-sukhumvit",
+      "title": "IKEA Sukhumvit · EMSPHERE",
+      "kind": "Магазины",
+      "area": "Phrom Phong",
+      "blurb": "Центральная городская IKEA на 3-м этаже EMSPHERE: полноценные room sets, Market Hall, Self-serve и ресторан.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "EMSPHERE, 3F, 628 Sukhumvit Road, Khlong Tan, Khlong Toei, Bangkok 10110",
+      "mapQuery": "IKEA Sukhumvit EMSPHERE Bangkok",
+      "url": "https://www.ikea.com/th/en/stores/sukhumvit/",
+      "source": "IKEA Thailand — официальный сайт",
+      "new": false,
+      "notes": "Ежедневно 10:00–22:00; ресторан 10:00–21:30. Около 450 м от BTS Phrom Phong.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "От TRIBE пешком в сторону Phrom Phong / EMSPHERE; приблизительно"
+      },
+      "status": "active",
+      "geo": [
+        13.7320079,
+        100.5663113
+      ],
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "tryster-glass-house",
+      "title": "TRYSTER Glass House · Siamkit",
+      "kind": "Ресейл",
+      "area": "Siam",
+      "blurb": "Indoor second-hand market: одежда, сумки, аксессуары и винтажные находки.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Siamkit Building, 448 Rama I Road, Pathum Wan, Bangkok 10330",
+      "url": "https://www.instagram.com/trys_ter/",
+      "source": "TRYSTER",
+      "new": true,
+      "notes": "Чт–вс 14:00–22:00.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → Siam + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Tryster Glass House Siamkit Building Bangkok",
+      "geo": [
+        13.744143,
+        100.5345636
+      ],
+      "tags": [
+        "Ресейл",
+        "Магазины"
+      ]
+    },
+    {
+      "id": "clay-songwat",
+      "title": "Clay Songwat",
+      "kind": "Магазины",
+      "area": "Song Wat",
+      "blurb": "Локальная керамическая мастерская и магазин; интересна точечно ради handmade кофейных кружек.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "1176 Song Wat Road, Chakkrawat, Samphanthawong, Bangkok 10100",
+      "url": "https://claysongwat.store/",
+      "source": "Clay Songwat",
+      "new": true,
+      "notes": "Есть фактурные кружки и необычные модели; воркшоп не нужен.",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Clay Songwat 1176 Song Wat Road Bangkok",
+      "geo": [
+        13.7384215,
+        100.506755
+      ],
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "another-story-emsphere",
+      "title": "Another Story · EMSPHERE",
+      "kind": "Магазины",
+      "area": "Phrom Phong",
+      "blurb": "Локальный concept store: дизайнерские вещи, графика, аксессуары и Bangkokian-сувениры; есть сделанные в Таиланде кофейные чашки.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "EMSPHERE, M Floor, 628 Sukhumvit Road, Bangkok 10110",
+      "url": "https://anotherstorybangkok.com/pages/contacts",
+      "source": "Another Story — официальный сайт",
+      "new": true,
+      "notes": "Ищи Bangkokian Coffee Cup Set; наличие в конкретном магазине может меняться.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "От TRIBE пешком к EMSPHERE; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Another Story Emsphere Bangkok",
+      "geo": [
+        13.7322791,
+        100.5660928
+      ],
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "arabica-empire-tower",
+      "title": "% Arabica · Empire Tower 55F",
+      "kind": "Кофе",
+      "area": "Sathorn",
+      "blurb": "Исключение из правила про сети: филиал на 55-м этаже Empire Tower с панорамой Бангкока и видом на MahaNakhon.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Empire Tower, Level 55, 1 South Sathon Road, Bangkok 10120",
+      "url": "https://www.google.com/maps/search/?api=1&query=%25+Arabica+Bangkok+Empire+Tower",
+      "source": "Google Business Profile / актуальные отзывы",
+      "new": true,
+      "notes": "Ежедневно ориентировочно 07:00–21:00. У окна мест немного.",
+      "eta": {
+        "min": 40,
+        "max": 55,
+        "via": "BTS Phrom Phong → Siam → Chong Nonsi + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "% Arabica Bangkok Empire Tower Level 55",
+      "geo": [
+        13.7205344,
+        100.5302284
+      ],
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "train-night-market-ratchada",
+      "title": "Train Night Market Ratchada",
+      "kind": "Ресейл",
+      "area": "Ratchada",
+      "blurb": "Вернувшийся в 2026 ночной рынок: fashion, винтаж, недорогая одежда, мелкие находки и большая food-зона.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Behind Esplanade Ratchadaphisek, Ratchada, Bangkok",
+      "url": "https://www.timeout.com/bangkok/news/ratchada-train-night-market-040326",
+      "source": "Time Out Bangkok, 03.04.2026",
+      "new": true,
+      "notes": "Ежедневно 17:00–01:00. Селекция смешанная: идти за атмосферой и поиском.",
+      "eta": {
+        "min": 35,
+        "max": 55,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Thailand Cultural Centre + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Train Night Market Ratchada Bangkok",
+      "geo": [
+        13.7669375,
+        100.5686875
+      ],
+      "tags": [
+        "Ресейл",
+        "Магазины"
+      ]
+    },
+    {
+      "id": "train-night-market-srinakarin",
+      "title": "Train Night Market Srinakarin",
+      "kind": "Ресейл",
+      "area": "Srinakarin",
+      "blurb": "Огромный классический flea/night market: винтаж, одежда, аксессуары, тайский антиквариат и случайные редкие находки.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "1/4 Srinagarindra Road, Nong Bon, Prawet, Bangkok",
+      "url": "https://www.facebook.com/taradrodfi/",
+      "source": "Tourism Authority of Thailand / официальный Facebook рынка",
+      "new": true,
+      "notes": "Чт–вс вечером. Очень большой и менее селектированный; отдельная ночная прогулка.",
+      "eta": {
+        "min": 60,
+        "max": 90,
+        "via": "BTS/MRT + Yellow Line до Suan Luang Rama IX + ~10 мин пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Train Night Market Srinakarin Bangkok",
+      "geo": [
+        13.6938923,
+        100.6511801
+      ],
+      "tags": [
+        "Ресейл",
+        "Магазины"
+      ]
+    },
+    {
+      "id": "kohi-roastery",
+      "title": "Kohi Roastery & Coffee Bar",
+      "kind": "Кофе",
+      "area": "Phrom Phong",
+      "blurb": "Маленькая in-house roastery: light/medium roast, single origin, pour-over и фруктовые профили; сильный вариант почти рядом с TRIBE.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "5/4 Soi Phrom Si 1, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.google.com/maps/search/?api=1&query=Kohi+Roastery+Coffee+Bar+Bangkok",
+      "source": "Google Business Profile / BrewAtlas / coffee-community 2026",
+      "new": true,
+      "notes": "Вт–вс около 08:00–16:00; понедельник закрыт.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "Пешком / короткий BTS+пешком от TRIBE; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Kohi Roastery & Coffee Bar Bangkok",
+      "geo": [
+        13.7370463,
+        100.5738594
+      ],
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "local-boys-thonglor",
+      "title": "LOCAL BOYS COFFEE CO. · Thonglor",
+      "kind": "Кофе",
+      "area": "Thonglor",
+      "blurb": "Coffee-first бар с Thai/international beans и сильными signature drinks; особенно хвалят Dirty Coconut.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "267/7 Thong Lo, Watthana, Bangkok 10110",
+      "url": "https://www.google.com/maps/search/?api=1&query=LOCAL+BOYS+COFFEE+CO+THONGLOR",
+      "source": "Google Business Profile / актуальные отзывы 2026",
+      "new": true,
+      "notes": "Ежедневно около 07:30–17:30; мест немного.",
+      "eta": {
+        "min": 20,
+        "max": 35,
+        "via": "BTS Phrom Phong → Thong Lo + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "LOCAL BOYS COFFEE CO THONGLOR Bangkok",
+      "geo": [
+        13.7337298,
+        100.5812526
+      ],
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "greydient-them",
+      "title": "Greydient & Them",
+      "kind": "Кофе",
+      "area": "Asok",
+      "blurb": "Дизайн-пространство и серьёзный coffee bar: сезонный filter из локальных и зарубежных обжарок, single origin и собственные blends.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "6/25 Ratchadaphisek Road, Khlong Toei, Bangkok 10110",
+      "url": "https://greydientandthem.com/",
+      "source": "официальный сайт / актуальные рекомендации 2026",
+      "new": true,
+      "notes": "Ежедневно 08:00–17:00; есть и матча.",
+      "eta": {
+        "min": 20,
+        "max": 30,
+        "via": "BTS Phrom Phong → Asok + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Greydient & Them Bangkok",
+      "geo": [
+        13.735531,
+        100.56077
+      ],
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "factory-coffee-phayathai",
+      "title": "Factory Coffee · Phaya Thai",
+      "kind": "Кофе",
+      "area": "Phaya Thai",
+      "blurb": "Сильный тайский roaster/barista проект: competition coffee, single origins, filter и собственная обжарка.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "49 Phaya Thai Road, Ratchathewi, Bangkok 10400",
+      "url": "https://factorybkk.com/blogs/news/location",
+      "source": "Factory Coffee — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 08:00–16:00. Команда — чемпион Thailand Coffee Roasting Championship 2025.",
+      "eta": {
+        "min": 35,
+        "max": 50,
+        "via": "BTS Phrom Phong → Phaya Thai + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Factory Coffee BKK 49 Phaya Thai Road",
+      "geo": [
+        13.7569298,
+        100.534614
+      ],
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "nana-coffee-ari",
+      "title": "NANA Coffee Roasters · Ari",
+      "kind": "Кофе",
+      "area": "Ari",
+      "blurb": "Известный, но действительно серьёзный roaster: широкий выбор single origin, необычные процессы и хороший filter.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "24/2 Ari 4 Alley, Samsen Nai, Phaya Thai, Bangkok 10400",
+      "url": "https://page.line.me/174ekujc",
+      "source": "NANA Coffee Roasters — LINE Official / coffee-community 2026",
+      "new": true,
+      "notes": "Сб–вс 08:00–18:00; в популярные часы бывает многолюдно.",
+      "eta": {
+        "min": 45,
+        "max": 60,
+        "via": "BTS Phrom Phong → Ari + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "NANA Coffee Roasters Ari Bangkok",
+      "geo": [
+        13.7826347,
+        100.54198
+      ],
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "mother-roaster-talat-noi",
+      "title": "Mother Roaster · Talat Noi",
+      "kind": "Кофе",
+      "area": "Talat Noi",
+      "blurb": "Культовая маленькая roastery в старом здании: тайские и зарубежные зерна, ручные методы и сильный выбор зерна домой.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "1172 San Chao Rong Kueak, Talat Noi, Bangkok 10100",
+      "url": "https://www.facebook.com/motherroaster",
+      "source": "Tourism Authority of Thailand / Mother Roaster",
+      "new": true,
+      "notes": "Около 09:30–17:30/18:00; часы могут меняться.",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Mother Roaster Talat Noi Bangkok",
+      "geo": [
+        13.7329909,
+        100.5123218
+      ],
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "roots-thonglor",
+      "title": "Roots · theCOMMONS Thonglor",
+      "kind": "Кофе",
+      "area": "Thonglor",
+      "blurb": "Тайский specialty с фокусом на местное зерно и прозрачное происхождение кофе.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "theCOMMONS, Thonglor 17, Bangkok 10110",
+      "url": "https://rootsbkk.com/branch/",
+      "source": "официальный сайт Roots",
+      "new": true,
+      "notes": "Ежедневно около 07:00–17:00.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Thong Lo + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Roots theCOMMONS Thonglor Bangkok",
+      "geo": [
+        13.7351348,
+        100.5822318
+      ],
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "karo-coffee-roasters",
+      "title": "Karo Coffee Roasters",
+      "kind": "Кофе",
+      "area": "Phra Khanong",
+      "blurb": "Независимая bangkok roastery с собственной обжаркой и серьёзным выбором зерна.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "52 Soi Pridi Banomyong 26, Phra Khanong Nuea, Bangkok 10110",
+      "url": "https://page.line.me/386plxpd",
+      "source": "Karo Coffee Roasters — LINE Official / coffee-community 2026",
+      "new": true,
+      "notes": "Работает с раннего утра; перед поездкой проверить актуальные часы.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → Phra Khanong + наземный транспорт/пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Karo Coffee Roasters Bangkok",
+      "geo": [
+        13.7258698,
+        100.5997849
+      ],
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "sunrise-tacos-terminal21",
+      "title": "Sunrise Tacos · Terminal 21",
+      "kind": "Еда и бары",
+      "area": "Asok",
+      "blurb": "Мексиканский ресторан в Terminal 21 Asok: tacos, burritos, enchiladas, guacamole и другие классические позиции.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Terminal 21 Asok, 4F, shop 4026, 88 Sukhumvit Soi 19, Watthana, Bangkok 10110",
+      "url": "https://www.sunrisetacos.com/locations/",
+      "source": "Sunrise Tacos / Terminal 21 — официальные сайты",
+      "new": true,
+      "notes": "Ежедневно 10:00–22:00.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "BTS Phrom Phong → Asok + переход в Terminal 21; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Sunrise Tacos Terminal 21 Asok Bangkok",
+      "geo": [
+        13.737971,
+        100.5603725
+      ],
+      "tags": [
+        "Еда и бары"
+      ]
+    },
+    {
+      "id": "treasure-factory-sukhumvit39",
+      "title": "Treasure Factory · Sukhumvit 39",
+      "kind": "Ресейл",
+      "area": "Phrom Phong",
+      "blurb": "Gentle Monster hunt · Японский reuse/second-hand магазин прямо на Sukhumvit 39; подтверждён текущий stock Gentle Monster.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "29 Soi Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.trefac-th.com/location/",
+      "source": "Treasure Factory Thailand — официальный сайт / официальный Google Maps",
+      "new": true,
+      "notes": "Gentle Monster hunt. На 3 октября 2026: Gentle Monster 54022-146 Black — 2,980 ฿, Rank B, pickup подтверждён именно в Sukhumvit 39. WD1 Gray — 3,980 ฿, но сейчас только Phra Khanong. Остатки меняются быстро.\n\nD&G — ресейл: Поиск Dolce & Gabbana DG4413 3200/3 (Green Havana/Brown, 48–23–145). Наличие точной модели не подтверждено. В просмотренном онлайн-каталоге её не найдено. Перед визитом запросить остаток по фото и маркировке. Телефон: 02 258 8980; 10:00–19:00.",
+      "eta": {
+        "min": 8,
+        "max": 15,
+        "via": "Пешком от TRIBE по Soi Sukhumvit 39; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Treasure Factory Sukhumvit 39 Bangkok",
+      "geo": [
+        13.7347974,
+        100.571462
+      ],
+      "tags": [
+        "Ресейл",
+        "Магазины",
+        "Gentle Monster",
+        "D&G"
+      ]
+    },
+    {
+      "id": "2ndstreet-phromphong",
+      "title": "2nd STREET · Phrom Phong",
+      "kind": "Ресейл",
+      "area": "Phrom Phong",
+      "blurb": "Официальный филиал японской сети 2nd STREET прямо у Phrom Phong: одежда, обувь и аксессуары с постоянно меняющимся ассортиментом.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "595 Sukhumvit 33/1, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://2ndstreet-th.com/shop/phrom-phong/",
+      "source": "2nd STREET Thailand — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 10:00–20:00. Один из самых близких и очевидных приоритетов.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "От TRIBE к BTS Phrom Phong / Sukhumvit 33/1; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "2nd STREET Phrom Phong 595 Sukhumvit 33/1 Bangkok",
+      "geo": [
+        13.7327497,
+        100.5682856
+      ],
+      "tags": [
+        "Ресейл",
+        "Магазины"
+      ]
+    },
+    {
+      "id": "yojohan-phromphong",
+      "title": "YOJOHAN",
+      "kind": "Ресейл",
+      "area": "Phrom Phong",
+      "blurb": "Небольшой used/vintage clothing shop на Sukhumvit 33/1 рядом с 2nd STREET; удобный дополнительный заход в том же кластере.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "595/22 Sukhumvit 33/1, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.google.com/maps/search/?api=1&query=YOJOHAN+Bangkok",
+      "source": "Google Business Profile, 2026",
+      "new": true,
+      "notes": "Ежедневно 10:00–20:00. Магазин маленький; ценность в том, что он буквально рядом с 2nd STREET.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "От TRIBE к Phrom Phong; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "YOJOHAN 595/22 Sukhumvit 33/1 Bangkok",
+      "geo": [
+        13.7321422,
+        100.5683855
+      ],
+      "tags": [
+        "Ресейл",
+        "Магазины"
+      ]
+    },
+    {
+      "id": "unfashion-s39",
+      "title": "(un)FASHION District S39",
+      "kind": "Ресейл",
+      "area": "Phrom Phong",
+      "blurb": "Винтаж на самой Sukhumvit 39: одежда, обувь/ботинки, сумки и аксессуары; плюс кафе и керамика.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "19/5 Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.instagram.com/unfashiondistrict39/",
+      "source": "актуальные локальные карточки и отзывы 2026",
+      "new": true,
+      "notes": "Около 10:00–20:30. Не designer resale уровня RAGTAG, но очень близко и есть мужская/винтажная часть; заодно можно посмотреть кружки.",
+      "eta": {
+        "min": 8,
+        "max": 15,
+        "via": "Пешком по Soi Sukhumvit 39; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "unFASHION District S39 Bangkok",
+      "geo": [
+        13.7334476,
+        100.5708488
+      ],
+      "tags": [
+        "Ресейл",
+        "Магазины"
+      ]
+    },
+    {
+      "id": "the-vintage-store-thonglor",
+      "title": "The Vintage Store · Eight Thonglor",
+      "kind": "Ресейл",
+      "area": "Thonglor",
+      "blurb": "Кураторский pre-owned luxury/designer consignment: Chanel, Hermès, YSL и другие коллекционные и сезонные вещи.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Eight Thonglor, G Floor, 88/1 Sukhumvit 55, Bangkok 10110",
+      "url": "https://thevintagestorebkk.com/",
+      "source": "The Vintage Store — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 11:00–19:00. Сильная селекция, но заметно дороже и ближе к luxury consignment, чем к обычному thrift.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Thong Lo + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "The Vintage Store Eight Thonglor Bangkok",
+      "geo": [
+        13.730661,
+        100.581886
+      ],
+      "tags": [
+        "Ресейл",
+        "Магазины"
+      ]
+    },
+    {
+      "id": "brandname-society-thonglor",
+      "title": "Brandname Society · Thonglor",
+      "kind": "Ресейл",
+      "area": "Thonglor",
+      "blurb": "Gentle Monster hunt · Luxury consignment/resale с аксессуарами и очками; текущий Gentle Monster подтверждён.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Marche Thonglor, Building C, 2F, Thong Lo, Watthana, Bangkok 10110",
+      "url": "https://www.brandnamesocietybkk.com/",
+      "source": "Brandname Society — официальный сайт",
+      "new": true,
+      "notes": "Gentle Monster hunt. На 3 октября 2026 в текущем каталоге: Gentle Monster Sunglasses Black — 6,500 ฿. Магазин заявляет гарантию подлинности; Thonglor, ежедневно 11:00–20:00.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Thong Lo + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Brandname Society Marche Thonglor Building C Bangkok",
+      "geo": [
+        13.7283702,
+        100.5811107
+      ],
+      "tags": [
+        "Ресейл",
+        "Магазины",
+        "Gentle Monster"
+      ]
+    },
+    {
+      "id": "cdg-play-one-bangkok",
+      "title": "COMME des GARÇONS PLAY · One Bangkok",
+      "kind": "Магазины",
+      "area": "Lumphini",
+      "blurb": "COMME des GARÇONS PLAY в The Storeys; линия PLAY подтверждена у Club21, рядом также отдельный CDGCDGCDG.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "The Storeys, 1F, One Bangkok (CDG / Club21; room 2104)",
+      "url": "https://th.club21.com/community/discover/comme-des-gar%C3%A7ons-play-tone",
+      "source": "Club21 / COMME des GARÇONS — официальные страницы",
+      "new": true,
+      "notes": "PLAY подтверждён на 1F The Storeys; официальный CDG store в One Bangkok — room 2104.",
+      "eta": {
+        "min": 35,
+        "max": 50,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini → One Bangkok + пешком"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "mapQuery": "COMME des GARCONS One Bangkok The Storeys",
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "matter-makers-one-bangkok",
+      "title": "Matter Makers · One Bangkok",
+      "kind": "Магазины",
+      "area": "Lumphini",
+      "blurb": "Локальный тайский streetwear/casual бренд; понравился пользователю, стоит вернуться и посмотреть внимательнее.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Parade, G Floor, room 1G26, One Bangkok",
+      "mapQuery": "Matter Makers One Bangkok",
+      "url": "https://matter-makers.com/stores/",
+      "source": "Matter Makers — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 10:00–22:00.",
+      "eta": {
+        "min": 35,
+        "max": 50,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini → One Bangkok + пешком"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "bloody-bunny-terminal21",
+      "title": "Bloody Bunny & Friends Store · Terminal 21",
+      "kind": "Магазины",
+      "area": "Asok",
+      "blurb": "Тайский character store 2Spot: Bloody Bunny и другие персонажи, одежда, аксессуары, канцелярия и компактные подарки.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Terminal 21 Asok, 3F – Istanbul, 88 Sukhumvit Road, Khlong Toei Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.2spotstudio.com/copy-of-2spotstudio",
+      "source": "Terminal 21 Asok / 2Spot Studio — официальные сайты",
+      "new": true,
+      "notes": "3F, зона Istanbul. Ежедневно 10:00–22:00.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "BTS Phrom Phong → Asok + переход в Terminal 21; приблизительно"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "mapQuery": "Bloody Bunny & Friends Store Terminal21 Asok Bangkok",
+      "geo": [
+        13.737971,
+        100.5603725
+      ],
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "victoria-arduino-sukhumvit33",
+      "title": "Victoria Arduino Official Store",
+      "kind": "Кофе",
+      "area": "Phrom Phong",
+      "blurb": "Двухэтажный шоурум и experience centre профессионального кофейного оборудования; можно знакомиться с машинами и кофейными tasting experiences.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "29 Soi Sukhumvit 33, Khlong Toei Nuea, Watthana, Bangkok 10110",
+      "url": "https://aromathailand.com/myshop/victoria-arduino-official-store/",
+      "source": "Victoria Arduino / Aroma Group — официальные страницы",
+      "new": true,
+      "notes": "Это прежде всего showroom/retail/experience centre, а не обычная кофейня. Victoria Arduino официально заявляет workshops и tasting experiences; регулярное café-меню не подтверждено. По официальной странице Aroma: пн–сб 08:00–17:00, вс закрыто.",
+      "eta": {
+        "min": 10,
+        "max": 20,
+        "via": "От TRIBE пешком к Sukhumvit Soi 33; приблизительно"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "mapQuery": "Victoria Arduino Official Store 29 Soi Sukhumvit 33 Bangkok",
+      "geo": [
+        13.7377127,
+        100.5680121
+      ],
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "summer-coffee-terminal21-loveramics",
+      "title": "The Summer Coffee Company · Terminal 21 Asok",
+      "kind": "Кофе",
+      "area": "Asok",
+      "blurb": "Specialty coffee + кофейные аксессуары; подтверждён ассортимент Loveramics. Удобная точка для поиска кружки без возврата в One Bangkok.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Terminal 21 Asok, 2F, Bangkok",
+      "mapQuery": "The Summer Coffee Company Terminal 21 Asok",
+      "url": "https://thesummercoffee.com/",
+      "source": "The Summer Coffee Company — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 10:00–22:00. Loveramics подтверждён в этой точке; конкретный остаток Nutty Tasting Cup заранее не гарантирован.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "BTS Phrom Phong → Asok + переход в Terminal 21; приблизительно"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "geo": [
+        13.737971,
+        100.5603725
+      ],
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "summer-coffee-siam-paragon-loveramics",
+      "title": "The Summer Coffee Company · Siam Paragon",
+      "kind": "Кофе",
+      "area": "Siam",
+      "blurb": "Specialty coffee + кофейные аксессуары; Loveramics представлен в магазине. Резервная точка для поиска кружки.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Siam Paragon, G Floor, Bangkok",
+      "mapQuery": "The Summer Coffee Company Siam Paragon",
+      "url": "https://thesummercoffee.com/",
+      "source": "The Summer Coffee Company — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 10:00–22:00. Конкретный остаток Nutty Tasting Cup заранее не гарантирован.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Siam + пешком; приблизительно"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "summer-coffee-central-park-loveramics",
+      "title": "The Summer Coffee Company · Central Park",
+      "kind": "Кофе",
+      "area": "Lumphini / Silom",
+      "blurb": "Specialty coffee + кофейные аксессуары; Loveramics подтверждён. Ещё одна удобная точка по маршрутам через Lumphini.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Central Park, 2F, Bangkok",
+      "mapQuery": "The Summer Coffee Company Central Park Bangkok",
+      "url": "https://thesummercoffee.com/",
+      "source": "The Summer Coffee Company — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 10:00–22:00. Конкретный остаток Nutty Tasting Cup заранее не гарантирован.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Silom + пешком; приблизительно"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "geo": [
+        13.72843,
+        100.53757
+      ],
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "fortune-teller-one-bangkok",
+      "title": "Fortune Teller — Julie Stephen Chheng",
+      "kind": "Выставки",
+      "area": "Lumphini",
+      "blurb": "Интерактивная выставка с проекциями, AR и игровым взаимодействием с персонажами-духами природы.",
+      "priority": 3,
+      "dates": [
+        "2026-10-02",
+        "2026-11-15"
+      ],
+      "days": null,
+      "venue": "One Bangkok, The Storeys, 2F",
+      "mapQuery": "Fortune Teller One Bangkok The Storeys",
+      "url": "https://www.onebangkok.com/en/whats-happening/fortune-teller/",
+      "source": "One Bangkok — официальный анонс",
+      "new": true,
+      "notes": "2 октября – 15 ноября 2026. Основная экспозиция на 2F The Storeys; дополнительные AR-точки расположены по One Bangkok.",
+      "eta": {
+        "min": 35,
+        "max": 50,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini → One Bangkok + пешком"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "tags": [
+        "Выставки"
+      ]
+    },
+    {
+      "id": "rubber-killer-one-bangkok",
+      "title": "Rubber Killer · One Bangkok",
+      "kind": "Магазины",
+      "area": "Lumphini",
+      "blurb": "Тайский upcycling-бренд сумок и аксессуаров из переработанных велосипедных камер; временная точка в The Storeys.",
+      "priority": 3,
+      "dates": [
+        "2026-08-20",
+        "2027-01-31"
+      ],
+      "days": null,
+      "venue": "One Bangkok, The Storeys TEMP, 2F",
+      "mapQuery": "Rubber Killer One Bangkok The Storeys",
+      "url": "https://www.facebook.com/rubberkiller/",
+      "source": "Rubber Killer — официальный анонс",
+      "new": true,
+      "notes": "Pop-up в The Storeys TEMP, 2F, заявлен до 31 января 2027.",
+      "eta": {
+        "min": 35,
+        "max": 50,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini → One Bangkok + пешком"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "antday-river-city",
+      "title": "ANTDAY Specialty Coffee & Arts",
+      "kind": "Кофе",
+      "area": "Charoen Krung",
+      "blurb": "Камерный specialty slow bar внутри River City; сильный фокус на drip coffee и кофейном обучении.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "River City Bangkok, 2F, Room 236",
+      "mapQuery": "ANTDAY Specialty Coffee & Arts River City Bangkok",
+      "url": "https://rivercitybangkok.com/gallery/a-n-t-d-a-y-cafe/",
+      "source": "River City Bangkok — официальный каталог",
+      "new": true,
+      "notes": "River City описывает ANTDAY как high-quality roasted drip coffee café и пространство для coffee workshops. Часы лучше перепроверять в день визита: публичные источники расходятся.",
+      "eta": {
+        "min": 35,
+        "max": 55,
+        "via": "BTS/MRT + пешком к River City; приблизительно"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "tags": [
+        "Кофе"
+      ]
+    },
+    {
+      "id": "camper-centralworld",
+      "title": "Camper · CentralWorld",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Полноценный Camper Store с мужской и женской коллекциями; основная точка для более внимательного просмотра бренда.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "centralwOrld, 1F, 999/9 Rama I Rd, Pathum Wan",
+      "mapQuery": "Camper CentralWorld Bangkok",
+      "url": "https://www.camper.com/en_TH/shops/thailand/bangkok/store_shoes_1_fl_999_9_rama_i_rd_pathumwan_bangkok_10330-0000531810",
+      "source": "Camper — официальный каталог магазинов",
+      "new": true,
+      "notes": "Ежедневно 10:00–22:00. Официально не обозначен как flagship, но это отдельный Camper Store.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Siam/Chit Lom + пешком"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "pop-mart-centralworld",
+      "title": "POP MART Flagship · CentralWorld",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Флагман POP MART в CentralWorld; проверить Have a Good Run Series Bracelet и обычную оплату картой.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "centralwOrld, 1F, 999/9 Rama I Rd, Pathum Wan",
+      "mapQuery": "POP MART CentralWorld Bangkok",
+      "url": "https://www.popmart.com/th/store-list",
+      "source": "POP MART Thailand / Central Group — официальные страницы",
+      "new": true,
+      "notes": "Ежедневно 10:00–22:00. Central Group называет точку flagship store; конкретный остаток браслета заранее не подтверждён.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Siam/Chit Lom + пешком"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "moca-bangkok",
+      "title": "MOCA Bangkok",
+      "kind": "Выставки",
+      "area": "Chatuchak",
+      "blurb": "Большой Museum of Contemporary Art Bangkok с постоянной коллекцией и временными выставками.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "499 Kamphaeng Phet 6 Rd, Lat Yao, Chatuchak, Bangkok 10900",
+      "mapQuery": "MOCA Bangkok Museum of Contemporary Art",
+      "url": "https://www.mocabangkok.com/admission/",
+      "source": "MOCA Bangkok — официальный сайт",
+      "new": false,
+      "notes": "Вт–вс 10:00–18:00, понедельник закрыт. Общий билет 400 ฿; специальные выставки могут оплачиваться отдельно.",
+      "eta": {
+        "min": 50,
+        "max": 75,
+        "via": "BTS/MRT + Red Line до Bang Khen + ~400 м пешком; приблизительно"
+      },
+      "addedAt": "2026-10-03",
+      "status": "active",
+      "geo": [
+        13.8523198,
+        100.5630092
+      ],
+      "tags": [
+        "Выставки"
+      ]
+    },
+    {
+      "id": "treasure-factory-phra-khanong",
+      "title": "Treasure Factory · Phra Khanong",
+      "kind": "Ресейл",
+      "area": "Phra Khanong",
+      "blurb": "Японский секонд и ресейл: брендовые очки и аксессуары. Точка для поиска D&G DG4413; наличие модели пока не подтверждено.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "1106 Sukhumvit Road, Phra Khanong, Khlong Toei, Bangkok 10110",
+      "url": "https://www.trefac-th.com/location/",
+      "source": "Treasure Factory Thailand — официальный сайт / официальный Google Maps",
+      "new": true,
+      "notes": "11:00–21:00; телефон 02 392 4640. Поиск Dolce & Gabbana DG4413 3200/3 (Green Havana/Brown, 48–23–145). Наличие точной модели не подтверждено. В просмотренном онлайн-каталоге её не найдено. Перед визитом запросить остаток по фото и маркировке, в том числе в других филиалах.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "Пешком до BTS Phrom Phong → Phra Khanong + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Treasure Factory Phra Khanong 1106 Sukhumvit Road Bangkok",
+      "geo": [
+        13.7141152,
+        100.5920025
+      ],
+      "tags": [
+        "Ресейл",
+        "Магазины",
+        "D&G"
+      ]
+    },
+    {
+      "id": "sanrio-centralworld-hello-kitty",
+      "title": "Sanrio · CentralWorld",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Официальный Sanrio-отдел: Hello Kitty и другие персонажи, аксессуары, blind box, фигурки, одежда и позиции Only at Central. Базовая точка для поиска не самых банальных вещей Hello Kitty.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Central @ CentralWorld, 6F, Bangkok",
+      "mapQuery": "Sanrio CentralWorld Bangkok",
+      "url": "https://www.central.co.th/en/sanrio",
+      "source": "Central — официальный каталог Sanrio",
+      "new": true,
+      "notes": "6F. Ищи лимитированные/сезонные линейки, street/Y2K-аксессуары и Only at Central, а не только обычные плюши.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Chit Lom/Siam + пешком"
+      },
+      "addedAt": "2026-10-04",
+      "status": "active",
+      "geo": [
+        13.74652,
+        100.53901
+      ],
+      "tags": [
+        "Магазины",
+        "Hello Kitty"
+      ]
+    },
+    {
+      "id": "kaku-uchi-sukhumvit39",
+      "title": "KAKU-UCHI Liquor shop & tasting bar",
+      "kind": "Магазины",
+      "tags": [
+        "Ginjo",
+        "Магазины",
+        "Еда и бары"
+      ],
+      "area": "Phrom Phong",
+      "blurb": "Магазин японского алкоголя + kaku-uchi на Sukhumvit 39: бутылку можно выбрать и выпить на месте. Хорошая точка, чтобы попросить fruity/aromatic ginjo в заданном бюджете.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "36/9 Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.jiyuland4.com/nadayasaketen/",
+      "source": "Jiyuland, обновлено 05.05.2025 / актуальная Google Business карточка",
+      "new": true,
+      "notes": "Подтверждены японское саке и формат shop+tasting. В ассортименте упоминаются Shichida Junmai Daiginjo, BORN Yume wa Masayume и Mizubasho Premium; текущие цены по полке онлайн не опубликованы.",
+      "eta": {
+        "min": null,
+        "max": null,
+        "via": "От TRIBE — та же Sukhumvit 39; точный маршрут открыть в Google Maps"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "mapQuery": "KAKU-UCHI Liquor shop & tasting bar 36/9 Sukhumvit 39 Bangkok"
+    },
+    {
+      "id": "ufm-fuji-super-branch2-ginjo",
+      "title": "UFM Fuji Super · Branch 2",
+      "kind": "Магазины",
+      "tags": [
+        "Ginjo",
+        "Магазины"
+      ],
+      "area": "Phrom Phong",
+      "blurb": "Большой японский супермаркет на Sukhumvit 39. Имеет смысл проверять полку саке по пути: искать Ginjo / Junmai Ginjo с фруктовым профилем примерно до 1,000–1,400 ฿.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "79/79–80 Citi Resort Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://ufmfujisuper.com/branches/",
+      "source": "UFM Fuji Super — официальный список филиалов / актуальная Google Business карточка",
+      "new": true,
+      "notes": "Питьевой алкоголь не показывается в онлайн-каталоге/GrabMart, поэтому конкретный shelf stock ginjo заранее не подтверждён. Не путать с Takara cooking sake.",
+      "eta": {
+        "min": null,
+        "max": null,
+        "via": "От TRIBE — Sukhumvit 39; точный маршрут открыть в Google Maps"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "mapQuery": "UFM Fuji Super Branch 2 79 Sukhumvit 39 Bangkok",
+      "geo": [
+        13.7423237,
+        100.5721071
+      ]
+    },
+    {
+      "id": "sake-forest-rain-hill",
+      "title": "SAKE FOREST @ Rain Hill",
+      "kind": "Магазины",
+      "tags": [
+        "Ginjo",
+        "Магазины"
+      ],
+      "area": "Phrom Phong / Thong Lo",
+      "blurb": "Один из крупнейших специализированных магазинов японского алкоголя в Бангкоке. Лучший кандидат за бутылкой ginjo/junmai ginjo с понятной консультацией.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Rain Hill, 2F, L2-08/L2-09, 777 Sukhumvit 47 Rd., Bangkok 10110",
+      "url": "https://www.scstrading.co.th/sake-forest/",
+      "source": "SAKE FOREST / SCS Trading — официальный сайт",
+      "new": true,
+      "notes": "Официальная линейка импортёра включает Fukuju Junmai Ginjo и Kitaya Souden Junmai Ginjo; бывают дегустации. Хороший запрос продавцу: fruity/aromatic ginjo, 720 ml, около 1,000–1,400 ฿.",
+      "eta": {
+        "min": null,
+        "max": null,
+        "via": "Rain Hill между BTS Phrom Phong и Thong Lo; точный маршрут открыть в Google Maps"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "mapQuery": "SAKE FOREST Rain Hill Bangkok",
+      "geo": [
+        13.7279644,
+        100.5741864
+      ]
+    },
+    {
+      "id": "cheeky-sake-thonglor13",
+      "title": "Cheeky Sake",
+      "kind": "Еда и бары",
+      "tags": [
+        "Ginjo",
+        "Еда и бары",
+        "Магазины"
+      ],
+      "area": "Thong Lo",
+      "blurb": "Sake shop/bar на Thong Lo 13: можно сначала попробовать саке по бокалу, затем купить понравившуюся бутылку домой.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "261 Thong Lo 13 Alley, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.lemon8-app.com/%40nun_2343/7473084980244267537?region=th",
+      "source": "Актуальная Google Business карточка / публичные обзоры Cheeky Sake",
+      "new": true,
+      "notes": "Подходит, если не хочется выбирать вслепую: попросить дать попробовать fruity/aromatic ginjo перед покупкой бутылки.",
+      "eta": {
+        "min": null,
+        "max": null,
+        "via": "Thong Lo 13; точный маршрут открыть в Google Maps"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "mapQuery": "Cheeky Sake 261 Thong Lo 13 Bangkok"
+    },
+    {
+      "id": "orihara-shoten-ekkamai",
+      "title": "Orihara Shoten",
+      "kind": "Еда и бары",
+      "tags": [
+        "Ginjo",
+        "Еда и бары",
+        "Магазины"
+      ],
+      "area": "Ekkamai",
+      "blurb": "Классический sake shop + bar в Park Lane Ekkamai с большим выбором японского саке. Можно пробовать по бокалам и покупать бутылки.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Park Lane 18, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.instagram.com/oriharashoten_bkk/",
+      "source": "Orihara Shoten Bangkok / актуальная Google Business карточка",
+      "new": true,
+      "notes": "Хороший вариант для сравнения нескольких стилей. Просить фруктовый ginjo или junmai ginjo; ассортимент большой, но текущие бутылки и цены меняются.",
+      "eta": {
+        "min": null,
+        "max": null,
+        "via": "Район BTS Ekkamai; точный маршрут открыть в Google Maps"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "mapQuery": "Orihara Shoten Park Lane Ekkamai Bangkok",
+      "geo": [
+        13.72349,
+        100.5845
+      ]
+    },
+    {
+      "id": "yoshibar-sukhumvit53",
+      "title": "Yoshibar",
+      "kind": "Еда и бары",
+      "tags": [
+        "Ginjo",
+        "Еда и бары"
+      ],
+      "area": "Thong Lo",
+      "blurb": "Саке-бар с 100+ меняющимися позициями. Удобнее всего сначала понять любимый профиль по бокалам или tasting flight, а потом уже искать бутылку.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "124 Sukhumvit 53 Alley, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://www.instagram.com/yoshibarbkk/",
+      "source": "Yoshibar / BangkokGotMe, данные проверены 08.06.2026",
+      "new": true,
+      "notes": "Ориентир: около 200–320 ฿ за 90 мл; tasting flight 3×60 мл — около 690 ฿. Просить fruity/aromatic ginjo.",
+      "eta": {
+        "min": null,
+        "max": null,
+        "via": "Sukhumvit 53; точный маршрут открыть в Google Maps"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "mapQuery": "Yoshibar 124 Sukhumvit 53 Bangkok",
+      "geo": [
+        13.73138,
+        100.57831
+      ]
+    },
+    {
+      "id": "thinknet-design-studio-silom",
+      "title": "THiNKNET Design Studio Flagship Gallery & Store",
+      "kind": "Карта",
+      "area": "Silom",
+      "blurb": "Локальный тайский производитель настоящих карт. В United Center есть витрина на 2F и полный ассортимент на 6F: складная Bilingual Map of Bangkok 2023 (250 ฿), большие настенные карты Бангкока, Таиланда и другие картографические принты.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "United Center, 323 Silom Road; showroom 2F, полный ассортимент 6F",
+      "mapQuery": "THiNKNET Design Studio Flagship Gallery Store United Center Bangkok",
+      "url": "https://thinknetdesign.studio/en/product/bilingual-map-of-bangkok-2023",
+      "source": "THiNKNET — официальный сайт и официальный анонс шоурума, 2026",
+      "new": true,
+      "notes": "Пн–пт 09:00–18:00; выходные и праздники закрыто. Главная цель: реальная локальная карта Бангкока как сувенир, а не декоративный файл из интернета.",
+      "eta": {
+        "min": 35,
+        "max": 55,
+        "via": "BTS Phrom Phong → Sala Daeng + пешком; приблизительно"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "tags": [
+        "Карта",
+        "Магазины"
+      ]
+    },
+    {
+      "id": "old-maps-prints-bangkok",
+      "title": "Old Maps & Prints",
+      "kind": "Карта",
+      "area": "Charoen Krung",
+      "blurb": "Специализированный антикварный магазин старых карт, винтажных постеров, гравюр и принтов по Сиаму и Юго-Восточной Азии. Хороший вариант, если хочется не современной карты, а настоящего исторического предмета.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "1044/4-5 Charoen Krung Soi 26, Bang Rak, Bangkok 10500",
+      "mapQuery": "Old Maps & Prints 1044/4-5 Charoen Krung Soi 26 Bangkok",
+      "url": "https://www.classicmaps.com/",
+      "source": "Old Maps & Prints — официальный сайт; Creative Bangkok",
+      "new": true,
+      "notes": "Посещение лучше согласовать заранее; магазин специализируется на старых картах и принтах Юго-Восточной Азии.",
+      "eta": {
+        "min": 45,
+        "max": 65,
+        "via": "BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком; приблизительно"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "tags": [
+        "Карта",
+        "Магазины",
+        "Винтаж"
+      ]
+    },
+    {
+      "id": "kim-map-bangkok",
+      "title": "Kim Map ร้านแผนที่",
+      "kind": "Карта",
+      "area": "Saphan Sung",
+      "blurb": "Редкий в Бангкоке специализированный магазин именно карт. Интересен как место за обычной утилитарной локальной картой без туристического сувенирного дизайна.",
+      "priority": 1,
+      "dates": null,
+      "days": null,
+      "venue": "31/38 Krungthep Kreetha Road, Thap Chang, Saphan Sung, Bangkok 10250",
+      "mapQuery": "Kim Map ร้านแผนที่ Bangkok",
+      "url": "https://www.google.com/maps/search/?api=1&query=Kim+Map+ร้านแผนที่+Bangkok",
+      "source": "Google Business Profile",
+      "new": true,
+      "notes": "Далеко от Sukhumvit 39; ехать специально только если захочется именно покопаться в магазине карт. Перед поездкой лучше подтвердить часы.",
+      "eta": {
+        "min": 60,
+        "max": 90,
+        "via": "Общественный транспорт с пересадками; точный маршрут открыть в Google Maps"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "tags": [
+        "Карта",
+        "Магазины"
+      ]
+    },
+    {
+      "id": "levis-centralworld",
+      "title": "Levi’s · CentralWorld",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Крупный городской магазин Levi’s в CentralWorld; удобный вариант посмотреть джинсы и текущие промо без поездки в дальний аутлет.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "CentralWorld, Bangkok",
+      "mapQuery": "Levi's CentralWorld Bangkok",
+      "url": "https://levi.co.th/en/a/store-locator/levis-central-world.html",
+      "source": "Levi’s Thailand — официальный store locator",
+      "new": true,
+      "notes": "Официальный Levi’s store locator: ежедневно 10:30–22:00. Это обычный городской магазин, не outlet.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Chit Lom/Siam + пешком"
+      },
+      "addedAt": "2026-10-05",
+      "status": "active",
+      "geo": [
+        13.74652,
+        100.53901
+      ],
+      "tags": [
+        "Магазины",
+        "Levi’s"
+      ]
+    }
+  ]
+}
