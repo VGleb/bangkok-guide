@@ -1,0 +1,83 @@
+name: Bangkok live UI core
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/live-ui-core.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  live-ui:
+    runs-on: ubuntu-latest
+    env:
+      FEEDBACK_API_TOKEN: ${{ secrets.FEEDBACK_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install Playwright
+        run: |
+          npm install --no-save playwright@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Run UI regression without service-worker update races
+        run: |
+          node --input-type=module <<'NODE'
+          import { chromium } from 'playwright';
+
+          const browser = await chromium.launch({ headless: true });
+          const context = await browser.newContext({
+            viewport: { width: 1280, height: 900 },
+            serviceWorkers: 'block'
+          });
+          const page = await context.newPage();
+          const errors = [];
+          page.on('pageerror', e => errors.push(String(e)));
+          const assert = (v, message) => { if (!v) throw new Error(message); };
+          const url = 'https://vgleb.github.io/bangkok-guide/';
+
+          try {
+            await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30_000 });
+            await page.locator('#search').waitFor({ state: 'visible', timeout: 15_000 });
+            await page.evaluate(value => localStorage.setItem('bangkok-feedback-token-v1', value), process.env.FEEDBACK_API_TOKEN);
+            await page.reload({ waitUntil: 'domcontentloaded', timeout: 30_000 });
+            await page.locator('#search').waitFor({ state: 'visible', timeout: 15_000 });
+            await page.waitForFunction(() => document.querySelector('#cloudBrief')?.textContent?.includes('Сохранено'), { timeout: 20_000 });
+
+            await page.locator('#search').fill('2nd STREET — Siam Discovery');
+            await page.waitForTimeout(250);
+            const cards = page.locator('#results .card');
+            assert(await cards.count() === 1, 'Expected exactly one Siam Discovery card');
+            const card = cards.first();
+            assert(await card.evaluate(el => el.classList.contains('visited')), 'Siam Discovery is not visited');
+            assert(await card.locator('.tag.new').count() === 0, 'Visited Siam Discovery is marked New');
+
+            await page.locator('#search').fill('');
+            await page.waitForTimeout(150);
+            const initialCount = await page.locator('#results .card').count();
+            assert(initialCount > 0, 'Catalog is empty');
+
+            for (let i = 0; i < 3; i++) {
+              await page.locator('#viewMap').click();
+              await page.waitForTimeout(350);
+              assert(await page.locator('#mapView').evaluate(el => !el.hidden), 'Map did not open');
+              assert(await page.locator('#listView').evaluate(el => el.hidden), 'List stayed visible with map');
+
+              await page.locator('#viewList').click();
+              await page.waitForTimeout(150);
+              assert(await page.locator('#listView').evaluate(el => !el.hidden), 'Catalog did not reopen');
+              assert(await page.locator('#mapView').evaluate(el => el.hidden), 'Map stayed visible after catalog return');
+              assert(await page.locator('#results .card').count() === initialCount, 'Catalog card count changed after map round-trip');
+            }
+
+            assert(errors.length === 0, 'Page errors: '+errors.join(' | '));
+            console.log('Live UI core passed; cards:', initialCount);
+          } finally {
+            await browser.close();
+          }
+          NODE
