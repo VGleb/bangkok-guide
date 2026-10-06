@@ -2,6 +2,12 @@ name: Deploy Bangkok feedback Worker
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - cloudflare-feedback
+    paths:
+      - 'cloudflare/**'
+      - '.github/workflows/deploy-feedback-worker.yml'
 
 permissions:
   contents: read
