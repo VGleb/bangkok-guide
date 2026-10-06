@@ -1,0 +1,77 @@
+name: Feedback concurrency diagnostic
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/concurrency-diagnostic.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  concurrency:
+    runs-on: ubuntu-latest
+    env:
+      FEEDBACK_API_TOKEN: ${{ secrets.FEEDBACK_API_TOKEN }}
+    steps:
+      - name: Fetch current feedback
+        run: |
+          curl --fail --silent --show-error \
+            -H "Authorization: Bearer $FEEDBACK_API_TOKEN" \
+            https://bangkok-feedback.vgleb.workers.dev/api/feedback > /tmp/before.json
+      - name: Parallel idempotent PUT diagnostics
+        shell: bash
+        run: |
+          set -u
+          BASE=https://bangkok-feedback.vgleb.workers.dev
+          for count in 2 4 8; do
+            echo "=== concurrency=$count ==="
+            pids=""
+            for i in $(seq 1 "$count"); do
+              (
+                code=$(curl --silent --output "/tmp/body-$count-$i.json" --write-out "%{http_code}" \
+                  -X PUT \
+                  -H "Authorization: Bearer $FEEDBACK_API_TOKEN" \
+                  -H "Content-Type: application/json" \
+                  --data-binary @/tmp/before.json \
+                  "$BASE/api/feedback")
+                echo "request=$i status=$code"
+                if [ "$code" != "200" ]; then
+                  echo "response:"
+                  cat "/tmp/body-$count-$i.json"
+                  echo
+                  exit 1
+                fi
+              ) &
+              pids="$pids $!"
+            done
+            failed=0
+            for pid in $pids; do
+              wait "$pid" || failed=1
+            done
+            if [ "$failed" != "0" ]; then
+              exit 1
+            fi
+          done
+      - name: Verify data unchanged
+        run: |
+          curl --fail --silent --show-error \
+            -H "Authorization: Bearer $FEEDBACK_API_TOKEN" \
+            https://bangkok-feedback.vgleb.workers.dev/api/feedback > /tmp/after.json
+          node - <<'NODE'
+          const fs = require('fs');
+          const before = JSON.parse(fs.readFileSync('/tmp/before.json', 'utf8'));
+          const after = JSON.parse(fs.readFileSync('/tmp/after.json', 'utf8'));
+          const stable = x => {
+            if (Array.isArray(x)) return x.map(stable);
+            if (x && typeof x === 'object') return Object.fromEntries(Object.keys(x).sort().map(k => [k, stable(x[k])]));
+            return x;
+          };
+          if (JSON.stringify(stable(before.records)) !== JSON.stringify(stable(after.records))) {
+            throw new Error('Feedback records changed during idempotent concurrency diagnostics');
+          }
+          console.log('Data unchanged');
+          NODE
