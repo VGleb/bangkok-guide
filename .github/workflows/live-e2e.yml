@@ -1,0 +1,39 @@
+name: Bangkok live E2E
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'cloudflare/e2e.mjs'
+      - '.github/workflows/live-e2e.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  live-e2e:
+    runs-on: ubuntu-latest
+    env:
+      FEEDBACK_API_TOKEN: ${{ secrets.FEEDBACK_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Wait for GitHub Pages cutover
+        run: |
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent --show-error https://vgleb.github.io/bangkok-guide/ | grep -q 'bangkok-feedback.vgleb.workers.dev'; then
+              exit 0
+            fi
+            sleep 5
+          done
+          exit 1
+      - name: Install Playwright
+        run: |
+          npm install --no-save playwright@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Run live browser regression
+        run: node cloudflare/e2e.mjs
