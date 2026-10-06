@@ -1,0 +1,60 @@
+name: Deploy Bangkok feedback Worker
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - cloudflare-feedback
+    paths:
+      - 'cloudflare/**'
+      - '.github/workflows/deploy-feedback-worker.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cloudflare
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      FEEDBACK_API_TOKEN: ${{ secrets.FEEDBACK_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: cloudflare-feedback
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate required secrets
+        run: |
+          test -n "$CLOUDFLARE_API_TOKEN"
+          test -n "$FEEDBACK_API_TOKEN"
+      - name: Apply D1 migrations
+        run: npx --yes wrangler@latest d1 migrations apply bangkok-feedback --remote
+      - name: Deploy Worker
+        run: npx --yes wrangler@latest deploy
+      - name: Set feedback API secret
+        run: printf '%s' "$FEEDBACK_API_TOKEN" | npx --yes wrangler@latest secret put API_TOKEN
+      - name: Verify Worker health
+        run: |
+          for attempt in 1 2 3 4 5; do
+            if curl --fail --silent --show-error https://bangkok-feedback.vgleb.workers.dev/api/health | grep -q '"ok":true'; then
+              exit 0
+            fi
+            sleep 2
+          done
+          exit 1
+      - name: Verify authenticated feedback API
+        run: |
+          curl --fail --silent --show-error \
+            -H "Authorization: Bearer $FEEDBACK_API_TOKEN" \
+            https://bangkok-feedback.vgleb.workers.dev/api/feedback | grep -q '"schema":1'
+          curl --fail --silent --show-error \
+            -X PUT \
+            -H "Authorization: Bearer $FEEDBACK_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data '{"schema":1,"app":"bangkok-curated","updatedAt":"2026-10-06T00:00:00.000Z","records":{}}' \
+            https://bangkok-feedback.vgleb.workers.dev/api/feedback | grep -q '"schema":1'
