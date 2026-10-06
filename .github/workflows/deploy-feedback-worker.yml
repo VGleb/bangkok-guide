@@ -34,3 +34,12 @@ jobs:
         run: npx --yes wrangler@latest d1 migrations apply bangkok-feedback --remote
       - name: Deploy Worker
         run: npx --yes wrangler@latest deploy
+      - name: Verify Worker health
+        run: |
+          for attempt in 1 2 3 4 5; do
+            if curl --fail --silent --show-error https://bangkok-feedback.vgleb.workers.dev/api/health | grep -q '"ok":true'; then
+              exit 0
+            fi
+            sleep 2
+          done
+          exit 1
