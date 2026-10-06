@@ -65,8 +65,147 @@ jobs:
           const fs = require('fs');
           const doc = JSON.parse(fs.readFileSync('/tmp/feedback.json', 'utf8'));
           const records = doc.records || {};
+          const fields = new Set(['fav','planned','visited','seen','rejected','reason','note']);
+          if (doc.schema !== 1 || doc.app !== 'bangkok-curated') throw new Error('Unexpected feedback envelope');
           if (Object.keys(records).length < 40) throw new Error('Migrated feedback is unexpectedly small');
+          for (const [id, record] of Object.entries(records)) {
+            if (!/^[a-z0-9_-]{2,65}$/.test(id)) throw new Error('Invalid item id: '+id);
+            for (const [field, state] of Object.entries(record.fields || {})) {
+              if (!fields.has(field)) throw new Error('Unexpected field '+field+' for '+id);
+              if (!state || Number.isNaN(Date.parse(state.at))) throw new Error('Invalid timestamp for '+id+'/'+field);
+              if (field === 'reason' || field === 'note') {
+                if (typeof state.value !== 'string') throw new Error('Expected string for '+id+'/'+field);
+              } else if (typeof state.value !== 'boolean') {
+                throw new Error('Expected boolean for '+id+'/'+field);
+              }
+            }
+          }
           const secondStreet = records['2ndstreet-siam-discovery'];
           if (secondStreet?.fields?.visited?.value !== true) throw new Error('2nd STREET Siam Discovery is not marked visited');
-          console.log('Migrated feedback verified');
+          console.log('Migrated feedback verified:', Object.keys(records).length, 'records');
           NODE
+      - name: Verify auth, CORS and API errors
+        run: |
+          BASE=https://bangkok-feedback.vgleb.workers.dev
+
+          test "$(curl --silent --output /tmp/noauth.json --write-out '%{http_code}' "$BASE/api/feedback")" = "401"
+          test "$(curl --silent --output /tmp/badorigin.json --write-out '%{http_code}' \
+            -H "Origin: https://example.com" \
+            -H "Authorization: Bearer $FEEDBACK_API_TOKEN" \
+            "$BASE/api/feedback")" = "403"
+          test "$(curl --silent --output /tmp/badpayload.json --write-out '%{http_code}' \
+            -X PUT \
+            -H "Authorization: Bearer $FEEDBACK_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data '{"schema":2,"records":{}}' \
+            "$BASE/api/feedback")" = "400"
+          test "$(curl --silent --output /tmp/badmethod.json --write-out '%{http_code}' \
+            -X POST \
+            -H "Authorization: Bearer $FEEDBACK_API_TOKEN" \
+            "$BASE/api/feedback")" = "405"
+          test "$(curl --silent --output /tmp/notfound.json --write-out '%{http_code}' "$BASE/nope")" = "404"
+
+          test "$(curl --silent --output /dev/null --dump-header /tmp/preflight.headers --write-out '%{http_code}' \
+            -X OPTIONS \
+            -H "Origin: https://vgleb.github.io" \
+            -H "Access-Control-Request-Method: PUT" \
+            -H "Access-Control-Request-Headers: authorization,content-type" \
+            "$BASE/api/feedback")" = "204"
+          grep -qi '^access-control-allow-origin: https://vgleb.github.io' /tmp/preflight.headers
+          grep -qi '^access-control-allow-methods: GET, PUT, OPTIONS' /tmp/preflight.headers
+          grep -qi '^access-control-allow-headers: Authorization, Content-Type' /tmp/preflight.headers
+
+          curl --fail --silent --show-error --dump-header /tmp/get.headers \
+            -H "Origin: https://vgleb.github.io" \
+            -H "Authorization: Bearer $FEEDBACK_API_TOKEN" \
+            "$BASE/api/feedback" > /tmp/cors-feedback.json
+          grep -qi '^access-control-allow-origin: https://vgleb.github.io' /tmp/get.headers
+          grep -qi '^cache-control: no-store' /tmp/get.headers
+          grep -qi '^x-content-type-options: nosniff' /tmp/get.headers
+      - name: Verify idempotency and stale-write protection
+        run: |
+          BASE=https://bangkok-feedback.vgleb.workers.dev
+
+          cp /tmp/cors-feedback.json /tmp/before.json
+          curl --fail --silent --show-error \
+            -X PUT \
+            -H "Authorization: Bearer $FEEDBACK_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data-binary @/tmp/before.json \
+            "$BASE/api/feedback" > /tmp/idempotent.json
+
+          cat > /tmp/stale.json <<'JSON'
+          {"schema":1,"app":"bangkok-curated","updatedAt":"1999-01-01T00:00:00.000Z","records":{"2ndstreet-siam-discovery":{"meta":{"title":"2nd STREET — Siam Discovery","kind":"Ресейл","area":"Siam"},"fields":{"visited":{"value":false,"at":"1999-01-01T00:00:00.000Z"}}}}}
+          JSON
+          curl --fail --silent --show-error \
+            -X PUT \
+            -H "Authorization: Bearer $FEEDBACK_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data-binary @/tmp/stale.json \
+            "$BASE/api/feedback" > /tmp/stale-response.json
+
+          curl --fail --silent --show-error \
+            -H "Authorization: Bearer $FEEDBACK_API_TOKEN" \
+            "$BASE/api/feedback" > /tmp/after.json
+
+          node - <<'NODE'
+          const fs = require('fs');
+          const before = JSON.parse(fs.readFileSync('/tmp/before.json', 'utf8'));
+          const after = JSON.parse(fs.readFileSync('/tmp/after.json', 'utf8'));
+          if (after.records?.['2ndstreet-siam-discovery']?.fields?.visited?.value !== true) {
+            throw new Error('Stale write overrode visited=true');
+          }
+          const stable = x => {
+            if (Array.isArray(x)) return x.map(stable);
+            if (x && typeof x === 'object') return Object.fromEntries(Object.keys(x).sort().map(k => [k, stable(x[k])]));
+            return x;
+          };
+          if (JSON.stringify(stable(before.records)) !== JSON.stringify(stable(after.records))) {
+            throw new Error('Idempotent/stale writes changed feedback records');
+          }
+          console.log('Idempotency and stale-write protection verified');
+          NODE
+      - name: Verify concurrent writes do not fail
+        run: |
+          BASE=https://bangkok-feedback.vgleb.workers.dev
+          export BASE FEEDBACK_API_TOKEN
+          seq 1 8 | xargs -n1 -P8 -I{} sh -c '
+            code=$(curl --silent --output "/tmp/concurrent-{}.json" --write-out "%{http_code}" \
+              -X PUT \
+              -H "Authorization: Bearer $FEEDBACK_API_TOKEN" \
+              -H "Content-Type: application/json" \
+              --data-binary @/tmp/before.json \
+              "$BASE/api/feedback")
+            test "$code" = "200"
+          '
+          curl --fail --silent --show-error \
+            -H "Authorization: Bearer $FEEDBACK_API_TOKEN" \
+            "$BASE/api/feedback" > /tmp/after-concurrent.json
+          node - <<'NODE'
+          const fs = require('fs');
+          const before = JSON.parse(fs.readFileSync('/tmp/before.json', 'utf8'));
+          const after = JSON.parse(fs.readFileSync('/tmp/after-concurrent.json', 'utf8'));
+          const stable = x => {
+            if (Array.isArray(x)) return x.map(stable);
+            if (x && typeof x === 'object') return Object.fromEntries(Object.keys(x).sort().map(k => [k, stable(x[k])]));
+            return x;
+          };
+          if (JSON.stringify(stable(before.records)) !== JSON.stringify(stable(after.records))) {
+            throw new Error('Concurrent idempotent writes changed feedback records');
+          }
+          console.log('Concurrent write handling verified');
+          NODE
+      - name: Verify static client regression guards
+        working-directory: .
+        run: |
+          node --check app.js
+          node --check map.js
+          node --check catalog.js
+          node --check service-worker.js
+          grep -q "https://bangkok-feedback.vgleb.workers.dev" app.js
+          grep -q "!progress.visited.includes(x.id)" app.js
+          grep -q "timeout=12000" app.js
+          grep -q "https://bangkok-feedback.vgleb.workers.dev" index.html
+          grep -q "bangkok-guide-shell-v19" service-worker.js
+          ! grep -q "__bangkokMapWrapped" map.js
+          ! grep -q "history.replaceState" map.js
