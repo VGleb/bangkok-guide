@@ -56,3 +56,17 @@ jobs:
             -H "Content-Type: application/json" \
             --data '{"schema":1,"app":"bangkok-curated","updatedAt":"2026-10-06T00:00:00.000Z","records":{}}' \
             https://bangkok-feedback.vgleb.workers.dev/api/feedback | grep -q '"schema":1'
+      - name: Verify migrated feedback exists
+        run: |
+          curl --fail --silent --show-error \
+            -H "Authorization: Bearer $FEEDBACK_API_TOKEN" \
+            https://bangkok-feedback.vgleb.workers.dev/api/feedback > /tmp/feedback.json
+          node - <<'NODE'
+          const fs = require('fs');
+          const doc = JSON.parse(fs.readFileSync('/tmp/feedback.json', 'utf8'));
+          const records = doc.records || {};
+          if (Object.keys(records).length < 40) throw new Error('Migrated feedback is unexpectedly small');
+          const secondStreet = records['2ndstreet-siam-discovery'];
+          if (secondStreet?.fields?.visited?.value !== true) throw new Error('2nd STREET Siam Discovery is not marked visited');
+          console.log('Migrated feedback verified');
+          NODE
