@@ -1,5 +1,6 @@
 const ALLOWED_FIELDS = new Set(['fav','planned','visited','seen','rejected','reason','note']);
 const ITEM_ID = /^[a-z0-9_-]{2,65}$/;
+const EMPTY_UPDATED_AT = '1970-01-01T00:00:00.000Z';
 
 const json = (data, status = 200, headers = {}) => new Response(JSON.stringify(data), {
   status,
@@ -33,7 +34,7 @@ const authorized = (request, env) => {
 const iso = value => typeof value === 'string' && !Number.isNaN(Date.parse(value)) ? value : null;
 const text = (value, max) => typeof value === 'string' ? value.slice(0, max) : '';
 
-function validateRecord(id, record) {
+function normalizeRecord(id, record) {
   if (!ITEM_ID.test(id) || !record || typeof record !== 'object' || Array.isArray(record)) return null;
   const fields = {};
   for (const [field, state] of Object.entries(record.fields || {})) {
@@ -56,34 +57,14 @@ function validateRecord(id, record) {
   };
 }
 
-async function readFeedback(env) {
-  const [items, fields] = await Promise.all([
-    env.DB.prepare('SELECT item_id, title, kind, area, updated_at FROM feedback_items ORDER BY item_id').all(),
-    env.DB.prepare('SELECT item_id, field, value_json, updated_at FROM feedback_fields ORDER BY item_id, field').all()
-  ]);
-  const records = {};
-  let updatedAt = '1970-01-01T00:00:00.000Z';
-
-  for (const row of items.results || []) {
-    records[row.item_id] = {
-      meta: { title: row.title || '', kind: row.kind || '', area: row.area || '' },
-      fields: {}
-    };
-    if (row.updated_at > updatedAt) updatedAt = row.updated_at;
-  }
-
-  for (const row of fields.results || []) {
-    const record = records[row.item_id] ||= { meta: { title: '', kind: '', area: '' }, fields: {} };
-    let value;
-    try { value = JSON.parse(row.value_json); } catch { continue; }
-    record.fields[row.field] = { value, at: row.updated_at };
-    if (row.updated_at > updatedAt) updatedAt = row.updated_at;
-  }
-
-  return { schema: 1, app: 'bangkok-curated', updatedAt, records };
+function recordUpdatedAt(record) {
+  return Object.values(record.fields || {}).reduce(
+    (latest, state) => state.at > latest ? state.at : latest,
+    EMPTY_UPDATED_AT
+  );
 }
 
-async function writeFeedback(env, body) {
+function normalizeDocument(body) {
   if (!body || body.schema !== 1 || !body.records || typeof body.records !== 'object' || Array.isArray(body.records)) {
     throw new Error('Invalid feedback document');
   }
@@ -91,42 +72,70 @@ async function writeFeedback(env, body) {
   const entries = Object.entries(body.records);
   if (entries.length > 2000) throw new Error('Too many records');
 
-  const statements = [];
+  const records = {};
+  let updatedAt = EMPTY_UPDATED_AT;
   for (const [id, raw] of entries) {
-    const record = validateRecord(id, raw);
+    const record = normalizeRecord(id, raw);
     if (!record) continue;
+    records[id] = record;
+    const at = recordUpdatedAt(record);
+    if (at > updatedAt) updatedAt = at;
+  }
+  return { schema: 1, app: 'bangkok-curated', updatedAt, records };
+}
 
-    const times = Object.values(record.fields).map(field => field.at).sort();
-    const metaAt = times.at(-1);
-    statements.push(
-      env.DB.prepare(`
-        INSERT INTO feedback_items (item_id, title, kind, area, updated_at)
-        VALUES (?1, ?2, ?3, ?4, ?5)
-        ON CONFLICT(item_id) DO UPDATE SET
-          title = excluded.title,
-          kind = excluded.kind,
-          area = excluded.area,
-          updated_at = excluded.updated_at
-        WHERE excluded.updated_at >= feedback_items.updated_at
-      `).bind(id, record.meta.title, record.meta.kind, record.meta.area, metaAt)
-    );
+function mergeDocuments(base, incoming) {
+  const records = structuredClone(base.records || {});
+  for (const [id, next] of Object.entries(incoming.records || {})) {
+    const current = records[id];
+    if (!current) {
+      records[id] = structuredClone(next);
+      continue;
+    }
 
-    for (const [field, state] of Object.entries(record.fields)) {
-      statements.push(
-        env.DB.prepare(`
-          INSERT INTO feedback_fields (item_id, field, value_json, updated_at)
-          VALUES (?1, ?2, ?3, ?4)
-          ON CONFLICT(item_id, field) DO UPDATE SET
-            value_json = excluded.value_json,
-            updated_at = excluded.updated_at
-          WHERE excluded.updated_at > feedback_fields.updated_at
-        `).bind(id, field, JSON.stringify(state.value), state.at)
-      );
+    const currentUpdatedAt = recordUpdatedAt(current);
+    const nextUpdatedAt = recordUpdatedAt(next);
+    if (nextUpdatedAt >= currentUpdatedAt && (next.meta?.title || next.meta?.kind || next.meta?.area)) {
+      current.meta = structuredClone(next.meta);
+    }
+
+    for (const [field, state] of Object.entries(next.fields || {})) {
+      if (!current.fields[field] || state.at > current.fields[field].at) {
+        current.fields[field] = structuredClone(state);
+      }
     }
   }
+  return normalizeDocument({ schema: 1, records });
+}
 
-  if (statements.length) await env.DB.batch(statements);
-  return readFeedback(env);
+async function readFeedback(env) {
+  const row = await env.DB.prepare('SELECT value_json FROM feedback_state WHERE id = 1').first();
+  if (!row?.value_json) return { schema: 1, app: 'bangkok-curated', updatedAt: EMPTY_UPDATED_AT, records: {} };
+
+  try {
+    return normalizeDocument(JSON.parse(row.value_json));
+  } catch {
+    throw new Error('Stored feedback document is invalid');
+  }
+}
+
+async function writeFeedback(env, body) {
+  const incoming = normalizeDocument(body);
+  const current = await readFeedback(env);
+  const merged = mergeDocuments(current, incoming);
+  const value = JSON.stringify(merged);
+
+  if (value.length > 1_500_000) throw new Error('Feedback document is too large');
+
+  await env.DB.prepare(`
+    INSERT INTO feedback_state (id, value_json, updated_at)
+    VALUES (1, ?1, ?2)
+    ON CONFLICT(id) DO UPDATE SET
+      value_json = excluded.value_json,
+      updated_at = excluded.updated_at
+  `).bind(value, merged.updatedAt).run();
+
+  return merged;
 }
 
 export default {
