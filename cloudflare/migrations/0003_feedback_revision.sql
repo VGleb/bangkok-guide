@@ -1,0 +1,2 @@
+ALTER TABLE feedback_state
+ADD COLUMN revision INTEGER NOT NULL DEFAULT 0;
