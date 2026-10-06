@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "items": [
     {
       "id": "artbangkok",
@@ -2729,6 +2729,134 @@
       "tags": [
         "Магазины",
         "Багаж"
+      ]
+    },
+    {
+      "id": "carnival-siam-square",
+      "title": "CARNIVAL — Siam Square",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Большой флагман тайского streetwear/sneaker-ритейлера.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "428 Siam Square Soi 7, Pathum Wan, Bangkok 10330",
+      "url": "",
+      "source": "проверено 2026-10-06",
+      "new": true,
+      "notes": "",
+      "status": "active",
+      "mapQuery": "CARNIVAL Siam Square Soi 7 Bangkok",
+      "tags": [
+        "Магазины",
+        "Siam"
+      ]
+    },
+    {
+      "id": "slumltd-siam",
+      "title": "SLUMLTD",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Bangkok streetwear и обувь рядом с CARNIVAL.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Siam Square Soi 7, Pathum Wan, Bangkok",
+      "url": "",
+      "source": "проверено 2026-10-06",
+      "new": true,
+      "notes": "",
+      "status": "active",
+      "mapQuery": "SLUMLTD Siam Square Bangkok",
+      "tags": [
+        "Магазины",
+        "Siam"
+      ]
+    },
+    {
+      "id": "asapbkk-siam",
+      "title": "ASAPBKK — Siam Square Soi 3",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Локальный fashion-магазин в Siam Square.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Siam Square Soi 3, Pathum Wan, Bangkok",
+      "url": "",
+      "source": "проверено 2026-10-06",
+      "new": true,
+      "notes": "",
+      "status": "active",
+      "mapQuery": "ASAPBKK Siam Square Soi 3 Bangkok",
+      "tags": [
+        "Магазины",
+        "Siam"
+      ]
+    },
+    {
+      "id": "lido-connect-shops",
+      "title": "Lido Connect — 2F shops",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Кластер независимых магазинов и curated vintage на втором этаже.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Lido Connect, Siam Square, Bangkok",
+      "url": "",
+      "source": "проверено 2026-10-06",
+      "new": true,
+      "notes": "",
+      "status": "active",
+      "mapQuery": "Lido Connect Bangkok",
+      "tags": [
+        "Магазины",
+        "Siam",
+        "Винтаж"
+      ]
+    },
+    {
+      "id": "2ndstreet-siam-discovery",
+      "title": "2nd STREET — Siam Discovery",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Used clothing и аксессуары; филиал 2nd STREET в Siam.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Siam Discovery, Bangkok",
+      "url": "",
+      "source": "проверено 2026-10-06",
+      "new": true,
+      "notes": "",
+      "status": "active",
+      "mapQuery": "2nd STREET Siam Discovery Bangkok",
+      "tags": [
+        "Магазины",
+        "Ресейл",
+        "Siam"
+      ]
+    },
+    {
+      "id": "absolute-siam",
+      "title": "Absolute Siam",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Тайские дизайнерские марки и локальный fashion.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Siam Center, Bangkok",
+      "url": "",
+      "source": "проверено 2026-10-06",
+      "new": true,
+      "notes": "",
+      "status": "active",
+      "mapQuery": "Absolute Siam Siam Center Bangkok",
+      "tags": [
+        "Магазины",
+        "Siam"
       ]
     }
   ]
