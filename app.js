@@ -149,8 +149,14 @@ function captureSyncChanges(syncDelay=0){
   syncSnapshot=clone(progress);if(changed){cacheJournal();markSyncPending();queueSync(syncDelay)};return changed;
 }
 const d64=s=>{const bytes=Uint8Array.from(atob(s.replace(/\s+/g,'')),c=>c.charCodeAt(0));return new TextDecoder().decode(bytes)};
+async function fetchTimed(url,opts={},timeout=12000){
+  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),timeout);
+  try{return await fetch(url,{...opts,signal:controller.signal})}
+  catch(e){if(e?.name==='AbortError')throw Error('Таймаут синхронизации — попробуй ещё раз');throw e}
+  finally{clearTimeout(timer)}
+}
 async function cfRequest(method='GET',body=null){
-  const rsp=await fetch(CF_API+'/api/feedback',{method,headers:{Authorization:'Bearer '+syncToken,...(body?{'Content-Type':'application/json'}:{})},body:body?JSON.stringify(body):undefined,cache:'no-store'});
+  const rsp=await fetchTimed(CF_API+'/api/feedback',{method,headers:{Authorization:'Bearer '+syncToken,...(body?{'Content-Type':'application/json'}:{})},body:body?JSON.stringify(body):undefined,cache:'no-store'});
   let data;try{data=await rsp.json()}catch(e){data={}}
   if(!rsp.ok)throw Error(rsp.status===401?'Неверный ключ синхронизации':'Cloudflare: HTTP '+rsp.status+' '+String(data.error||''));
   return data;
@@ -162,7 +168,7 @@ async function legacyGithubJournal(){
   const token=sessionStorage.getItem(LEGACY_GH_LOCAL_KEY)||getLS(LEGACY_GH_LOCAL_KEY)||'';
   if(!conf?.owner||!conf?.repo||!token)return null;
   const endpoint='https://api.github.com/repos/'+encodeURIComponent(conf.owner)+'/'+encodeURIComponent(conf.repo)+'/contents/'+LEGACY_GH_FILE;
-  const rsp=await fetch(endpoint,{headers:{Accept:'application/vnd.github+json',Authorization:'Bearer '+token,'X-GitHub-Api-Version':'2022-11-28'},cache:'no-store'});
+  const rsp=await fetchTimed(endpoint,{headers:{Accept:'application/vnd.github+json',Authorization:'Bearer '+token,'X-GitHub-Api-Version':'2022-11-28'},cache:'no-store'},8000);
   if(!rsp.ok)throw Error('Старый GitHub feedback не прочитан: HTTP '+rsp.status);
   const data=await rsp.json();
   if(data.encoding!=='base64'||typeof data.content!=='string')throw Error('Старый GitHub feedback имеет неверный формат');
