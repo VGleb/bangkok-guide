@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "items": [
     {
       "id": "the-king-in-our-hearts-2026",
@@ -300,6 +300,30 @@
         13.7575568,
         100.6235449
       ]
+    },
+    {
+      "id": "lodyssee-munchausen-att19-2026",
+      "title": "L’Odyssée — Munchausen",
+      "kind": "Выставки",
+      "area": "Charoen Krung",
+      "blurb": "Philippe Rossetti и Simon Pillard: contemporary art и design о памяти, перемещении и жизни между разными местами.",
+      "venue": "ATT 19, 19 Charoen Krung 30, Bang Rak, Bangkok",
+      "mapQuery": "ATT 19 19 Charoen Krung 30 Bangkok",
+      "url": "https://www.instagram.com/att19.bkk/",
+      "source": "ATT 19 — официальный анонс",
+      "dates": [
+        "2026-10-08",
+        "2026-11-29"
+      ],
+      "addedAt": "2026-10-06",
+      "new": true,
+      "priority": 3,
+      "eta": {
+        "min": 45,
+        "max": 60,
+        "via": "От TRIBE через BTS/MRT до Charoen Krung; приблизительно"
+      },
+      "status": "confirmed"
     }
   ]
 }
