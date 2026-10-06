@@ -108,34 +108,56 @@ function mergeDocuments(base, incoming) {
   return normalizeDocument({ schema: 1, records });
 }
 
-async function readFeedback(env) {
-  const row = await env.DB.prepare('SELECT value_json FROM feedback_state WHERE id = 1').first();
-  if (!row?.value_json) return { schema: 1, app: 'bangkok-curated', updatedAt: EMPTY_UPDATED_AT, records: {} };
-
+function parseStored(value) {
+  if (!value) return { schema: 1, app: 'bangkok-curated', updatedAt: EMPTY_UPDATED_AT, records: {} };
   try {
-    return normalizeDocument(JSON.parse(row.value_json));
+    return normalizeDocument(JSON.parse(value));
   } catch {
     throw new Error('Stored feedback document is invalid');
   }
 }
 
+async function readFeedbackState(env) {
+  const row = await env.DB.prepare('SELECT value_json, revision FROM feedback_state WHERE id = 1').first();
+  return {
+    document: parseStored(row?.value_json),
+    revision: Number.isInteger(row?.revision) ? row.revision : null
+  };
+}
+
+async function readFeedback(env) {
+  return (await readFeedbackState(env)).document;
+}
+
 async function writeFeedback(env, body) {
   const incoming = normalizeDocument(body);
-  const current = await readFeedback(env);
-  const merged = mergeDocuments(current, incoming);
-  const value = JSON.stringify(merged);
 
-  if (value.length > 1_500_000) throw new Error('Feedback document is too large');
+  for (let attempt = 0; attempt < 5; attempt++) {
+    const current = await readFeedbackState(env);
+    const merged = mergeDocuments(current.document, incoming);
+    const value = JSON.stringify(merged);
 
-  await env.DB.prepare(`
-    INSERT INTO feedback_state (id, value_json, updated_at)
-    VALUES (1, ?1, ?2)
-    ON CONFLICT(id) DO UPDATE SET
-      value_json = excluded.value_json,
-      updated_at = excluded.updated_at
-  `).bind(value, merged.updatedAt).run();
+    if (value.length > 1_500_000) throw new Error('Feedback document is too large');
 
-  return merged;
+    let result;
+    if (current.revision === null) {
+      result = await env.DB.prepare(`
+        INSERT INTO feedback_state (id, value_json, updated_at, revision)
+        VALUES (1, ?1, ?2, 1)
+        ON CONFLICT(id) DO NOTHING
+      `).bind(value, merged.updatedAt).run();
+    } else {
+      result = await env.DB.prepare(`
+        UPDATE feedback_state
+        SET value_json = ?1, updated_at = ?2, revision = revision + 1
+        WHERE id = 1 AND revision = ?3
+      `).bind(value, merged.updatedAt, current.revision).run();
+    }
+
+    if ((result.meta?.changes || 0) === 1) return merged;
+  }
+
+  throw new Error('Concurrent feedback update conflict');
 }
 
 export default {
