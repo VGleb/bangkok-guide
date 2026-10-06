@@ -10,16 +10,15 @@ The Worker exposes:
 
 D1 is the source of truth. Writes are last-write-wins per `item_id + field`, matching the current `travel/feedback.json` semantics.
 
-## Create the free D1 database
+## D1 database
 
-From this directory after authenticating Wrangler:
+The free D1 database already exists and is bound as `DB` in `wrangler.jsonc`.
+
+Apply the schema once before the first deployment:
 
 ```bash
-npx wrangler@latest d1 create bangkok-feedback --location apac --binding DB --update-config
 npx wrangler@latest d1 migrations apply bangkok-feedback --remote
 ```
-
-Cloudflare recommends Wrangler config as the Worker source of truth. The `--update-config` command writes the created D1 binding and database UUID into `wrangler.jsonc`.
 
 ## Set the API token
 
