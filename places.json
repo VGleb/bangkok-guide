@@ -2858,6 +2858,49 @@
         "Магазины",
         "Siam"
       ]
+    },
+    {
+      "id": "miniso-land-siam-square",
+      "title": "MINISO LAND — Siam Square",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Крупный MINISO LAND в Siam Square: несколько этажей, большой выбор character/IP товаров, включая Sanrio.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Siam Square, Bangkok",
+      "url": "",
+      "source": "MINISO, 2026",
+      "new": true,
+      "notes": "Приоритетный MINISO; удобно совместить с кластером Siam.",
+      "status": "active",
+      "mapQuery": "MINISO LAND Siam Square Bangkok",
+      "tags": [
+        "Магазины",
+        "MINISO",
+        "Siam"
+      ]
+    },
+    {
+      "id": "miniso-land-asiatique",
+      "title": "MINISO LAND — Asiatique",
+      "kind": "Магазины",
+      "area": "Charoen Krung",
+      "blurb": "Большой MINISO LAND в Asiatique; широкий выбор character/IP товаров.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Asiatique The Riverfront, Bangkok",
+      "url": "",
+      "source": "MINISO, 2026",
+      "new": true,
+      "notes": "Имеет смысл вместе с Asiatique/речной частью города.",
+      "status": "active",
+      "mapQuery": "MINISO LAND Asiatique Bangkok",
+      "tags": [
+        "Магазины",
+        "MINISO"
+      ]
     }
   ]
 }
