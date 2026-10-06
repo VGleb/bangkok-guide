@@ -323,7 +323,11 @@
         "max": 60,
         "via": "От TRIBE через BTS/MRT до Charoen Krung; приблизительно"
       },
-      "status": "confirmed"
+      "status": "confirmed",
+      "tags": [
+        "Выставки",
+        "Дизайн"
+      ]
     }
   ]
 }
