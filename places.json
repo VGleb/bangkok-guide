@@ -2868,17 +2868,19 @@
       "priority": 3,
       "dates": null,
       "days": null,
-      "venue": "Siam Square, Bangkok",
+      "venue": "Siam Square Soi 8, Pathum Wan, Bangkok 10330",
       "url": "",
       "source": "MINISO, 2026",
       "new": true,
       "notes": "Приоритетный MINISO; удобно совместить с кластером Siam.",
       "status": "active",
-      "mapQuery": "MINISO LAND Siam Square Bangkok",
+      "mapQuery": "MINISO LAND Siam Square Soi 8 Bangkok",
       "tags": [
         "Магазины",
         "MINISO",
-        "Siam"
+        "Siam",
+        "Hello Kitty",
+        "Sanrio"
       ]
     },
     {
@@ -2900,6 +2902,29 @@
       "tags": [
         "Магазины",
         "MINISO"
+      ]
+    },
+    {
+      "id": "sanrio-siam-paragon",
+      "title": "Sanrio — Siam Paragon",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Официальный Sanrio: Hello Kitty, Kuromi, Cinnamoroll и другие персонажи.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Siam Paragon, 6F, 999/9 Rama I Rd, Pathum Wan, Bangkok 10330",
+      "url": "",
+      "source": "Siam Paragon / актуальная business-карточка, 2026",
+      "new": true,
+      "notes": "Главная точка за официальным Hello Kitty / Sanrio мерчем в Siam.",
+      "status": "active",
+      "mapQuery": "Sanrio Siam Paragon Bangkok",
+      "tags": [
+        "Магазины",
+        "Hello Kitty",
+        "Sanrio",
+        "Siam"
       ]
     }
   ]
