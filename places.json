@@ -3230,6 +3230,32 @@
       "tags": [
         "Достопримечательности"
       ]
+    },
+    {
+      "id": "foot-locker-emsphere",
+      "title": "Foot Locker · EMSPHERE",
+      "kind": "Магазины",
+      "area": "Phrom Phong",
+      "blurb": "Крупный sneaker-магазин рядом с домом; актуальный приоритет — Salomon ACS+ OG Black.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "EMSPHERE, 1F, Unit 1E 02-05, 628 Sukhumvit Road, Khlong Tan, Khlong Toei, Bangkok 10110",
+      "url": "https://www.footlocker.co.th/",
+      "source": "EMSPHERE directory / Foot Locker Thailand",
+      "new": true,
+      "notes": "На 7 октября 2026 онлайн у Foot Locker Thailand Salomon ACS+ OG Black L47766600 стоили ฿5,512 (-20% от ฿6,890); размеры 7.5M / JP 25.5 и 8M / JP 26 были доступны онлайн. Остаток именно в EMSPHERE публично не подтверждён — в магазине проверить оба размера для широкой стопы.",
+      "eta": {
+        "min": 15,
+        "max": 25,
+        "via": "От TRIBE пешком к EMSPHERE; приблизительно"
+      },
+      "addedAt": "2026-10-07",
+      "status": "active",
+      "mapQuery": "Foot Locker EMSPHERE Bangkok",
+      "tags": [
+        "Магазины"
+      ]
     }
   ]
 }
