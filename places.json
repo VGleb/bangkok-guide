@@ -3412,32 +3412,6 @@
       "addedAt": "2026-10-07",
       "status": "active",
       "tags": [
-        "Магазины"
-      ],
-      "id": "comma-and-centralworld",
-      "title": "Comma And · CentralWorld",
-      "area": "Chidlom",
-      "blurb": "Мультибрендовый концепт-стор: одежда, аксессуары и вещи локальных дизайнерских марок.",
-      "venue": "CentralWorld, floor 1, Zone I, 999/9 Rama I Road, Pathum Wan, Bangkok",
-      "mapQuery": "Comma And CentralWorld Bangkok",
-      "url": "https://madmatterstudio.com/pages/store",
-      "source": "Madmatter — официальный список магазинов; Central Group — расположение Zone I",
-      "notes": "Ежедневно 10:00–22:00. Центральная часть торгового центра; маркер по зданию CentralWorld.",
-      "eta": {
-        "min": 40,
-        "max": 55,
-        "via": "BTS Phrom Phong → Chit Lom + пешком по skywalk; приблизительно"
-      }
-    },
-    {
-      "kind": "Магазины",
-      "priority": 3,
-      "dates": null,
-      "days": null,
-      "new": true,
-      "addedAt": "2026-10-07",
-      "status": "active",
-      "tags": [
         "Магазины",
         "Тайские очки"
       ],
@@ -3475,33 +3449,6 @@
       "source": "HOKA Thailand — официальный store locator",
       "new": true,
       "notes": "Официальный HOKA Experience Store. Часы: 10:00–22:00. Приоритет: Kaha / Kaha Low GTX и другие осенние/водозащищённые lifestyle/outdoor модели.",
-      "eta": {
-        "min": 25,
-        "max": 40,
-        "via": "BTS Phrom Phong → Chit Lom/Siam + пешком"
-      },
-      "addedAt": "2026-10-07",
-      "status": "active",
-      "tags": [
-        "Магазины",
-        "HOKA"
-      ]
-    },
-    {
-      "id": "carnival-centralworld-hoka",
-      "title": "CARNIVAL · CentralWorld · HOKA",
-      "kind": "Магазины",
-      "area": "Siam",
-      "blurb": "CARNIVAL в CentralWorld с отдельным ассортиментом HOKA ONE ONE; полезен для lifestyle-моделей и альтернатив официальному магазину.",
-      "priority": 3,
-      "dates": null,
-      "days": null,
-      "venue": "CentralWorld, 3F, 999/9 Rama I Road, Pathum Wan, Bangkok 10330",
-      "mapQuery": "CARNIVAL CentralWorld Bangkok",
-      "url": "https://www.carnivalbkk.com/en/amlocator/carnival-centralworld",
-      "source": "CARNIVAL — официальный store locator / каталог HOKA",
-      "new": true,
-      "notes": "Часы: 10:00–22:00. В каталоге CARNIVAL есть HOKA lifestyle/outdoor модели, включая Tor Ultra Lo, Clifton LS UTL и Mafate; конкретное наличие Kaha в магазине перепроверить на месте.",
       "eta": {
         "min": 25,
         "max": 40,
@@ -3587,33 +3534,6 @@
         "min": 50,
         "max": 70,
         "via": "BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком; приблизительно"
-      },
-      "addedAt": "2026-10-07",
-      "status": "active",
-      "tags": [
-        "Магазины",
-        "Тайские очки"
-      ]
-    },
-    {
-      "id": "gimm-eyewear",
-      "title": "GIMM EYEWEAR · Ekkamai",
-      "kind": "Магазины",
-      "area": "Thong Lo / Ekkamai",
-      "blurb": "Небольшая тайская мастерская Chaiwat Wattananukit: скульптурные handmade-оправы, ready-made и bespoke. Скорее уникальная вещь, чем экономия на Gentle Monster.",
-      "priority": 2,
-      "dates": null,
-      "days": null,
-      "venue": "89 Thong Lo 20 Alley, Khlong Tan Nuea, Watthana, Bangkok 10110",
-      "mapQuery": "GIMM EYEWEAR 89 Thong Lo 20 Alley Bangkok",
-      "url": "https://www.instagram.com/gimmeyewear/",
-      "source": "CNA Lifestyle 2026; GIMM / актуальная карточка мастерской",
-      "new": true,
-      "notes": "Ориентир 10:00–18:00; перед визитом лучше написать. Ready-made от ~S$476, bespoke от ~S$794 по CNA — то есть это не бюджетная альтернатива GM. Из актуального направления интересны The Memphis, The Pebble, Racer I и модульные clip-on конструкции.",
-      "eta": {
-        "min": 20,
-        "max": 35,
-        "via": "Пешком от Sukhumvit 39 в сторону Thong Lo / Ekkamai; приблизительно"
       },
       "addedAt": "2026-10-07",
       "status": "active",
