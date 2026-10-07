@@ -3316,6 +3316,32 @@
       "tags": [
         "Магазины"
       ]
+    },
+    {
+      "id": "gq-apparel-sukhumvit-35",
+      "title": "GQ Apparel Flagship Store · Sukhumvit 35",
+      "kind": "Магазины",
+      "area": "Phrom Phong",
+      "blurb": "Флагман GQ Apparel рядом с домом: функциональная одежда, футболки, поло и базовые вещи.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "597/5 Sukhumvit Rd, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "url": "https://gqsize.com/",
+      "source": "GQ Apparel / актуальная карточка магазина",
+      "new": true,
+      "notes": "Обычно 10:00–20:00. GQ Member Club: регистрация бесплатная через сайт/LINE/магазин, нужен телефон с OTP; новым участникам — купон 50 ฿ при покупке от 300 ฿, действует в GQ Flagship Store. Каждые 10 ฿ = 1 балл. GQ Easy от 99 ฿ — отдельная бюджетная линейка; наличие футболок GQ Easy по 99 ฿ именно в этом flagship не подтверждено.",
+      "eta": {
+        "min": 5,
+        "max": 10,
+        "via": "Пешком от TRIBE Living Bangkok Sukhumvit 39"
+      },
+      "addedAt": "2026-10-07",
+      "status": "active",
+      "mapQuery": "GQ Apparel Flagship Store Sukhumvit 35 Bangkok",
+      "tags": [
+        "Магазины"
+      ]
     }
   ]
 }
