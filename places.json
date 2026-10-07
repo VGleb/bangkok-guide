@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-07",
   "items": [
     {
       "id": "artbangkok",
@@ -2925,6 +2925,441 @@
         "Hello Kitty",
         "Sanrio",
         "Siam"
+      ]
+    },
+    {
+      "id": "jim-thompson-house",
+      "title": "Jim Thompson House Museum",
+      "kind": "Достопримечательности",
+      "area": "Siam",
+      "blurb": "Шесть традиционных тайских тиковых домов, сад и коллекция азиатского искусства Джима Томпсона; рядом Jim Thompson Art Center.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "6 Soi Kasemsan 2, Rama I Road, Wang Mai, Pathum Wan, Bangkok 10330",
+      "url": "https://jimthompsonhouse.org/visitor-information/",
+      "source": "Jim Thompson House Museum — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 10:00–17:00; основной дом посещается с гидом. Взрослый билет 250 ฿.",
+      "eta": {
+        "min": 35,
+        "max": 50,
+        "via": "BTS Phrom Phong → National Stadium + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Jim Thompson House Museum Bangkok",
+      "geo": [
+        13.7493569,
+        100.5281613
+      ],
+      "tags": [
+        "Достопримечательности"
+      ]
+    },
+    {
+      "id": "museum-siam",
+      "title": "Museum Siam",
+      "kind": "Достопримечательности",
+      "area": "Old Town",
+      "blurb": "Интерактивный музей о тайской идентичности, истории и повседневной культуре; сильная современная экспозиционная подача.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "4 Sanam Chai Road, Phra Borom Maha Ratchawang, Phra Nakhon, Bangkok 10200",
+      "url": "https://www.museumsiam.org/museumsiam-visit.php",
+      "source": "Museum Siam — официальный сайт",
+      "new": true,
+      "notes": "Вт–вс 10:00–18:00, понедельник закрыто. Иностранный взрослый билет 100 ฿.",
+      "eta": {
+        "min": 50,
+        "max": 65,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Sanam Chai + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Museum Siam Bangkok",
+      "geo": [
+        13.744147,
+        100.494137
+      ],
+      "tags": [
+        "Достопримечательности"
+      ]
+    },
+    {
+      "id": "wat-saket-golden-mount",
+      "title": "Wat Saket · Golden Mount",
+      "kind": "Достопримечательности",
+      "area": "Old Town",
+      "blurb": "Золотая гора и панорамная точка над старым Бангкоком; один из самых характерных храмовых видов города.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "344 Chakkraphatdi Phong Road, Ban Bat, Pom Prap Sattru Phai, Bangkok 10100",
+      "url": "https://www.google.com/maps/search/?api=1&query=Wat+Saket+Golden+Mount+Bangkok",
+      "source": "Google Maps / актуальная карточка",
+      "new": true,
+      "notes": "Ежедневно примерно 07:00–19:00. Самое интересное — подъём и вид с Golden Mount.",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Sam Yot + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Wat Saket Golden Mount Bangkok",
+      "geo": [
+        13.7527691,
+        100.5066745
+      ],
+      "tags": [
+        "Достопримечательности"
+      ]
+    },
+    {
+      "id": "loha-prasat-ratchanatdaram",
+      "title": "Loha Prasat · Wat Ratchanatdaram",
+      "kind": "Достопримечательности",
+      "area": "Old Town",
+      "blurb": "Необычный храмовый комплекс с металлическими шпилями; визуально сильно отличается от стандартных бангкокских храмов.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "2 Maha Chai Road, Wat Bowon Niwet, Phra Nakhon, Bangkok 10200",
+      "url": "https://www.google.com/maps/search/?api=1&query=Wat+Ratchanatdaram+Loha+Prasat+Bangkok",
+      "source": "Google Maps / актуальная карточка",
+      "new": true,
+      "notes": "Ежедневно примерно 08:00–17:00. Удобно сочетать с Golden Mount.",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Sam Yot + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Wat Ratchanatdaram Loha Prasat Bangkok",
+      "geo": [
+        13.7548169,
+        100.5041554
+      ],
+      "tags": [
+        "Достопримечательности"
+      ]
+    },
+    {
+      "id": "wat-ratchabophit",
+      "title": "Wat Ratchabophit",
+      "kind": "Достопримечательности",
+      "area": "Old Town",
+      "blurb": "Необычный храм с тайской внешней архитектурой и европейскими деталями интерьера, витражами и мозаикой.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Wat Ratchabophit, Phra Nakhon, Bangkok 10200",
+      "url": "https://www.google.com/maps/search/?api=1&query=Wat+Ratchabophit+Bangkok",
+      "source": "Google Maps / актуальная карточка",
+      "new": true,
+      "notes": "Менее туристический, чем Grand Palace/Wat Pho; интересен архитектурой и деталями.",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "MRT Sanam Chai / Sam Yot + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Wat Ratchabophit Sathit Maha Simaram Bangkok",
+      "geo": [
+        13.7495628,
+        100.4993822
+      ],
+      "tags": [
+        "Достопримечательности"
+      ]
+    },
+    {
+      "id": "bangkok-national-museum",
+      "title": "Bangkok National Museum",
+      "kind": "Достопримечательности",
+      "area": "Old Town",
+      "blurb": "Главный музей страны: тайская история, искусство, королевские колесницы и крупная национальная коллекция.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "4 Soi Na Phra That, Phra Borom Maha Ratchawang, Phra Nakhon, Bangkok 10200",
+      "url": "https://www.finearts.go.th/museumbangkok",
+      "source": "Fine Arts Department / актуальная карточка",
+      "new": true,
+      "notes": "Ср–вс 08:30–16:00. Для нас лучше смотреть выборочно 1,5–2 часа, а не пытаться пройти всё.",
+      "eta": {
+        "min": 60,
+        "max": 80,
+        "via": "MRT Sanam Chai + наземный транспорт/пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "National Museum Bangkok 4 Soi Na Phra That",
+      "geo": [
+        13.7576171,
+        100.4925167
+      ],
+      "tags": [
+        "Достопримечательности"
+      ]
+    },
+    {
+      "id": "kudi-chin",
+      "title": "Kudi Chin / Kudeejeen",
+      "kind": "Достопримечательности",
+      "area": "Thonburi",
+      "blurb": "Старый португальско-тайский квартал с узкими переулками, католическим наследием и живой жилой средой на берегу Чао Прайи.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Kudi Chin community, Thon Buri, Bangkok; ориентир — Baan Kudichin Museum, 271 Thetsaban Sai 1 Road",
+      "url": "https://baankudichinmuseum.com/",
+      "source": "Baan Kudichin Museum / локальные источники",
+      "new": true,
+      "notes": "Внутри: Baan Kudichin Museum и Santa Cruz Church. Музей обычно вт–вс 10:00–17:30.",
+      "eta": {
+        "min": 60,
+        "max": 80,
+        "via": "MRT Itsaraphap + пешком или MRT Sanam Chai + переправа; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Baan Kudichin Museum Bangkok",
+      "geo": [
+        13.739346,
+        100.4929733
+      ],
+      "tags": [
+        "Достопримечательности"
+      ]
+    },
+    {
+      "id": "bangkokian-museum",
+      "title": "Bangkokian Museum",
+      "kind": "Достопримечательности",
+      "area": "Bang Rak",
+      "blurb": "Несколько старых жилых домов с бытовой историей Бангкока первой половины XX века; камерно и без туристического аттракциона.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "273 Saphan Yao Alley, Si Phraya, Bang Rak, Bangkok 10500",
+      "url": "https://www.google.com/maps/search/?api=1&query=Bangkokian+Museum+Bangkok",
+      "source": "Google Maps / Bangkok Metropolitan Administration",
+      "new": true,
+      "notes": "Вт–вс примерно 09:00–16:00. Хороший небольшой исторический музей вместо ещё одного большого комплекса.",
+      "eta": {
+        "min": 50,
+        "max": 65,
+        "via": "BTS/MRT в сторону Bang Rak + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Bangkokian Museum 273 Saphan Yao Alley Bangkok",
+      "geo": [
+        13.7281433,
+        100.5182074
+      ],
+      "tags": [
+        "Достопримечательности"
+      ]
+    },
+    {
+      "id": "neilson-hays-library",
+      "title": "Neilson Hays Library",
+      "kind": "Достопримечательности",
+      "area": "Bang Rak",
+      "blurb": "Историческая неоклассическая библиотека 1921 года с ротондой, садом и периодическими выставками.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "195 Surawong Road, Suriya Wong, Bang Rak, Bangkok 10500",
+      "url": "https://neilsonhayslibrary.org/",
+      "source": "Neilson Hays Library — официальный сайт",
+      "new": true,
+      "notes": "Воскресенье 09:30–17:00; понедельник закрыто. Хорошая короткая архитектурная остановка.",
+      "eta": {
+        "min": 45,
+        "max": 60,
+        "via": "BTS Sala Daeng / MRT Sam Yan + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Neilson Hays Library Bangkok",
+      "geo": [
+        13.7270247,
+        100.5231542
+      ],
+      "tags": [
+        "Достопримечательности"
+      ]
+    },
+    {
+      "id": "artist-house-bangkok",
+      "title": "The Artist’s House · Khlong Bang Luang",
+      "kind": "Достопримечательности",
+      "area": "Thonburi",
+      "blurb": "Старый деревянный дом и арт-пространство прямо на канале Khlong Bang Luang; атмосфера старого канал-side Bangkok.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "309 Phet Kasem Road, Khuha Sawan, Phasi Charoen, Bangkok 10160",
+      "url": "https://artisthousebangkok.com/",
+      "source": "The Artist House Bangkok / актуальная карточка",
+      "new": true,
+      "notes": "Обычно 10:00–18:00, в субботу дольше. Имеет смысл ради самого канала и окружения.",
+      "eta": {
+        "min": 65,
+        "max": 85,
+        "via": "MRT до Bang Phai + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "The Artist's House Bangkok Khlong Bang Luang",
+      "geo": [
+        13.731232,
+        100.4633342
+      ],
+      "tags": [
+        "Достопримечательности"
+      ]
+    },
+    {
+      "id": "phaya-thai-palace",
+      "title": "Phaya Thai Palace",
+      "kind": "Достопримечательности",
+      "area": "Victory Monument",
+      "blurb": "Королевский дворец начала XX века с европейской архитектурой и редкими для Бангкока интерьерами.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "315 Ratchawithi Road, Thung Phaya Thai, Ratchathewi, Bangkok 10400",
+      "url": "https://phyathaipalace.org/",
+      "source": "Phaya Thai Palace / актуальная карточка",
+      "new": true,
+      "notes": "Обычные публичные экскурсионные окна — сб–вс 09:30–11:00 и 13:30–15:00; перед поездкой перепроверить слот.",
+      "eta": {
+        "min": 40,
+        "max": 55,
+        "via": "BTS Phrom Phong → Victory Monument + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Phaya Thai Palace Bangkok",
+      "geo": [
+        13.7686261,
+        100.5329005
+      ],
+      "tags": [
+        "Достопримечательности"
+      ]
+    },
+    {
+      "id": "bank-thailand-museum",
+      "title": "Bank of Thailand Museum · Bang Khun Phrom",
+      "kind": "Достопримечательности",
+      "area": "Old Town",
+      "blurb": "Музей денег и банкнот в комплексе Банка Таиланда; интересен также дворцовой архитектурой Bang Khun Phrom.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "273 Samsen Road, Wat Sam Phraya, Phra Nakhon, Bangkok 10200",
+      "url": "https://www.bot.or.th/en/our-services/bank-of-thailand-learning-center.html",
+      "source": "Bank of Thailand — официальный сайт / актуальная карточка",
+      "new": true,
+      "notes": "Обычно вт–вс 10:00–16:00; экспозиции двуязычные. Проверить конкретный режим дворцовых помещений перед визитом.",
+      "eta": {
+        "min": 60,
+        "max": 80,
+        "via": "MRT/автобус + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "The Bank of Thailand Museum 273 Samsen Road Bangkok",
+      "geo": [
+        13.767833,
+        100.4984196
+      ],
+      "tags": [
+        "Достопримечательности"
+      ]
+    },
+    {
+      "id": "siriraj-medical-museum",
+      "title": "Siriraj Medical Museum",
+      "kind": "Достопримечательности",
+      "area": "Bangkok Noi",
+      "blurb": "Необычный медицинский музей с патологией, судебной медициной и анатомическими коллекциями; довольно жёсткий визуально.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "2 Wang Lang Road, Siriraj, Bangkok Noi, Bangkok 10700",
+      "url": "https://www2.si.mahidol.ac.th/museum/visit",
+      "source": "Siriraj Museum — официальный сайт",
+      "new": true,
+      "notes": "Ср–пн 10:00–17:00, вторник закрыто; билет на два музея для иностранца 300 ฿. Только если хочется именно такого опыта.",
+      "eta": {
+        "min": 60,
+        "max": 80,
+        "via": "MRT + переправа/наземный транспорт до Siriraj; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Siriraj Medical Museum Bangkok",
+      "geo": [
+        13.7587943,
+        100.4851128
+      ],
+      "tags": [
+        "Достопримечательности"
+      ]
+    },
+    {
+      "id": "erawan-museum",
+      "title": "Erawan Museum",
+      "kind": "Достопримечательности",
+      "area": "Samut Prakan",
+      "blurb": "Огромный трёхголовый слон и сюрреалистический интерьер внутри; сильная архитектурная достопримечательность южнее центра.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "99/9 Moo 1, Bang Mueang Mai, Mueang Samut Prakan, Samut Prakan 10270",
+      "url": "https://www.erawanmuseum.com/en/",
+      "source": "Erawan Museum — официальный сайт",
+      "new": true,
+      "notes": "Ежедневно 09:00–18:00, касса до 17:00. BTS Chang Erawan.",
+      "eta": {
+        "min": 70,
+        "max": 90,
+        "via": "BTS Phrom Phong → Chang Erawan + пешком; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Erawan Museum Bangkok",
+      "geo": [
+        13.6294498,
+        100.5893623
+      ],
+      "tags": [
+        "Достопримечательности"
+      ]
+    },
+    {
+      "id": "ancient-city-muang-boran",
+      "title": "Ancient City · Muang Boran",
+      "kind": "Достопримечательности",
+      "area": "Samut Prakan",
+      "blurb": "Огромный парк архитектурных реплик и реконструкций со всей страны; по сути концентрированная архитектурная карта Таиланда.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "296/1 Sukhumvit Road, Bang Pu Mai, Mueang Samut Prakan, Samut Prakan 10280",
+      "url": "https://www.muangboranmuseum.com/",
+      "source": "Ancient City — официальный сайт / актуальная карточка",
+      "new": true,
+      "notes": "Ежедневно примерно 09:00–19:00. Это уже большой отдельный выезд на несколько часов.",
+      "eta": {
+        "min": 95,
+        "max": 120,
+        "via": "BTS до Kheha + местный наземный транспорт; приблизительно"
+      },
+      "status": "active",
+      "mapQuery": "Ancient City Samut Prakan",
+      "geo": [
+        13.5395781,
+        100.6232352
+      ],
+      "tags": [
+        "Достопримечательности"
       ]
     }
   ]
