@@ -3256,6 +3256,66 @@
       "tags": [
         "Магазины"
       ]
+    },
+    {
+      "id": "vivienne-westwood-centralworld",
+      "title": "Vivienne Westwood · CentralWorld",
+      "kind": "Магазины",
+      "area": "Siam",
+      "blurb": "Официальный магазин Vivienne Westwood в CentralWorld. Удобная городская точка для украшений, аксессуаров и одежды бренда.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "CentralWorld, 1F, 4/5 Ratchadamri Road, Pathum Wan, Bangkok 10330",
+      "mapQuery": "Vivienne Westwood CentralWorld Bangkok",
+      "url": "https://www.viviennewestwood.com/en-gb/storedetails/?storeID=Bangkok-Central-World-Pathum-Wan",
+      "source": "Vivienne Westwood — официальный store locator",
+      "new": true,
+      "notes": "Официальный магазин бренда; CentralWorld, 1F.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "BTS Phrom Phong → Chit Lom/Siam + пешком"
+      },
+      "addedAt": "2026-10-07",
+      "status": "active",
+      "geo": [
+        13.74652,
+        100.53901
+      ],
+      "tags": [
+        "Магазины"
+      ]
+    },
+    {
+      "id": "vivienne-westwood-central-embassy",
+      "title": "Vivienne Westwood · Central Embassy",
+      "kind": "Магазины",
+      "area": "Ploenchit",
+      "blurb": "Второй официальный магазин Vivienne Westwood в Бангкоке, в Central Embassy. Имеет смысл сравнить ассортимент украшений и аксессуаров с CentralWorld.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Central Embassy, Level 2, Unit L2-09-1, 1031 Ploenchit Road, Lumphini, Pathum Wan, Bangkok 10330",
+      "mapQuery": "Vivienne Westwood Central Embassy Bangkok",
+      "url": "https://www.viviennewestwood.com/en-au/storedetails/?storeID=Bangkok-Central-Embassy-Pathum-Wan",
+      "source": "Vivienne Westwood — официальный store locator",
+      "new": true,
+      "notes": "Официальный магазин бренда; Central Embassy, Level 2, Unit L2-09-1.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → Phloen Chit + пешком"
+      },
+      "addedAt": "2026-10-07",
+      "status": "active",
+      "geo": [
+        13.74478,
+        100.54695
+      ],
+      "tags": [
+        "Магазины"
+      ]
     }
   ]
 }
