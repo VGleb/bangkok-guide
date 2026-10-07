@@ -3438,21 +3438,22 @@
       "addedAt": "2026-10-07",
       "status": "active",
       "tags": [
-        "Магазины"
+        "Магазины",
+        "Тайские очки"
       ],
       "id": "tudi-eyewear-songwat",
       "title": "TUDI Eyewear · Song Wat",
       "area": "Song Wat",
-      "blurb": "Независимый тайский бренд очков с магазином для примерки. В онлайн-каталоге модели примерно от 850 до 2 950 ฿.",
+      "blurb": "Тайский fashion-eyewear бренд с сильным выбором недорогих солнцезащитных оправ. Главная альтернатива Gentle Monster по соотношению дизайн/цена.",
       "venue": "981/1 Song Wat Road, Samphanthawong, Bangkok 10100",
       "mapQuery": "TUDI EYEWEAR 981/1 Song Wat Road Bangkok",
       "geo": [
         13.7380498,
         100.50809
       ],
-      "url": "https://www.tudieyewear.com/contact",
-      "source": "TUDI — официальный сайт и Contact; Google Maps / Corner",
-      "notes": "Ежедневно 10:00–19:00. Цены зависят от модели.",
+      "url": "https://www.tudieyewear.com/category/sunglasses",
+      "source": "TUDI — официальный каталог; актуальная карточка магазина",
+      "notes": "Ежедневно 10:00–19:00. Актуальные модели, которые смотреть в первую очередь: AERO 2 950 ฿; KENNY / ROCKY / VERA / MOLLY по 1 650 ฿; CELAN / SORA / PINTA / AYLA по 1 250 ฿. Цель — примерить более крупные и геометричные формы.",
       "eta": {
         "min": 55,
         "max": 75,
@@ -3511,6 +3512,114 @@
       "tags": [
         "Магазины",
         "HOKA"
+      ]
+    },
+    {
+      "id": "anotherspecs-wang-burapha",
+      "title": "ANOTHERSPECS · Wang Burapha",
+      "kind": "Магазины",
+      "area": "Old Town",
+      "blurb": "Тайский eyewear-бренд на базе Wang Burapha Optical (с 1955): много форм, можно подбирать цвет линз; заметно дешевле Gentle Monster.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "931 Maha Chai Rd, Wang Burapha Phirom, Phra Nakhon, Bangkok 10200",
+      "mapQuery": "ANOTHERSPECS 931 Maha Chai Rd Bangkok",
+      "url": "https://www.instagram.com/anotherspecs/",
+      "source": "Time Out Bangkok 2026; актуальная карточка магазина",
+      "new": true,
+      "notes": "От 1 790 ฿. Пн и ср–вс 08:30–18:00; вторник закрыто. Онлайн-каталог актуальных SKU слабый — сюда лучше идти именно примерять формы и выбирать оттенок линз.",
+      "eta": {
+        "min": 45,
+        "max": 65,
+        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Sam Yot + пешком; приблизительно"
+      },
+      "addedAt": "2026-10-07",
+      "status": "active",
+      "tags": [
+        "Магазины",
+        "Тайские очки"
+      ]
+    },
+    {
+      "id": "rosemanclub-gaysorn",
+      "title": "ROSEMANCLUB · Gaysorn Village",
+      "kind": "Магазины",
+      "area": "Chidlom",
+      "blurb": "Тайский дизайнерский eyewear-бренд; часть коллекций Japan Handmade. Дороже TUDI, но всё ещё интереснее GM по цене за материалы и изготовление.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Gaysorn Village, 2F, 999 Phloen Chit Rd, Lumphini, Pathum Wan, Bangkok 10330",
+      "mapQuery": "ROSEMANCLUB Gaysorn Village Bangkok",
+      "url": "https://www.rosemanclub.com/sunglasses",
+      "source": "ROSEMANCLUB — официальный сайт и store locator",
+      "new": true,
+      "notes": "Ежедневно 10:00–21:00; здесь заявлена full collection. Смотреть прежде всего POPDUB WAFFLE 4 500 ฿, VENICE 4 500 ฿ и outdoor-серию MORGAN / HARDY 4 800 ฿. Titanium/ultra-light по 7 400–7 700 ฿ уже ближе к GM по бюджету.",
+      "eta": {
+        "min": 30,
+        "max": 45,
+        "via": "BTS Phrom Phong → Chit Lom + пешком по skywalk; приблизительно"
+      },
+      "addedAt": "2026-10-07",
+      "status": "active",
+      "tags": [
+        "Магазины",
+        "Тайские очки"
+      ]
+    },
+    {
+      "id": "same-old-days-eyewear",
+      "title": "same old days · Talat Noi",
+      "kind": "Магазины",
+      "area": "Talat Noi",
+      "blurb": "Тайская оптика и собственные оправы с сильным винтажным уклоном; плюс большой выбор настоящего vintage eyewear на втором этаже.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "647 Charoen Krung Road, Talat Noi, Samphanthawong, Bangkok 10100",
+      "mapQuery": "same old days eyewear Talat Noi Bangkok",
+      "url": "https://www.instagram.com/sameolddays.co/",
+      "source": "Time Out Bangkok 2026; актуальная карточка магазина",
+      "new": true,
+      "notes": "Ежедневно 10:00–19:00. Новые оправы — примерно от 2 150 ฿; винтаж обычно от ~2 000 ฿. Для тебя главный смысл — второй этаж с необычными ретро/90s/Y2K формами, а не базовые линзы из LINE-магазина.",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком; приблизительно"
+      },
+      "addedAt": "2026-10-07",
+      "status": "active",
+      "tags": [
+        "Магазины",
+        "Тайские очки"
+      ]
+    },
+    {
+      "id": "gimm-eyewear",
+      "title": "GIMM EYEWEAR · Ekkamai",
+      "kind": "Магазины",
+      "area": "Thong Lo / Ekkamai",
+      "blurb": "Небольшая тайская мастерская Chaiwat Wattananukit: скульптурные handmade-оправы, ready-made и bespoke. Скорее уникальная вещь, чем экономия на Gentle Monster.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "89 Thong Lo 20 Alley, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "mapQuery": "GIMM EYEWEAR 89 Thong Lo 20 Alley Bangkok",
+      "url": "https://www.instagram.com/gimmeyewear/",
+      "source": "CNA Lifestyle 2026; GIMM / актуальная карточка мастерской",
+      "new": true,
+      "notes": "Ориентир 10:00–18:00; перед визитом лучше написать. Ready-made от ~S$476, bespoke от ~S$794 по CNA — то есть это не бюджетная альтернатива GM. Из актуального направления интересны The Memphis, The Pebble, Racer I и модульные clip-on конструкции.",
+      "eta": {
+        "min": 20,
+        "max": 35,
+        "via": "Пешком от Sukhumvit 39 в сторону Thong Lo / Ekkamai; приблизительно"
+      },
+      "addedAt": "2026-10-07",
+      "status": "active",
+      "tags": [
+        "Магазины",
+        "Тайские очки"
       ]
     }
   ]
