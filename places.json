@@ -3342,6 +3342,122 @@
       "tags": [
         "Магазины"
       ]
+    },
+    {
+      "kind": "Еда и бары",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "new": true,
+      "addedAt": "2026-10-07",
+      "status": "active",
+      "tags": [
+        "Еда и бары"
+      ],
+      "id": "unculture-silom-rooftop",
+      "title": "Unculture Silom Rooftop Bar",
+      "area": "Silom",
+      "blurb": "Неформальный бар на крыше рядом с путями BTS: поезда проходят почти на уровне столиков.",
+      "venue": "Silom Plaza, 36/38 Naradhiwat Rajanagarindra Road, Si Lom, Bang Rak, Bangkok",
+      "mapQuery": "Unculture Silom Rooftop Bar Silom Plaza Bangkok",
+      "geo": [
+        13.7256334,
+        100.5280185
+      ],
+      "url": "https://linktr.ee/unculturebkk",
+      "source": "Unculture — официальный Linktree; Google Maps / Corner",
+      "notes": "Ежедневно 17:00–02:00. Пятый этаж, подъём по лестнице без лифта (по Corner).",
+      "eta": {
+        "min": 45,
+        "max": 65,
+        "via": "BTS Phrom Phong → Siam → Chong Nonsi + пешком; приблизительно"
+      }
+    },
+    {
+      "kind": "Магазины",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "new": true,
+      "addedAt": "2026-10-07",
+      "status": "active",
+      "tags": [
+        "Магазины"
+      ],
+      "id": "rebellion-lab-perfume-bar",
+      "title": "Rebellion Lab & Perfume Bar",
+      "area": "Siam",
+      "blurb": "Мультибрендовая парфюмерия с нишевыми тайскими ароматами: PRIN, Siam1928 и другие независимые марки.",
+      "venue": "188/67 Dragon Town, 2nd floor, Soi Chula 5, Wang Mai, Pathum Wan, Bangkok 10330",
+      "mapQuery": "Rebellion Lab and Perfume Bar Dragon Town Soi Chula 5 Bangkok",
+      "geo": [
+        13.7407224,
+        100.5245227
+      ],
+      "url": "https://prinlomros.com/store-locator/",
+      "source": "PRIN — официальный store locator; Time Out Bangkok, 22.08.2026; Google Maps / Corner",
+      "notes": "По Time Out: пн–пт 15:00–21:00, сб–вс 12:00–21:00.",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "BTS Phrom Phong → Siam → National Stadium + пешком; приблизительно"
+      }
+    },
+    {
+      "kind": "Магазины",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "new": true,
+      "addedAt": "2026-10-07",
+      "status": "active",
+      "tags": [
+        "Магазины"
+      ],
+      "id": "comma-and-centralworld",
+      "title": "Comma And · CentralWorld",
+      "area": "Chidlom",
+      "blurb": "Мультибрендовый концепт-стор: одежда, аксессуары и вещи локальных дизайнерских марок.",
+      "venue": "CentralWorld, floor 1, Zone I, 999/9 Rama I Road, Pathum Wan, Bangkok",
+      "mapQuery": "Comma And CentralWorld Bangkok",
+      "url": "https://madmatterstudio.com/pages/store",
+      "source": "Madmatter — официальный список магазинов; Central Group — расположение Zone I",
+      "notes": "Ежедневно 10:00–22:00. Центральная часть торгового центра; маркер по зданию CentralWorld.",
+      "eta": {
+        "min": 40,
+        "max": 55,
+        "via": "BTS Phrom Phong → Chit Lom + пешком по skywalk; приблизительно"
+      }
+    },
+    {
+      "kind": "Магазины",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "new": true,
+      "addedAt": "2026-10-07",
+      "status": "active",
+      "tags": [
+        "Магазины"
+      ],
+      "id": "tudi-eyewear-songwat",
+      "title": "TUDI Eyewear · Song Wat",
+      "area": "Song Wat",
+      "blurb": "Независимый тайский бренд очков с магазином для примерки. В онлайн-каталоге модели примерно от 850 до 2 950 ฿.",
+      "venue": "981/1 Song Wat Road, Samphanthawong, Bangkok 10100",
+      "mapQuery": "TUDI EYEWEAR 981/1 Song Wat Road Bangkok",
+      "geo": [
+        13.7380498,
+        100.50809
+      ],
+      "url": "https://www.tudieyewear.com/contact",
+      "source": "TUDI — официальный сайт и Contact; Google Maps / Corner",
+      "notes": "Ежедневно 10:00–19:00. Цены зависят от модели.",
+      "eta": {
+        "min": 55,
+        "max": 75,
+        "via": "BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком; приблизительно"
+      }
     }
   ]
 }
