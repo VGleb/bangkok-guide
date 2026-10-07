@@ -1068,56 +1068,6 @@
       ]
     },
     {
-      "id": "tnf-centralworld",
-      "title": "The North Face · CentralWorld",
-      "kind": "Спорт",
-      "area": "Chidlom",
-      "blurb": "Фирменный The North Face, удобно совместить с покупками в районе Siam / Chidlom.",
-      "priority": 2,
-      "dates": null,
-      "days": null,
-      "venue": "CentralWorld, 3F, Bangkok",
-      "mapQuery": "The North Face Store Central World 3rd floor Bangkok",
-      "url": "https://www.thaioutdoorgroup.com/brands/the-north-face/",
-      "source": "Thai Outdoor Group — официальный каталог The North Face",
-      "new": false,
-      "notes": "3 этаж.",
-      "eta": {
-        "min": 25,
-        "max": 40,
-        "via": "BTS Phrom Phong → Chit Lom + пешком"
-      },
-      "status": "active",
-      "tags": [
-        "Спорт"
-      ]
-    },
-    {
-      "id": "tnf-siam-discovery",
-      "title": "The North Face · Siam Discovery",
-      "kind": "Спорт",
-      "area": "Siam",
-      "blurb": "Фирменный The North Face рядом с Siam Center и Siam Paragon.",
-      "priority": 2,
-      "dates": null,
-      "days": null,
-      "venue": "Siam Discovery, 1F, Bangkok",
-      "mapQuery": "The North Face Store Siam Discovery first floor Bangkok",
-      "url": "https://www.thaioutdoorgroup.com/brands/the-north-face/",
-      "source": "Thai Outdoor Group — официальный каталог The North Face",
-      "new": false,
-      "notes": "1 этаж.",
-      "eta": {
-        "min": 30,
-        "max": 45,
-        "via": "BTS Phrom Phong → Siam + пешком"
-      },
-      "status": "active",
-      "tags": [
-        "Спорт"
-      ]
-    },
-    {
       "id": "tnf-iconsiam",
       "title": "The North Face · ICONSIAM",
       "kind": "Спорт",
@@ -1136,81 +1086,6 @@
         "min": 50,
         "max": 75,
         "via": "BTS Phrom Phong → Siam → Krung Thon Buri, Gold Line → Charoen Nakhon + пешком"
-      },
-      "status": "active",
-      "tags": [
-        "Спорт"
-      ]
-    },
-    {
-      "id": "tnf-rama9",
-      "title": "The North Face · Central Rama 9",
-      "kind": "Спорт",
-      "area": "Rama 9",
-      "blurb": "Фирменный магазин The North Face у станции MRT Phra Ram 9.",
-      "priority": 1,
-      "dates": null,
-      "days": null,
-      "venue": "Central Grand Rama 9, 3F, Bangkok",
-      "mapQuery": "The North Face Store Central Grand Rama 9 3rd floor Bangkok",
-      "url": "https://www.thaioutdoorgroup.com/brands/the-north-face/",
-      "source": "Thai Outdoor Group — официальный каталог The North Face",
-      "new": false,
-      "notes": "3 этаж.",
-      "eta": {
-        "min": 30,
-        "max": 45,
-        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Phra Ram 9 + пешком"
-      },
-      "status": "active",
-      "tags": [
-        "Спорт"
-      ]
-    },
-    {
-      "id": "tnf-ladprao",
-      "title": "The North Face · Central Ladprao",
-      "kind": "Спорт",
-      "area": "Chatuchak",
-      "blurb": "Фирменный The North Face — имеет смысл, если будешь на севере Бангкока.",
-      "priority": 1,
-      "dates": null,
-      "days": null,
-      "venue": "Central Plaza Ladprao, 2F, Bangkok",
-      "mapQuery": "The North Face Store Central Plaza Ladprao 2nd floor Bangkok",
-      "url": "https://www.thaioutdoorgroup.com/brands/the-north-face/",
-      "source": "Thai Outdoor Group — официальный каталог The North Face",
-      "new": false,
-      "notes": "2 этаж.",
-      "eta": {
-        "min": 50,
-        "max": 70,
-        "via": "BTS Phrom Phong → Asok; MRT Sukhumvit → Phahon Yothin + пешком"
-      },
-      "status": "active",
-      "tags": [
-        "Спорт"
-      ]
-    },
-    {
-      "id": "tnf-pinklao",
-      "title": "The North Face · Central Pinklao",
-      "kind": "Спорт",
-      "area": "Pinklao",
-      "blurb": "Фирменный The North Face на западной стороне города: только если окажешься поблизости.",
-      "priority": 1,
-      "dates": null,
-      "days": null,
-      "venue": "Central Plaza Pinklao, 2F, Bangkok",
-      "mapQuery": "The North Face Store Central Plaza Pinklao 2nd floor Bangkok",
-      "url": "https://www.thaioutdoorgroup.com/brands/the-north-face/",
-      "source": "Thai Outdoor Group — официальный каталог The North Face",
-      "new": false,
-      "notes": "2 этаж.",
-      "eta": {
-        "min": 65,
-        "max": 95,
-        "via": "Общественный транспорт с пересадками; точный маршрут смотри в Google Maps"
       },
       "status": "active",
       "tags": [
