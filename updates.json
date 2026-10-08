@@ -30,33 +30,6 @@
       ]
     },
     {
-      "id": "concrete-memory-dib-2026",
-      "title": "Concrete Memory — Architectural Photograph Workshop",
-      "kind": "Дизайн",
-      "area": "Sukhumvit",
-      "blurb": "Foto_momo: практический воркшоп об архитектурной фотографии и исчезающей модернистской архитектуре Бангкока 1940–80-х.",
-      "venue": "Dib Bangkok, 111 Soi Sukhumvit 40, Phra Khanong, Khlong Toei, Bangkok 10110",
-      "mapQuery": "Dib Bangkok 111 Soi Sukhumvit 40 Bangkok",
-      "url": "https://dibbangkok.org/",
-      "source": "Dib Bangkok, Events and Programs",
-      "dates": [
-        "2026-10-03",
-        "2026-10-03"
-      ],
-      "addedAt": "2026-10-01",
-      "new": true,
-      "priority": 2,
-      "eta": {
-        "min": 35,
-        "max": 45,
-        "via": "TRIBE → ~10 min walk to BTS Phrom Phong → BTS Ekkamai → ~18 min walk; approximate, not live routing"
-      },
-      "status": "confirmed",
-      "tags": [
-        "Дизайн"
-      ]
-    },
-    {
       "id": "reuse-revolution-2026",
       "title": "The ReUse Revolution",
       "kind": "События",
@@ -78,34 +51,6 @@
         "min": 30,
         "max": 45,
         "via": "От TRIBE: BTS Phrom Phong → Asok; MRT Sukhumvit → Lumphini + пешком; приблизительно"
-      },
-      "status": "confirmed",
-      "tags": [
-        "События"
-      ]
-    },
-    {
-      "id": "the-shed-city-farmer-market-2026",
-      "title": "The Shed City Farmer Market",
-      "kind": "События",
-      "area": "Sukhumvit",
-      "blurb": "Двухдневный локальный lifestyle market: art, independent goods, local food, live painting, музыка и DJ.",
-      "venue": "The Shed Bangkok, 69 Sukhumvit 26, Khlong Tan, Bangkok 10110",
-      "mapQuery": "The Shed Bangkok 69 Sukhumvit 26",
-      "url": "https://www.timeout.com/bangkok/things-to-do/try-sato-from-ubon-ratchathani-and-mae-hong-son-at-the-shed",
-      "source": "Time Out Bangkok, 24.09.2026",
-      "dates": [
-        "2026-10-03",
-        "2026-10-04"
-      ],
-      "addedAt": "2026-10-02",
-      "new": true,
-      "priority": 2,
-      "notes": "13:00–21:00, вход бесплатный. Это не second-hand market; интересен локальными товарами, art и атмосферой.",
-      "eta": {
-        "min": 20,
-        "max": 35,
-        "via": "От TRIBE пешком/короткий транспорт до Sukhumvit 26; приблизительно"
       },
       "status": "confirmed",
       "tags": [
