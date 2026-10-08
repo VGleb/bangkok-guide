@@ -95,10 +95,11 @@
     return L.divIcon({html:html,className:'',iconSize:[33,33],iconAnchor:[16,16],popupAnchor:[0,-17]});
   }
   function popupEntry(x,precise){
-    const isPlanned=wanted(x),visited=progress.visited.includes(x.id);
+    const isPlanned=wanted(x),visited=progress.visited.includes(x.id),rating=progress.ratings[x.id];
     return '<div class="place"><h3>'+esc(x.title)+'</h3><p class="meta">'+
       esc(tagsOf(x).join(' · '))+' · '+esc(x.area)+(precise?'':' · ≈ расположение')+
       (isPlanned?' · ★ В плане':'')+(visited?' · ✓ Посещено':'')+'</p>'+
+      (validRating(rating)?'<p><span class="map-personal-rating">Моя оценка '+rating+'/10</span></p>':'')+
       (x.venue?'<p>'+esc(x.venue)+'</p>':'')+
       (x.id==='bkcaw'?'<p class="meta">Мероприятие на нескольких площадках: маркер показывает центральную часть города.</p>':'')+
       '<div class="buttons">'+
@@ -158,7 +159,7 @@
         const next=!progress.visited.includes(id);
         progress.visited=next?[...new Set([...progress.visited,id])]:progress.visited.filter(x=>x!==id);
         if(next){progress.planned=progress.planned.filter(x=>x!==id);progress.seen=[...new Set([...progress.seen,id])];}
-        else if(progress.fav.includes(id))progress.planned=[...new Set([...progress.planned,id])];
+        else{delete progress.ratings[id];if(progress.fav.includes(id))progress.planned=[...new Set([...progress.planned,id])];}
         save();draw();
       }
     });

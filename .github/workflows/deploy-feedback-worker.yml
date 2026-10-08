@@ -65,7 +65,7 @@ jobs:
           const fs = require('fs');
           const doc = JSON.parse(fs.readFileSync('/tmp/feedback.json', 'utf8'));
           const records = doc.records || {};
-          const fields = new Set(['fav','planned','visited','seen','rejected','reason','note']);
+          const fields = new Set(['fav','planned','visited','seen','rejected','reason','note','rating']);
           if (doc.schema !== 1 || doc.app !== 'bangkok-curated') throw new Error('Unexpected feedback envelope');
           if (Object.keys(records).length < 40) throw new Error('Migrated feedback is unexpectedly small');
           for (const [id, record] of Object.entries(records)) {
@@ -75,6 +75,8 @@ jobs:
               if (!state || Number.isNaN(Date.parse(state.at))) throw new Error('Invalid timestamp for '+id+'/'+field);
               if (field === 'reason' || field === 'note') {
                 if (typeof state.value !== 'string') throw new Error('Expected string for '+id+'/'+field);
+              } else if (field === 'rating') {
+                if (state.value !== null && (!Number.isInteger(state.value) || state.value < 1 || state.value > 10)) throw new Error('Invalid rating for '+id);
               } else if (typeof state.value !== 'boolean') {
                 throw new Error('Expected boolean for '+id+'/'+field);
               }
@@ -206,6 +208,6 @@ jobs:
           grep -q "!progress.visited.includes(x.id)" app.js
           grep -q "timeout=12000" app.js
           grep -q "https://bangkok-feedback.vgleb.workers.dev" index.html
-          grep -q "bangkok-guide-shell-v19" service-worker.js
+          grep -q "bangkok-guide-shell-v22" service-worker.js
           ! grep -q "__bangkokMapWrapped" map.js
           ! grep -q "history.replaceState" map.js

@@ -10,4 +10,4 @@ Recommended fields: `blurb`, `venue`, `mapQuery`, `url`, `source`, `priority` (1
 
 Before editing, read the latest remote contents and GitHub blob SHA. Modify only the affected records, preserve unrelated data, check both JSON files for duplicate places and retry by re-reading if a concurrent write changed the SHA. Do not hardcode curated places in `app.js`.
 
-Private preferences and user markers are kept outside this public repository in `VGleb/chatgpt-bangkok`.
+Private preferences and user markers are kept outside this public repository in `VGleb/chatgpt-bangkok`. The personal `rating` field is a private feedback journal field (integer 1–10, or null when cleared), displayed as a compact `N/10` badge in the catalog and map popup. Any non-null rating implies that a place has been visited. Never put private ratings in public catalog JSON.

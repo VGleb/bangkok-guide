@@ -1,4 +1,4 @@
-const ALLOWED_FIELDS = new Set(['fav','planned','visited','seen','rejected','reason','note']);
+const ALLOWED_FIELDS = new Set(['fav','planned','visited','seen','rejected','reason','note','rating']);
 const ITEM_ID = /^[a-z0-9_-]{2,65}$/;
 const EMPTY_UPDATED_AT = '1970-01-01T00:00:00.000Z';
 
@@ -43,7 +43,9 @@ function normalizeRecord(id, record) {
     if (!at) continue;
     let value = state.value;
     if (field === 'reason' || field === 'note') value = text(value, field === 'reason' ? 100 : 350);
-    else if (typeof value !== 'boolean') continue;
+    else if (field === 'rating') {
+      if (value !== null && (!Number.isInteger(value) || value < 1 || value > 10)) continue;
+    } else if (typeof value !== 'boolean') continue;
     fields[field] = { value, at };
   }
   if (!Object.keys(fields).length) return null;
