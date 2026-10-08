@@ -3122,33 +3122,6 @@
       }
     },
     {
-      "id": "hoka-centralworld",
-      "title": "HOKA Experience Store · CentralWorld",
-      "kind": "Магазины",
-      "area": "Siam",
-      "blurb": "Флагманская HOKA-точка в CentralWorld; искать Kaha / Kaha Low GTX, Tor Ultra, Transport GTX и другие lifestyle/outdoor модели, а не только беговые.",
-      "priority": 3,
-      "dates": null,
-      "days": null,
-      "venue": "CentralWorld, 3F, 999/9 Rama I Road, Pathum Wan, Bangkok 10330",
-      "mapQuery": "HOKA Experience Store CentralWorld Bangkok",
-      "url": "https://hoka.co.th/pages/store-locator",
-      "source": "HOKA Thailand — официальный store locator",
-      "new": true,
-      "notes": "Официальный HOKA Experience Store. Часы: 10:00–22:00. Приоритет: Kaha / Kaha Low GTX и другие осенние/водозащищённые lifestyle/outdoor модели.",
-      "eta": {
-        "min": 25,
-        "max": 40,
-        "via": "BTS Phrom Phong → Chit Lom/Siam + пешком"
-      },
-      "addedAt": "2026-10-07",
-      "status": "active",
-      "tags": [
-        "Магазины",
-        "HOKA"
-      ]
-    },
-    {
       "id": "anotherspecs-wang-burapha",
       "title": "ANOTHERSPECS · Wang Burapha",
       "kind": "Магазины",
