@@ -241,6 +241,21 @@ export default {
       }
     }
 
+    if (url.pathname === '/api/private-feedback-import') {
+      if (request.method !== 'POST') return json({ error: 'Method not allowed' }, 405, headers);
+      if (origin !== '') return json({ error: 'Origin not allowed' }, 403, headers);
+      if (!(await verifyPrivateImportToken(request.headers.get('Authorization')))) return json({ error: 'Unauthorized' }, 401, headers);
+      try {
+        const doc = normalizeDocument(await request.json());
+        const entries = Object.values(doc.records);
+        if (!entries.length || entries.length > 100) return json({ error: 'Invalid feedback payload' }, 400, headers);
+        const result = await writeFeedback(env, doc);
+        return json({ imported: entries.length, updatedAt: result.updatedAt }, 200, headers);
+      } catch (error) {
+        return json({ error: String(error?.message || error) }, 400, headers);
+      }
+    }
+
     if (url.pathname !== '/api/feedback') return json({ error: 'Not found' }, 404, headers);
     if (origin === null) return json({ error: 'Origin not allowed' }, 403, headers);
     if (!authorized(request, env)) return json({ error: 'Unauthorized' }, 401, headers);
