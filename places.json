@@ -3228,6 +3228,32 @@
         "Магазины",
         "Тайские очки"
       ]
+    },
+    {
+      "id": "cdg-gaysorn-village",
+      "title": "COMME des GARÇONS · Gaysorn Village",
+      "kind": "Магазины",
+      "tags": [
+        "Магазины"
+      ],
+      "area": "Chidlom",
+      "blurb": "Полноценный фирменный COMME des GARÇONS, не только PLAY. В том же Gaysorn Centre есть CDGCDGCDG; по пути можно посмотреть ROSEMANCLUB (тайские дизайнерские очки).",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Gaysorn Centre, G Floor, 999 Phloen Chit Road, Lumphini, Pathum Wan, Bangkok 10330",
+      "mapQuery": "COMME des GARCONS Gaysorn Village 999 Phloen Chit Road Bangkok",
+      "url": "https://www.gaysornvillage.com/th/adore/comme-des-garcons/",
+      "source": "COMME des GARÇONS official store locator; Gaysorn Village official directory",
+      "new": true,
+      "notes": "Официально G Floor, Gaysorn Centre; 10:00–20:00 ежедневно. Отличается от PLAY в One Bangkok. CDGCDGCDG также на G Floor, отдельная линейка.",
+      "eta": {
+        "min": 25,
+        "max": 40,
+        "via": "От TRIBE пешком до BTS Phrom Phong → BTS Chit Lom + skywalk/пешком; приблизительно"
+      },
+      "addedAt": "2026-10-08",
+      "status": "active"
     }
   ]
 }
