@@ -61,34 +61,6 @@
       ]
     },
     {
-      "id": "kunstmelt",
-      "title": "Spirits Melt to Flesh",
-      "kind": "Выставки",
-      "area": "Old Town",
-      "blurb": "Медиаарт восьми азиатских художников: видео, звук, скульптура и фотография.",
-      "priority": 3,
-      "dates": [
-        "2026-10-02",
-        "2026-10-04"
-      ],
-      "days": null,
-      "venue": "Bangkok Kunsthalle, 599 Pantachit Alley",
-      "url": "https://khaoyaiart.org/bk/exhibitions/",
-      "source": "официальный сайт",
-      "new": false,
-      "notes": "Успеть до закрытия 4 октября.",
-      "eta": {
-        "min": 50,
-        "max": 70,
-        "via": "BTS → Asok; MRT Sukhumvit → Wat Mangkon + пешком"
-      },
-      "status": "active",
-      "mapQuery": "Bangkok Kunsthalle 599 Pantachit Alley Bangkok",
-      "tags": [
-        "Выставки"
-      ]
-    },
-    {
       "id": "kunstwfire",
       "title": "The Preservation of Fire",
       "kind": "Выставки",
@@ -168,34 +140,6 @@
       },
       "status": "active",
       "mapQuery": "Thailand Creative Design Center Grand Postal Building Bangkok",
-      "tags": [
-        "События"
-      ]
-    },
-    {
-      "id": "nic",
-      "title": "NIC Factory Vintage Flea Market",
-      "kind": "События",
-      "area": "Charoen Krung",
-      "blurb": "Маркет винтажных предметов в бывшей табачной фабрике.",
-      "priority": 1,
-      "dates": [
-        "2026-10-02",
-        "2026-10-04"
-      ],
-      "days": null,
-      "venue": "NIC Factory, Charoen Krung 74",
-      "url": "https://www.timeout.com/bangkok/things-to-do/events-this-month",
-      "source": "Time Out",
-      "new": false,
-      "notes": "В основном мебель, интерьер и коллекционные предметы — не аналог Kindal.",
-      "eta": {
-        "min": 60,
-        "max": 80,
-        "via": "BTS Phrom Phong → Siam → Saphan Taksin + пешком"
-      },
-      "status": "active",
-      "mapQuery": "NIC Factory Charoen Krung 74 Bangkok",
       "tags": [
         "События"
       ]
@@ -340,37 +284,6 @@
       ]
     },
     {
-      "id": "octavemaze",
-      "title": "Octave Maze Live",
-      "kind": "События",
-      "area": "Old Town",
-      "blurb": "Живые звуковые выступления внутри кинетической архитектурной инсталляции.",
-      "priority": 3,
-      "dates": [
-        "2026-10-03",
-        "2026-10-10"
-      ],
-      "days": [
-        "2026-10-03",
-        "2026-10-10"
-      ],
-      "venue": "Asvin Cultural and Contemporary Art Space, 9 Nakkharat Road",
-      "url": "https://www.bangkokartcity.org/discover-detail/octave-maze-live-2026",
-      "source": "официальный сайт",
-      "new": false,
-      "notes": "Только субботы 3 и 10 октября; часы отдельного перформанса уточнить.",
-      "eta": {
-        "min": 60,
-        "max": 85,
-        "via": "BTS → Asok; MRT Sukhumvit → Sam Yot + пешком"
-      },
-      "status": "active",
-      "mapQuery": "Asvin Cultural and Contemporary Art Space 9 Nakkharat Road Bangkok",
-      "tags": [
-        "События"
-      ]
-    },
-    {
       "id": "munins",
       "title": "STILL : ON — Munins",
       "kind": "Выставки",
@@ -422,34 +335,6 @@
       },
       "status": "active",
       "mapQuery": "River City Bangkok",
-      "tags": [
-        "Выставки"
-      ]
-    },
-    {
-      "id": "stress",
-      "title": "Stress Test — Wantaya Thitipaisal",
-      "kind": "Выставки",
-      "area": "Charoen Krung",
-      "blurb": "Выставка живописи между абстракцией и фигуративностью.",
-      "priority": 1,
-      "dates": [
-        "2026-10-02",
-        "2026-10-04"
-      ],
-      "days": null,
-      "venue": "Supples Gallery, Charoen Krung 43",
-      "url": "https://www.bangkokartcity.org/discover",
-      "source": "официальный сайт",
-      "new": false,
-      "notes": "Только до 4 октября.",
-      "eta": {
-        "min": 55,
-        "max": 75,
-        "via": "BTS → Asok; MRT Sukhumvit → Hua Lamphong + пешком"
-      },
-      "status": "active",
-      "mapQuery": "Supples Gallery Charoen Krung 43 Bangkok",
       "tags": [
         "Выставки"
       ]
@@ -990,56 +875,6 @@
       "status": "active",
       "tags": [
         "Еда и бары"
-      ]
-    },
-    {
-      "id": "on-one-bangkok",
-      "title": "On · One Bangkok",
-      "kind": "Спорт",
-      "area": "Lumphini",
-      "blurb": "Фирменный On: бег, lifestyle, тренировки, outdoor и теннис.",
-      "priority": 2,
-      "dates": null,
-      "days": null,
-      "venue": "One Bangkok, The Storeys, 1F, 199 Wireless Road",
-      "mapQuery": "On Store One Bangkok The Storeys 1st Floor Bangkok",
-      "url": "https://www.on.com/en-gb/explore/stores/bangkok-one-bangkok",
-      "source": "On — официальный каталог магазинов",
-      "new": false,
-      "notes": "Ежедневно 10:00–22:00.",
-      "eta": {
-        "min": 25,
-        "max": 40,
-        "via": "BTS Phrom Phong → Asok, MRT Sukhumvit → Lumphini + пешком"
-      },
-      "status": "active",
-      "tags": [
-        "Спорт"
-      ]
-    },
-    {
-      "id": "on-iconsiam",
-      "title": "On · ICONSIAM",
-      "kind": "Спорт",
-      "area": "Khlong San",
-      "blurb": "Фирменный On с полным ассортиментом обуви, одежды и аксессуаров.",
-      "priority": 1,
-      "dates": null,
-      "days": null,
-      "venue": "ICONSIAM, 1F, Unit 122, 299 Charoen Nakhon Road",
-      "mapQuery": "On Store Bangkok ICONSIAM 1st Floor 122",
-      "url": "https://www.on.com/en-th/explore/stores/bangkok-iconsiam",
-      "source": "On — официальный каталог магазинов",
-      "new": false,
-      "notes": "Ежедневно 10:00–22:00.",
-      "eta": {
-        "min": 50,
-        "max": 75,
-        "via": "BTS Phrom Phong → Siam → Krung Thon Buri, Gold Line → Charoen Nakhon + пешком"
-      },
-      "status": "active",
-      "tags": [
-        "Спорт"
       ]
     },
     {
@@ -2391,33 +2226,6 @@
       ]
     },
     {
-      "id": "kim-map-bangkok",
-      "title": "Kim Map ร้านแผนที่",
-      "kind": "Карта",
-      "area": "Saphan Sung",
-      "blurb": "Редкий в Бангкоке специализированный магазин именно карт. Интересен как место за обычной утилитарной локальной картой без туристического сувенирного дизайна.",
-      "priority": 1,
-      "dates": null,
-      "days": null,
-      "venue": "31/38 Krungthep Kreetha Road, Thap Chang, Saphan Sung, Bangkok 10250",
-      "mapQuery": "Kim Map ร้านแผนที่ Bangkok",
-      "url": "https://www.google.com/maps/search/?api=1&query=Kim+Map+ร้านแผนที่+Bangkok",
-      "source": "Google Business Profile",
-      "new": true,
-      "notes": "Далеко от Sukhumvit 39; ехать специально только если захочется именно покопаться в магазине карт. Перед поездкой лучше подтвердить часы.",
-      "eta": {
-        "min": 60,
-        "max": 90,
-        "via": "Общественный транспорт с пересадками; точный маршрут открыть в Google Maps"
-      },
-      "addedAt": "2026-10-05",
-      "status": "active",
-      "tags": [
-        "Карта",
-        "Магазины"
-      ]
-    },
-    {
       "id": "levis-centralworld",
       "title": "Levi’s · CentralWorld",
       "kind": "Магазины",
@@ -3280,36 +3088,6 @@
         "min": 45,
         "max": 65,
         "via": "BTS Phrom Phong → Siam → Chong Nonsi + пешком; приблизительно"
-      }
-    },
-    {
-      "kind": "Магазины",
-      "priority": 3,
-      "dates": null,
-      "days": null,
-      "new": true,
-      "addedAt": "2026-10-07",
-      "status": "active",
-      "tags": [
-        "Магазины"
-      ],
-      "id": "rebellion-lab-perfume-bar",
-      "title": "Rebellion Lab & Perfume Bar",
-      "area": "Siam",
-      "blurb": "Мультибрендовая парфюмерия с нишевыми тайскими ароматами: PRIN, Siam1928 и другие независимые марки.",
-      "venue": "188/67 Dragon Town, 2nd floor, Soi Chula 5, Wang Mai, Pathum Wan, Bangkok 10330",
-      "mapQuery": "Rebellion Lab and Perfume Bar Dragon Town Soi Chula 5 Bangkok",
-      "geo": [
-        13.7407224,
-        100.5245227
-      ],
-      "url": "https://prinlomros.com/store-locator/",
-      "source": "PRIN — официальный store locator; Time Out Bangkok, 22.08.2026; Google Maps / Corner",
-      "notes": "По Time Out: пн–пт 15:00–21:00, сб–вс 12:00–21:00.",
-      "eta": {
-        "min": 50,
-        "max": 70,
-        "via": "BTS Phrom Phong → Siam → National Stadium + пешком; приблизительно"
       }
     },
     {
