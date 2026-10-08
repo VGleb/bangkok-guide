@@ -208,6 +208,6 @@ jobs:
           grep -q "!progress.visited.includes(x.id)" app.js
           grep -q "timeout=12000" app.js
           grep -q "https://bangkok-feedback.vgleb.workers.dev" index.html
-          grep -q "bangkok-guide-shell-v22" service-worker.js
+          grep -q "bangkok-guide-shell-v24" service-worker.js
           ! grep -q "__bangkokMapWrapped" map.js
           ! grep -q "history.replaceState" map.js
