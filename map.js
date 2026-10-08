@@ -51,7 +51,7 @@
   const COLORS = {'События':'#b96b31','Выставки':'#8d65a6','Дизайн':'#547ba1',
     'Ресейл':'#74665b','Магазины':'#48817d','Спорт':'#4684bd','Кофе':'#9c7351',
     'Еда и бары':'#a95b5b','Районы':'#617853','Природа':'#4c8a57'};
-  let map=null,layer=null,homePin=null,userPin=null,userCircle=null,userPosition=null,mapVisible=false,mapFrame=0;
+  let map=null,layer=null,homePin=null,userPin=null,userCircle=null,userPosition=null,mapVisible=false,mapFrame=0,updateFrame=0;
   let activeMarkerCount=-1;
   const $=id=>document.getElementById(id);
   const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -163,8 +163,14 @@
         save();draw();
       }
     });
-    update();
     return true;
+  }
+  function queueUpdate(){
+    if(updateFrame||!mapVisible)return;
+    updateFrame=requestAnimationFrame(()=>{
+      updateFrame=0;
+      if(mapVisible&&map)update();
+    });
   }
   function switchView(next){
     const showMap=next==='map';
@@ -176,19 +182,17 @@
     $('listView').hidden=showMap;
     $('mapView').hidden=!showMap;
     if(mapFrame){cancelAnimationFrame(mapFrame);mapFrame=0}
+    if(updateFrame){cancelAnimationFrame(updateFrame);updateFrame=0}
     if(!showMap){
       if(map){map.stop();map.closePopup();}
       return;
     }
+    $('mapStatus').textContent='Загружаю карту…';
     mapFrame=requestAnimationFrame(()=>{
       mapFrame=0;
       if(!mapVisible||!setup())return;
-      mapFrame=requestAnimationFrame(()=>{
-        mapFrame=0;
-        if(!mapVisible||!map)return;
-        map.invalidateSize({pan:false});
-        update();
-      });
+      map.invalidateSize({pan:false});
+      queueUpdate();
     });
   }
   function showHome(){
@@ -225,7 +229,7 @@
     $('mapHome').addEventListener('click',showHome);
     $('mapLocate').addEventListener('click',locateMe);
     $('mapFit').addEventListener('click',fitAll);
-    document.addEventListener('bangkok:draw',()=>{if(mapVisible)update()});
+    document.addEventListener('bangkok:draw',()=>{if(mapVisible)queueUpdate()});
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
