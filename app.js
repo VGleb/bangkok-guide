@@ -246,3 +246,24 @@ el('cfSyncNow').addEventListener('click',async()=>{if(!syncToken){syncMessage('�
 el('cfDisconnect').addEventListener('click',()=>{clearTimeout(syncTimer);syncToken='';el('cfToken').value='';localStorage.removeItem(CF_TOKEN_KEY);sessionStorage.removeItem(CF_TOKEN_KEY);syncStatus('Отметки сохранены на устройстве','');syncMessage('Облачная синхронизация отключена. Локальные отметки сохранены.','good')});
 
 initSaved();initCloud();draw();fetchUpdates();setInterval(fetchUpdates,30*60*1000);el('refresh').onclick=fetchUpdates;el('onlynew').onclick=()=>{S.newOnly=!S.newOnly;S.rejected=false;draw()};el('onlyplanned').onclick=()=>{S.planned=!S.planned;S.rejected=false;draw()};el('hidevisited').onclick=()=>{S.hide=!S.hide;S.rejected=false;draw()};el('priority').onclick=()=>{S.priority=!S.priority;S.rejected=false;draw()};el('rejected').onclick=()=>{S.rejected=!S.rejected;draw()};el('reset').onclick=()=>{Object.assign(S,{cat:'Все',query:'',area:'',date:'',hide:false,priority:false,newOnly:false,planned:false,rejected:false,sort:'rank'});draw()};el('search').oninput=e=>{S.query=e.target.value;S.rejected=false;draw()};el('area').onchange=e=>{S.area=e.target.value;S.rejected=false;draw()};el('date').onchange=e=>{S.date=e.target.value;S.rejected=false;draw()};el('sort').onchange=e=>{S.sort=e.target.value;draw()};el('exportData').onclick=exportProgress;el('exportFeedback').onclick=()=>download(rejectionText(),'bangkok_feedback_for_chatgpt.txt','text/plain;charset=utf-8');el('copyFeedback').onclick=copyFeedback;el('importData').onchange=e=>loadJsonFile(e,'marks');el('importFeed').onchange=e=>loadJsonFile(e,'feed');el('markAllSeen').onclick=()=>{progress.seen=[...new Set([...progress.seen,...items().filter(isNew).map(x=>x.id)])];save();draw()};el('saveFeed').onclick=()=>{let v=el('feedUrl').value.trim();if(!/^https:\/\//.test(v)){el('notice').textContent='Нужна публичная HTTPS-ссылка';return}feedUrl=v;putLS(FEED_KEY,v);fetchUpdates()};el('defaultFeed').onclick=()=>{feedUrl='./updates.json';putLS(FEED_KEY,feedUrl);el('feedUrl').value='';fetchUpdates()};el('saveOrigin').onclick=()=>{origin=el('originInput').value.trim()||O0;putLS(ORIGIN_KEY,origin);el('notice').textContent='Адрес сохранён для Google Maps. Оценки времени в карточках рассчитаны от TRIBE Living.';draw()};
+
+function importRatingsFromLink(){
+  const raw=new URLSearchParams(location.hash.slice(1)).get('ratings');
+  if(!raw)return;
+  const parsed=raw.split(',').map(pair=>{const m=/^([a-z0-9_-]{2,65}):([1-9]|10)$/.exec(pair);return m?{id:m[1],rating:Number(m[2])}:null});
+  if(!parsed.length||parsed.length>20||parsed.some(x=>!x)||new Set(parsed.map(x=>x.id)).size!==parsed.length)return;
+  const catalogue=new Map(items().map(x=>[x.id,x.title]));
+  const summary=parsed.map(x=>(catalogue.get(x.id)||x.id)+' — '+x.rating+'/10').join('\n');
+  if(!confirm('Перенести личные оценки в Bangkok Guide?\n\n'+summary))return;
+  for(const {id,rating} of parsed){
+    progress.ratings[id]=rating;
+    progress.visited=[...new Set([...progress.visited,id])];
+    progress.seen=[...new Set([...progress.seen,id])];
+    progress.planned=progress.planned.filter(x=>x!==id);
+  }
+  history.replaceState(null,'',location.pathname+location.search);
+  save();
+  draw();
+  el('notice').textContent='Личные оценки добавлены. Статус синхронизации показан в облаке.';
+}
+importRatingsFromLink();
