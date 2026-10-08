@@ -134,7 +134,7 @@ async function readFeedback(env) {
 async function writeFeedback(env, body) {
   const incoming = normalizeDocument(body);
 
-  for (let attempt = 0; attempt < 5; attempt++) {
+  for (let attempt = 0; attempt < 14; attempt++) {
     const current = await readFeedbackState(env);
     const merged = mergeDocuments(current.document, incoming);
     const value = JSON.stringify(merged);
@@ -157,6 +157,7 @@ async function writeFeedback(env, body) {
     }
 
     if ((result.meta?.changes || 0) === 1) return merged;
+    await new Promise(resolve => setTimeout(resolve, Math.min(15 * 2 ** attempt, 250)));
   }
 
   throw new Error('Concurrent feedback update conflict');
