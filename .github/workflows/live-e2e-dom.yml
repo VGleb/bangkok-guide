@@ -33,16 +33,21 @@ jobs:
       - name: Install Playwright
         run: |
           npm install --no-save playwright@1.55.0
-          npx playwright install --with-deps chromium
+          npx playwright install --with-deps webkit
       - name: Run live DOM regression
         run: |
           node --input-type=module <<'NODE'
-          import { chromium } from 'playwright';
+          import { webkit } from 'playwright';
 
           const token = process.env.FEEDBACK_API_TOKEN;
           const url = 'https://vgleb.github.io/bangkok-guide/';
-          const browser = await chromium.launch({ headless: true });
-          const context = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+          const browser = await webkit.launch({ headless: true });
+          const context = await browser.newContext({
+            viewport: { width: 390, height: 844 },
+            deviceScaleFactor: 3,
+            isMobile: true,
+            hasTouch: true
+          });
           const page = await context.newPage();
           const errors = [];
           page.on('pageerror', e => errors.push(String(e)));
@@ -60,6 +65,8 @@ jobs:
               { timeout: 20_000 }
             );
 
+            assert(await page.locator('#hidevisited').evaluate(el => el.classList.contains('active')), 'Hide visited is not enabled by default');
+            await page.locator('#hidevisited').click();
             await page.locator('#search').fill('2nd STREET — Siam Discovery');
             await page.waitForTimeout(250);
             const cards = page.locator('#results .card');
@@ -74,12 +81,15 @@ jobs:
 
             for (let i = 0; i < 3; i++) {
               await page.locator('#viewMap').click();
-              await page.waitForTimeout(350);
+              await page.waitForFunction(
+                () => /мест на карте/.test(document.querySelector('#mapStatus')?.textContent || ''),
+                { timeout: 8_000 }
+              );
               assert(await page.locator('#mapView').evaluate(el => !el.hidden), 'Map did not open');
               assert(await page.locator('#listView').evaluate(el => el.hidden), 'List stayed visible with map');
 
               await page.locator('#viewList').click();
-              await page.waitForTimeout(150);
+              await page.waitForTimeout(100);
               assert(await page.locator('#listView').evaluate(el => !el.hidden), 'Catalog did not reopen');
               assert(await page.locator('#mapView').evaluate(el => el.hidden), 'Map stayed visible after catalog return');
               assert(await page.locator('#results .card').count() > 0, 'Cards disappeared after map round-trip');
@@ -93,7 +103,7 @@ jobs:
             );
 
             assert(errors.length === 0, 'Page errors: ' + errors.join(' | '));
-            console.log('Live DOM E2E passed');
+            console.log('Mobile WebKit DOM E2E passed');
           } finally {
             await browser.close();
           }
