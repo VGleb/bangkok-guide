@@ -34,6 +34,43 @@ const authorized = (request, env) => {
 const iso = value => typeof value === 'string' && !Number.isNaN(Date.parse(value)) ? value : null;
 const text = (value, max) => typeof value === 'string' ? value.slice(0, max) : '';
 
+
+const PRIVATE_IMPORT_AUDIENCE = 'bangkok-private-ratings-import';
+const PRIVATE_IMPORT_WORKFLOW = 'VGleb/chatgpt-bangkok/.github/workflows/sync-ratings.yml@refs/heads/main';
+const GITHUB_OIDC_ISSUER = 'https://token.actions.githubusercontent.com';
+
+function oidcPart(part) {
+  const raw = atob(part.replace(/-/g, '+').replace(/_/g, '/'));
+  return Uint8Array.from(raw, ch => ch.charCodeAt(0));
+}
+
+async function verifyPrivateImportToken(authorization) {
+  if (typeof authorization !== 'string' || !authorization.startsWith('Bearer ') || authorization.length > 9000) return false;
+  const parts = authorization.slice(7).split('.');
+  if (parts.length !== 3 || !parts.every(Boolean)) return false;
+  try {
+    const hdr = JSON.parse(new TextDecoder().decode(oidcPart(parts[0])));
+    const payload = JSON.parse(new TextDecoder().decode(oidcPart(parts[1])));
+    const now = Math.floor(Date.now() / 1000);
+    if (hdr.alg !== 'RS256' || typeof hdr.kid !== 'string' || !hdr.kid) return false;
+    if (payload.iss !== GITHUB_OIDC_ISSUER || payload.aud !== PRIVATE_IMPORT_AUDIENCE) return false;
+    if (payload.repository !== 'VGleb/chatgpt-bangkok' || String(payload.repository_id) !== '1397740007') return false;
+    if (payload.workflow_ref !== PRIVATE_IMPORT_WORKFLOW || payload.ref !== 'refs/heads/main') return false;
+    if (payload.repository_visibility !== 'private' || payload.event_name !== 'push') return false;
+    if (!Number.isInteger(payload.exp) || payload.exp < now || !Number.isInteger(payload.iat) || payload.iat > now + 30 || payload.iat < now - 600) return false;
+    if (payload.nbf != null && (typeof payload.nbf !== 'number' || payload.nbf > now + 30)) return false;
+    const response = await fetch(GITHUB_OIDC_ISSUER + '/.well-known/jwks');
+    if (!response.ok) return false;
+    const keys = await response.json();
+    const jwk = keys.keys?.find(key => key.kid === hdr.kid && key.kty === 'RSA' && key.use === 'sig' && key.alg === 'RS256');
+    if (!jwk) return false;
+    const key = await crypto.subtle.importKey('jwk', jwk, { name: 'RSASSA-PKCS1-v1_5', hash: 'SHA-256' }, false, ['verify']);
+    return await crypto.subtle.verify('RSASSA-PKCS1-v1_5', key, oidcPart(parts[2]), new TextEncoder().encode(parts[0] + '.' + parts[1]));
+  } catch {
+    return false;
+  }
+}
+
 function normalizeRecord(id, record) {
   if (!ITEM_ID.test(id) || !record || typeof record !== 'object' || Array.isArray(record)) return null;
   const fields = {};
@@ -181,6 +218,26 @@ export default {
         return json({ ok: true }, 200, headers);
       } catch {
         return json({ ok: false }, 503, headers);
+      }
+    }
+
+    if (url.pathname === '/api/private-ratings-import') {
+      if (request.method !== 'POST') return json({ error: 'Method not allowed' }, 405, headers);
+      if (origin !== '') return json({ error: 'Origin not allowed' }, 403, headers);
+      if (!(await verifyPrivateImportToken(request.headers.get('Authorization')))) return json({ error: 'Unauthorized' }, 401, headers);
+      try {
+        const doc = normalizeDocument(await request.json());
+        const entries = Object.values(doc.records);
+        if (!entries.length || entries.length > 30 || entries.some(record =>
+          !record.fields.rating || !Number.isInteger(record.fields.rating.value) ||
+          record.fields.rating.value < 1 || record.fields.rating.value > 10 ||
+          record.fields.visited?.value !== true ||
+          Object.keys(record.fields).some(field => field !== 'rating' && field !== 'visited')
+        )) return json({ error: 'Invalid rating payload' }, 400, headers);
+        const result = await writeFeedback(env, doc);
+        return json({ imported: entries.length, verified: entries.every((record) => record.fields.rating.value >= 1), updatedAt: result.updatedAt }, 200, headers);
+      } catch (error) {
+        return json({ error: String(error?.message || error) }, 400, headers);
       }
     }
 
