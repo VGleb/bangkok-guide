@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-09",
   "items": [
     {
       "id": "the-king-in-our-hearts-2026",
@@ -360,6 +360,29 @@
         "ICONSIAM",
         "Магазины"
       ]
+    },
+    {
+      "id": "molly-little-galaxy-2026",
+      "title": "MOLLY 20th Anniversary Exhibition — The Little Galaxy",
+      "kind": "Выставки",
+      "area": "Sam Yan",
+      "blurb": "Юбилейная выставка POP MART: 20 лет Molly, оригинальные рисунки Kenny Wong, редкие фигурки и художественные интерпретации.",
+      "venue": "Chulalongkorn University Centenary Park, Bangkok",
+      "mapQuery": "Chulalongkorn University Centenary Park Bangkok",
+      "url": "https://pmcu.co.th/news/33984/",
+      "source": "PMCU (Chulalongkorn University) / POP MART Thailand",
+      "dates": [
+        "2026-09-24",
+        "2026-10-25"
+      ],
+      "addedAt": "2026-10-09",
+      "new": true,
+      "priority": 2,
+      "status": "confirmed",
+      "tags": [
+        "Выставки"
+      ],
+      "notes": "Билеты-пакеты выставки 290–390 ฿; уточнять актуальные условия перед визитом."
     }
   ]
 }
