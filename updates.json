@@ -272,6 +272,64 @@
         "Выставки",
         "Дизайн"
       ]
+    },
+    {
+      "id": "echoes-of-waste-iconsiam-2026",
+      "title": "EChOes of Waste · SIAM Takashimaya",
+      "kind": "Выставки",
+      "area": "ICONSIAM / Khlong San",
+      "blurb": "Japan–Thailand sustainability art exhibition: восемь художников превращают металл, текстиль, пластик, строительные отходы и marine debris в арт-объекты.",
+      "priority": 3,
+      "dates": [
+        "2026-10-01",
+        "2026-10-15"
+      ],
+      "days": null,
+      "venue": "SIAM Takashimaya, 4F Event Space, ICONSIAM, 299 Charoen Nakhon Rd, Khlong San, Bangkok 10600",
+      "mapQuery": "SIAM Takashimaya ICONSIAM Bangkok",
+      "url": "https://www.chutoku-g.co.jp/actaplus_echoes",
+      "source": "Chutoku Holdings / ACTA Plus — official exhibition page",
+      "new": true,
+      "notes": "Бесплатно. Ежедневно в период выставки; 4F Event Space.",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "BTS Phrom Phong → Siam → Krung Thon Buri; Gold Line → Charoen Nakhon"
+      },
+      "status": "confirmed",
+      "tags": [
+        "Выставки",
+        "ICONSIAM"
+      ]
+    },
+    {
+      "id": "colors-reflection-creation-iconsiam-2026",
+      "title": "Colors: A Reflection of Creation · ICONSIAM",
+      "kind": "Выставки",
+      "area": "ICONSIAM / Khlong San",
+      "blurb": "52 модели королевских барж, 15-метровая Suphannahong и мультимедийная экспозиция о Royal Barge Procession 2026.",
+      "priority": 3,
+      "dates": [
+        "2026-09-28",
+        "2026-11-08"
+      ],
+      "days": null,
+      "venue": "ICONLUXE M Floor, ICONSIAM, 299 Charoen Nakhon Rd, Khlong San, Bangkok 10600",
+      "mapQuery": "ICONSIAM Bangkok",
+      "url": "https://www.bangkokartcity.org/discover-detail/colors-a-reflection-of-creation-aesthetics-in-art-at-iconsiam",
+      "source": "Bangkok Art City — information provided by event organizer",
+      "new": true,
+      "notes": "Ежедневно 10:00–22:00. M floor ICONLUXE.",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "BTS Phrom Phong → Siam → Krung Thon Buri; Gold Line → Charoen Nakhon"
+      },
+      "status": "confirmed",
+      "tags": [
+        "Выставки",
+        "ICONSIAM"
+      ]
     }
   ]
 }
