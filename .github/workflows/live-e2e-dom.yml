@@ -6,6 +6,10 @@ on:
     branches:
       - main
     paths:
+      - 'app.js'
+      - 'map.js'
+      - 'index.html'
+      - 'service-worker.js'
       - '.github/workflows/live-e2e-dom.yml'
 
 permissions:
@@ -24,7 +28,7 @@ jobs:
       - name: Wait for live site
         run: |
           for attempt in $(seq 1 30); do
-            if curl --fail --silent --show-error https://vgleb.github.io/bangkok-guide/ | grep -q 'bangkok-feedback.vgleb.workers.dev'; then
+            if curl --fail --silent --show-error https://vgleb.github.io/bangkok-guide/ | grep -q './app.js?v=28'; then
               exit 0
             fi
             sleep 5
@@ -78,6 +82,31 @@ jobs:
             await page.locator('#search').fill('');
             await page.waitForTimeout(150);
             assert(await page.locator('#results .card').count() > 0, 'Catalog is empty');
+
+            const allChip = page.locator('[data-cat-all]');
+            assert(await allChip.evaluate(el => el.classList.contains('active')), 'All categories are not enabled initially');
+            assert(await page.locator('[data-cat]:not(.active)').count() === 0, 'Some category is disabled initially');
+
+            const coffee = page.locator('[data-cat="Кофе"]');
+            await coffee.click();
+            assert(!await coffee.evaluate(el => el.classList.contains('active')), 'Coffee category did not toggle off');
+            assert(!await allChip.evaluate(el => el.classList.contains('active')), 'All chip stayed active after disabling a category');
+            assert(await page.locator('#results .card').evaluateAll(cards => cards.every(card => ![...card.querySelectorAll('.tag')].some(tag => tag.textContent.trim() === 'Кофе'))), 'Coffee cards remain visible after Coffee was disabled');
+
+            const shops = page.locator('[data-cat="Магазины"]');
+            await shops.click();
+            assert(!await shops.evaluate(el => el.classList.contains('active')), 'Shops category did not toggle off');
+            assert(await page.locator('#results .card').evaluateAll(cards => cards.every(card => ![...card.querySelectorAll('.tag')].some(tag => tag.textContent.trim() === 'Магазины'))), 'Shop cards remain visible after Shops was disabled');
+
+            await allChip.click();
+            assert(await allChip.evaluate(el => el.classList.contains('active')), 'All chip did not enable all categories');
+            assert(await page.locator('[data-cat]:not(.active)').count() === 0, 'All did not re-enable every category');
+
+            await coffee.click();
+            await page.locator('#reset').click();
+            assert(await allChip.evaluate(el => el.classList.contains('active')), 'Reset did not enable all categories');
+            assert(await page.locator('[data-cat]:not(.active)').count() === 0, 'Reset left a category disabled');
+            assert(await page.locator('#hidevisited').evaluate(el => el.classList.contains('active')), 'Reset disabled Hide visited');
 
             for (let i = 0; i < 3; i++) {
               await page.locator('#viewMap').click();
