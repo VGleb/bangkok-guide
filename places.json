@@ -3358,6 +3358,189 @@
         "Районы",
         "ICONSIAM"
       ]
+    },
+    {
+      "id": "sri-nakhon-khuean-khan-park",
+      "title": "Sri Nakhon Khuean Khan Park & Botanical Garden · Bang Krachao",
+      "kind": "Природа",
+      "tags": [
+        "Природа"
+      ],
+      "area": "Bang Krachao / Phra Pradaeng",
+      "blurb": "Большой зелёный парк в Bang Krachao: тропическая растительность, водоёмы, птицы и удобные велодорожки; одна из самых сильных природных точек рядом с Бангкоком.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "73 Soi Wat Rat Rangsan, Bang Kachao, Phra Pradaeng District, Samut Prakan 10130",
+      "mapQuery": "Sri Nakhon Khuean Khan Park and Botanical Garden Bang Krachao",
+      "url": "https://www.google.com/maps/search/?api=1&query=Sri+Nakhon+Khuean+Khan+Park+and+Botanical+Garden+Bang+Krachao",
+      "source": "Google Maps / Tourism Thailand",
+      "new": true,
+      "notes": "Ежедневно примерно 05:00–19:00.",
+      "eta": {
+        "min": 55,
+        "max": 80,
+        "via": "От TRIBE через BTS/MRT к Khlong Toei/Bang Na и далее к Bang Krachao; приблизительно"
+      },
+      "status": "active"
+    },
+    {
+      "id": "wachirabenchathat-park",
+      "title": "Wachirabenchathat Park · Rot Fai Park",
+      "kind": "Природа",
+      "tags": [
+        "Природа"
+      ],
+      "area": "Chatuchak",
+      "blurb": "Огромный городской зелёный парк с велодорожками, озёрами, лужайками и Bangkok Butterfly Garden внутри.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Kamphaeng Phet 3 Rd, Lat Yao, Chatuchak, Bangkok 10900",
+      "mapQuery": "Wachirabenchathat Park Bangkok",
+      "url": "https://www.google.com/maps/search/?api=1&query=Wachirabenchathat+Park+Bangkok",
+      "source": "Bangkok Metropolitan Administration / Google Maps",
+      "new": false,
+      "notes": "Открыт примерно 04:30–21:00.",
+      "eta": {
+        "min": 45,
+        "max": 60,
+        "via": "BTS Phrom Phong → Mo Chit + пешком; приблизительно"
+      },
+      "status": "active"
+    },
+    {
+      "id": "queen-sirikit-park",
+      "title": "Queen Sirikit Park",
+      "kind": "Природа",
+      "tags": [
+        "Природа"
+      ],
+      "area": "Chatuchak",
+      "blurb": "Ботанический парк рядом с Rot Fai: лотосовые сады, ароматические растения и коллекции тайской флоры.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "200/1 Kamphaeng Phet 2 Rd, Chatuchak, Bangkok 10900",
+      "mapQuery": "Queen Sirikit Park Bangkok",
+      "url": "https://www.google.com/maps/search/?api=1&query=Queen+Sirikit+Park+Bangkok",
+      "source": "Queen Sirikit Park Foundation / Google Maps",
+      "new": false,
+      "notes": "Ежедневно примерно 05:00–19:00.",
+      "eta": {
+        "min": 45,
+        "max": 60,
+        "via": "BTS Phrom Phong → Mo Chit + пешком; приблизительно"
+      },
+      "status": "active"
+    },
+    {
+      "id": "bangkok-butterfly-garden",
+      "title": "Bangkok Butterfly Garden & Insectarium",
+      "kind": "Природа",
+      "tags": [
+        "Природа"
+      ],
+      "area": "Chatuchak",
+      "blurb": "Большой сетчатый купол с живыми бабочками и небольшой экспозицией про насекомых внутри Rot Fai Park.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Wachirabenchathat Park, Kamphaeng Phet 3 Rd, Lat Yao, Chatuchak, Bangkok 10900",
+      "mapQuery": "Bangkok Butterfly Garden and Insectarium",
+      "url": "https://www.google.com/maps/search/?api=1&query=Bangkok+Butterfly+Garden+and+Insectarium",
+      "source": "Tourism Authority of Thailand / Google Maps",
+      "new": false,
+      "notes": "Вт–вс и праздники примерно 08:30–16:30; понедельник закрыто. Бесплатно.",
+      "eta": {
+        "min": 45,
+        "max": 65,
+        "via": "BTS Phrom Phong → Mo Chit + пешком через Rot Fai Park; приблизительно"
+      },
+      "status": "active"
+    },
+    {
+      "id": "nong-bon-lake-park",
+      "title": "Nong Bon Lake Park",
+      "kind": "Природа",
+      "tags": [
+        "Природа"
+      ],
+      "area": "Prawet",
+      "blurb": "Большое озеро и открытое зелёное пространство на востоке Бангкока; сильнее обычного городского парка именно ощущением воды и простора.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "Nong Bon, Prawet, Bangkok 10250",
+      "mapQuery": "Nong Bon Lake Park Bangkok",
+      "url": "https://www.google.com/maps/search/?api=1&query=Nong+Bon+Lake+Park+Bangkok",
+      "source": "Google Maps / Bangkok green-space listings",
+      "new": true,
+      "notes": "Ежедневно примерно 05:00–18:30.",
+      "eta": {
+        "min": 60,
+        "max": 85,
+        "via": "BTS/MRT + наземный транспорт в Prawet; приблизительно"
+      },
+      "status": "active"
+    },
+    {
+      "id": "bang-khun-thian-mangrove-forest",
+      "title": "Bang Khun Thian Mangrove Forest Learning Center",
+      "kind": "Природа",
+      "tags": [
+        "Природа"
+      ],
+      "area": "Bang Khun Thian",
+      "blurb": "Мангровый лес на единственном морском побережье Бангкока: длинные дорожки через приливную экосистему и выход к побережью.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Tha Kham, Bang Khun Thian, Bangkok 10150",
+      "mapQuery": "Bang Khun Thian Mangrove Forest Learning Center Bangkok",
+      "geo": [
+        13.49639,
+        100.42441
+      ],
+      "url": "https://www.google.com/maps/search/?api=1&query=Bang+Khun+Thian+Mangrove+Forest+Learning+Center+Bangkok",
+      "source": "Google Maps / local coastal references",
+      "new": true,
+      "notes": "Актуальная карточка показывает примерно 07:00–19:00. Дальний выезд.",
+      "eta": {
+        "min": 90,
+        "max": 130,
+        "via": "Общественный транспорт до Bang Khun Thian + наземный участок; приблизительно"
+      },
+      "status": "active"
+    },
+    {
+      "id": "bang-pu-recreation-center",
+      "title": "Bang Pu Recreation Center · Sukta Pier",
+      "kind": "Природа",
+      "tags": [
+        "Природа"
+      ],
+      "area": "Samut Prakan",
+      "blurb": "Мангровое побережье, длинный Sukta Pier, море, птицы и сильный закат; простой вариант увидеть залив без пляжа и купания.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "164 Sukhumvit Rd, Bang Pu Mai, Mueang Samut Prakan District, Samut Prakan 10280",
+      "mapQuery": "Bang Pu Recreation Center Samut Prakan",
+      "geo": [
+        13.518531,
+        100.651599
+      ],
+      "url": "https://www.google.com/maps/search/?api=1&query=Bang+Pu+Recreation+Center+Samut+Prakan",
+      "source": "Google Maps / Samut Prakan tourism references",
+      "new": true,
+      "notes": "Главный смысл — Sukta Pier и закат. Ранее сохранённая идея маршрута: BTS до Kheha → наземный транспорт до Bang Pu.",
+      "eta": {
+        "min": 75,
+        "max": 105,
+        "via": "BTS Phrom Phong → Kheha + наземный транспорт; приблизительно"
+      },
+      "status": "active"
     }
   ]
 }
