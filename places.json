@@ -3227,6 +3227,137 @@
       },
       "addedAt": "2026-10-08",
       "status": "active"
+    },
+    {
+      "id": "iconcraft-iconsiam",
+      "title": "ICONCRAFT · ICONSIAM",
+      "kind": "Магазины",
+      "area": "ICONSIAM / Khlong San",
+      "blurb": "Кураторская зона современного тайского craft/design: локальные мастера, fashion, аксессуары и предметы с сильным акцентом на тайский дизайн.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "ICONSIAM, 4F–5F, 299 Charoen Nakhon Rd, Khlong Ton Sai, Khlong San, Bangkok 10600",
+      "mapQuery": "ICONCRAFT ICONSIAM Bangkok",
+      "url": "https://www.google.com/maps/search/?api=1&query=ICONCRAFT+ICONSIAM+Bangkok",
+      "source": "Google Maps / ICONSIAM tenant listings",
+      "new": true,
+      "notes": "Внутри ICONSIAM; подтверждены точки ICONCRAFT на 4F и 5F.",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "BTS Phrom Phong → Siam → Krung Thon Buri; Gold Line → Charoen Nakhon"
+      },
+      "status": "active",
+      "tags": [
+        "Магазины",
+        "Дизайн",
+        "ICONSIAM"
+      ]
+    },
+    {
+      "id": "iconsiam-park",
+      "title": "ICONSIAM Park",
+      "kind": "Достопримечательности",
+      "area": "ICONSIAM / Khlong San",
+      "blurb": "Открытая зелёная терраса с видом на Чао Прайю, скульптурами и тайским ландшафтным дизайном; короткая передышка внутри ICONSIAM.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "ICONSIAM, 6F, 299 Charoen Nakhon Rd, Khlong Ton Sai, Khlong San, Bangkok 10600",
+      "mapQuery": "ICONSIAM PARK Bangkok",
+      "url": "https://www.google.com/maps/search/?api=1&query=ICONSIAM+PARK+Bangkok",
+      "source": "ONE SIAM Tourist / Google Maps",
+      "new": true,
+      "notes": "Ежедневно примерно 10:00–22:00; 6F, вид на реку.",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "BTS Phrom Phong → Siam → Krung Thon Buri; Gold Line → Charoen Nakhon"
+      },
+      "status": "active",
+      "tags": [
+        "Достопримечательности",
+        "ICONSIAM"
+      ]
+    },
+    {
+      "id": "princess-mother-memorial-park",
+      "title": "Princess Mother Memorial Park",
+      "kind": "Достопримечательности",
+      "area": "Khlong San",
+      "blurb": "Небольшой исторический парк и локальный музей в старом Khlong San: сохранённые здания, модель дома детства принцессы-матери и спокойный сад.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Soi Somdet Chao Phraya 3, Somdet Chao Phraya Rd, Khlong San, Bangkok 10600",
+      "mapQuery": "Princess Mother Memorial Park Bangkok",
+      "url": "https://www.google.com/maps/search/?api=1&query=Princess+Mother+Memorial+Park+Bangkok",
+      "source": "Bangkok Metropolitan Administration / Google Maps",
+      "new": true,
+      "notes": "Парк ежедневно 06:00–18:00. Хорошо сочетать с Gong Wu Shrine.",
+      "eta": {
+        "min": 65,
+        "max": 85,
+        "via": "Gold Line / ICONSIAM → пешком или городской транспорт по Khlong San; приблизительно"
+      },
+      "status": "active",
+      "tags": [
+        "Достопримечательности",
+        "ICONSIAM"
+      ]
+    },
+    {
+      "id": "gong-wu-shrine-khlong-san",
+      "title": "Gong Wu Shrine · Khlong San",
+      "kind": "Достопримечательности",
+      "area": "Khlong San",
+      "blurb": "Исторический китайский храм Guan Yu конца аюттхайского периода; один из самых старых Guan Yu shrine в Таиланде, прямо рядом с Princess Mother Memorial Park.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "251 Somdet Chao Phraya 3 Alley, Somdet Chao Phraya, Khlong San, Bangkok 10600",
+      "mapQuery": "Gong Wu Shrine Khlong San Bangkok",
+      "url": "https://www.google.com/maps/search/?api=1&query=Gong+Wu+Shrine+Khlong+San+Bangkok",
+      "source": "Google Maps / Time Out Bangkok",
+      "new": true,
+      "notes": "По актуальной карточке: ежедневно примерно 07:30–17:30; вход бесплатный.",
+      "eta": {
+        "min": 65,
+        "max": 85,
+        "via": "Gold Line / ICONSIAM → пешком или городской транспорт по Khlong San; приблизительно"
+      },
+      "status": "active",
+      "tags": [
+        "Достопримечательности",
+        "ICONSIAM"
+      ]
+    },
+    {
+      "id": "tha-din-daeng-market",
+      "title": "Tha Din Daeng Market",
+      "kind": "Районы",
+      "area": "Khlong San",
+      "blurb": "Старый локальный рынок и китайско-тайский торговый квартал Khlong San: обычная городская жизнь, продукты и уличная еда без туристической декорации.",
+      "priority": 2,
+      "dates": null,
+      "days": null,
+      "venue": "163 Tha Din Daeng Rd, Somdet Chao Phraya, Khlong San, Bangkok 10600",
+      "mapQuery": "Tha Din Daeng Market Bangkok",
+      "url": "https://www.google.com/maps/search/?api=1&query=Tha+Din+Daeng+Market+Bangkok",
+      "source": "Google Maps / local area references",
+      "new": true,
+      "notes": "Утренний/дневной рынок; актуальная карточка показывает работу примерно до 17:30.",
+      "eta": {
+        "min": 65,
+        "max": 85,
+        "via": "От ICONSIAM через Khlong San; пешком/городской транспорт, приблизительно"
+      },
+      "status": "active",
+      "tags": [
+        "Районы",
+        "ICONSIAM"
+      ]
     }
   ]
 }
