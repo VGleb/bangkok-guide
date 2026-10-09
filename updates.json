@@ -330,6 +330,36 @@
         "Выставки",
         "ICONSIAM"
       ]
+    },
+    {
+      "id": "one-piece-pop-up-cafe-iconsiam-2026",
+      "title": "ONE PIECE POP-UP CAFE IN THAILAND",
+      "kind": "События",
+      "area": "ICONSIAM / Khlong San",
+      "blurb": "Большой официальный ONE PIECE pop-up на 600+ м²: Egghead и Wano zones, 5-метровый Gear 5 Luffy, фотозоны, stamp rally, тематическое кафе и отдельный магазин официального мерча.",
+      "priority": 3,
+      "dates": [
+        "2026-03-12",
+        "2026-10-31"
+      ],
+      "days": null,
+      "venue": "Attraction Hall, 6F, ICONSIAM, 299 Charoen Nakhon Rd, Khlong Ton Sai, Khlong San, Bangkok 10600",
+      "mapQuery": "ONE PIECE POP-UP CAFE ICONSIAM Bangkok",
+      "url": "https://www.bangkokartcity.org/discover-detail/one-piece-pop-up-cafe-in-thailand",
+      "source": "ONE PIECE.com / Bangkok Art City / ICONSIAM Hall",
+      "new": true,
+      "notes": "Вход бесплатный. Отдельный Merchandise Store с официальным licensed/limited-edition мерчем; хороший вариант снять видео и купить подарок. Ежедневно, ориентир по площадке 10:00–22:00.",
+      "eta": {
+        "min": 50,
+        "max": 70,
+        "via": "BTS Phrom Phong → Siam → Krung Thon Buri; Gold Line → Charoen Nakhon"
+      },
+      "status": "confirmed",
+      "tags": [
+        "События",
+        "ICONSIAM",
+        "Магазины"
+      ]
     }
   ]
 }
