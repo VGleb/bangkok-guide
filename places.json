@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T14:33:06.622Z",
+  "updatedAt": "2026-10-10",
   "items": [
     {
       "id": "artbangkok",
@@ -3541,6 +3541,32 @@
         "via": "BTS Phrom Phong → Kheha + наземный транспорт; приблизительно"
       },
       "status": "active"
+    },
+    {
+      "id": "togeta-coffee-silom",
+      "title": "TOGETA Coffee · Silom",
+      "kind": "Кофе",
+      "area": "Silom",
+      "blurb": "Кофейня с фильтр-кофе, тайскими зёрнами и едой; просторный флагманский зал рядом с MRT Si Lom.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Zuellig House, Unit 101, Si Lom Road, Si Lom, Bang Rak, Bangkok 10500",
+      "url": "https://linktr.ee/togeta.coffee",
+      "source": "TOGETA Coffee (официальная страница), Wongnai; актуальные справочники 2026",
+      "new": true,
+      "notes": "Ежедневно 07:00–19:00 по Wongnai и справочникам на октябрь 2026; доступны напитки, фильтр и еда.",
+      "eta": {
+        "min": 18,
+        "max": 30,
+        "via": "MRT Sam Yan → Si Lom, затем 3–5 мин пешком; ориентировочно от Siamese Surawong"
+      },
+      "status": "active",
+      "mapQuery": "Togeta Coffee Flagship Store Zuellig House Silom Bangkok",
+      "tags": [
+        "Кофе",
+        "Еда и бары"
+      ]
     }
   ]
 }
