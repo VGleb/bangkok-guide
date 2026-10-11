@@ -1,7 +1,7 @@
 /* Bangkok Guide map: same-origin catalog state; geolocation never stored or uploaded. */
 (function () {
   'use strict';
-  const HOME = [13.73716,100.5709]; // TRIBE Living: official Accor GPS
+  const HOME = [13.729813,100.527891]; // Siamese Surawong building
   // Known building positions where available; "false" means a representative
   // neighborhood position, not the exact storefront. Maps links resolve the venue.
   const PLACES = {
@@ -146,10 +146,10 @@
       maxZoom:20,updateWhenIdle:true,keepBuffer:2
     }).addTo(map);
     layer=L.layerGroup().addTo(map);
-    const homeIcon=L.divIcon({html:'<span class="map-home" title="Дом — TRIBE Living">⌂</span>',
+    const homeIcon=L.divIcon({html:'<span class="map-home" title="Дом — Siamese Surawong">⌂</span>',
       iconSize:[42,42],iconAnchor:[21,21],className:'',popupAnchor:[0,-22]});
     homePin=L.marker(HOME,{icon:homeIcon,zIndexOffset:1000}).addTo(map)
-      .bindPopup('<div class="map-popup"><h3>⌂ Дом · TRIBE Living</h3><p>122 Soi Sukhumvit 39</p><a href="https://www.google.com/maps/search/?api=1&query=TRIBE%20Living%20Bangkok%20Sukhumvit%2039" target="_blank" rel="noopener noreferrer">Открыть Google Maps ↗</a></div>');
+      .bindPopup('<div class="map-popup"><h3>⌂ Дом · Siamese Surawong</h3><p>Sap Road · Bang Rak</p><a href="https://www.google.com/maps/search/?api=1&query=Siamese%20Surawong%20Bangkok" target="_blank" rel="noopener noreferrer">Открыть Google Maps ↗</a></div>');
     $('bangkokMap').addEventListener('click',e=>{
       const a=e.target.closest('[data-map-star],[data-map-visit],[data-map-reject]');
       if(!a)return;
