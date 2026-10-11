@@ -28,7 +28,7 @@ jobs:
       - name: Wait for live site
         run: |
           for attempt in $(seq 1 30); do
-            if curl --fail --silent --show-error https://vgleb.github.io/bangkok-guide/ | grep -q './map.js?v=31'; then
+            if curl --fail --silent --show-error https://vgleb.github.io/bangkok-guide/ | grep -q './map.js?v=33'; then
               exit 0
             fi
             sleep 5
@@ -70,6 +70,12 @@ jobs:
             );
 
             assert((await page.locator('#originLabel').innerText()).includes('Siamese Surawong'), 'Public home label is not Siamese Surawong');
+            await page.locator('#viewMap').click();
+            await page.waitForFunction(() => /мест на карте/.test(document.querySelector('#mapStatus')?.textContent || ''), { timeout: 8_000 });
+            await page.locator('#mapHome').click();
+            await page.locator('.leaflet-popup-content').waitFor({ state: 'visible', timeout: 5_000 });
+            assert((await page.locator('.leaflet-popup-content').innerText()).includes('Siamese Surawong'), 'Home popup still points to old accommodation');
+            await page.locator('#viewList').click();
             for (const removed of ['MINISO','Sanrio','Gentle Monster','Багаж','Тайские очки','Hello Kitty']) {
               assert(await page.locator('[data-cat="'+removed+'"]').count() === 0, 'Removed category still visible: '+removed);
             }
