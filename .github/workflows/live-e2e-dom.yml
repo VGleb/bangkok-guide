@@ -28,7 +28,7 @@ jobs:
       - name: Wait for live site
         run: |
           for attempt in $(seq 1 30); do
-            if curl --fail --silent --show-error https://vgleb.github.io/bangkok-guide/ | grep -q './app.js?v=28'; then
+            if curl --fail --silent --show-error https://vgleb.github.io/bangkok-guide/ | grep -q './map.js?v=30'; then
               exit 0
             fi
             sleep 5
@@ -122,6 +122,13 @@ jobs:
               );
               assert(await page.locator('#mapView').evaluate(el => !el.hidden), 'Map did not open');
               assert(await page.locator('#listView').evaluate(el => el.hidden), 'List stayed visible with map');
+              if (i === 0) {
+                const markers = page.locator('#bangkokMap .leaflet-marker-icon');
+                assert(await markers.count() > 1, 'No place markers rendered on map');
+                await markers.nth(1).click();
+                await page.locator('[data-map-reject]').waitFor({ state: 'visible', timeout: 5_000 });
+                assert(await page.locator('[data-map-reject]').count() > 0, 'Map popup has no Hide action');
+              }
 
               await page.locator('#viewList').click();
               await page.waitForTimeout(100);
