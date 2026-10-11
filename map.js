@@ -105,6 +105,7 @@
       '<div class="buttons">'+
       '<button type="button" data-map-star="'+esc(x.id)+'" class="'+(isPlanned?'chosen':'')+'">'+(isPlanned?'★ Убрать':'☆ Хочу')+'</button>'+
       '<button type="button" data-map-visit="'+esc(x.id)+'">'+(visited?'↶ Не посещено':'✓ Посетил')+'</button>'+
+      '<button type="button" data-map-reject="'+esc(x.id)+'">⊘ Скрыть</button>'+
       '<a href="'+esc(google(x))+'" target="_blank" rel="noopener noreferrer">Google Maps ↗</a>'+
       '<a href="'+esc(directions(x))+'" target="_blank" rel="noopener noreferrer">Маршрут ↗</a>'+
       '</div></div>';
@@ -150,12 +151,15 @@
     homePin=L.marker(HOME,{icon:homeIcon,zIndexOffset:1000}).addTo(map)
       .bindPopup('<div class="map-popup"><h3>⌂ Дом · TRIBE Living</h3><p>122 Soi Sukhumvit 39</p><a href="https://www.google.com/maps/search/?api=1&query=TRIBE%20Living%20Bangkok%20Sukhumvit%2039" target="_blank" rel="noopener noreferrer">Открыть Google Maps ↗</a></div>');
     $('bangkokMap').addEventListener('click',e=>{
-      const a=e.target.closest('[data-map-star],[data-map-visit]');
+      const a=e.target.closest('[data-map-star],[data-map-visit],[data-map-reject]');
       if(!a)return;
-      const id=a.getAttribute('data-map-star')||a.getAttribute('data-map-visit');
+      const id=a.getAttribute('data-map-star')||a.getAttribute('data-map-visit')||a.getAttribute('data-map-reject');
       if(!id||!items().some(x=>x.id===id))return;
       if(a.hasAttribute('data-map-star'))toggleStar(id);
-      else{
+      else if(a.hasAttribute('data-map-reject')){
+        if(map)map.closePopup();
+        reject(id);
+      }else{
         const next=!progress.visited.includes(id);
         progress.visited=next?[...new Set([...progress.visited,id])]:progress.visited.filter(x=>x!==id);
         if(next){progress.planned=progress.planned.filter(x=>x!==id);progress.seen=[...new Set([...progress.seen,id])];}
