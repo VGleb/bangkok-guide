@@ -88,20 +88,26 @@ jobs:
             assert(await page.locator('[data-cat]:not(.active)').count() === 0, 'Some category is disabled initially');
 
             const coffee = page.locator('[data-cat="Кофе"]');
+            await allChip.click();
+            assert(!await allChip.evaluate(el => el.classList.contains('active')), 'All chip stayed active after clearing categories');
+            assert(await page.locator('[data-cat].active').count() === 0, 'All did not clear every category');
+            assert(await page.locator('#results .card').count() === 0, 'Cards remain visible with no categories selected');
+
             await coffee.click();
-            assert(!await coffee.evaluate(el => el.classList.contains('active')), 'Coffee category did not toggle off');
-            assert(!await allChip.evaluate(el => el.classList.contains('active')), 'All chip stayed active after disabling a category');
-            assert(await page.locator('#results .card').evaluateAll(cards => cards.every(card => ![...card.querySelectorAll('.tag')].some(tag => tag.textContent.trim() === 'Кофе'))), 'Coffee cards remain visible after Coffee was disabled');
+            assert(await coffee.evaluate(el => el.classList.contains('active')), 'Coffee category did not toggle on');
+            assert(await page.locator('#results .card').count() > 0, 'Coffee selection shows no cards');
+            assert(await page.locator('#results .card').evaluateAll(cards => cards.every(card => [...card.querySelectorAll('.tag')].some(tag => tag.textContent.trim() === 'Кофе'))), 'Non-coffee cards are visible in Coffee-only mode');
 
             const shops = page.locator('[data-cat="Магазины"]');
             await shops.click();
-            assert(!await shops.evaluate(el => el.classList.contains('active')), 'Shops category did not toggle off');
-            assert(await page.locator('#results .card').evaluateAll(cards => cards.every(card => ![...card.querySelectorAll('.tag')].some(tag => tag.textContent.trim() === 'Магазины'))), 'Shop cards remain visible after Shops was disabled');
+            assert(await shops.evaluate(el => el.classList.contains('active')), 'Shops category did not toggle on');
+            assert(await page.locator('#results .card').evaluateAll(cards => cards.every(card => [...card.querySelectorAll('.tag')].some(tag => ['Кофе','Магазины'].includes(tag.textContent.trim())))), 'Cards outside selected categories are visible');
 
             await allChip.click();
             assert(await allChip.evaluate(el => el.classList.contains('active')), 'All chip did not enable all categories');
             assert(await page.locator('[data-cat]:not(.active)').count() === 0, 'All did not re-enable every category');
 
+            await allChip.click();
             await coffee.click();
             await page.locator('#reset').click();
             assert(await allChip.evaluate(el => el.classList.contains('active')), 'Reset did not enable all categories');
