@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10",
+  "updatedAt": "2026-10-11",
   "items": [
     {
       "id": "artbangkok",
@@ -3567,6 +3567,58 @@
         "Кофе",
         "Еда и бары"
       ]
+    },
+    {
+      "id": "don-don-donki-thaniya-plaza",
+      "title": "DON DON DONKI · Thaniya Plaza",
+      "kind": "Магазины",
+      "tags": [
+        "Магазины"
+      ],
+      "area": "Silom / Bang Rak",
+      "blurb": "Японский супермаркет недалеко от нового дома: продукты, готовые блюда, напитки и японские товары. Есть отдел японского алкоголя; конкретные бутылки саке 300 мл не подтверждены.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Thaniya Plaza, 62 Silom Road, 1F–2F, units B101/B201, Suriyawong, Bang Rak, Bangkok 10500",
+      "mapQuery": "DON DON DONKI Thaniya Plaza 62 Silom Road Bangkok",
+      "url": "https://www.dondondonki.com/th/store/",
+      "source": "DON DON DONKI Thailand / официальный каталог японской сети",
+      "new": true,
+      "notes": "В официальных каталогах различаются часы: тайский сайт показывает 09:00–00:00, международный — круглосуточно. Продажа алкоголя подчиняется тайским ограничениям. Наличие саке 300 мл проверять на месте.",
+      "eta": {
+        "min": 7,
+        "max": 12,
+        "via": "От Siamese Surawong Condominium, Sap Road, на байке; ориентировочно"
+      },
+      "addedAt": "2026-10-11",
+      "status": "active"
+    },
+    {
+      "id": "nadaya-sake-shop-thaniya-plaza",
+      "title": "Nadaya Sake Shop · Thaniya Plaza",
+      "kind": "Магазины",
+      "tags": [
+        "Магазины"
+      ],
+      "area": "Silom / Bang Rak",
+      "blurb": "Специализированная точка японских напитков в Thaniya Plaza, рядом с DON DON DONKI. Интересна для выбора саке и сортов ginjo/junmai ginjo.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Thaniya Plaza (BTS Wing), 52 Silom Road, 1F, room 137, Suriyawong, Bang Rak, Bangkok 10500",
+      "mapQuery": "Nadaya Sake Shop Thaniya Plaza Bangkok",
+      "url": "https://www.thaniyagroup.com/thaniyabtswing/shop-directory/",
+      "source": "Официальный каталог Thaniya Plaza / страница Nadaya Sake Shop",
+      "new": true,
+      "notes": "Ориентировочно ежедневно 10:00–21:00 по странице магазина. Отдельное наличие 300 мл и цены на ginjo/junmai ginjo не подтверждены. Находится в Thaniya Plaza, в одном комплексе с DON DON DONKI.",
+      "eta": {
+        "min": 7,
+        "max": 12,
+        "via": "От Siamese Surawong Condominium, Sap Road, на байке; ориентировочно"
+      },
+      "addedAt": "2026-10-11",
+      "status": "active"
     }
   ]
 }
