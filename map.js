@@ -214,7 +214,7 @@
       if(userCircle)map.removeLayer(userCircle);
       userCircle=L.circle(ll,{radius:Math.max(5,position.coords.accuracy||0),color:'#1970ed',fillColor:'#1970ed',fillOpacity:0.10,weight:1,interactive:false}).addTo(map);
       userPin=L.marker(ll,{icon:L.divIcon({html:'<span class="map-user" title="Вы здесь"></span>',
-        className:'',iconSize:[24,24],iconAnchor:[12,12]}),zIndexOffset:2000}).addTo(map).bindPopup('Вы здесь · точность ≈ '+Math.round(position.coords.accuracy||0)+' м');
+        className:'',iconSize:[20,20],iconAnchor:[10,10]}),zIndexOffset:2000}).addTo(map).bindPopup('Вы здесь · точность ≈ '+Math.round(position.coords.accuracy||0)+' м');
       map.setView(ll,15,{animate:true});
       $('mapStatus').textContent='Геолокация показана только на этом устройстве и не сохраняется';
     },error=>{
