@@ -1,5 +1,5 @@
 /* Bangkok Guide: same-origin app shell cache. No private GitHub API requests are cached. */
-const CACHE = 'bangkok-guide-shell-v32';
+const CACHE = 'bangkok-guide-shell-v33';
 const OFFLINE_FILES = ['./index.html', './app.js', './catalog.js', './places.json', './map.js', './map.css', './vendor/leaflet.js', './vendor/leaflet.css', './manifest.webmanifest', './pwa.js', './apple-touch-icon.png', './icons/icon-192.png', './icons/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(OFFLINE_FILES)).then(() => self.skipWaiting()));
@@ -31,7 +31,17 @@ self.addEventListener('fetch', event => {
     }).catch(() => caches.match('./index.html')));
     return;
   }
-  if (/\/(?:icons\/icon-(?:192|512)\.png|apple-touch-icon\.png|manifest\.webmanifest|pwa\.js|service-worker\.js|app\.js|catalog\.js|map\.(?:js|css)|vendor\/leaflet\.(?:js|css))$/.test(url.pathname)) {
+  if (/\/(?:app\.js|catalog\.js|map\.(?:js|css)|pwa\.js|service-worker\.js)$/.test(url.pathname)) {
+    event.respondWith(fetch(req).then(resp => {
+      if (resp.ok) {
+        const copy=resp.clone();
+        event.waitUntil(caches.open(CACHE).then(cache => cache.put(req, copy)));
+      }
+      return resp;
+    }).catch(() => caches.match(req).then(cached => cached || caches.match(url.pathname.split('/').pop()))));
+    return;
+  }
+  if (/\/(?:icons\/icon-(?:192|512)\.png|apple-touch-icon\.png|manifest\.webmanifest|vendor\/leaflet\.(?:js|css))$/.test(url.pathname)) {
     event.respondWith(caches.match(req,{ignoreSearch:true}).then(cached => cached || fetch(req)));
   }
 });
