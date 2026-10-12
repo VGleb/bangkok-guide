@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11",
+  "updatedAt": "2026-10-12",
   "items": [
     {
       "id": "artbangkok",
@@ -2188,7 +2188,6 @@
       "addedAt": "2026-10-05",
       "status": "active",
       "tags": [
-        "Карта",
         "Магазины"
       ]
     },
@@ -2215,7 +2214,6 @@
       "addedAt": "2026-10-05",
       "status": "active",
       "tags": [
-        "Карта",
         "Магазины",
         "Ресейл"
       ]
