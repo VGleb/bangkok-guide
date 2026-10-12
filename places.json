@@ -3600,6 +3600,32 @@
       },
       "addedAt": "2026-10-11",
       "status": "active"
+    },
+    {
+      "id": "2ndstreet-silom-edge",
+      "title": "2nd STREET · Silom Edge",
+      "kind": "Ресейл",
+      "area": "Silom",
+      "blurb": "Официальный филиал японского секонд-хенда 2nd STREET: одежда, обувь, сумки и аксессуары.",
+      "priority": 3,
+      "dates": null,
+      "days": null,
+      "venue": "Silom Edge, 2F, room 2U001, 2 Silom Road, Suriyawong, Bang Rak, Bangkok 10500",
+      "url": "https://2ndstreet-th.com/shop/silomedge/",
+      "source": "2nd STREET Thailand — официальный сайт",
+      "new": true,
+      "notes": "Пн–пт 10:30–21:30, выходные и праздники 10:00–21:30.",
+      "eta": {
+        "min": null,
+        "max": null,
+        "via": "Время от нового дома на Sap Road уточняется"
+      },
+      "status": "active",
+      "mapQuery": "2nd STREET Silom Edge Bangkok",
+      "tags": [
+        "Ресейл",
+        "Магазины"
+      ]
     }
   ]
 }
